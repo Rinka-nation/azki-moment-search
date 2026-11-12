@@ -17,3 +17,7 @@ deploy/
 *.sqlite
 *.sqlite3
 *.json3
+# 開発用のメモと設定（Claude Code が読む指示書など）。この PC にだけ置き、GitHub には載せない（2026-11-12 霧島リンカさん）
+AGENTS.md
+CLAUDE.md
+.claude/
