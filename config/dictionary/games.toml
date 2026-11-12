@@ -1,0 +1,46 @@
+# 配信でよく出るゲーム・サービス名（英字表記はカナで誤認識されやすい）
+
+[[term]]
+canonical = "GeoGuessr"
+reading = "じおげっさー"
+aliases = ["ジオゲッサー", "ジオゲッサ"]
+category = "game"
+
+[[term]]
+canonical = "ジオゲ"
+reading = "じおげ"
+category = "game"
+
+[[term]]
+canonical = "マイクラ"
+reading = "まいくら"
+aliases = ["Minecraft", "マインクラフト"]
+category = "game"
+# 読みが近い日常語（マイク、いくら、真っ暗…）が多すぎるので、あいまい一致の候補探しはしない。
+# 「まいくら」での検索は語単位の読み一致で拾える
+fuzzy = false
+
+[[term]]
+canonical = "ぽこあポケモン"
+reading = "ぽこあぽけもん"
+category = "game"
+
+[[term]]
+canonical = "ポコポケ"
+reading = "ぽこぽけ"
+category = "game"   # ぽこあポケモンの用語
+
+[[term]]
+canonical = "ポケメタル"
+reading = "ぽけめたる"
+category = "game"   # ぽこあポケモンの用語
+
+[[term]]
+canonical = "アズモン"
+reading = "あずもん"
+category = "game"   # ぽこあポケモンで AZKi が主人公に付けた名前
+
+[[term]]
+canonical = "ポカジャン"
+reading = "ぽかじゃん"
+category = "game"   # ホロドリのミニゲーム

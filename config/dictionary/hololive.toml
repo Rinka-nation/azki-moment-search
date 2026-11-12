@@ -1,0 +1,367 @@
+# ホロライブ所属タレント・ユニット・関連用語
+# canonical: 補正後の表記 / reading: 読み / aliases: 確定済みの誤認識・別表記（自動置換される）
+# aliases は「どの文脈でも置換して問題ない」ものだけ入れる。自信が無いものは review に任せる。
+
+# --- 0期生 ---
+[[term]]
+canonical = "ときのそら"
+reading = "ときのそら"
+category = "hololive"
+
+[[term]]
+canonical = "そらちゃん"
+reading = "そらちゃん"
+group = "ときのそら"
+category = "nickname"
+
+[[term]]
+canonical = "ロボ子さん"
+reading = "ろぼこさん"
+category = "hololive"
+
+[[term]]
+canonical = "ロボ子"
+reading = "ろぼこ"
+aliases = ["ロボコ"]
+group = "ロボ子さん"
+category = "nickname"
+
+[[term]]
+canonical = "さくらみこ"
+reading = "さくらみこ"
+category = "hololive"
+
+[[term]]
+canonical = "みこち"
+reading = "みこち"
+group = "さくらみこ"
+category = "nickname"
+
+[[term]]
+canonical = "星街すいせい"
+reading = "ほしまちすいせい"
+category = "hololive"
+
+[[term]]
+canonical = "すいちゃん"
+reading = "すいちゃん"
+group = "星街すいせい"
+category = "nickname"
+
+# --- 1期生 ---
+[[term]]
+canonical = "夜空メル"
+reading = "よぞらめる"
+category = "hololive"
+
+[[term]]
+canonical = "アキ・ローゼンタール"
+reading = "あきろーぜんたーる"
+category = "hololive"
+
+[[term]]
+canonical = "アキロゼ"
+reading = "あきろぜ"
+group = "アキ・ローゼンタール"
+category = "nickname"
+
+[[term]]
+canonical = "赤井はあと"
+reading = "あかいはあと"
+category = "hololive"
+
+[[term]]
+canonical = "はあちゃま"
+reading = "はあちゃま"
+group = "赤井はあと"
+category = "nickname"
+
+[[term]]
+canonical = "白上フブキ"
+reading = "しらかみふぶき"
+category = "hololive"
+
+[[term]]
+canonical = "フブちゃん"
+reading = "ふぶちゃん"
+group = "白上フブキ"
+category = "nickname"
+
+[[term]]
+canonical = "夏色まつり"
+reading = "なついろまつり"
+category = "hololive"
+
+# --- 2期生 ---
+[[term]]
+canonical = "湊あくあ"
+reading = "みなとあくあ"
+category = "hololive"
+
+[[term]]
+canonical = "紫咲シオン"
+reading = "むらさきしおん"
+category = "hololive"
+
+[[term]]
+canonical = "百鬼あやめ"
+reading = "なきりあやめ"
+category = "hololive"
+
+[[term]]
+canonical = "癒月ちょこ"
+reading = "ゆづきちょこ"
+category = "hololive"
+
+[[term]]
+canonical = "大空スバル"
+reading = "おおぞらすばる"
+category = "hololive"
+
+# --- ゲーマーズ ---
+[[term]]
+canonical = "大神ミオ"
+reading = "おおかみみお"
+category = "hololive"
+
+[[term]]
+canonical = "猫又おかゆ"
+reading = "ねこまたおかゆ"
+category = "hololive"
+
+[[term]]
+canonical = "戌神ころね"
+reading = "いぬがみころね"
+category = "hololive"
+
+# --- 3期生 ---
+[[term]]
+canonical = "兎田ぺこら"
+reading = "うさだぺこら"
+category = "hololive"
+
+[[term]]
+canonical = "ぺこーら"
+reading = "ぺこーら"
+aliases = ["ペコーラ"]
+group = "兎田ぺこら"
+category = "nickname"
+
+[[term]]
+canonical = "不知火フレア"
+reading = "しらぬいふれあ"
+category = "hololive"
+
+[[term]]
+canonical = "白銀ノエル"
+reading = "しろがねのえる"
+category = "hololive"
+
+[[term]]
+canonical = "宝鐘マリン"
+reading = "ほうしょうまりん"
+category = "hololive"
+
+[[term]]
+canonical = "マリン船長"
+reading = "まりんせんちょう"
+group = "宝鐘マリン"
+category = "nickname"
+
+# --- 4期生 ---
+[[term]]
+canonical = "天音かなた"
+reading = "あまねかなた"
+category = "hololive"
+
+[[term]]
+canonical = "角巻わため"
+reading = "つのまきわため"
+category = "hololive"
+
+[[term]]
+canonical = "常闇トワ"
+reading = "とこやみとわ"
+category = "hololive"
+
+[[term]]
+canonical = "姫森ルーナ"
+reading = "ひめもりるーな"
+category = "hololive"
+
+[[term]]
+canonical = "桐生ココ"
+reading = "きりゅうここ"
+category = "hololive"
+
+# --- 5期生 ---
+[[term]]
+canonical = "雪花ラミィ"
+reading = "ゆきはならみぃ"
+category = "hololive"
+
+[[term]]
+canonical = "桃鈴ねね"
+reading = "ももすずねね"
+category = "hololive"
+
+[[term]]
+canonical = "獅白ぼたん"
+reading = "ししろぼたん"
+category = "hololive"
+
+[[term]]
+canonical = "尾丸ポルカ"
+reading = "おまるぽるか"
+category = "hololive"
+
+# --- holoX ---
+[[term]]
+canonical = "ラプラス・ダークネス"
+reading = "らぷらすだーくねす"
+category = "hololive"
+
+[[term]]
+canonical = "鷹嶺ルイ"
+reading = "たかねるい"
+category = "hololive"
+
+[[term]]
+canonical = "博衣こより"
+reading = "はくいこより"
+category = "hololive"
+
+[[term]]
+canonical = "沙花叉クロヱ"
+reading = "さかまたくろえ"
+category = "hololive"
+
+[[term]]
+canonical = "風真いろは"
+reading = "かざまいろは"
+category = "hololive"
+
+# --- ReGLOSS ---
+[[term]]
+canonical = "火威青"
+reading = "ひおどしあお"
+category = "hololive"
+
+[[term]]
+canonical = "音乃瀬奏"
+reading = "おとのせかなで"
+category = "hololive"
+
+[[term]]
+canonical = "一条莉々華"
+reading = "いちじょうりりか"
+category = "hololive"
+
+[[term]]
+canonical = "儒烏風亭らでん"
+reading = "じゅうふうていらでん"
+category = "hololive"
+
+[[term]]
+canonical = "轟はじめ"
+reading = "とどろきはじめ"
+category = "hololive"
+
+# --- FLOW GLOW ---
+[[term]]
+canonical = "響咲リオナ"
+reading = "いさきりおな"
+category = "hololive"
+
+[[term]]
+canonical = "リオナ"
+reading = "りおな"
+group = "響咲リオナ"
+category = "nickname"
+
+[[term]]
+canonical = "虎金妃笑虎"
+reading = "こがねいにこ"
+category = "hololive"
+
+[[term]]
+canonical = "水宮枢"
+reading = "みずみやすう"
+category = "hololive"
+
+[[term]]
+canonical = "輪堂千速"
+reading = "りんどうちはや"
+category = "hololive"
+
+[[term]]
+canonical = "綺々羅々ヴィヴィ"
+reading = "ききららびび"
+category = "hololive"
+
+# --- 関連用語 ---
+[[term]]
+canonical = "ホロライブ"
+reading = "ほろらいぶ"
+aliases = ["hololive"]
+category = "term"
+
+[[term]]
+canonical = "ホロメン"
+reading = "ほろめん"
+aliases = ["ホロ面"]
+category = "term"
+
+[[term]]
+canonical = "0期生"
+reading = "ぜろきせい"
+aliases = ["ゼロ期生"]
+category = "term"
+
+[[term]]
+canonical = "holoX"
+reading = "ほろっくす"
+aliases = ["ホロックス"]
+category = "term"
+
+[[term]]
+canonical = "ReGLOSS"
+reading = "りぐろす"
+aliases = ["リグロス"]
+category = "term"
+
+[[term]]
+canonical = "ホロドリ"
+reading = "ほろどり"
+aliases = ["ホロドり"]
+category = "term"
+
+[[term]]
+canonical = "YAGOO"
+reading = "やごー"
+aliases = ["ヤゴー"]
+category = "term"
+
+[[term]]
+canonical = "えーちゃん"
+reading = "えーちゃん"
+category = "staff"
+
+[[term]]
+canonical = "ござるさん"
+reading = "ござるさん"
+group = "風真いろは"
+category = "nickname"   # AZKi が風真いろはを呼ぶときの呼び名（字幕・タイムスタンプに頻出）
+
+[[term]]
+canonical = "FLOW GLOW"
+reading = "ふろーぐろー"
+aliases = ["フローグロー"]
+category = "unit"
+fuzzy = false
+
+[[term]]
+canonical = "ビブちゃん"
+reading = "びぶちゃん"
+category = "nickname"   # 古石ビジューの愛称。フブちゃん に寄せない
+fuzzy = false

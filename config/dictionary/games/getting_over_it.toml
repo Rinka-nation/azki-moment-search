@@ -1,0 +1,13 @@
+# Getting Over It の固有名詞（2026-11-07 霧島リンカさん）
+# このゲームの配信（タイトルに title_patterns のどれかがある）でだけ補正に使う。
+
+[game]
+id = "getting_over_it"
+name = "Getting Over It"
+title_patterns = ["Getting Over It"]
+
+[[term]]
+canonical = "壺おじ"
+reading = "つぼおじ"
+aliases = ["ツボ押し", "ツボおじ", "つぼおじ"]
+category = "game"   # 操作キャラの愛称

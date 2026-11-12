@@ -1,0 +1,129 @@
+# Minecraft の固有名詞（出典: ゲーム内の名称（一般に知られた名称））
+# このゲームの配信（タイトルに title_patterns のどれかがある）でだけ補正に使う。
+
+[game]
+id = "minecraft"
+name = "Minecraft"
+title_patterns = ["Minecraft", "マイクラ", "マインクラフト", "ホロ鯖"]
+
+[[term]]
+canonical = "ホロ鯖"
+reading = "ほろさば"
+category = "game"
+
+[[term]]
+canonical = "クリーパー"
+reading = "クリーパー"
+category = "game"
+
+[[term]]
+canonical = "エンダーマン"
+reading = "エンダーマン"
+category = "game"
+
+[[term]]
+canonical = "エンダードラゴン"
+reading = "エンダードラゴン"
+category = "game"
+
+[[term]]
+canonical = "ネザー"
+reading = "ネザー"
+category = "game"
+
+[[term]]
+canonical = "ジ・エンド"
+reading = "じえんど"
+category = "game"
+
+[[term]]
+canonical = "ウィザー"
+reading = "ウィザー"
+category = "game"
+
+[[term]]
+canonical = "ネザライト"
+reading = "ネザライト"
+category = "game"
+
+[[term]]
+canonical = "エリトラ"
+reading = "エリトラ"
+category = "game"
+
+[[term]]
+canonical = "シュルカー"
+reading = "シュルカー"
+category = "game"
+
+[[term]]
+canonical = "スポナー"
+reading = "スポナー"
+category = "game"
+
+[[term]]
+canonical = "ピグリン"
+reading = "ピグリン"
+category = "game"
+
+[[term]]
+canonical = "ガスト"
+reading = "ガスト"
+category = "game"
+
+[[term]]
+canonical = "ブレイズ"
+reading = "ブレイズ"
+category = "game"
+
+[[term]]
+canonical = "ウォーデン"
+reading = "ウォーデン"
+category = "game"
+
+[[term]]
+canonical = "行商人"
+reading = "ぎょうしょうにん"
+category = "game"
+
+[[term]]
+canonical = "エンチャント"
+reading = "エンチャント"
+category = "game"
+# 字幕はほぼ正しく「エンチャント」と出る（326 件）。候補はワンチャン・ちゃんと ばかりなので探さない（2026-11-03）
+fuzzy = false
+
+[[term]]
+canonical = "金床"
+reading = "かなとこ"
+category = "game"
+
+[[term]]
+canonical = "かまど"
+reading = "かまど"
+category = "game"
+
+[[term]]
+canonical = "チェスト"
+reading = "チェスト"
+category = "game"
+
+[[term]]
+canonical = "ダイヤ"
+reading = "ダイヤ"
+category = "game"
+
+[[term]]
+canonical = "レッドストーン"
+reading = "レッドストーン"
+category = "game"
+
+[[term]]
+canonical = "ネザーゲート"
+reading = "ネザーゲート"
+category = "game"
+
+[[term]]
+canonical = "エンドポータル"
+reading = "エンドポータル"
+category = "game"

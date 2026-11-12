@@ -1,0 +1,840 @@
+# AZKi がホロメンを呼ぶときの呼び名（出典: 非公式 wiki「AZKi【呼称一覧】」2026-10 時点）
+# group = 誰のことか（将来の「関連語も含めて検索」で使う）。
+# 普通の言葉と同じ呼び名（船長、団長、社長、会長、番長、風真、ござる、さかまた 等）は入れていない。
+# fuzzy = false: 短い呼び名はあいまい一致の候補が誤検出になりやすい（読みでの検索は効く）。
+# 既に hololive.toml にあるもの（そらちゃん、すいちゃん、みこち、フブちゃん、はあちゃま、アキロゼ、
+# ござるさん、ぺこーら、リオナ、ロボ子さん）はそちらを参照。
+
+[[term]]
+canonical = "そら先輩"
+reading = "そらせんぱい"
+group = "ときのそら"
+category = "nickname"
+# AZKi が そら先輩 と呼んだのは初期だけ。今はコラボ相手の発言として拾われるくらいなので、
+# ときのそらが配信の話題のときだけ補正する（2026-10-30）
+topic_only = true
+# AZKi はほとんど言わず、候補（じ先輩・あ先輩）は誤りばかりなので探さない。採用済みの alias は残す（2026-11-03）
+fuzzy = false
+
+[[term]]
+canonical = "ぺこら先輩"
+reading = "ぺこらせんぱい"
+aliases = ["ペコラ先輩"]
+group = "兎田ぺこら"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "みこちゃん"
+reading = "みこちゃん"
+group = "さくらみこ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "メルちゃん"
+reading = "めるちゃん"
+group = "夜空メル"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "アキロゼ先輩"
+reading = "あきろぜせんぱい"
+group = "アキ・ローゼンタール"
+category = "nickname"
+
+[[term]]
+canonical = "はあとちゃん"
+reading = "はあとちゃん"
+group = "赤井はあと"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "はあと様"
+reading = "はあとさま"
+group = "赤井はあと"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "フブキちゃん"
+reading = "ふぶきちゃん"
+group = "白上フブキ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "フブさん"
+reading = "ふぶさん"
+group = "白上フブキ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "まつりちゃん"
+reading = "まつりちゃん"
+group = "夏色まつり"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "あくあちゃん"
+reading = "あくあちゃん"
+group = "湊あくあ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "あくたん"
+reading = "あくたん"
+group = "湊あくあ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "シオンちゃん"
+reading = "しおんちゃん"
+group = "紫咲シオン"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "あやめちゃん"
+reading = "あやめちゃん"
+group = "百鬼あやめ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ちょこ先生"
+reading = "ちょこせんせい"
+group = "癒月ちょこ"
+category = "nickname"
+
+[[term]]
+canonical = "スバルちゃん"
+reading = "すばるちゃん"
+group = "大空スバル"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "スバちゃん"
+reading = "すばちゃん"
+group = "大空スバル"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ミオちゃん"
+reading = "みおちゃん"
+group = "大神ミオ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "おかゆちゃん"
+reading = "おかゆちゃん"
+group = "猫又おかゆ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "おかゆん"
+reading = "おかゆん"
+group = "猫又おかゆ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ころねちゃん"
+reading = "ころねちゃん"
+group = "戌神ころね"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ころさん"
+reading = "ころさん"
+group = "戌神ころね"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ぺこらちゃん"
+reading = "ぺこらちゃん"
+group = "兎田ぺこら"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ぺこちゃん"
+reading = "ぺこちゃん"
+group = "兎田ぺこら"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "フレアちゃん"
+reading = "ふれあちゃん"
+group = "不知火フレア"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ふーたん"
+reading = "ふーたん"
+group = "不知火フレア"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ノエルちゃん"
+reading = "のえるちゃん"
+group = "白銀ノエル"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ノエちゃん"
+reading = "のえちゃん"
+group = "白銀ノエル"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "マリンちゃん"
+reading = "まりんちゃん"
+group = "宝鐘マリン"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "マリリン"
+reading = "まりりん"
+group = "宝鐘マリン"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "かなたん"
+reading = "かなたん"
+aliases = ["彼たん"]
+group = "天音かなた"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "かなた"
+reading = "かなた"
+# 「彼た」は かなた の定番の崩れ。AZKi は「彼たち」を普段使わない（霧島リンカさんの判断）
+aliases = ["彼た"]
+group = "天音かなた"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ココちゃん"
+reading = "ここちゃん"
+group = "桐生ココ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "わためちゃん"
+reading = "わためちゃん"
+group = "角巻わため"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "わためぇ"
+reading = "わためぇ"
+# 自動字幕では「ぇ」が落ちて「綿め」と出る（2026-11-10 霧島リンカさん: いちばん呼ぶ愛称はわためぇ）
+aliases = ["綿め", "綿目"]
+group = "角巻わため"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "トワ様"
+reading = "とわさま"
+group = "常闇トワ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "トワぴ"
+reading = "とわぴ"
+group = "常闇トワ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ルーナたん"
+reading = "るーなたん"
+group = "姫森ルーナ"
+category = "nickname"
+fuzzy = false
+
+# AZKi は姫森ルーナを「んなたん」と呼ぶ。字幕では「うなたん」になりやすく、かなたん（天音かなた）とは別（2026-11-09 霧島リンカさん）
+[[term]]
+canonical = "んなたん"
+reading = "んなたん"
+aliases = ["うなたん", "ウナたん", "ウナタン"]
+group = "姫森ルーナ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ラミィちゃん"
+reading = "らみぃちゃん"
+group = "雪花ラミィ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ラミたん"
+reading = "らみたん"
+group = "雪花ラミィ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ねねち"
+reading = "ねねち"
+group = "桃鈴ねね"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ぼたんちゃん"
+reading = "ぼたんちゃん"
+group = "獅白ぼたん"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ししろん"
+reading = "ししろん"
+group = "獅白ぼたん"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ポルカちゃん"
+reading = "ぽるかちゃん"
+group = "尾丸ポルカ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "おまるん"
+reading = "おまるん"
+group = "尾丸ポルカ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ラプちゃん"
+reading = "らぷちゃん"
+group = "ラプラス・ダークネス"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ルイちゃん"
+reading = "るいちゃん"
+group = "鷹嶺ルイ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "こよちゃん"
+reading = "こよちゃん"
+group = "博衣こより"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "こよりちゃん"
+reading = "こよりちゃん"
+group = "博衣こより"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "クロヱちゃん"
+reading = "くろえちゃん"
+group = "沙花叉クロヱ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "いろはちゃん"
+reading = "いろはちゃん"
+group = "風真いろは"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "青くん"
+reading = "あおくん"
+group = "火威青"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "奏ちゃん"
+reading = "かなでちゃん"
+group = "音乃瀬奏"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "莉々華ちゃん"
+reading = "りりかちゃん"
+group = "一条莉々華"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "らでんちゃん"
+reading = "らでんちゃん"
+group = "儒烏風亭らでん"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "はじめちゃん"
+reading = "はじめちゃん"
+group = "轟はじめ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "リオナちゃん"
+reading = "りおなちゃん"
+group = "響咲リオナ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "にこちゃん"
+reading = "にこちゃん"
+group = "虎金妃笑虎"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "すうちゃん"
+reading = "すうちゃん"
+# 字幕は「すーちゃん」「スーちゃん」と書く（2025 年以降ほぼ全部が 水宮枢。2026-11-10 霧島リンカさん）
+aliases = ["すーちゃん", "スーちゃん"]
+group = "水宮枢"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "千速ちゃん"
+reading = "ちはやちゃん"
+group = "輪堂千速"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ちはたん"
+reading = "ちはたん"
+group = "輪堂千速"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ヴィヴィちゃん"
+reading = "ゔぃゔぃちゃん"
+group = "綺々羅々ヴィヴィ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ヴィヴィたん"
+reading = "ゔぃゔぃたん"
+group = "綺々羅々ヴィヴィ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "アーニャちゃん"
+reading = "あーにゃちゃん"
+group = "Anya Melfissa"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ハコスちゃん"
+reading = "はこすちゃん"
+group = "Hakos Baelz"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "べーちゃん"
+reading = "べーちゃん"
+group = "Hakos Baelz"
+category = "nickname"
+fuzzy = false
+
+# --- 紛らわしい愛称（2026-10-25 霧島リンカさんの指摘）。辞書に入れておくと、
+# 読みが同じ表記を別人（あやめちゃん 等）に補正しなくなる ---
+[[term]]
+canonical = "アメちゃん"
+reading = "あめちゃん"
+group = "Watson Amelia"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "アメリア"
+reading = "あめりあ"
+group = "Watson Amelia"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "沙花叉"
+reading = "さかまた"
+# 字幕では 坂又 / 坂股（2026-10-29）
+aliases = ["坂又", "坂股", "サカマタ"]
+group = "沙花叉クロヱ"
+category = "nickname"
+fuzzy = false
+
+# --- 海外勢（hololive English / Indonesia）。字幕での書き方を数えて、そのホロメンのことと確かめた呼び名だけ（2026-11-10 霧島リンカさんの依頼）。
+# 普通の言葉にもなる モココ（でもここ）・こぼ（こぼれる）・サメちゃん は入れていない。
+# kana_fix = false: 読みが同じかな書きが別の意味・視聴者の名前で多い（じじちゃん、おりちゃんさん、ありすちゃん、しおりちゃん、パン屋さなちゃん 等）---
+[[term]]
+canonical = "カリオペ"
+reading = "かりおぺ"
+group = "Mori Calliope"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "キアラちゃん"
+reading = "きあらちゃん"
+group = "Takanashi Kiara"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "キアラ"
+reading = "きあら"
+group = "Takanashi Kiara"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "イナちゃん"
+reading = "いなちゃん"
+group = "Ninomae Ina'nis"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "イナニス"
+reading = "いなにす"
+group = "Ninomae Ina'nis"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "グラちゃん"
+reading = "ぐらちゃん"
+group = "Gawr Gura"
+category = "nickname"
+fuzzy = false
+kana_fix = false
+
+[[term]]
+canonical = "アイリスちゃん"
+reading = "あいりすちゃん"
+group = "IRyS"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "アイリス"
+reading = "あいりす"
+group = "IRyS"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "IRyS"
+reading = "あいりす"
+group = "IRyS"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "クロニーちゃん"
+reading = "くろにーちゃん"
+group = "Ouro Kronii"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "クロニー"
+reading = "くろにー"
+group = "Ouro Kronii"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ムメイ"
+reading = "むめい"
+group = "Nanashi Mumei"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ファウナちゃん"
+reading = "ふぁうなちゃん"
+group = "Ceres Fauna"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ファウナ"
+reading = "ふぁうな"
+group = "Ceres Fauna"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "サナちゃん"
+reading = "さなちゃん"
+group = "Tsukumo Sana"
+category = "nickname"
+fuzzy = false
+kana_fix = false
+
+[[term]]
+canonical = "シオリちゃん"
+reading = "しおりちゃん"
+group = "Shiori Novella"
+category = "nickname"
+fuzzy = false
+kana_fix = false
+
+[[term]]
+canonical = "ビジューちゃん"
+reading = "びじゅーちゃん"
+group = "Koseki Bijou"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ビジュー"
+reading = "びじゅー"
+group = "Koseki Bijou"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ビブー"
+reading = "びぶー"
+group = "Koseki Bijou"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ネリッサ"
+reading = "ねりっさ"
+group = "Nerissa Ravencroft"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "フワモコ"
+reading = "ふわもこ"
+group = "FUWAMOCO"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "フワワ"
+reading = "ふわわ"
+group = "FUWAMOCO"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "FUWAMOCO"
+reading = "ふわもこ"
+group = "FUWAMOCO"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "リズちゃん"
+reading = "りずちゃん"
+group = "Elizabeth Rose Bloodflame"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "エリザベス"
+reading = "えりざべす"
+group = "Elizabeth Rose Bloodflame"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ジジちゃん"
+reading = "じじちゃん"
+group = "Gigi Murin"
+category = "nickname"
+fuzzy = false
+kana_fix = false
+
+[[term]]
+canonical = "セシリアちゃん"
+reading = "せしりあちゃん"
+group = "Cecilia Immergreen"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "セシリア"
+reading = "せしりあ"
+group = "Cecilia Immergreen"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "セシちゃん"
+reading = "せしちゃん"
+group = "Cecilia Immergreen"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ラオラちゃん"
+reading = "らおらちゃん"
+group = "Raora Panthera"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ラオラ"
+reading = "らおら"
+group = "Raora Panthera"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ラオーラ"
+reading = "らおーら"
+group = "Raora Panthera"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "リスちゃん"
+reading = "りすちゃん"
+group = "Ayunda Risu"
+category = "nickname"
+fuzzy = false
+kana_fix = false
+
+[[term]]
+canonical = "ムーナちゃん"
+reading = "むーなちゃん"
+group = "Moona Hoshinova"
+category = "nickname"
+fuzzy = false
+kana_fix = false
+
+[[term]]
+canonical = "ムーナ"
+reading = "むーな"
+group = "Moona Hoshinova"
+category = "nickname"
+fuzzy = false
+kana_fix = false
+
+[[term]]
+canonical = "イオフィ"
+reading = "いおふぃ"
+group = "Airani Iofifteen"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "オリーちゃん"
+reading = "おりーちゃん"
+group = "Kureiji Ollie"
+category = "nickname"
+fuzzy = false
+kana_fix = false
+
+[[term]]
+canonical = "オリー"
+reading = "おりー"
+group = "Kureiji Ollie"
+category = "nickname"
+fuzzy = false
+kana_fix = false
+
+[[term]]
+canonical = "アーニャ"
+reading = "あーにゃ"
+group = "Anya Melfissa"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "レイネちゃん"
+reading = "れいねちゃん"
+group = "Pavolia Reine"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "レイネ"
+reading = "れいね"
+group = "Pavolia Reine"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "ゼータちゃん"
+reading = "ぜーたちゃん"
+group = "Vestia Zeta"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "カエラちゃん"
+reading = "かえらちゃん"
+group = "Kaela Kovalskia"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "カエラ"
+reading = "かえら"
+group = "Kaela Kovalskia"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "こぼちゃん"
+reading = "こぼちゃん"
+group = "Kobo Kanaeru"
+category = "nickname"
+fuzzy = false
+kana_fix = false

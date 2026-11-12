@@ -1,0 +1,1578 @@
+# ホロメン・ユニットの関連語（検索専用。字幕の補正には使わない）
+# 出典: 日本語版 Wikipedia 各記事（2026-10-30 時点）+ ユーザーの例。AZKi と一緒に作った建造物は 非公式 wiki「AZKi【Minecraft】」。語ごとの判断は 2026-10-30 ユーザー確認済み。
+# strong: どの配信でも関連語タブに出す / weak: 普通の言葉でもあるので、その人が話題の配信でだけ関連語タブ、他は もしかして
+# 語は "表記" か { word = "表記", reading = "よみ" }（英語の曲名は字幕でカタカナになるので読みを付ける）
+# forms = ["…"] で、かなの混ざった別の書き方もそのまま探す（例: あてぃしがに）
+# 呼び名（辞書で group がその人の語）は自動で strong に入るので書かない
+# ユニット: ユニット名と語がメンバー全員のタグに入る。ユニット名そのものも検索のタグになる
+
+[[member]]
+name = "天音かなた"
+strong = [
+  "PP天使",
+  "へい民",
+  "天界学園",
+  "かなたそ",
+  "かなココ",
+  "ORIO",
+  "特者生存ワンダラダー",
+  "天使のagape",
+  "中空の庭",
+  { word = "Knock it out", reading = "のっくいっとあうと" },
+  "純粋心",
+  "きゅーぴっど",
+  { word = "lumière", reading = "るみえーる" },
+  "誰も見てない夢を見ろ",
+  "ハッピーピープル",
+  "返信願望",
+  "救済のÉnde",
+  { word = "Unknown DIVA", reading = "あんのうんでぃーば" },
+  "十万億土",
+  "インキャララバイ",
+  "睡キャン界隈",
+  "世界で一番のアイドル",
+  "わたしのせいだ",
+  "キセキ結び",
+  "マドロミ",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "うぱお",
+  "かなゴリ",
+  { word = "さぶたそちゃん", forms = ["サブタソちゃん", "サブたそちゃん"] },
+  "名探偵かなたん",
+  "やめるのやめろ",
+]
+weak = [
+  "握力",
+  "天使",
+  "ゴリラ",
+  "パワポ",
+  "パワーポイント",
+  "別世界",
+  { word = "START UP", reading = "すたーとあっぷ" },
+  "セルフサービス",
+  "おらくる",
+  "片羽",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "ドラミング",
+]
+
+[[member]]
+name = "風真いろは"
+strong = [
+  "じゃきんじゃきん",
+  "ぽこべぇ",
+  "ぽこべえ",
+  "かざま隊",
+  "風真殿",
+  "いろは殿",
+  "チャキ丸",
+  "キュウ助",
+  "いろはすてっぷ",
+  "風を仰ぎし麗容な",
+  "魔法少女まじかる☆ござる",
+  { word = "Dreamy Sky", reading = "どりーみーすかい" },
+  "君にしか読めない手紙",
+  "ホントノワタシ",
+  "ドリームキャッチピュアいろは",
+  "風向きエントロピー",
+  "Private EyeZ",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "ござるクッキー",
+  { word = "どすこい距離", forms = ["ドスコイ距離"] },
+]
+weak = [
+  "あずいろはす",
+  "ござる",
+  "用心棒",
+  "ニンニン",
+]
+
+[[member]]
+name = "沙花叉クロヱ"
+strong = [
+  "飼育員",
+  "クロたん",
+  "ばっくばっくばくーん",
+  "人生リセットボタンぽちー",
+  "擬態ごっこ",
+  "右左君君右下上目きゅるんめちょかわ",
+  "混ざる鈍色",
+  "耀かし",
+  { word = "Hurt you", reading = "はーとゆー" },
+]
+weak = [
+  "シャチ",
+  "掃除屋",
+  "インターン",
+  "ばくばく",
+  "パラライズ",
+  "モードク",
+  { word = "RUNRUNRUN", reading = "らんらんらん" },
+  "光あれ",
+]
+
+[[member]]
+name = "星街すいせい"
+strong = [
+  "星詠み",
+  "すいちゃんは今日もかわいい",
+  "Midnight Grand Orchestra",
+  "Startend",
+  "ミドグラ",
+  "天球、彗星は夜を跨いで",
+  { word = "NEXT COLOR PLANET", reading = "ねくすとからーぷらねっと" },
+  { word = "Stellar Stellar", reading = "すてらすてら" },
+  { word = "Bluerose", reading = "ぶるーろーず" },
+  "自分勝手Dazzling",
+  "バイバイレイニー",
+  "灼熱にて純情",
+  "ザイオン",
+  "ビビデバ",
+  "ビーナスバグ",
+  { word = "Caramel Pain", reading = "きゃらめるぺいん" },
+  "月に向かって撃て",
+  "星をみる少女",
+  "もうどうなってもいいや",
+]
+weak = [
+  "テトリス",
+  "彗星",
+  "駆けろ",
+  { word = "TEMPLATE", reading = "てんぷれーと" },
+  "放送室",
+  "ソワレ",
+  "みちづれ",
+  "先駆者",
+  { word = "AWAKE", reading = "あうぇいく" },
+  "夜に咲く",
+  "プリマドンナ",
+  { word = "comet", reading = "こめっと" },
+  { word = "Wicked", reading = "うぃきっど" },
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  { word = "今日もかわいい", forms = ["今日も可愛い"] },
+  "天球",
+]
+
+[[member]]
+name = "ときのそら"
+strong = [
+  "シマエナガハウス",
+  "そらとも",
+  "あん肝",
+  "夢色アスタリスク",
+  "フレーフレーLOVE",
+  "ぐるぐる・ラブストーリー",
+  "青空のシンフォニー",
+  "くもはれ",
+  "花時の空",
+  "そらのとき",
+  "ポラリスソラリス",
+  "ケ・セラ・ソラ",
+  "キセキノセカイ",
+  "ラッキーセブンスホイッスル",
+  { word = "Swallow Tail", reading = "すわろーている" },
+  "∞超スーパー無限インフィニティ∞",
+  "ブルーベリームーン",
+  "太陽系デスコ",
+  "メアリースイート",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "ゆっくり走れば風は吹く",
+]
+weak = [
+  { word = "Dreaming!", reading = "どりーみんぐ" },
+]
+
+[[member]]
+name = "さくらみこ"
+strong = [
+  "35P",
+  "みこぴー",
+  "にゃっはろー",
+  "みっころね",
+  "ぺこみこ",
+  "そらみこ",
+  "サクラカゼ",
+  "さくら色ハイテンション",
+  "花月ノ夢",
+  "マイネームイズエリート",
+  "僕らと君のうた",
+  "乙女のススメ",
+  "ハートオンライン",
+  "きゅんきゅんみこきゅんきゅん",
+  "にゃっはろーわーるど",
+  "DAI DAI DAI ファンタジスタ",
+  "イケ贄",
+  "さくらんぼメッセージ",
+  "咲き誇れアイドル",
+  "サキミダレアッパレード",
+  "電脳神楽ミコビート",
+  "flower rhapsody",
+  "桜華絢爛歌合戦",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "Fで加速",
+  "ちゃっぴー",
+  "ビジネス違反",
+  "ビジネスフレンド",
+  "みこちん",
+]
+weak = [
+  "エリート",
+  "にぇ",
+  "PON",
+  "ポンコツ",
+  "たい焼き",
+  "加湿器",
+  "ベイビーダンス",
+]
+
+[[member]]
+name = "ロボ子さん"
+strong = [
+  "ろぼさー",
+  { word = "はろーぼー", forms = ["ハローボ"] },
+  "コトノハ",
+  "リルビ",
+  "現世アリス",
+  "社畜の歌",
+  "アザミナ",
+  "ロボ子先輩",
+]
+weak = [
+  "FICTION",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "高性能",
+]
+
+[[member]]
+name = "夜空メル"
+strong = [
+  "かぷ民",
+  "メルメル",
+  "メルちゃん",
+  "こんかぷ",
+  "かぷっとNight",
+  "キャラメル・デビル",
+  "流れ星☆キラキラ",
+  "赤くならないで",
+  "夜空のとなりで",
+  "かぷうぃん中毒",
+  "かぷかぷ",
+  "Twinkle Star Magic",
+]
+weak = [
+  "ヴァンパイア",
+  "ReSound",
+  "Show Stopper",
+]
+
+[[member]]
+name = "アキ・ローゼンタール"
+strong = [
+  "ロゼ隊",
+  "アキちゃん",
+  "シャルイース",
+  "ヒロインオーディション",
+  "ROSE of the LAMP",
+  "キミにまつわる運命事情",
+  "異薔薇",
+  # 2026-11-10 霧島リンカさんの確認で追加
+  "ムキロゼ",
+]
+weak = [
+  "アローナ",
+  "モノポリー",
+]
+
+[[member]]
+name = "赤井はあと"
+strong = [
+  "はあとん",
+  "はあと様",
+  "こんるーじゅ",
+  { word = "はあちゃまっちゃまー", forms = ["はあちゃまっちゃま"] },
+  "はあちゃまクッキング",
+  "BAN RTA",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "タランちゃま",
+]
+weak = [
+  "RED HEART",
+  "BUTA",
+  "Who2",
+  "お人形",
+]
+
+[[member]]
+name = "白上フブキ"
+strong = [
+  "すこん部",
+  "フブキング",
+  "FBK",
+  "こんこんきーつね",
+  "フブラ",
+  "Say!ファンファーレ",
+  "KINGWORLD",
+  "えんじょい the わーるど",
+  "冥界Halloween Night",
+  "Shirakami Cafe Music",
+  "Shirakami FINE",
+  "Call Our Name",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  { word = "黒上フブキ", forms = ["黒髪吹雪"] },
+  "さすフブ",
+  { word = "ホワイトブリにゃん", forms = ["ホワイトブリーにゃん"] },
+]
+weak = [
+  "閃光のように",
+  "13日の金曜日",
+  "FINE!!",
+  "Play the Game",
+  "狐",
+  "キツネ",
+]
+
+[[member]]
+name = "夏色まつり"
+strong = [
+  "まつりす",
+  "こんにちわっしょい",
+  "まつりライン",
+  "君と眺める夏の花",
+  "HiHiハイテンション",
+  "ネバギバ夏色ストーリー",
+  "ゼッタイ王政カーニバル",
+  "ばーちゃらぶ",
+  "ENDLESS FES",
+  "ホロメン体操",
+  "ウーニャカ",
+  "等身大ラブレター",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "えびふらいおん",
+]
+weak = [
+  "ラヴレター",
+  # 2026-11-10 霧島リンカさんの確認で追加
+  "まちゅ",
+]
+
+[[member]]
+name = "湊あくあ"
+strong = [
+  "あくあクルー",
+  "あくたん",
+  "AKUKIN",
+  "あくきん",
+  "だいてんしあくあ",
+  "こんあくあ",
+  "あくあ色ぱれっと",
+  "aqua iro palette",
+  "海想列車",
+  "uni-birth",
+  "あいわな",
+  "君の最推しにしてよ",
+  "エイムに愛されしガール",
+  "プリンセス・キャリー",
+  "恋愛ストラテジック",
+  "きみいろプリンセス",
+  # 字幕は「アティシガに」、タイムスタンプは「あてぃしガニ」とも書く（2026-11-10 霧島リンカさん）
+  { word = "あてぃしがに", forms = ["アティシガに", "あてぃしガニ"] },
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "Fake.Fake.Fake",
+  { word = "なるはや待機", forms = ["なるハや待機"] },
+]
+weak = [
+]
+
+[[member]]
+name = "紫咲シオン"
+strong = [
+  "塩っ子",
+  "シオンちゃん",
+  "しおんたん",
+  "メイジ・オブ・ヴァイオレット",
+  "シンデレラ・マジック",
+  "リア充★撲滅運動",
+  "ゴメンねメディスン",
+  # 2026-11-10 霧島リンカさんの確認で追加
+  { word = "ハバ卒", forms = ["幅卒"] },
+]
+weak = [
+  "シャンデリア",
+]
+
+[[member]]
+name = "百鬼あやめ"
+strong = [
+  "百鬼組",
+  "余さん",
+  "こんなきり",
+  "かわ余",
+  "ぽよ余",
+  "宵の余、良い",
+  "かわ世",
+  "万歳☆満開",
+  "人間様",
+]
+weak = [
+  "夢花火",
+  "melting",
+]
+
+[[member]]
+name = "癒月ちょこ"
+strong = [
+  "ちょこめいと",
+  "ちょこ先生",
+  "ちょこ先",
+  "ちょっこーん",
+  "ChocoLove",
+  "Secret Class",
+  "Sickbay Mistake",
+  "のーばでぃーくりすます",
+  "色をくれたキミへ",
+  "キミの秒針",
+  # 2026-11-10 霧島リンカさんの確認で追加
+  { word = "フォト先", reading = "ふぉとせん", forms = ["フォト戦"] },
+]
+weak = [
+  "NoDistance",
+  "Got Cheat",
+  "ユーフォリア",
+  "お陰様で",
+  "サマーラブ",
+  "Sincerely",
+  "Love Trick",
+]
+
+[[member]]
+name = "大空スバル"
+strong = [
+  "スバ友",
+  "すばう",
+  "スーくん",
+  "スバルドダック",
+  "大空スバル式羊殺し",
+  "太陽少女",
+  "ぷ・れ・あ・で・す",
+  "サマーハイヒール",
+  "Stellar Symphony",
+  "ホットダック",
+  "Okie Dokie Dance",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "大空警察",
+  "スバニー",
+  "スバルの小屋",
+  # 2026-11-10 霧島リンカさんの確認で追加
+  "あじまる",
+]
+weak = [
+  "しゅば",
+  "アヒル",
+  "ドナルドダック",
+  "スターライト",
+  "Pleiades",
+]
+
+[[member]]
+name = "大神ミオ"
+strong = [
+  "ミオファ",
+  "ミオしゃ",
+  "みおーん",
+  "ミオママ",
+  "こんばんみぉーん",
+  "さしみお",
+  "夜光通信",
+  "サヨナラは、まだ",
+  "夜明けのメロウ",
+  "小心旅行",
+  "イニミニまいご",
+  "夏宿り",
+  "Howling",
+  "My Sparkle",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "ビッグゴッドミオン",
+  "みおしゃ",
+]
+weak = [
+  "カメリア",
+  "Colorful Universe",
+  "狼煙",
+  "Night walk",
+  "オオカミ",
+]
+
+[[member]]
+name = "猫又おかゆ"
+strong = [
+  "おにぎりゃー",
+  "おかゆん",
+  "もぐもぐYUMMY",
+  "デタバレネコ",
+  "毒の王子さま",
+  "アデュー、サロー",
+  "毒杯スワロウ",
+  "ネコカブリーナ",
+  "キスだけでいいからね",
+  "デコグラデーション",
+  "また、おかえり",
+  "ノンデリシャス",
+  "ぽいずにゃ〜しんどろーむ",
+  "ぺるそにゃ～りすぺくと",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "おかにゃん",
+  "道徳崩壊経験値トラップ",
+  "泥棒建設",
+  { word = "猫又さん", forms = ["猫またさん"] },
+]
+weak = [
+  "ガザニア",
+  # 2026-11-10 霧島リンカさんの確認で追加
+  "どろけん",
+]
+
+[[member]]
+name = "戌神ころね"
+strong = [
+  "ころねすきー",
+  "ころさん",
+  "ころねちゃん",
+  "こぉね",
+  "ゆびゆび",
+  "ころねの最凶天災",
+  "Doggy god's street",
+  "Wonky Monkey",
+  "かわいこちぇっく",
+  "TROUBLE \"WAN\"DER",
+  "Mad POPCORN World",
+  "Eekum Bokum",
+  "DOOG",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  { word = "毛玉ころね", forms = ["毛玉コロネ"] },
+  { word = "邪神ころね", forms = ["邪神コロネ", "邪真コロネ"] },
+  { word = "しばきあげパンチング", forms = ["しばき上げパンチング"] },
+]
+weak = [
+  "マフィオーザ",
+]
+
+[[member]]
+name = "兎田ぺこら"
+strong = [
+  "野うさぎ同盟",
+  "ぺこちゃん",
+  "ぺこらっちょ",
+  "こんぺこ",
+  "ぺこ虐",
+  "ぺこらんだむぶれいん",
+  "いいわけバニー",
+  "ララララビット",
+  "全人類 兎化計画",
+  "最強女神",
+  "ウーサペコラ",
+  "ぺこぺこ!! チキンフィーバー",
+  "ラブノカサブタ",
+  "うさぎ the MEGAMI",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "兎田塾",
+  "ぶんぶんちゃ",
+  { word = "ぺっちゃん", forms = ["ペちゃん"] },
+  { word = "ぺこミッド", forms = ["ペコミッド", "ペコミット"] },
+  "ぺこらっぷ",
+  { word = "ぺこらの女", forms = ["ペコラの女"] },
+  "ぺこらんど",
+]
+weak = [
+]
+
+[[member]]
+name = "不知火フレア"
+strong = [
+  "エルフレンド",
+  "ふーたん",
+  "こんぬい",
+  "全力ジャンピング",
+  "フレ!フレ!エルフレ",
+  "Smile & Go",
+  "マーブル冴える",
+  "Silent Flame,Never Fade",
+  "架空と本当",
+]
+weak = [
+  "ユグドラシル",
+  "SKYSONAR",
+  "アトリエ",
+  "Funfair",
+  "薄明光線",
+  "エルフ",
+]
+
+[[member]]
+name = "白銀ノエル"
+strong = [
+  "白銀聖騎士団",
+  "こんまっする",
+  "ほめのび",
+  "リリカルMonster",
+  "VAVAVA",
+  "カガミヨカガミ",
+  "のえさんぽ",
+  "ノエスタ",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "だんちょむ",
+  "ノエルデラックス",
+]
+weak = [
+  "団長",
+  "トレビアンナイト",
+  "ours",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  { word = "はらぺこ太郎", forms = ["ハラペコ太郎"] },
+]
+
+[[member]]
+name = "宝鐘マリン"
+strong = [
+  "マリ箱",
+  "宝鐘の一味",
+  "マリリン",
+  "マーちゃん",
+  "我ら宝鐘海賊団",
+  "マリン出航",
+  "I'm Your Treasure Box",
+  "美少女無罪",
+  "パイパイ仮面でどうかしらん",
+  "幽霊船戦",
+]
+weak = [
+  "船長",
+  "Unison",
+  "きゃぴ",
+  "光彦",
+  "海賊",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "17歳",
+  "出航",
+]
+
+[[member]]
+name = "角巻わため"
+strong = [
+  "わためいと",
+  "わためぇ",
+  "わたメロン",
+  "わたおじ",
+  "こんばんドドド",
+  "愛昧ショコラーテ",
+  "キミだけのメロディ",
+  "君色ハナミズキ",
+  "夢見る羊",
+  "ぼくらのなぞなぞ",
+  "灰色の証明",
+  "What an amazing swing",
+  "Everlasting Soul",
+  "わためぇNight Fever",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "オーバーシープ",
+  "おしまい屋さん",
+  { word = "クソザコ回線", forms = ["クソ雑魚回線"] },
+  "ドドドライブ",
+  { word = "ひつじのかぞえうた", forms = ["羊の数え歌"] },
+  { word = "わたビーム", forms = ["ワタビーム"] },
+]
+weak = [
+  "mayday,mayday",
+  "Fins",
+  "Now on step",
+  "Revival",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "ラムベガス",
+]
+
+[[member]]
+name = "常闇トワ"
+strong = [
+  "常闇眷属",
+  "トワ様",
+  "こんやっぴー",
+  "TMT",
+  "トワ様マジ天使",
+  "U.F.O",
+  "バズビバザヴ",
+  "ChewyChewy",
+  "ミッドナイト・ランナウェイ",
+  "タイダナワンダー",
+  "Purple Disease",
+  "心の在処はすぐ傍に",
+  "命の洗濯",
+  "Rewrite the Answer",
+  "SM4SH IT UP",
+]
+weak = [
+  "Palette",
+  "FACT",
+  "マイロア",
+  "AKUMA",
+  "born to be real",
+  "ライメイ",
+  "ANEMONE",
+  "サンビタリア",
+  "My Abyss",
+  "処方箋",
+  "不可視",
+]
+
+[[member]]
+name = "姫森ルーナ"
+strong = [
+  "ルーナイト",
+  "ルーナ姫",
+  "ルーナたん",
+  "絶対忠誠",
+  "ぐるぐる@まわる@まわルーナ",
+  "まんなかちてん",
+  "守護ってルーナイト",
+  "んなっしょいぱっしょん",
+  "天たこ観測",
+  "プリプリプリンセス",
+]
+weak = [
+  "なのら",
+]
+
+[[member]]
+name = "桐生ココ"
+strong = [
+  "たつのこ",
+  "桐生会",
+  { word = "あさココ", forms = ["朝ココ"] },
+  "みかじめ",
+  "REDDIT MEME REVIEW",
+  "ミームレビュー",
+]
+weak = [
+  "会長",
+]
+
+[[member]]
+name = "雪花ラミィ"
+strong = [
+  "雪民",
+  "ゆきみん",
+  "ラミィちゃん",
+  "こんらみ",
+  "顔が肝臓",
+  "明日への境界線",
+  "Lamy＊Love",
+  "ハツコイ♡パティシエール",
+  "わたしを甘やかすなら",
+  "ラミィズバリバリワークアウト",
+  "よっぱらみゅ～じっく",
+  "無敵☆本気だサバイバー",
+  "Snowlight Stories",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  { word = "ボロン除霊", forms = ["ボロンジョ霊"] },
+]
+weak = [
+  "Fleur",
+]
+
+[[member]]
+name = "桃鈴ねね"
+strong = [
+  "ねっ子",
+  "ねねち",
+  "こんねね",
+  "コングラッCHU",
+  "ねねちのギラギラファンミーティング",
+  "LOVE受信",
+  "ヒクツ発信",
+  "ももいろの砂時計",
+  "ねねプロダクション",
+  "モモノネ",
+  "Ring-A-Linger",
+  "Lunch with me",
+]
+weak = [
+  "みちしるべ",
+  "Liminal",
+]
+
+[[member]]
+name = "獅白ぼたん"
+strong = [
+  "SSRB",
+  "ししろん",
+  "ぼっさん",
+  "ららーいおん",
+  "Lioness' Pride",
+  "I I I Love You",
+  "Connect:Addict",
+  "がおってこ",
+  "Stray & Stay",
+  "シミュラクル",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  { word = "ししろフーズ", forms = ["シしろフーズ", "シ白フーズ"] },
+  # 2026-11-10 霧島リンカさんの確認で追加
+  { word = "麺屋ぼたん", reading = "めんやぼたん", forms = ["麺屋ボタン"] },
+]
+weak = [
+  "boundary",
+  "トキハナテ",
+]
+
+[[member]]
+name = "尾丸ポルカ"
+strong = [
+  "座員",
+  "おまる座",
+  "座長",
+  "おまるん",
+  "ポルカおるか",
+  "もけぽるちゃん",
+  "ポルカの伝説",
+  "サイキョウチックポルカ",
+  "屋根裏のエピローグ",
+  "HOLOGRAM CIRCUS",
+  "無理ぽ to ポジ",
+  "召喚ショーケース",
+  "Filmy Funny",
+  "Pastel Tea Time",
+]
+weak = [
+  "ポルポル",
+  "エヴァーブルー",
+  "Forever glow",
+  "STARTING OVER",
+]
+
+[[member]]
+name = "ラプラス・ダークネス"
+strong = [
+  "ぷらすめいと",
+  "ラプ様",
+  "ラプsama",
+  "ラプラス総帥",
+  "総帥",
+  "ツノガキ",
+  "刮目せよ",
+  "Yes My Dark",
+  "YMD",
+  "吾輩",
+  "合縁事変",
+  "Dark Breath",
+  "drop candy",
+  "バグラブ",
+  "お姉さま♡ラヴコール",
+  "リーサルドーズ・パラノイド",
+  "Jumping in the Time",
+  # 2026-11-10 霧島リンカさんの確認で追加
+  { word = "ラプラス・ポークネス", forms = ["ラプラスポークネス", "ポークネス"] },
+]
+weak = [
+  "興味ないよ",
+  "あずいろはす",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "ラプラス",
+]
+
+[[member]]
+name = "鷹嶺ルイ"
+strong = [
+  "ルイ友",
+  "ルイ姉",
+  "ホロホーク",
+  "魔眼ウインク",
+  "アナスタシスガール",
+  "ハートにピース",
+  "ばかばっか",
+]
+weak = [
+  "オーバード",
+  "TSUBASA",
+  "FIRST CRY",
+  "ZIG-ZAG",
+  "DARE",
+  "get lucky",
+  "Soar",
+  "幹部",
+  "インテリ",
+]
+
+[[member]]
+name = "博衣こより"
+strong = [
+  "こよりの助手くん",
+  "助手くん",
+  "こよちゃん",
+  "こんこよ",
+  "朝こよ",
+  "配信モンスター",
+  "乙女よ求めよQ.E.D",
+  "史上最大のQUESTION",
+  "エゴイスティック・シーソー",
+  "シアワセ√コヨリニウム",
+  "爆ラブ+ケミストリー",
+  "管制塔より",
+  "NaN GAME",
+  "ピンクになっちゃえ",
+  "RISING 酸",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "こよこよ",
+  "こより先輩",
+  { word = "コヨリニウム", forms = ["子よりニウム"] },
+]
+weak = [
+  "WAO",
+  "アンバランス",
+  "Tear-Gazer",
+  "New Journey",
+  "デコレート",
+  "コヨーテ",
+]
+
+[[member]]
+name = "火威青"
+strong = [
+  "青くゆ",
+  "青くん",
+  "Club Blue Fire",
+]
+weak = [
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "カメムシ",
+  "ひょっとこ",
+]
+
+[[member]]
+name = "音乃瀬奏"
+strong = [
+  "音の勢",
+  "きゃなでぃ",
+  "Monday-chan",
+  "月曜日ちゃん",
+  "ドレミファソラシド",
+  "You & 合図",
+  "アイシカケ",
+]
+weak = [
+  "GREATEST",
+]
+
+[[member]]
+name = "一条莉々華"
+strong = [
+  "秘書見習い",
+  "今日も大天才",
+  "ガチマジ☆デスゲーム",
+  "Happiness phenomenon",
+]
+weak = [
+  "ジーニアス",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "限界飯",
+]
+
+[[member]]
+name = "儒烏風亭らでん"
+strong = [
+  "でん同士",
+  "書庫らでん",
+  "カスの大三元",
+  "まいたけダンス",
+  "しめじダンス",
+  "まつたけダンス",
+  "しいたけダンス",
+  "エリンギダンス",
+  "カエンタケダンス",
+  "JAPANの美術史",
+  "出囃子ジャポニズム",
+  "らでんの旅ぷらん",
+  "ミュージアムプリンセス",
+]
+weak = [
+  "酒カス",
+  "Miracle Palette",
+  "スロカス",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "ポーラ美術館",
+  { word = "松茸", forms = ["松たけ"] },
+]
+
+[[member]]
+name = "轟はじめ"
+strong = [
+  "真っす組",
+  "ばんぺん",
+  "コンコンダンス",
+  "コンココンコンココンコンコン",
+  "BANCHO",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "こんちくわ",
+]
+weak = [
+  "番長",
+  "Countach",
+  "BANZAI",
+  "Dunk",
+  "Deep Dive",
+  "Go Wild",
+  "ぶんぶんぶーん",
+]
+
+[[member]]
+name = "響咲リオナ"
+strong = [
+  "サマーハウス",
+  "罵倒の館",
+  "響咲連合",
+  "Ring my name",
+]
+weak = [
+]
+
+[[member]]
+name = "虎金妃笑虎"
+strong = [
+  "ニコ担",
+]
+weak = [
+  "星炎",
+]
+
+[[member]]
+name = "水宮枢"
+strong = [
+  "すうりす",
+  "うみゃうにゃはっぴーらいふ",
+  # 2026-11-10 霧島リンカさんの確認で追加
+  { word = "しゅぴしゅわ", forms = ["シュピシュワー", "シュピシワ", "シュピしわ"] },
+]
+weak = [
+]
+
+[[member]]
+name = "輪堂千速"
+strong = [
+  "ちはニック",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  { word = "ふぐ太郎", forms = ["フグ太郎"] },
+]
+weak = [
+  "Flat out",
+]
+
+[[member]]
+name = "綺々羅々ヴィヴィ"
+strong = [
+  "ビビッドキュート",
+  # 非公式 wiki（seesaawiki hololivetv）の【関連語】から、AZKi の字幕で確かめて採用（2026-11-10）
+  "伝説の農婦",
+]
+weak = [
+  "vivid",
+]
+
+# 海外勢（2026-11-10 霧島リンカさんの依頼）。呼び名は nicknames.toml。関連語は 非公式 wiki の【関連語】から、AZKi の字幕で確かめたものだけ
+# （ID の各ページと Calliope・Kiara などは見出しが無く、他の語は字幕に出ないか普通の言葉だった）
+
+[[member]]
+name = "Mori Calliope"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Takanashi Kiara"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Ninomae Ina'nis"
+strong = [
+  "俺のイナ",
+]
+weak = [
+]
+
+[[member]]
+name = "Gawr Gura"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Watson Amelia"
+strong = [
+  "スモールアメ",
+]
+weak = [
+]
+
+[[member]]
+name = "IRyS"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Tsukumo Sana"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Ceres Fauna"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Ouro Kronii"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Nanashi Mumei"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Hakos Baelz"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Shiori Novella"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Koseki Bijou"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Nerissa Ravencroft"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "FUWAMOCO"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Elizabeth Rose Bloodflame"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Gigi Murin"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Cecilia Immergreen"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Raora Panthera"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Ayunda Risu"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Moona Hoshinova"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Airani Iofifteen"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Kureiji Ollie"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Anya Melfissa"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Pavolia Reine"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Vestia Zeta"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Kaela Kovalskia"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "Kobo Kanaeru"
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "かなけん"
+members = ["AZKi", "天音かなた", "沙花叉クロヱ"]
+strong = [
+  "AZ基地",
+  "天界弩級オシゴトロード",
+  "かなた建設",
+]
+weak = [
+]
+
+[[unit]]
+name = "SorAZ"
+members = ["AZKi", "ときのそら"]
+strong = [
+  "ソラアズ",
+  "紅藍クロニクル",
+  { word = "Scale the walls", reading = "すけーるざうぉーるず" },
+  "ハジメノイッポ",
+  "君と僕はアルビレオ",
+  "恋愛コスモロジー",
+]
+weak = [
+  "テレパシー",
+  "せーので",
+]
+
+[[unit]]
+name = "AS_tar"
+members = ["AZKi", "星街すいせい"]
+strong = [
+]
+weak = [
+  { word = "AS_tar", reading = "あすたー" },
+]
+
+[[unit]]
+name = "RosaMiA"
+members = ["AZKi", "アキ・ローゼンタール"]
+strong = [
+  "ロザミア",
+]
+weak = [
+]
+
+[[unit]]
+name = "あずいろ"
+members = ["AZKi", "風真いろは"]
+strong = [
+  "あずいろキャンプ場",
+  "あずいろ村",
+  "あずいろの橋",
+  "AZ基地",
+  "あずいろっど",
+  "あずいろ BESTIE DAYS",
+  "BESTIE DAYS",
+]
+weak = [
+]
+
+[[unit]]
+name = "miComet"
+members = ["さくらみこ", "星街すいせい"]
+strong = [
+  "みこめっと",
+]
+weak = [
+]
+
+[[unit]]
+name = "秘密結社holoX"
+members = ["ラプラス・ダークネス", "鷹嶺ルイ", "博衣こより", "風真いろは", "沙花叉クロヱ"]
+strong = [
+  "常夜リペイント",
+  "迷宮なラビリンス",
+  "饗宴ソリダリティ",
+  "ちょ～ゆめドデッカい",
+  "暁光クロニクル",
+  "暁闇エクスデス",
+]
+weak = [
+  "holoX",
+  "ホロックス",
+]
+
+[[unit]]
+name = "Startend"
+members = ["星街すいせい", "湊あくあ", "常闇トワ"]
+strong = [
+  "スタテン",
+]
+weak = [
+]
+
+[[unit]]
+name = "かなココ"
+members = ["天音かなた", "桐生ココ"]
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "ORIO"
+members = ["天音かなた", "常闇トワ"]
+strong = [
+  "マドロミ",
+]
+weak = [
+]
+
+[[unit]]
+name = "みっころね"
+members = ["さくらみこ", "戌神ころね"]
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "ぺこみこ"
+members = ["さくらみこ", "兎田ぺこら"]
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "そらみこ"
+members = ["さくらみこ", "ときのそら"]
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "おかころ"
+members = ["猫又おかゆ", "戌神ころね"]
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "ぺこマリ"
+members = ["兎田ぺこら", "宝鐘マリン"]
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "夏色吹雪"
+members = ["夏色まつり", "白上フブキ"]
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "メルティキッス"
+members = ["夜空メル", "癒月ちょこ"]
+strong = [
+  "メルキス",
+  "Choco♡Melty",
+]
+weak = [
+]
+
+[[unit]]
+name = "りっちしょこら"
+members = ["癒月ちょこ", "鷹嶺ルイ"]
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "スパイスラブ"
+members = ["大空スバル", "湊あくあ", "兎田ぺこら"]
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "NEGI☆U"
+members = ["湊あくあ", "大空スバル", "桃鈴ねね"]
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "ドデカルテット"
+members = ["大空スバル", "さくらみこ", "猫又おかゆ", "兎田ぺこら"]
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "スバちょこるなたん"
+members = ["大空スバル", "癒月ちょこ", "姫森ルーナ", "獅白ぼたん"]
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "あやふぶみ"
+members = ["白上フブキ", "百鬼あやめ", "大神ミオ"]
+strong = [
+  "いろはにほへっと あやふぶみ",
+]
+weak = [
+]
+
+[[unit]]
+name = "バカタレ共"
+members = ["白上フブキ", "不知火フレア", "角巻わため"]
+strong = [
+  "バカタレサーカス",
+]
+weak = [
+]
+
+[[unit]]
+name = "FAMS"
+members = ["白上フブキ", "百鬼あやめ", "大神ミオ", "大空スバル"]
+strong = [
+  "OKFAMS",
+]
+weak = [
+]
+
+[[unit]]
+name = "ホロライブゲーマーズ"
+members = ["白上フブキ", "大神ミオ", "猫又おかゆ", "戌神ころね"]
+strong = [
+  "ゲーマーズ",
+]
+weak = [
+]
+
+[[unit]]
+name = "ホロライブファンタジー"
+members = ["兎田ぺこら", "不知火フレア", "白銀ノエル", "宝鐘マリン"]
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "ねぽらぼ"
+members = ["雪花ラミィ", "桃鈴ねね", "獅白ぼたん", "尾丸ポルカ"]
+strong = [
+]
+weak = [
+]
+
+[[unit]]
+name = "UMISEA"
+members = ["湊あくあ", "沙花叉クロヱ"]
+strong = [
+  "りゅーーっときてきゅーーっ",
+  "うみシーのさちハピ",
+]
+weak = [
+]
+
+[[unit]]
+name = "ReGLOSS"
+members = ["火威青", "音乃瀬奏", "一条莉々華", "儒烏風亭らでん", "轟はじめ"]
+strong = [
+  "リグロス",
+]
+weak = [
+  "Lucky Loud",
+  "落噺",
+]
+
+[[unit]]
+name = "FLOW GLOW"
+members = ["響咲リオナ", "虎金妃笑虎", "水宮枢", "輪堂千速", "綺々羅々ヴィヴィ"]
+strong = [
+  "FLOMIE",
+  "フロウミー",
+  "FG ROADSTER",
+  "おフロ",
+  "24K GOLD",
+  "MAKE IT, BREAK IT",
+]
+weak = [
+  "フローグロー",
+  "LOAD",
+  "good enough",
+  "stay by my side",
+  "magic summer",
+  "PUNISHER",
+  "the light",
+]

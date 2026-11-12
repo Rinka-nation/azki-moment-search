@@ -1,0 +1,143 @@
+# BIOHAZARD（RE:3 ほか） の固有名詞（出典: 作品の登場人物・地名・アイテム（一般に知られた名称））
+# このゲームの配信（タイトルに title_patterns のどれかがある）でだけ補正に使う。
+
+[game]
+id = "biohazard"
+name = "BIOHAZARD（RE:3 ほか）"
+title_patterns = ["BIOHAZARD", "バイオハザード", "バイオ RE"]
+
+[[term]]
+canonical = "ジル・バレンタイン"
+reading = "じるばれんたいん"
+category = "game"
+
+[[term]]
+canonical = "ジル"
+reading = "ジル"
+category = "game"
+
+[[term]]
+canonical = "カルロス・オリヴェイラ"
+reading = "かるろすおりゔぇいら"
+category = "game"
+
+[[term]]
+canonical = "カルロス"
+reading = "カルロス"
+category = "game"
+
+[[term]]
+canonical = "ネメシス"
+reading = "ネメシス"
+category = "game"
+
+[[term]]
+canonical = "ニコライ"
+reading = "ニコライ"
+category = "game"
+
+[[term]]
+canonical = "ミハイル"
+reading = "ミハイル"
+category = "game"
+
+[[term]]
+canonical = "タイレル"
+reading = "タイレル"
+category = "game"
+
+[[term]]
+canonical = "ブラッド"
+reading = "ブラッド"
+category = "game"
+
+[[term]]
+canonical = "ラクーンシティ"
+reading = "ラクーンシティ"
+aliases = ["ラクーン市"]
+category = "game"
+
+[[term]]
+canonical = "アンブレラ"
+reading = "アンブレラ"
+category = "game"
+
+[[term]]
+canonical = "S.T.A.R.S."
+reading = "すたーず"
+category = "game"
+
+[[term]]
+canonical = "U.B.C.S."
+reading = "ゆーびーしーえす"
+category = "game"
+
+[[term]]
+canonical = "ハンドガン"
+reading = "ハンドガン"
+category = "game"
+
+[[term]]
+canonical = "ショットガン"
+reading = "ショットガン"
+category = "game"
+
+[[term]]
+canonical = "グレネードランチャー"
+reading = "グレネードランチャー"
+category = "game"
+
+[[term]]
+canonical = "マグナム"
+reading = "マグナム"
+category = "game"
+
+[[term]]
+canonical = "ロケットランチャー"
+reading = "ロケットランチャー"
+category = "game"
+
+[[term]]
+canonical = "グリーンハーブ"
+reading = "グリーンハーブ"
+category = "game"
+
+[[term]]
+canonical = "レッドハーブ"
+reading = "レッドハーブ"
+category = "game"
+
+[[term]]
+canonical = "救急スプレー"
+reading = "きゅうきゅうすぷれー"
+category = "game"
+
+[[term]]
+canonical = "時計塔"
+reading = "とけいとう"
+category = "game"
+
+[[term]]
+canonical = "リッカー"
+reading = "リッカー"
+category = "game"
+
+[[term]]
+canonical = "ハンター"
+reading = "ハンター"
+category = "game"
+
+[[term]]
+canonical = "ゾンビ"
+reading = "ゾンビ"
+category = "game"
+
+[[term]]
+canonical = "ワクチン"
+reading = "ワクチン"
+category = "game"
+
+[[term]]
+canonical = "Tウイルス"
+reading = "てぃーういるす"
+category = "game"

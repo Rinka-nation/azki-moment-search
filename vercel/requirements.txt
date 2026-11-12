@@ -1,0 +1,4 @@
+# 本番に入る版を固定する。週 1 回の publish は確認なしで本番まで切り替えるので、範囲指定だと
+# 新しく出た版が試さずに入る。手元（.venv）の版に合わせる（tests/test_deploy.py が食い違いを見る）
+sudachipy==0.7.0
+sudachidict_core==20261015

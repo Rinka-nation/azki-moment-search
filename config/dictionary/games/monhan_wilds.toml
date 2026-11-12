@@ -1,0 +1,14 @@
+# モンスターハンターワイルズの固有名詞
+# このゲームの配信（タイトルに title_patterns のどれかがある）でだけ補正に使う。
+
+[game]
+id = "monhan_wilds"
+name = "モンスターハンターワイルズ"
+title_patterns = ["モンハンワイルズ", "Monster Hunter Wilds"]
+
+[[term]]
+canonical = "アズズ"
+reading = "あずず"
+aliases = ["アずズ", "あずズ"]
+category = "game"
+fuzzy = false

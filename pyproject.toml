@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "azkims"
+version = "0.1.0"
+description = "Unofficial fan-made statement search for AZKi streams (auto-caption based)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "yt-dlp>=2026.1",
+    "curl_cffi>=0.10",  # yt-dlp のブラウザなりすまし（impersonation）用
+    "sudachipy>=0.6.8,<1",
+    "sudachidict_core>=20240000",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1"]
+
+[project.scripts]
+azkims = "azkims.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

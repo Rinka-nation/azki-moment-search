@@ -1,0 +1,10769 @@
+# azkims accept / reject が追記するレビュー結果。手で編集してもよい。
+
+[[reject]]
+surface = "ソロライブ"
+canonical = "ホロライブ"
+
+[[reject]]
+surface = "ジモゲッサー"
+canonical = "GeoGuessr"
+
+[[alias]]
+surface = "あず色"
+canonical = "あずいろ"
+
+[[alias]]
+surface = "アず色"
+canonical = "あずいろ"
+
+[[alias]]
+surface = "ゼロ規制"
+canonical = "0期生"
+
+[[alias]]
+surface = "ほロ面"
+canonical = "ホロメン"
+
+[[alias]]
+surface = "アズ色"
+canonical = "あずいろ"
+
+[[alias]]
+surface = "あず基地"
+canonical = "あずきち"
+
+[[alias]]
+surface = "あず木"
+canonical = "AZKi"
+
+[[alias]]
+surface = "みコメット"
+canonical = "miComet"
+
+[[alias]]
+surface = "ホロクス"
+canonical = "holoX"
+
+[[alias]]
+surface = "ローザーミア"
+canonical = "RosaMiA"
+
+[[alias]]
+surface = "狼みお"
+canonical = "大神ミオ"
+
+[[alias]]
+surface = "ホロ取り"
+canonical = "ホロドリ"
+scope = "title"
+
+[[alias]]
+surface = "ほろり"
+canonical = "ホロドリ"
+scope = "title"
+
+[[alias]]
+surface = "ほろ取り"
+canonical = "ホロドリ"
+scope = "title"
+
+[[alias]]
+surface = "ア色"
+canonical = "あずいろ"
+scope = "title"
+
+[[alias]]
+surface = "あ色"
+canonical = "あずいろ"
+scope = "title"
+
+[[reject]]
+surface = "開拓し"
+canonical = "開拓者"
+
+[[alias]]
+surface = "ほろド"
+canonical = "ホロドリ"
+scope = "title"
+
+[[alias]]
+surface = "味色"
+canonical = "あずいろ"
+scope = "title"
+
+[[alias]]
+surface = "ほどり"
+canonical = "ホロドリ"
+scope = "title"
+
+[[alias]]
+surface = "ほロド"
+canonical = "ホロドリ"
+scope = "title"
+
+[[alias]]
+surface = "ほロ取り"
+canonical = "ホロドリ"
+scope = "title"
+
+[[alias]]
+surface = "一条リカ"
+canonical = "一条莉々華"
+
+[[alias]]
+surface = "あずい"
+canonical = "あずいろ"
+scope = "title"
+
+[[alias]]
+surface = "かま色ハ"
+canonical = "風真いろは"
+
+[[alias]]
+surface = "しシしボタン"
+canonical = "獅白ぼたん"
+
+[[alias]]
+surface = "アズロ"
+canonical = "あずいろ"
+scope = "title"
+
+[[alias]]
+surface = "ドザミア"
+canonical = "RosaMiA"
+scope = "title"
+
+[[alias]]
+surface = "フロライブ"
+canonical = "ホロライブ"
+
+[[alias]]
+surface = "ホドリ"
+canonical = "ホロドリ"
+scope = "title"
+
+[[alias]]
+surface = "ホロナイブ"
+canonical = "ホロライブ"
+
+[[alias]]
+surface = "ホロライ"
+canonical = "ホロライブ"
+
+[[alias]]
+surface = "ホールドリー"
+canonical = "ホロドリ"
+scope = "title"
+
+[[alias]]
+surface = "ポロドリ"
+canonical = "ホロドリ"
+scope = "title"
+
+[[alias]]
+surface = "ロドリ"
+canonical = "ホロドリ"
+scope = "title"
+
+[[alias]]
+surface = "井中ミュージック"
+canonical = "イノナカミュージック"
+
+[[alias]]
+surface = "明日色"
+canonical = "あずいろ"
+scope = "title"
+
+[[alias]]
+surface = "狼耳"
+canonical = "大神ミオ"
+scope = "title"
+
+[[alias]]
+surface = "自ゲサ"
+canonical = "GeoGuessr"
+scope = "title"
+
+[[alias]]
+surface = "一条リ"
+canonical = "一条莉々華"
+
+[[alias]]
+surface = "あずもん"
+canonical = "アズモン"
+
+[[alias]]
+surface = "ポコアポケモン"
+canonical = "ぽこあポケモン"
+
+[[alias]]
+surface = "あズモン"
+canonical = "アズモン"
+
+[[alias]]
+surface = "ほロメン"
+canonical = "ホロメン"
+
+[[alias]]
+surface = "ゼロゲサ"
+canonical = "ゼロゲッサー"
+
+[[alias]]
+surface = "あずモン"
+canonical = "アズモン"
+
+[[alias]]
+surface = "ゼロゲサー"
+canonical = "ゼロゲッサー"
+
+[[alias]]
+surface = "ホローライブ"
+canonical = "ホロライブ"
+
+[[alias]]
+surface = "白上吹雪"
+canonical = "白上フブキ"
+
+[[alias]]
+surface = "胃の中ミュージック"
+canonical = "イノナカミュージック"
+
+[[alias]]
+surface = "0ゲッサー"
+canonical = "ゼロゲッサー"
+
+[[alias]]
+surface = "あずキー"
+canonical = "AZKi"
+
+[[alias]]
+surface = "あず吉"
+canonical = "あずきち"
+
+[[alias]]
+surface = "おまるポルカ"
+canonical = "尾丸ポルカ"
+
+[[alias]]
+surface = "アずきち"
+canonical = "あずきち"
+
+[[alias]]
+surface = "アず木"
+canonical = "AZKi"
+
+[[alias]]
+surface = "アズきち"
+canonical = "あずきち"
+
+[[alias]]
+surface = "ゼロゲさ"
+canonical = "ゼロゲッサー"
+
+[[alias]]
+surface = "ポッカジャン"
+canonical = "ポカジャン"
+
+[[alias]]
+surface = "ラプラスダークネス"
+canonical = "ラプラス・ダークネス"
+
+[[alias]]
+surface = "夏色祭り"
+canonical = "夏色まつり"
+
+[[alias]]
+surface = "時の空"
+canonical = "ときのそら"
+
+[[alias]]
+surface = "猫またお粥"
+canonical = "猫又おかゆ"
+
+[[alias]]
+surface = "見コメット"
+canonical = "miComet"
+
+[[alias]]
+surface = "ポカジン"
+canonical = "ポカジャン"
+scope = "title"
+
+[[alias]]
+surface = "ポカジん"
+canonical = "ポカジャン"
+scope = "title"
+
+[[reject]]
+surface = "続き"
+canonical = "AZKi"
+
+[[alias]]
+surface = "ポカジュン"
+canonical = "ポカジャン"
+scope = "title"
+
+[[alias]]
+surface = "はーちゃま"
+canonical = "はあちゃま"
+
+[[alias]]
+surface = "ほ面"
+canonical = "ホロメン"
+scope = "title"
+
+[[alias]]
+surface = "アジ色"
+canonical = "あずいろ"
+scope = "title"
+
+[[alias]]
+surface = "ポカジョン"
+canonical = "ポカジャン"
+scope = "title"
+
+[[hold]]
+surface = "赤いハート"
+canonical = "赤井はあと"
+
+[[alias]]
+surface = "ゼロゲ"
+canonical = "ゼロゲッサー"
+
+[[alias]]
+surface = "ソラーズ"
+canonical = "SorAZ"
+
+[[alias]]
+surface = "オゲッサー"
+canonical = "GeoGuessr"
+scope = "title"
+
+[[alias]]
+surface = "ホロメ"
+canonical = "ホロメン"
+scope = "title"
+
+[[alias]]
+surface = "ロボズ"
+canonical = "ろぼあず"
+scope = "title"
+
+[[hold]]
+surface = "猫またおか"
+canonical = "猫又おかゆ"
+
+[[alias]]
+surface = "あの吉"
+canonical = "あずきち"
+
+[[hold]]
+surface = "はーちゃまっ"
+canonical = "はあちゃま"
+
+[[alias]]
+surface = "もずきち"
+canonical = "あずきち"
+
+[[reject]]
+surface = "赤月"
+canonical = "AZKi"
+
+[[reject]]
+surface = "あきち"
+canonical = "あずきち"
+
+[[alias]]
+surface = "うずきち"
+canonical = "あずきち"
+scope = "title"
+
+[[alias]]
+surface = "こまたおかゆ"
+canonical = "猫又おかゆ"
+
+[[hold]]
+surface = "しろボタン"
+canonical = "獅白ぼたん"
+
+[[alias]]
+surface = "ずきち"
+canonical = "あずきち"
+
+[[alias]]
+surface = "はずきち"
+canonical = "あずきち"
+scope = "title"
+
+[[alias]]
+surface = "はず色"
+canonical = "あずいろ"
+scope = "title"
+
+[[alias]]
+surface = "ほろぞり"
+canonical = "ホロドリ"
+scope = "title"
+
+[[alias]]
+surface = "ぽかジャ"
+canonical = "ポカジャン"
+
+[[alias]]
+surface = "アジきち"
+canonical = "あずきち"
+scope = "title"
+
+[[alias]]
+surface = "コアポケモン"
+canonical = "ぽこあポケモン"
+
+[[alias]]
+surface = "ツイロ祭り"
+canonical = "夏色まつり"
+
+[[alias]]
+surface = "フロメン"
+canonical = "ホロメン"
+scope = "title"
+
+[[alias]]
+surface = "ホロメえー"
+canonical = "ホロメン"
+scope = "title"
+
+[[alias]]
+surface = "ホロリー"
+canonical = "ホロドリ"
+scope = "title"
+
+[[hold]]
+surface = "ポカジやり"
+canonical = "ポカジャン"
+
+[[alias]]
+surface = "ラプラスクネス"
+canonical = "ラプラス・ダークネス"
+
+[[alias]]
+surface = "ロボア"
+canonical = "ろぼあず"
+scope = "title"
+
+[[alias]]
+surface = "厚色"
+canonical = "あずいろ"
+
+[[alias]]
+surface = "味ず色"
+canonical = "あずいろ"
+scope = "title"
+
+[[hold]]
+surface = "回読者"
+canonical = "開拓者"
+
+[[hold]]
+surface = "届き始め"
+canonical = "轟はじめ"
+
+[[hold]]
+surface = "快読者"
+canonical = "開拓者"
+
+[[hold]]
+surface = "星持ち水星"
+canonical = "星街すいせい"
+
+[[hold]]
+surface = "柚ずチョコ"
+canonical = "癒月ちょこ"
+
+[[hold]]
+surface = "犬神コロナ"
+canonical = "戌神ころね"
+
+[[hold]]
+surface = "犬神コロネット"
+canonical = "戌神ころね"
+
+[[alias]]
+surface = "狼み"
+canonical = "大神ミオ"
+scope = "title"
+
+[[alias]]
+surface = "猫たおかゆ"
+canonical = "猫又おかゆ"
+
+[[alias]]
+surface = "猫またおゆ"
+canonical = "猫又おかゆ"
+
+[[hold]]
+surface = "知らぬフレア"
+canonical = "不知火フレア"
+
+[[hold]]
+surface = "稲中ミュージック"
+canonical = "イノナカミュージック"
+
+[[hold]]
+surface = "解拓し"
+canonical = "開拓者"
+
+[[hold]]
+surface = "解拓茶"
+canonical = "開拓者"
+
+[[hold]]
+surface = "開拓知ら"
+canonical = "開拓者"
+
+[[hold]]
+surface = "開拓茶"
+canonical = "開拓者"
+
+[[hold]]
+surface = "開読者"
+canonical = "開拓者"
+
+[[reject]]
+surface = "ホロリ"
+canonical = "ホロドリ"
+
+[[alias]]
+surface = "黒メン"
+canonical = "ホロメン"
+
+[[alias]]
+surface = "ロ面"
+canonical = "ホロメン"
+
+[[reject]]
+surface = "水色"
+canonical = "あずいろ"
+
+[[alias]]
+surface = "ポカ順"
+canonical = "ポカジャン"
+
+[[alias]]
+surface = "ロザミ"
+canonical = "RosaMiA"
+
+[[reject]]
+surface = "方面"
+canonical = "ホロメン"
+
+[[alias]]
+surface = "ガズロケ"
+canonical = "AZロケ"
+
+[[reject]]
+surface = "気づき"
+canonical = "AZKi"
+
+[[alias]]
+surface = "朝色"
+canonical = "あずいろ"
+
+[[alias]]
+surface = "さずきち"
+canonical = "あずきち"
+
+[[alias]]
+surface = "アズニ"
+canonical = "AZKi"
+
+[[reject]]
+surface = "かずき"
+canonical = "AZKi"
+
+[[alias]]
+surface = "まずきち"
+canonical = "あずきち"
+
+[[alias]]
+surface = "ほの面"
+canonical = "ホロメン"
+
+[[alias]]
+surface = "ほロメ"
+canonical = "ホロメン"
+
+[[alias]]
+surface = "ゼロゲタ"
+canonical = "ゼロゲッサー"
+
+[[alias]]
+surface = "ホ面"
+canonical = "ホロメン"
+
+[[alias]]
+surface = "ホろ取り"
+canonical = "ホロドリ"
+
+[[hold]]
+surface = "あずろ"
+canonical = "あずいろ"
+
+[[reject]]
+surface = "麻雀"
+canonical = "ポカジャン"
+
+[[hold]]
+surface = "ポカちゃんし"
+canonical = "ポカジャン"
+
+[[hold]]
+surface = "いかなんかミュージック"
+canonical = "イノナカミュージック"
+
+[[hold]]
+surface = "ません団長"
+canonical = "マリン船長"
+
+[[hold]]
+surface = "サプラスタークネス"
+canonical = "ラプラス・ダークネス"
+
+[[hold]]
+surface = "ポカちゃんやっ"
+canonical = "ポカジャン"
+
+[[hold]]
+surface = "0規制"
+canonical = "0期生"
+
+[[hold]]
+surface = "ポカジさ"
+canonical = "ポカジャン"
+
+[[hold]]
+surface = "ポカちゃん出"
+canonical = "ポカジャン"
+
+[[hold]]
+surface = "フォロライブ"
+canonical = "ホロライブ"
+
+[[hold]]
+surface = "フォローライブ"
+canonical = "ホロライブ"
+
+[[hold]]
+surface = "ポカジをさ"
+canonical = "ポカジャン"
+
+[[hold]]
+surface = "このライブ"
+canonical = "ホロライブ"
+
+[[hold]]
+surface = "ポカジャポカ"
+canonical = "ポカジャン"
+
+[[hold]]
+surface = "ポカジュア"
+canonical = "ポカジャン"
+
+[[hold]]
+surface = "ポカジをやり"
+canonical = "ポカジャン"
+
+[[hold]]
+surface = "パカジャンキー"
+canonical = "ポカジャン"
+
+[[alias]]
+surface = "クリエイティングワールド"
+canonical = "Creating world"
+
+[[alias]]
+surface = "ルートイフ"
+canonical = "Route If"
+
+[[alias]]
+surface = "フェイクフェイクフェイク"
+canonical = "Fake.Fake.Fake"
+
+[[alias]]
+surface = "リクリエイティングワールド"
+canonical = "Re:Creating world"
+
+[[alias]]
+surface = "東京シャンディランデブ"
+canonical = "トウキョウ・シャンディ・ランデヴ"
+
+[[hold]]
+surface = "猫ならば行ける"
+canonical = "猫ならばいける"
+
+[[alias]]
+surface = "エタニティブライト"
+canonical = "Eternity Bright"
+
+[[alias]]
+surface = "ザラストフロンティア"
+canonical = "The Last Frontier"
+
+[[alias]]
+surface = "マイストラテジ"
+canonical = "まいすとらてじー!"
+
+[[alias]]
+surface = "マップインザカップ"
+canonical = "map in the cup"
+
+[[alias]]
+surface = "ローテートリピーテッド"
+canonical = "ローテート・リピーテッド"
+
+[[alias]]
+surface = "未来感パネラ"
+canonical = "未来カンパネラ"
+
+[[alias]]
+surface = "雨の血晴れバレ"
+canonical = "雨のち晴れ晴れ"
+
+[[alias]]
+surface = "未来カパネラ"
+canonical = "未来カンパネラ"
+
+[[alias]]
+surface = "クリエティングワールド"
+canonical = "Creating world"
+
+[[alias]]
+surface = "リエイティングワールド"
+canonical = "Creating world"
+
+[[alias]]
+surface = "依頼カンパネラ"
+canonical = "未来カンパネラ"
+
+[[alias]]
+surface = "ござるさなっ"
+canonical = "ござるさん"
+scope = "title"
+
+[[alias]]
+surface = "アズイラベスティデイズ"
+canonical = "あずいろ BESTIE DAYS"
+
+[[alias]]
+surface = "ザラストフランティア"
+canonical = "The Last Frontier"
+
+[[alias]]
+surface = "未来カンパネ"
+canonical = "未来カンパネラ"
+
+[[alias]]
+surface = "未来カンパネル"
+canonical = "未来カンパネラ"
+
+[[hold]]
+surface = "未来カンパラ"
+canonical = "未来カンパネラ"
+
+[[alias]]
+surface = "未来カンパレラ"
+canonical = "未来カンパネラ"
+
+[[alias]]
+surface = "未来カンパンラ"
+canonical = "未来カンパネラ"
+
+[[alias]]
+surface = "東京シャンティランデブ"
+canonical = "トウキョウ・シャンディ・ランデヴ"
+
+[[alias]]
+surface = "シットテイズ"
+canonical = "シットデイズ"
+
+[[hold]]
+surface = "アズロベスティイズ"
+canonical = "あずいろ BESTIE DAYS"
+
+[[hold]]
+surface = "未来カネラ"
+canonical = "未来カンパネラ"
+
+[[hold]]
+surface = "8時のコーラスソング"
+canonical = "午後8時のコーラスソング"
+
+[[hold]]
+surface = "アズベスティデイズ"
+canonical = "あずいろ BESTIE DAYS"
+
+[[hold]]
+surface = "アズロベスティデズ"
+canonical = "あずいろ BESTIE DAYS"
+
+[[hold]]
+surface = "アズロベスティレイズ"
+canonical = "あずいろ BESTIE DAYS"
+
+[[reject]]
+surface = "オペレーション"
+canonical = "Operation Z"
+
+[[hold]]
+surface = "コワイルエントロピー"
+canonical = "声音エントロピー"
+
+[[hold]]
+surface = "チャライカンパネラ"
+canonical = "未来カンパネラ"
+
+[[hold]]
+surface = "ラストフローティア"
+canonical = "The Last Frontier"
+
+[[hold]]
+surface = "リアルメラン"
+canonical = "リアルメランコリー"
+
+[[hold]]
+surface = "リエーティングワールド"
+canonical = "Creating world"
+
+[[hold]]
+surface = "未カンパネラ"
+canonical = "未来カンパネラ"
+
+[[hold]]
+surface = "未来カパイラ"
+canonical = "未来カンパネラ"
+
+[[hold]]
+surface = "未来カパネル"
+canonical = "未来カンパネラ"
+
+[[hold]]
+surface = "未来カンパラグ"
+canonical = "未来カンパネラ"
+
+[[hold]]
+surface = "未来パネラ"
+canonical = "未来カンパネラ"
+
+[[hold]]
+surface = "運命のあきバー"
+canonical = "運命の在処"
+
+[[hold]]
+surface = "運命リカ"
+canonical = "運命の在処"
+
+[[hold]]
+surface = "雨の血晴れ"
+canonical = "雨のち晴れ晴れ"
+
+[[hold]]
+surface = "さようならヒー"
+canonical = "さよならヒーロー"
+
+[[hold]]
+surface = "スターディリグレッツ"
+canonical = "Starry Regrets"
+
+[[hold]]
+surface = "ポカジンさ"
+canonical = "ポカジャン"
+
+[[hold]]
+surface = "アイトコントロールマイセルフ"
+canonical = "I can't control myself"
+
+[[hold]]
+surface = "みなミッドソング"
+canonical = "Midnight Song"
+
+[[hold]]
+surface = "よりメランコリ"
+canonical = "リアルメランコリー"
+
+[[hold]]
+surface = "オ曲とコントロールマイセルフ"
+canonical = "I can't control myself"
+
+[[alias]]
+surface = "チョコ先生"
+canonical = "ちょこ先生"
+
+[[alias]]
+surface = "ファースト衣装"
+canonical = "1st衣装"
+
+[[alias]]
+surface = "セカンド衣装"
+canonical = "2nd衣装"
+
+[[alias]]
+surface = "過激衣装"
+canonical = "歌劇衣装"
+
+[[alias]]
+surface = "サード衣装"
+canonical = "3rd衣装"
+
+[[alias]]
+surface = "フォース衣装"
+canonical = "4th衣装"
+
+[[alias]]
+surface = "悪魔衣装"
+canonical = "小悪魔衣装"
+scope = "title"
+
+[[hold]]
+surface = "こら先輩"
+canonical = "そら先輩"
+
+[[alias]]
+surface = "ソ先輩"
+canonical = "そら先輩"
+
+[[alias]]
+surface = "チこ先生"
+canonical = "ちょこ先生"
+
+[[alias]]
+surface = "ラ先輩"
+canonical = "そら先輩"
+
+[[alias]]
+surface = "悪マ衣装"
+canonical = "小悪魔衣装"
+
+[[reject]]
+surface = "最生"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "あれ水晶"
+canonical = "ドレス衣装"
+
+[[hold]]
+surface = "そう先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "コーラ先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "サード以上"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "ファーストの衣装"
+canonical = "1st衣装"
+
+[[alias]]
+surface = "ユルフは私服衣装"
+canonical = "ゆるふわ私服衣装"
+
+[[hold]]
+surface = "正月以上"
+canonical = "正月衣装"
+
+[[hold]]
+surface = "誘いしよう"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "あき先輩"
+canonical = "アキロゼ先輩"
+
+[[hold]]
+surface = "紹介しよう"
+canonical = "正月衣装"
+
+[[hold]]
+surface = "あくまで消"
+canonical = "小悪魔衣装"
+
+[[hold]]
+surface = "あと一生"
+canonical = "1st衣装"
+
+[[hold]]
+surface = "あ木先輩"
+canonical = "アキロゼ先輩"
+
+[[hold]]
+surface = "しょういしょう"
+canonical = "正月衣装"
+
+[[hold]]
+surface = "コ白くマ衣装"
+canonical = "小悪魔衣装"
+
+[[hold]]
+surface = "フア衣装"
+canonical = "1st衣装"
+
+[[hold]]
+surface = "ライブ衣装"
+canonical = "ブライト衣装"
+
+[[hold]]
+surface = "乾杯しよう"
+canonical = "2nd衣装"
+
+[[hold]]
+surface = "先度以上"
+canonical = "2nd衣装"
+
+[[hold]]
+surface = "取り何衣装"
+canonical = "オリジン衣装"
+
+[[hold]]
+surface = "小悪くマ衣装"
+canonical = "小悪魔衣装"
+
+[[hold]]
+surface = "小悪マ衣装"
+canonical = "小悪魔衣装"
+
+[[hold]]
+surface = "小悪魔な要"
+canonical = "小悪魔衣装"
+
+[[hold]]
+surface = "小白衣装"
+canonical = "正月衣装"
+
+[[hold]]
+surface = "川くマ衣装"
+canonical = "小悪魔衣装"
+
+[[hold]]
+surface = "悪くマ衣装"
+canonical = "小悪魔衣装"
+
+[[hold]]
+surface = "悪衣装"
+canonical = "小悪魔衣装"
+
+[[hold]]
+surface = "悪魔な衣装"
+canonical = "小悪魔衣装"
+
+[[hold]]
+surface = "悪魔以上"
+canonical = "小悪魔衣装"
+
+[[hold]]
+surface = "時間は一生"
+canonical = "2nd衣装"
+
+[[hold]]
+surface = "鑑定しよう"
+canonical = "2nd衣装"
+
+[[hold]]
+surface = "鑑定消"
+canonical = "2nd衣装"
+
+[[hold]]
+surface = "開拓組合"
+canonical = "開拓者組合"
+
+[[hold]]
+surface = "あ豆きんち"
+canonical = "あずきんち"
+
+[[hold]]
+surface = "小悪くマ以上"
+canonical = "小悪魔衣装"
+
+[[hold]]
+surface = "小白くマ一緒"
+canonical = "小悪魔衣装"
+
+[[alias]]
+surface = "あにゃちゃん"
+canonical = "アーニャちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "たべちゃん"
+canonical = "べーちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "鈴木ち"
+canonical = "あずきち"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "安きち"
+canonical = "あずきち"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "水きち"
+canonical = "あずきち"
+scope = "title"
+source = "oshi"
+
+# 2026-11-07 取り消し: クロノ・トリガーの配信の「アズたち」（エイラの呼び方）だった
+[[reject]]
+surface = "あずたち"
+canonical = "あずきち"
+source = "oshi"
+
+[[alias]]
+surface = "あきんち"
+canonical = "あずきんち"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ござさん"
+canonical = "ござるさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "みこすちゃん"
+canonical = "みこちゃん"
+scope = "near"
+competitors = ["ハコスちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "うみこっちゃん"
+canonical = "みこちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "スイちゃん"
+canonical = "すいちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ソラちゃん"
+canonical = "そらちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ペッコラ"
+canonical = "ぺこーら"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ラフちゃん"
+canonical = "ラプちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ラップちゃん"
+canonical = "ラプちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ラブちゃん"
+canonical = "ラプちゃん"
+scope = "near"
+competitors = ["フブちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "ぼこさん"
+canonical = "ロボ子さん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ロボっこさん"
+canonical = "ロボ子さん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ロボさん"
+canonical = "ロボ子さん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ロボっコさん"
+canonical = "ロボ子さん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ロボこさん"
+canonical = "ロボ子さん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ロぼコさん"
+canonical = "ロボ子さん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ロぼこさん"
+canonical = "ロボ子さん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ロもこさん"
+canonical = "ロボ子さん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ローボさん"
+canonical = "ロボ子さん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "リリカちゃん"
+canonical = "莉々華ちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "リカちゃん"
+canonical = "莉々華ちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ラでんちゃん"
+canonical = "らでんちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ラデンちゃん"
+canonical = "らでんちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "でんちゃん"
+canonical = "らでんちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ラデんちゃん"
+canonical = "らでんちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ペコちゃん"
+canonical = "ぺこちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "べこちゃん"
+canonical = "ぺこちゃん"
+scope = "near"
+competitors = ["にこちゃん", "べーちゃん", "みこちゃん", "ココちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "ペこちゃん"
+canonical = "ぺこちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "めこちゃん"
+canonical = "ぺこちゃん"
+scope = "near"
+competitors = ["にこちゃん", "みこちゃん", "ココちゃん", "メルちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "こやちゃん"
+canonical = "こよちゃん"
+scope = "near"
+competitors = ["ココちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "こうちゃん"
+canonical = "こよちゃん"
+scope = "near"
+competitors = ["すうちゃん", "ココちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "こよっちゃん"
+canonical = "こよちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ポよちゃん"
+canonical = "こよちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ごよちゃん"
+canonical = "こよちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "これよちゃん"
+canonical = "こよちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "まりちゃん"
+canonical = "まつりちゃん"
+scope = "near"
+competitors = ["マリンちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "祭りちゃん"
+canonical = "まつりちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "まちりちゃん"
+canonical = "まつりちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "つりちゃん"
+canonical = "まつりちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "まじりちゃん"
+canonical = "まつりちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "マちりちゃん"
+canonical = "まつりちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "マスりちゃん"
+canonical = "まつりちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "みおちゃん"
+canonical = "ミオちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "いおちゃん"
+canonical = "ミオちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "すばちゃん"
+canonical = "スバちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "すわちゃん"
+canonical = "スバちゃん"
+scope = "near"
+competitors = ["すいちゃん", "すうちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "すまちゃん"
+canonical = "スバちゃん"
+scope = "near"
+competitors = ["すいちゃん", "すうちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "あすばちゃん"
+canonical = "スバちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "しばちゃん"
+canonical = "スバちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "スーパーちゃん"
+canonical = "スバちゃん"
+scope = "near"
+competitors = ["すいちゃん", "すうちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "彼たん"
+canonical = "かなたん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "カナたん"
+canonical = "かなたん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "カナタン"
+canonical = "かなたん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "カラタン"
+canonical = "かなたん"
+scope = "title"
+source = "oshi"
+
+[[reject]]
+surface = "簡単"
+canonical = "かなたん"
+source = "oshi"
+
+[[alias]]
+surface = "カラたん"
+canonical = "かなたん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "金なタン"
+canonical = "かなたん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "えかナたん"
+canonical = "かなたん"
+scope = "title"
+source = "oshi"
+
+# 元は ルーナたん（near）。AZKi の呼び方は「んなたん」（2026-11-09 霧島リンカさん）
+[[alias]]
+surface = "うナたん"
+canonical = "んなたん"
+source = "oshi"
+
+[[alias]]
+surface = "まりんちゃん"
+canonical = "マリンちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "まりみちゃん"
+canonical = "マリンちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ポルちゃん"
+canonical = "ポルカちゃん"
+scope = "near"
+competitors = ["メルちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "トア様"
+canonical = "トワ様"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "とア様"
+canonical = "トワ様"
+scope = "title"
+source = "oshi"
+
+[[reject]]
+surface = "父様"
+canonical = "トワ様"
+source = "oshi"
+
+[[alias]]
+surface = "コロさん"
+canonical = "ころさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "コロネさん"
+canonical = "ころさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "白さん"
+canonical = "ころさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "このさん"
+canonical = "ころさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "クロさん"
+canonical = "ころさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ポロさん"
+canonical = "ころさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "コーネさん"
+canonical = "ころさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "イロさん"
+canonical = "ころさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "イコロさん"
+canonical = "ころさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "アクタン"
+canonical = "あくたん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "アクたん"
+canonical = "あくたん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "青君"
+canonical = "青くん"
+scope = "title"
+source = "oshi"
+
+[[hold]]
+surface = "おおくん"
+canonical = "青くん"
+source = "oshi"
+
+[[alias]]
+surface = "あおうくん"
+canonical = "青くん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "おかゆさん"
+canonical = "おかゆん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "お粥ゆ"
+canonical = "おかゆん"
+scope = "title"
+source = "oshi"
+
+[[hold]]
+surface = "岡ゆん"
+canonical = "おかゆん"
+source = "oshi"
+
+[[alias]]
+surface = "岡ゆげ"
+canonical = "おかゆん"
+scope = "title"
+source = "oshi"
+
+[[hold]]
+surface = "赤ゆん"
+canonical = "おかゆん"
+source = "oshi"
+
+[[alias]]
+surface = "岡やん"
+canonical = "おかゆん"
+scope = "title"
+source = "oshi"
+
+[[hold]]
+surface = "岡ゆ見"
+canonical = "おかゆん"
+source = "oshi"
+
+[[alias]]
+surface = "猫股たおか"
+canonical = "猫又おかゆ"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "シシロン"
+canonical = "ししろん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "シ士論"
+canonical = "ししろん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "えシロン"
+canonical = "ししろん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ふむさん"
+canonical = "フブさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ふブさん"
+canonical = "フブさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "吹さん"
+canonical = "フブさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "吹雪さん"
+canonical = "フブさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "フぶさん"
+canonical = "フブさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "しぶさん"
+canonical = "フブさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ヤブさん"
+canonical = "フブさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ほぶさん"
+canonical = "フブさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "吹きさん"
+canonical = "フブさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ふプさん"
+canonical = "フブさん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "のいちゃん"
+canonical = "ノエちゃん"
+scope = "near"
+competitors = ["すいちゃん", "ルイちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "あのえちゃん"
+canonical = "ノエちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "どえちゃん"
+canonical = "ノエちゃん"
+scope = "near"
+competitors = ["えーちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "ノエルのちゃん"
+canonical = "ノエルちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "のぶちゃん"
+canonical = "ノエちゃん"
+scope = "near"
+competitors = ["フブちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "ビビたん"
+canonical = "ヴィヴィたん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ビビちゃん"
+canonical = "ヴィヴィちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "メビたん"
+canonical = "ヴィヴィたん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ちはやちゃん"
+canonical = "千速ちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "解読者"
+canonical = "開拓者"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "ラミちゃん"
+canonical = "ラミィちゃん"
+scope = "near"
+competitors = ["ラプちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "ラミーちゃん"
+canonical = "ラミィちゃん"
+scope = "near"
+competitors = ["ラプちゃん"]
+source = "oshi"
+
+[[alias]]
+surface = "ラミーたん"
+canonical = "ラミたん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "金でちゃん"
+canonical = "奏ちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "リアナちゃん"
+canonical = "リオナちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "いろハちゃん"
+canonical = "いろはちゃん"
+scope = "title"
+source = "oshi"
+
+[[alias]]
+surface = "いろちゃん"
+canonical = "いろはちゃん"
+scope = "title"
+source = "oshi"
+
+[[reject]]
+surface = "Android"
+canonical = "アンドロイド"
+source = "aggressive"
+
+[[reject]]
+surface = "夢島"
+canonical = "ゆめしま"
+source = "aggressive"
+
+[[alias]]
+surface = "生息値"
+canonical = "生息地"
+source = "aggressive"
+
+[[alias]]
+surface = "蘇りの比術"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[reject]]
+surface = "住み心地"
+canonical = "すみごこち"
+source = "aggressive"
+
+[[alias]]
+surface = "来中"
+canonical = "ライチュウ"
+source = "aggressive"
+
+[[alias]]
+surface = "快力"
+canonical = "カイリキー"
+source = "aggressive"
+
+[[alias]]
+surface = "メディナ村"
+canonical = "メディーナ村"
+source = "aggressive"
+
+[[alias]]
+surface = "ゴツゴツ山"
+canonical = "ゴツゴツやま"
+source = "aggressive"
+
+[[alias]]
+surface = "臭い花"
+canonical = "クサイハナ"
+source = "aggressive"
+
+[[alias]]
+surface = "不思議そう"
+canonical = "フシギソウ"
+source = "aggressive"
+
+[[alias]]
+surface = "ぐにゃぐにゃ粘土"
+canonical = "ぐにゃぐにゃねんど"
+source = "aggressive"
+
+[[reject]]
+surface = "鳳凰"
+canonical = "ホウオウ"
+source = "aggressive"
+
+[[reject]]
+surface = "たまたま"
+canonical = "タマタマ"
+source = "aggressive"
+
+[[alias]]
+surface = "ひめりの身"
+canonical = "ヒメリのみ"
+source = "aggressive"
+
+[[alias]]
+surface = "ケロ松"
+canonical = "ケロマツ"
+source = "aggressive"
+
+[[reject]]
+surface = "坂崎"
+canonical = "逆崎"
+source = "aggressive"
+
+[[alias]]
+surface = "空ちゃん"
+canonical = "そらちゃん"
+source = "aggressive"
+
+[[alias]]
+surface = "坂崎やっこ"
+canonical = "逆崎約子"
+source = "aggressive"
+
+[[alias]]
+surface = "時の再果て"
+canonical = "時の最果て"
+source = "aggressive"
+
+[[alias]]
+surface = "解拓者"
+canonical = "開拓者"
+source = "aggressive"
+
+[[alias]]
+surface = "闇カラス"
+canonical = "ヤミカラス"
+source = "aggressive"
+
+[[reject]]
+surface = "沢村"
+canonical = "サワムラー"
+source = "aggressive"
+
+[[alias]]
+surface = "暗闇チェイス"
+canonical = "くらやみチェイス"
+source = "aggressive"
+
+[[alias]]
+surface = "この花"
+canonical = "コノハナ"
+source = "aggressive"
+
+[[alias]]
+surface = "どんより海辺"
+canonical = "ドンヨリうみべ"
+source = "aggressive"
+
+[[alias]]
+surface = "キラキラ浮島"
+canonical = "キラキラうきしま"
+source = "aggressive"
+
+[[hold]]
+surface = "一影"
+canonical = "ヒトカゲ"
+source = "aggressive"
+
+[[alias]]
+surface = "日の嵐"
+canonical = "ヒノアラシ"
+source = "aggressive"
+
+[[alias]]
+surface = "闇らみ"
+canonical = "ヤミラミ"
+source = "aggressive"
+
+[[alias]]
+surface = "ここ柄"
+canonical = "ココガラ"
+source = "aggressive"
+
+[[alias]]
+surface = "ライ中"
+canonical = "ライチュウ"
+source = "aggressive"
+
+[[alias]]
+surface = "星ガリス"
+canonical = "ホシガリス"
+source = "aggressive"
+
+[[alias]]
+surface = "時計灯"
+canonical = "時計塔"
+source = "aggressive"
+
+[[alias]]
+surface = "服スロ"
+canonical = "フクスロー"
+source = "aggressive"
+
+[[alias]]
+surface = "火の嵐"
+canonical = "ヒノアラシ"
+source = "aggressive"
+
+[[alias]]
+surface = "糸丸"
+canonical = "イトマル"
+source = "aggressive"
+
+[[alias]]
+surface = "謎の草"
+canonical = "ナゾノクサ"
+source = "aggressive"
+
+[[alias]]
+surface = "9コン"
+canonical = "キュウコン"
+source = "aggressive"
+
+[[alias]]
+surface = "ぽった石"
+canonical = "ポッタイシ"
+source = "aggressive"
+
+[[alias]]
+surface = "エリオ順"
+canonical = "襟尾純"
+source = "aggressive"
+
+[[alias]]
+surface = "ゼロ期制"
+canonical = "0期生"
+source = "aggressive"
+
+[[alias]]
+surface = "タラ服ジャーニー"
+canonical = "たらふくジャーニー"
+source = "aggressive"
+
+[[alias]]
+surface = "ミニ龍"
+canonical = "ミニリュウ"
+source = "aggressive"
+
+[[alias]]
+surface = "世のワール"
+canonical = "ヨノワール"
+source = "aggressive"
+
+[[reject]]
+surface = "人影"
+canonical = "ヒトカゲ"
+source = "aggressive"
+
+[[hold]]
+surface = "出すと出す"
+canonical = "ダストダス"
+source = "aggressive"
+
+[[alias]]
+surface = "変異隊"
+canonical = "変異体"
+source = "aggressive"
+
+[[alias]]
+surface = "富士さん"
+canonical = "富士山"
+source = "aggressive"
+
+[[alias]]
+surface = "幕の下"
+canonical = "マクノシタ"
+source = "aggressive"
+
+[[alias]]
+surface = "恋キング"
+canonical = "コイキング"
+source = "aggressive"
+
+[[alias]]
+surface = "揃えてクッキング"
+canonical = "そろえてクッキング"
+source = "aggressive"
+
+[[reject]]
+surface = "来光"
+canonical = "ライコウ"
+source = "aggressive"
+
+[[alias]]
+surface = "欲バリス"
+canonical = "ヨクバリス"
+source = "aggressive"
+
+[[hold]]
+surface = "猫ならば行ける"
+canonical = "猫ならばいける"
+source = "aggressive"
+
+[[alias]]
+surface = "糸まる"
+canonical = "イトマル"
+source = "aggressive"
+
+[[alias]]
+surface = "複スロ"
+canonical = "フクスロー"
+source = "aggressive"
+
+[[alias]]
+surface = "闇ラミー"
+canonical = "ヤミラミ"
+source = "aggressive"
+
+[[hold]]
+surface = "あの草"
+canonical = "アノクサ"
+source = "aggressive"
+
+[[hold]]
+surface = "ちょべり場"
+canonical = "ちょべりば"
+source = "aggressive"
+
+[[hold]]
+surface = "どて骨"
+canonical = "ドテッコツ"
+source = "aggressive"
+
+[[alias]]
+surface = "ひの嵐"
+canonical = "ヒノアラシ"
+source = "aggressive"
+
+[[hold]]
+surface = "よしみ初め"
+canonical = "吉見肇"
+source = "aggressive"
+
+[[hold]]
+surface = "よし見はじめ"
+canonical = "吉見肇"
+source = "aggressive"
+
+[[alias]]
+surface = "グにゃぐにゃ粘土"
+canonical = "ぐにゃぐにゃねんど"
+source = "aggressive"
+
+[[hold]]
+surface = "ゼロ期星"
+canonical = "0期生"
+source = "aggressive"
+
+[[hold]]
+surface = "ゼロ騎生"
+canonical = "0期生"
+source = "aggressive"
+
+[[hold]]
+surface = "ダスと出す"
+canonical = "ダストダス"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンの気はい"
+canonical = "ポケモンの気配"
+source = "aggressive"
+
+[[hold]]
+surface = "世のわる"
+canonical = "ヨノワール"
+source = "aggressive"
+
+[[hold]]
+surface = "丸ノーム"
+canonical = "マルノーム"
+source = "aggressive"
+
+[[hold]]
+surface = "丸マイン"
+canonical = "マルマイン"
+source = "aggressive"
+
+[[reject]]
+surface = "人かげ"
+canonical = "ヒトカゲ"
+source = "aggressive"
+
+[[hold]]
+surface = "嘘蜂"
+canonical = "ウソハチ"
+source = "aggressive"
+
+[[hold]]
+surface = "変異対"
+canonical = "変異体"
+source = "aggressive"
+
+[[hold]]
+surface = "夢しまっ"
+canonical = "ゆめしま"
+source = "aggressive"
+
+[[hold]]
+surface = "大海電"
+canonical = "タイカイデン"
+source = "aggressive"
+
+[[hold]]
+surface = "宿キング"
+canonical = "ヤドキング"
+source = "aggressive"
+
+[[alias]]
+surface = "寝ポラボマート"
+canonical = "ねぽらぼマート"
+source = "aggressive"
+
+[[hold]]
+surface = "張り手山"
+canonical = "ハリテヤマ"
+source = "aggressive"
+
+[[hold]]
+surface = "星がリス"
+canonical = "ホシガリス"
+source = "aggressive"
+
+[[hold]]
+surface = "時計島"
+canonical = "時計塔"
+source = "aggressive"
+
+[[hold]]
+surface = "月光画"
+canonical = "ゲッコウガ"
+source = "aggressive"
+
+[[alias]]
+surface = "波がきゆう太郎"
+canonical = "並垣祐太郎"
+source = "aggressive"
+
+[[hold]]
+surface = "消えずのアンドン"
+canonical = "消えずの行灯"
+source = "aggressive"
+
+[[reject]]
+surface = "深まる"
+canonical = "フカマル"
+source = "aggressive"
+
+[[hold]]
+surface = "白石道代"
+canonical = "白石美智代"
+source = "aggressive"
+
+[[reject]]
+surface = "石つぶて"
+canonical = "イシツブテ"
+source = "aggressive"
+
+[[hold]]
+surface = "禁絞り公園"
+canonical = "錦糸堀公園"
+source = "aggressive"
+
+[[hold]]
+surface = "福スロ"
+canonical = "フクスロー"
+source = "aggressive"
+
+[[hold]]
+surface = "綺麗花"
+canonical = "キレイハナ"
+source = "aggressive"
+
+[[reject]]
+surface = "置いてけぼり"
+canonical = "置いてけ堀"
+source = "aggressive"
+
+[[hold]]
+surface = "置いてけボリ"
+canonical = "置いてけ堀"
+source = "aggressive"
+
+[[hold]]
+surface = "置いてけボリー"
+canonical = "置いてけ堀"
+source = "aggressive"
+
+[[reject]]
+surface = "翔午"
+canonical = "彰吾"
+source = "aggressive"
+
+[[hold]]
+surface = "蜜は2"
+canonical = "ミツハニー"
+source = "aggressive"
+
+[[hold]]
+surface = "複スロー"
+canonical = "フクスロー"
+source = "aggressive"
+
+[[hold]]
+surface = "足洗屋敷"
+canonical = "足洗い屋敷"
+source = "aggressive"
+
+[[hold]]
+surface = "銭ガメ"
+canonical = "ゼニガメ"
+source = "aggressive"
+
+[[hold]]
+surface = "青ガラス"
+canonical = "アオガラス"
+source = "aggressive"
+
+[[hold]]
+surface = "顎じムシ"
+canonical = "アゴジムシ"
+source = "aggressive"
+
+[[hold]]
+surface = "黒すずミオ"
+canonical = "黒鈴ミヲ"
+source = "aggressive"
+
+[[hold]]
+surface = "黒バット"
+canonical = "クロバット"
+source = "aggressive"
+
+[[reject]]
+surface = "鈴木"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "ポカちゃん"
+canonical = "ポカジャン"
+source = "aggressive"
+
+[[alias]]
+surface = "白石道"
+canonical = "白石美智代"
+source = "aggressive"
+
+[[hold]]
+surface = "アズノ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "ゼラゲさ"
+canonical = "ゼロゲッサー"
+source = "aggressive"
+
+[[alias]]
+surface = "小ざるさん"
+canonical = "ござるさん"
+scope = "title"
+source = "aggressive"
+
+[[hold]]
+surface = "あずく"
+canonical = "AZKi"
+source = "aggressive"
+
+[[reject]]
+surface = "あずち"
+canonical = "あずきち"
+source = "aggressive"
+
+[[reject]]
+surface = "水希"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "白石道夫"
+canonical = "白石美智代"
+source = "aggressive"
+
+[[hold]]
+surface = "置いてけり"
+canonical = "置いてけ堀"
+source = "aggressive"
+
+[[hold]]
+surface = "送り表紙"
+canonical = "送り拍子木"
+source = "aggressive"
+
+[[reject]]
+surface = "あずみ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "よしみは初め"
+canonical = "吉見肇"
+source = "aggressive"
+
+[[hold]]
+surface = "わずき"
+canonical = "AZKi"
+source = "aggressive"
+
+[[reject]]
+surface = "アズル"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "グランドリオ"
+canonical = "グランドリオン"
+source = "aggressive"
+
+[[hold]]
+surface = "あずあ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "ぽかちゃん"
+canonical = "ポカジャン"
+source = "aggressive"
+
+[[hold]]
+surface = "まずき"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "アズワ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "スちゃん"
+canonical = "すいちゃん"
+source = "aggressive"
+
+[[hold]]
+surface = "福長よ子"
+canonical = "福永葉子"
+source = "aggressive"
+
+[[reject]]
+surface = "預かっ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "よしみは始め"
+canonical = "吉見肇"
+source = "aggressive"
+
+[[hold]]
+surface = "ホライズンフェスティバル"
+canonical = "ホライゾンフェスティバル"
+source = "aggressive"
+
+[[hold]]
+surface = "ラクシティ"
+canonical = "ラクーンシティ"
+source = "aggressive"
+
+[[reject]]
+surface = "矢月"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あず月"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "いちゃん"
+canonical = "すいちゃん"
+source = "aggressive"
+
+[[hold]]
+surface = "はず木"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "ふちゃん"
+canonical = "フブちゃん"
+source = "aggressive"
+
+[[hold]]
+surface = "アズバ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "アズロ系"
+canonical = "AZロケ"
+source = "aggressive"
+
+[[hold]]
+surface = "アンドライド"
+canonical = "アンドロイド"
+source = "aggressive"
+
+[[alias]]
+surface = "グランとリオン"
+canonical = "グランドリオン"
+source = "aggressive"
+
+[[alias]]
+surface = "デガぬちゃん"
+canonical = "デカヌチャン"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモン気配"
+canonical = "ポケモンの気配"
+source = "aggressive"
+
+[[hold]]
+surface = "包み鉄"
+canonical = "津詰徹生"
+source = "aggressive"
+
+[[reject]]
+surface = "柚月"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "禁縛り公園"
+canonical = "錦糸堀公園"
+source = "aggressive"
+
+[[hold]]
+surface = "赤いハート"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "あずこ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あずず"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あずら"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あ吉"
+canonical = "あずきち"
+source = "aggressive"
+
+[[hold]]
+surface = "あ王城"
+canonical = "魔王城"
+source = "aggressive"
+
+[[hold]]
+surface = "えずき"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "こら先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ごるさん"
+canonical = "ござるさん"
+source = "aggressive"
+
+[[alias]]
+surface = "ご猿さん"
+canonical = "ござるさん"
+scope = "title"
+source = "aggressive"
+
+[[hold]]
+surface = "さずき"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "アズボ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[alias]]
+surface = "アントロイド"
+canonical = "アンドロイド"
+source = "aggressive"
+
+[[hold]]
+surface = "グランリオン"
+canonical = "グランドリオン"
+source = "aggressive"
+
+[[hold]]
+surface = "ハーボニーガーデン"
+canonical = "ハーモニーガーデン"
+source = "aggressive"
+
+[[alias]]
+surface = "小猿さん"
+canonical = "ござるさん"
+scope = "title"
+source = "aggressive"
+
+[[hold]]
+surface = "旧安田店園"
+canonical = "旧安田庭園"
+source = "aggressive"
+
+[[hold]]
+surface = "暗吉"
+canonical = "あずきち"
+source = "aggressive"
+
+[[hold]]
+surface = "暗闇みチェイス"
+canonical = "くらやみチェイス"
+source = "aggressive"
+
+[[hold]]
+surface = "暗闇チェース"
+canonical = "くらやみチェイス"
+source = "aggressive"
+
+[[hold]]
+surface = "楽シティ"
+canonical = "ラクーンシティ"
+source = "aggressive"
+
+[[hold]]
+surface = "水来"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇り比術"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇れの秘術"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "追いてけり"
+canonical = "置いてけ堀"
+source = "aggressive"
+
+[[alias]]
+surface = "追いてけ堀"
+canonical = "置いてけ堀"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓所"
+canonical = "開拓者"
+source = "aggressive"
+
+[[reject]]
+surface = "あき地"
+canonical = "あずきち"
+source = "aggressive"
+
+[[hold]]
+surface = "あずうち"
+canonical = "あずきち"
+source = "aggressive"
+
+[[hold]]
+surface = "あずえ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あずが切っ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[alias]]
+surface = "あずぎ"
+canonical = "AZKi"
+scope = "title"
+source = "aggressive"
+
+[[hold]]
+surface = "あずけち"
+canonical = "あずきち"
+source = "aggressive"
+
+[[reject]]
+surface = "あずさ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あずし"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あずじ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あずっと"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あずば"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あずる"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あずれ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あずア"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あず好き"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あず預"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "あず預きち"
+canonical = "あずきち"
+source = "aggressive"
+
+[[hold]]
+surface = "あの基地"
+canonical = "あずきち"
+source = "aggressive"
+
+[[hold]]
+surface = "あれ水晶"
+canonical = "ドレス衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "あんきち"
+canonical = "あずきち"
+source = "aggressive"
+
+[[hold]]
+surface = "いっちゃん"
+canonical = "すいちゃん"
+source = "aggressive"
+
+[[hold]]
+surface = "おざるさん"
+canonical = "ござるさん"
+source = "aggressive"
+
+[[hold]]
+surface = "おずき"
+canonical = "AZKi"
+source = "aggressive"
+
+[[alias]]
+surface = "こざるさん"
+canonical = "ござるさん"
+scope = "title"
+source = "aggressive"
+
+[[hold]]
+surface = "こずき"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "しろボタン"
+canonical = "獅白ぼたん"
+source = "aggressive"
+
+[[hold]]
+surface = "すりちゃん"
+canonical = "すいちゃん"
+source = "aggressive"
+
+[[hold]]
+surface = "すーちゃん"
+canonical = "すいちゃん"
+source = "aggressive"
+
+[[hold]]
+surface = "そう先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[reject]]
+surface = "たずき"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "ちょっと先生"
+canonical = "ちょこ先生"
+source = "aggressive"
+
+[[hold]]
+surface = "でかちゃん"
+canonical = "デカヌチャン"
+source = "aggressive"
+
+[[hold]]
+surface = "でかぬちゃんで"
+canonical = "デカヌチャン"
+source = "aggressive"
+
+[[hold]]
+surface = "はちゃま"
+canonical = "はあちゃま"
+source = "aggressive"
+
+[[hold]]
+surface = "まいちゃん"
+canonical = "すいちゃん"
+source = "aggressive"
+
+[[hold]]
+surface = "まず来"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "よしみはめ"
+canonical = "吉見肇"
+source = "aggressive"
+
+[[hold]]
+surface = "よしめはじめ"
+canonical = "吉見肇"
+source = "aggressive"
+
+[[hold]]
+surface = "ろんこさん"
+canonical = "ロボ子さん"
+source = "aggressive"
+
+[[hold]]
+surface = "アずち"
+canonical = "あずきち"
+source = "aggressive"
+
+[[hold]]
+surface = "アズエ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "アズケ地"
+canonical = "あずきち"
+source = "aggressive"
+
+[[hold]]
+surface = "アズコ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "アズド"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "アズナ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "アズネ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "アズラ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[reject]]
+surface = "アズール"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "アドロイド"
+canonical = "アンドロイド"
+source = "aggressive"
+
+[[hold]]
+surface = "アンドロード"
+canonical = "アンドロイド"
+source = "aggressive"
+
+[[hold]]
+surface = "アーモニーガーデン"
+canonical = "ハーモニーガーデン"
+source = "aggressive"
+
+[[hold]]
+surface = "ア図が来"
+canonical = "AZKi"
+source = "aggressive"
+
+[[alias]]
+surface = "エリオジン"
+canonical = "襟尾純"
+source = "aggressive"
+
+[[hold]]
+surface = "オゲさ"
+canonical = "GeoGuessr"
+source = "aggressive"
+
+[[hold]]
+surface = "オメディナ村"
+canonical = "メディーナ村"
+source = "aggressive"
+
+[[hold]]
+surface = "カードオブリード"
+canonical = "カードオブグリード"
+source = "aggressive"
+
+[[hold]]
+surface = "ガズき"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "ガツゴツ山"
+canonical = "ゴツゴツやま"
+source = "aggressive"
+
+[[hold]]
+surface = "キラキラ浮し"
+canonical = "キラキラうきしま"
+source = "aggressive"
+
+[[alias]]
+surface = "クラミチェイス"
+canonical = "くらやみチェイス"
+source = "aggressive"
+
+[[hold]]
+surface = "クロスズミ"
+canonical = "黒鈴ミヲ"
+source = "aggressive"
+
+[[hold]]
+surface = "クロスミオ"
+canonical = "黒鈴ミヲ"
+source = "aggressive"
+
+[[hold]]
+surface = "クロミスタワー"
+canonical = "プロミスタワー"
+source = "aggressive"
+
+[[hold]]
+surface = "グラントリオン"
+canonical = "グランドリオン"
+source = "aggressive"
+
+[[hold]]
+surface = "グランドリン"
+canonical = "グランドリオン"
+source = "aggressive"
+
+[[hold]]
+surface = "グランドレオン"
+canonical = "グランドリオン"
+source = "aggressive"
+
+[[hold]]
+surface = "グラードリオン"
+canonical = "グランドリオン"
+source = "aggressive"
+
+[[hold]]
+surface = "グレネードランチチャー"
+canonical = "グレネードランチャー"
+source = "aggressive"
+
+[[hold]]
+surface = "ゲーバーズステーション"
+canonical = "ゲーマーズステーション"
+source = "aggressive"
+
+[[hold]]
+surface = "ゴザさん"
+canonical = "ござるさん"
+source = "aggressive"
+
+[[hold]]
+surface = "ゴツゴツの山"
+canonical = "ゴツゴツやま"
+source = "aggressive"
+
+[[hold]]
+surface = "サイバーライン"
+canonical = "サイバーライフ"
+source = "aggressive"
+
+[[hold]]
+surface = "サパサ荒野"
+canonical = "パサパサこうや"
+source = "aggressive"
+
+[[hold]]
+surface = "サード以上"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ザルさん"
+canonical = "ござるさん"
+source = "aggressive"
+
+[[hold]]
+surface = "ス1本"
+canonical = "すいちゃん"
+source = "aggressive"
+
+[[reject]]
+surface = "スズキ"
+canonical = "AZKi"
+source = "aggressive"
+
+[[alias]]
+surface = "スブラッシュボール"
+canonical = "スプラッシュボール"
+source = "aggressive"
+
+[[alias]]
+surface = "スプラッシボール"
+canonical = "スプラッシュボール"
+source = "aggressive"
+
+[[hold]]
+surface = "スプラッシュボード"
+canonical = "スプラッシュボール"
+source = "aggressive"
+
+[[hold]]
+surface = "スプラッシュモール"
+canonical = "スプラッシュボール"
+source = "aggressive"
+
+[[hold]]
+surface = "スーちゃん"
+canonical = "すいちゃん"
+source = "aggressive"
+
+[[hold]]
+surface = "ズマ王城"
+canonical = "魔王城"
+source = "aggressive"
+
+[[hold]]
+surface = "タラクジャーニー"
+canonical = "たらふくジャーニー"
+source = "aggressive"
+
+[[hold]]
+surface = "タラフジャーニー"
+canonical = "たらふくジャーニー"
+source = "aggressive"
+
+[[hold]]
+surface = "ダポップラグン"
+canonical = "ソーダポップラグーン"
+source = "aggressive"
+
+[[hold]]
+surface = "デカちゃん"
+canonical = "デカヌチャン"
+source = "aggressive"
+
+[[hold]]
+surface = "ネポラボート"
+canonical = "ねぽらぼマート"
+source = "aggressive"
+
+[[hold]]
+surface = "ハーマニーガーデン"
+canonical = "ハーモニーガーデン"
+source = "aggressive"
+
+[[hold]]
+surface = "ハーモニーガーデ"
+canonical = "ハーモニーガーデン"
+source = "aggressive"
+
+[[hold]]
+surface = "パサパサ公約"
+canonical = "パサパサこうや"
+source = "aggressive"
+
+[[hold]]
+surface = "ファーストの衣装"
+canonical = "1st衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "フェイスバウンテン"
+canonical = "フェイスマウンテン"
+source = "aggressive"
+
+[[alias]]
+surface = "フォチンネットワーク"
+canonical = "フォーチュンネットワーク"
+source = "aggressive"
+
+[[alias]]
+surface = "フォーチンネットワーク"
+canonical = "フォーチュンネットワーク"
+source = "aggressive"
+
+[[hold]]
+surface = "ブルケニオン"
+canonical = "ボルケニオン"
+source = "aggressive"
+
+[[hold]]
+surface = "ホロベンクエスト"
+canonical = "ホロメンクエスト"
+source = "aggressive"
+
+[[hold]]
+surface = "ボイちゃん"
+canonical = "すいちゃん"
+source = "aggressive"
+
+[[hold]]
+surface = "ボルケリオン"
+canonical = "ボルケニオン"
+source = "aggressive"
+
+[[hold]]
+surface = "ポカジやり"
+canonical = "ポカジャン"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンセント"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "マずき"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "マズステーション"
+canonical = "ゲーマーズステーション"
+source = "aggressive"
+
+[[hold]]
+surface = "メガセフィア"
+canonical = "メガスフィア"
+source = "aggressive"
+
+[[hold]]
+surface = "メガソフィア"
+canonical = "メガスフィア"
+source = "aggressive"
+
+[[hold]]
+surface = "ライブステ"
+canonical = "ライブステージ"
+source = "aggressive"
+
+[[hold]]
+surface = "ロこさん"
+canonical = "ロボ子さん"
+source = "aggressive"
+
+[[alias]]
+surface = "ロトリーチまちゃマックス"
+canonical = "ロトリー・ちゃまちゃマックス"
+source = "aggressive"
+
+[[hold]]
+surface = "ロブコさん"
+canonical = "ロボ子さん"
+source = "aggressive"
+
+[[hold]]
+surface = "ロボット三"
+canonical = "ロボ子さん"
+source = "aggressive"
+
+[[hold]]
+surface = "ローズ来"
+canonical = "AZKi"
+source = "aggressive"
+
+[[reject]]
+surface = "伊月"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "包み鉄音"
+canonical = "津詰徹生"
+source = "aggressive"
+
+[[hold]]
+surface = "吉見はめ"
+canonical = "吉見肇"
+source = "aggressive"
+
+[[hold]]
+surface = "回復者"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "回読者"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "太陽せ"
+canonical = "太陽石"
+source = "aggressive"
+
+[[hold]]
+surface = "寝ポラボート"
+canonical = "ねぽらぼマート"
+source = "aggressive"
+
+[[reject]]
+surface = "小月"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "届き始め"
+canonical = "轟はじめ"
+source = "aggressive"
+
+[[hold]]
+surface = "快読者"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "恐竜ジ"
+canonical = "恐竜人"
+source = "aggressive"
+
+[[hold]]
+surface = "救急プレー"
+canonical = "救急スプレー"
+source = "aggressive"
+
+[[hold]]
+surface = "星持ち水星"
+canonical = "星街すいせい"
+source = "aggressive"
+
+[[hold]]
+surface = "時の再派"
+canonical = "時の最果て"
+source = "aggressive"
+
+[[reject]]
+surface = "木月"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "未来カンパラ"
+canonical = "未来カンパネラ"
+source = "aggressive"
+
+[[alias]]
+surface = "本じ7不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "本じゃ7不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "本女7不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "本条7不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "柚ずチョコ"
+canonical = "癒月ちょこ"
+source = "aggressive"
+
+[[hold]]
+surface = "正月以上"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "水き"
+canonical = "AZKi"
+source = "aggressive"
+
+[[hold]]
+surface = "波がきゆ太郎"
+canonical = "並垣祐太郎"
+source = "aggressive"
+
+[[hold]]
+surface = "消えずの安ド"
+canonical = "消えずの行灯"
+source = "aggressive"
+
+[[hold]]
+surface = "犬神コロナ"
+canonical = "戌神ころね"
+source = "aggressive"
+
+[[hold]]
+surface = "犬神コロネット"
+canonical = "戌神ころね"
+source = "aggressive"
+
+[[reject]]
+surface = "王城"
+canonical = "魔王城"
+source = "aggressive"
+
+[[hold]]
+surface = "知らぬフレア"
+canonical = "不知火フレア"
+source = "aggressive"
+
+[[hold]]
+surface = "禁止ぶり公園"
+canonical = "錦糸堀公園"
+source = "aggressive"
+
+[[hold]]
+surface = "福が洋子"
+canonical = "福永葉子"
+source = "aggressive"
+
+[[hold]]
+surface = "福ナ洋子"
+canonical = "福永葉子"
+source = "aggressive"
+
+[[hold]]
+surface = "稲中ミュージック"
+canonical = "イノナカミュージック"
+source = "aggressive"
+
+[[reject]]
+surface = "空き地"
+canonical = "あずきち"
+source = "aggressive"
+
+[[hold]]
+surface = "置いて煙"
+canonical = "置いてけ堀"
+source = "aggressive"
+
+[[hold]]
+surface = "菌糸堀公園"
+canonical = "錦糸堀公園"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの術"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "解拓し"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "解拓茶"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "誘いしよう"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "読み返りの比術"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "調座眉"
+canonical = "蝶澤麻由"
+source = "aggressive"
+
+[[hold]]
+surface = "調澤眉"
+canonical = "蝶澤麻由"
+source = "aggressive"
+
+[[hold]]
+surface = "謎のGoogle"
+canonical = "なぞのゴーグル"
+source = "aggressive"
+
+[[hold]]
+surface = "足荒屋敷"
+canonical = "足洗い屋敷"
+source = "aggressive"
+
+[[hold]]
+surface = "追い手け堀"
+canonical = "置いてけ堀"
+source = "aggressive"
+
+[[hold]]
+surface = "送り表義"
+canonical = "送り拍子木"
+source = "aggressive"
+
+[[hold]]
+surface = "鈴きち"
+canonical = "あずきち"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓知ら"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓茶"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "開読者"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "青年さ行っ"
+canonical = "千年祭"
+source = "aggressive"
+
+[[hold]]
+surface = "青年祭"
+canonical = "千年祭"
+source = "aggressive"
+
+[[hold]]
+surface = "魔法城"
+canonical = "魔王城"
+source = "aggressive"
+
+[[hold]]
+surface = "ゼロ星"
+canonical = "0期生"
+source = "aggressive"
+
+[[hold]]
+surface = "回復し"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "じ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "新衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "この衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[reject]]
+surface = "水晶"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "みこ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "このポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "人間たちの記録"
+canonical = "ニンゲンのきろく"
+source = "aggressive"
+
+[[reject]]
+surface = "対象"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[reject]]
+surface = "相性"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓する"
+canonical = "開拓者"
+source = "aggressive"
+
+[[reject]]
+surface = "名称"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[reject]]
+surface = "恐竜"
+canonical = "恐竜人"
+source = "aggressive"
+
+[[hold]]
+surface = "あき先輩"
+canonical = "アキロゼ先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "解体し"
+canonical = "開拓者"
+source = "aggressive"
+
+[[reject]]
+surface = "代償"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "あとはあと"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "あ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "お先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "にわ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ラミー先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "今日ここ"
+canonical = "桐生ココ"
+source = "aggressive"
+
+[[reject]]
+surface = "工場"
+canonical = "魔王城"
+source = "aggressive"
+
+[[reject]]
+surface = "解消"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ワンチャン"
+canonical = "エンチャント"
+source = "aggressive"
+
+[[hold]]
+surface = "狼さん"
+canonical = "大神ミオ"
+source = "aggressive"
+
+[[hold]]
+surface = "こ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "鉄ののべ"
+canonical = "テツノコウベ"
+source = "aggressive"
+
+[[hold]]
+surface = "ここにポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "ここポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "これポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "みお先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ゴツゴツし"
+canonical = "ゴツゴツやま"
+source = "aggressive"
+
+[[hold]]
+surface = "リカ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "吹先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[reject]]
+surface = "大将"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "かゆ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "このエリア"
+canonical = "カジノエリア"
+source = "aggressive"
+
+[[hold]]
+surface = "み先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ゆ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[reject]]
+surface = "合性"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[reject]]
+surface = "流行"
+canonical = "桐生ココ"
+source = "aggressive"
+
+[[hold]]
+surface = "紫さん"
+canonical = "紫咲シオン"
+source = "aggressive"
+
+[[hold]]
+surface = "紹介しよう"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "おか先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "わこ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "アズロイド"
+canonical = "アンドロイド"
+source = "aggressive"
+
+[[hold]]
+surface = "アズロベスティイズ"
+canonical = "あずいろ BESTIE DAYS"
+source = "aggressive"
+
+[[hold]]
+surface = "トレーナーさん"
+canonical = "トレーナーランク"
+source = "aggressive"
+
+[[reject]]
+surface = "バレンタイン"
+canonical = "ジル・バレンタイン"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモン何"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ライブスタート"
+canonical = "ライブステージ"
+source = "aggressive"
+
+[[hold]]
+surface = "宮先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "岡先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "木先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ちょっと編成"
+canonical = "ちょこ先生"
+source = "aggressive"
+
+[[hold]]
+surface = "なんかちゃんと"
+canonical = "エンチャント"
+source = "aggressive"
+
+[[hold]]
+surface = "もう一生"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ラデ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[reject]]
+surface = "制作者"
+canonical = "開拓者"
+source = "aggressive"
+
+[[reject]]
+surface = "参照"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "回倒し"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "寺先生"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "小金行き"
+canonical = "虎金妃笑虎"
+source = "aggressive"
+
+[[hold]]
+surface = "消えずの安"
+canonical = "消えずの行灯"
+source = "aggressive"
+
+[[hold]]
+surface = "足原屋敷"
+canonical = "足洗い屋敷"
+source = "aggressive"
+
+[[hold]]
+surface = "あず先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ここサーキット"
+canonical = "日光サーキット"
+source = "aggressive"
+
+[[hold]]
+surface = "ふ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ま先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "より先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ア先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ノル先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ブラッシュボール"
+canonical = "スプラッシュボール"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンさん"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "今ポルカ"
+canonical = "尾丸ポルカ"
+source = "aggressive"
+
+[[hold]]
+surface = "今先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[reject]]
+surface = "参加賞"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "恐竜みんな"
+canonical = "恐竜人"
+source = "aggressive"
+
+[[reject]]
+surface = "推奨"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "最初来"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "紫の円"
+canonical = "紫咲シオン"
+source = "aggressive"
+
+[[hold]]
+surface = "置いて堀"
+canonical = "置いてけ堀"
+source = "aggressive"
+
+[[hold]]
+surface = "買いたくなっ"
+canonical = "開拓者"
+source = "aggressive"
+
+[[reject]]
+surface = "赤ちゃん"
+canonical = "ナカヌチャン"
+source = "aggressive"
+
+[[hold]]
+surface = "選択者"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "鉄の壁"
+canonical = "テツノカイナ"
+source = "aggressive"
+
+[[reject]]
+surface = "開発者"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "雪長"
+canonical = "癒月ちょこ"
+source = "aggressive"
+
+[[hold]]
+surface = "Dの衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "あのアロイド"
+canonical = "アンドロイド"
+source = "aggressive"
+
+[[hold]]
+surface = "あれ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "いっか一旦"
+canonical = "タイカイデン"
+source = "aggressive"
+
+[[hold]]
+surface = "おかゆみお"
+canonical = "大神ミオ"
+source = "aggressive"
+
+[[hold]]
+surface = "ぐにゃぐにゃ粘ん"
+canonical = "ぐにゃぐにゃねんど"
+source = "aggressive"
+
+[[hold]]
+surface = "ここのポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "これ一生"
+canonical = "ドレス衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "これ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "さっき一緒"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "さよなら楽"
+canonical = "さよならヒーロー"
+source = "aggressive"
+
+[[hold]]
+surface = "ちょっと音声"
+canonical = "ちょこ先生"
+source = "aggressive"
+
+[[hold]]
+surface = "ちり先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ついた列車"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "ふわ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "みや先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "みよ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "もう先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "わか先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "クライミチェース"
+canonical = "くらやみチェイス"
+source = "aggressive"
+
+[[hold]]
+surface = "ショットボタン"
+canonical = "獅白ぼたん"
+source = "aggressive"
+
+[[hold]]
+surface = "ペコ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ポカポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "ポカ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモン3"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンの方"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンはい"
+canonical = "ポケモンの気配"
+source = "aggressive"
+
+[[hold]]
+surface = "ミー先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ライブするって言っ"
+canonical = "ライブステージ"
+source = "aggressive"
+
+[[hold]]
+surface = "ロボ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "人間の作っ"
+canonical = "ニンゲンのきろく"
+source = "aggressive"
+
+[[hold]]
+surface = "同じよう"
+canonical = "魔王城"
+source = "aggressive"
+
+[[hold]]
+surface = "恐竜来"
+canonical = "恐竜人"
+source = "aggressive"
+
+[[hold]]
+surface = "暗闇みチェース"
+canonical = "くらやみチェイス"
+source = "aggressive"
+
+[[hold]]
+surface = "最初そう"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "最初日"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "未来カネラ"
+canonical = "未来カンパネラ"
+source = "aggressive"
+
+[[hold]]
+surface = "本じな不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "本先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "歌とダンス"
+canonical = "petal dance"
+source = "aggressive"
+
+[[hold]]
+surface = "沖恵商"
+canonical = "興家彰吾"
+source = "aggressive"
+
+[[hold]]
+surface = "猫ポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "猫先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "白いし道"
+canonical = "白石美智代"
+source = "aggressive"
+
+[[hold]]
+surface = "石炭化"
+canonical = "セキタンザン"
+source = "aggressive"
+
+[[hold]]
+surface = "禁止公園"
+canonical = "錦糸堀公園"
+source = "aggressive"
+
+[[reject]]
+surface = "継承"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの秘密"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "赤先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "鉄のはしご"
+canonical = "テツノカシラ"
+source = "aggressive"
+
+[[hold]]
+surface = "鉄のドア"
+canonical = "テツノドクガ"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓さん"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "33歳"
+canonical = "千年祭"
+source = "aggressive"
+
+[[hold]]
+surface = "3大将"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "5衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "6シティ"
+canonical = "ラクーンシティ"
+source = "aggressive"
+
+[[hold]]
+surface = "Aがない"
+canonical = "RA9"
+source = "aggressive"
+
+[[hold]]
+surface = "あかいってこと"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "あくまで消"
+canonical = "小悪魔衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "あち先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "あと一生"
+canonical = "1st衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "あと先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "あの衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "あるいはあの"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "あるえ帯"
+canonical = "RA9"
+source = "aggressive"
+
+[[hold]]
+surface = "あるエデン"
+canonical = "RA9"
+source = "aggressive"
+
+[[hold]]
+surface = "あーナ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "あ木先輩"
+canonical = "アキロゼ先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "あ水晶"
+canonical = "1st衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "いい推奨"
+canonical = "4th衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "いう服ジャーニー"
+canonical = "たらふくジャーニー"
+source = "aggressive"
+
+[[hold]]
+surface = "いかなんかミュージック"
+canonical = "イノナカミュージック"
+source = "aggressive"
+
+[[hold]]
+surface = "いた列車"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "いやちゃんと"
+canonical = "エンチャント"
+source = "aggressive"
+
+[[hold]]
+surface = "い先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "い王国"
+canonical = "ジール王国"
+source = "aggressive"
+
+[[hold]]
+surface = "ういしょう"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "うき先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "うさぎはペコら"
+canonical = "兎田ぺこら"
+source = "aggressive"
+
+[[hold]]
+surface = "えっと水晶"
+canonical = "4th衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "えな衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "え水晶"
+canonical = "4th衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "え見はじめ"
+canonical = "吉見肇"
+source = "aggressive"
+
+[[hold]]
+surface = "おいて堀"
+canonical = "置いてけ堀"
+source = "aggressive"
+
+[[hold]]
+surface = "おお先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "おきえ称号"
+canonical = "興家彰吾"
+source = "aggressive"
+
+[[hold]]
+surface = "おじ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "おまるまる"
+canonical = "尾丸ポルカ"
+source = "aggressive"
+
+[[hold]]
+surface = "おゆ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "お一生"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "かまい色ハ"
+canonical = "風真いろは"
+source = "aggressive"
+
+[[hold]]
+surface = "く先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ぐにゃぐにゃレント"
+canonical = "ぐにゃぐにゃねんど"
+source = "aggressive"
+
+[[hold]]
+surface = "こうちゃんと"
+canonical = "エンチャント"
+source = "aggressive"
+
+[[hold]]
+surface = "こう衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ここがポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "ここはポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "ここもポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "ここ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "こっちポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "ことを推奨"
+canonical = "4th衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "こと一生"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "この一生"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "この先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "この王国"
+canonical = "ジール王国"
+source = "aggressive"
+
+[[hold]]
+surface = "こよ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "これ衣装"
+canonical = "ドレス衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ごは一生"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ご衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "さようならヒー"
+canonical = "さよならヒーロー"
+source = "aggressive"
+
+[[hold]]
+surface = "しこ先生"
+canonical = "ちょこ先生"
+source = "aggressive"
+
+[[hold]]
+surface = "したアレルギー"
+canonical = "自己アレルギー"
+source = "aggressive"
+
+[[hold]]
+surface = "してボタン"
+canonical = "獅白ぼたん"
+source = "aggressive"
+
+[[hold]]
+surface = "しょういしょう"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "し先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "じいちゃんと"
+canonical = "エンチャント"
+source = "aggressive"
+
+[[hold]]
+surface = "じゃあポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "すき先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "するウイルス"
+canonical = "Tウイルス"
+source = "aggressive"
+
+[[hold]]
+surface = "すれば一生"
+canonical = "ドレス衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "す推奨"
+canonical = "4th衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ずっと先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "そう一生"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "そう水晶"
+canonical = "4th衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "そこにポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "そして初め"
+canonical = "吉見肇"
+source = "aggressive"
+
+[[hold]]
+surface = "そのちゃんと"
+canonical = "エンチャント"
+source = "aggressive"
+
+[[hold]]
+surface = "そのウイルス"
+canonical = "Tウイルス"
+source = "aggressive"
+
+[[hold]]
+surface = "その王国"
+canonical = "ジール王国"
+source = "aggressive"
+
+[[hold]]
+surface = "それは一生"
+canonical = "ドレス衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "だいぶどう"
+canonical = "ダイオウドウ"
+source = "aggressive"
+
+[[hold]]
+surface = "だいぶ銅"
+canonical = "ダイオウドウ"
+source = "aggressive"
+
+[[hold]]
+surface = "だこポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "だめ水晶"
+canonical = "4th衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ちょっと完成"
+canonical = "ちょこ先生"
+source = "aggressive"
+
+[[hold]]
+surface = "ち先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ち衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "っ最初っもう"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "つば先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "とき先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "どれ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ど先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[reject]]
+surface = "にゃおにゃ"
+canonical = "ニャオニクス"
+source = "aggressive"
+
+[[hold]]
+surface = "にゃおにゃお"
+canonical = "ニャオニクス"
+source = "aggressive"
+
+[[hold]]
+surface = "ねえ一生"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ばお一生"
+canonical = "4th衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ひろ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ふむちゃんと"
+canonical = "エンチャント"
+source = "aggressive"
+
+[[hold]]
+surface = "ぶ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ほじ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ほぼ衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ぼコ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "まず先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ません団長"
+canonical = "マリン船長"
+source = "aggressive"
+
+[[hold]]
+surface = "まちゃんと"
+canonical = "エンチャント"
+source = "aggressive"
+
+[[hold]]
+surface = "まみ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "まり先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "みポップラグーン"
+canonical = "ソーダポップラグーン"
+source = "aggressive"
+
+[[hold]]
+surface = "めカ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "もう水晶"
+canonical = "4th衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "もっとちゃんと"
+canonical = "エンチャント"
+source = "aggressive"
+
+[[hold]]
+surface = "もっと衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "もの一生"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "もり先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "やって一生"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "よく先生"
+canonical = "ちょこ先生"
+source = "aggressive"
+
+[[hold]]
+surface = "よしみはそれ"
+canonical = "吉見肇"
+source = "aggressive"
+
+[[hold]]
+surface = "よしみは自分"
+canonical = "吉見肇"
+source = "aggressive"
+
+[[hold]]
+surface = "よるウイルス"
+canonical = "Tウイルス"
+source = "aggressive"
+
+[[hold]]
+surface = "わか衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "アに一生"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "アイ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "アクシティ"
+canonical = "ラクーンシティ"
+source = "aggressive"
+
+[[hold]]
+surface = "アズベスティデイズ"
+canonical = "あずいろ BESTIE DAYS"
+source = "aggressive"
+
+[[hold]]
+surface = "アズロベスティデズ"
+canonical = "あずいろ BESTIE DAYS"
+source = "aggressive"
+
+[[hold]]
+surface = "アズロベスティレイズ"
+canonical = "あずいろ BESTIE DAYS"
+source = "aggressive"
+
+[[hold]]
+surface = "アンドライ"
+canonical = "アンドロイド"
+source = "aggressive"
+
+[[hold]]
+surface = "アーカイブカット"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "ア相性"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "イフェイスマウンテ"
+canonical = "フェイスマウンテン"
+source = "aggressive"
+
+[[hold]]
+surface = "エリオの次元"
+canonical = "襟尾純"
+source = "aggressive"
+
+[[hold]]
+surface = "エリオは何"
+canonical = "襟尾純"
+source = "aggressive"
+
+[[hold]]
+surface = "エ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "オルかポルカ"
+canonical = "尾丸ポルカ"
+source = "aggressive"
+
+[[hold]]
+surface = "オ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "カジノ絵ねえ"
+canonical = "カジノエリア"
+source = "aggressive"
+
+[[hold]]
+surface = "ガスフィアイ"
+canonical = "メガスフィア"
+source = "aggressive"
+
+[[hold]]
+surface = "キア先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ギにゃぎぐにゃ粘土"
+canonical = "ぐにゃぐにゃねんど"
+source = "aggressive"
+
+[[hold]]
+surface = "クレイミーチェイス"
+canonical = "くらやみチェイス"
+source = "aggressive"
+
+[[hold]]
+surface = "クレミチェイス"
+canonical = "くらやみチェイス"
+source = "aggressive"
+
+[[hold]]
+surface = "クロスズ様"
+canonical = "黒鈴ミヲ"
+source = "aggressive"
+
+[[hold]]
+surface = "ク先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "グにゃぐ粘土"
+canonical = "ぐにゃぐにゃねんど"
+source = "aggressive"
+
+[[hold]]
+surface = "グッド以上"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "グランダリオ"
+canonical = "グランドリオン"
+source = "aggressive"
+
+[[hold]]
+surface = "グランドリンオー"
+canonical = "グランドリオン"
+source = "aggressive"
+
+[[hold]]
+surface = "コナイバーライフ"
+canonical = "サイバーライフ"
+source = "aggressive"
+
+[[hold]]
+surface = "コラボマート"
+canonical = "ねぽらぼマート"
+source = "aggressive"
+
+[[hold]]
+surface = "コワイルエントロピー"
+canonical = "声音エントロピー"
+source = "aggressive"
+
+[[hold]]
+surface = "コ白くマ衣装"
+canonical = "小悪魔衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ゴツゴツ兵"
+canonical = "ゴツゴツやま"
+source = "aggressive"
+
+[[hold]]
+surface = "サイバーライズル"
+canonical = "サイバーライフ"
+source = "aggressive"
+
+[[hold]]
+surface = "サイバーラーク"
+canonical = "サイバーライフ"
+source = "aggressive"
+
+[[hold]]
+surface = "サプラスタークネス"
+canonical = "ラプラス・ダークネス"
+source = "aggressive"
+
+[[hold]]
+surface = "サラクジャーニー"
+canonical = "たらふくジャーニー"
+source = "aggressive"
+
+[[hold]]
+surface = "シギは春"
+canonical = "志岐間春恵"
+source = "aggressive"
+
+[[hold]]
+surface = "シティ傷"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ジ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "スる先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "スターディリグレッツ"
+canonical = "Starry Regrets"
+source = "aggressive"
+
+[[hold]]
+surface = "スプラッシュT"
+canonical = "スプラッシュボール"
+source = "aggressive"
+
+[[hold]]
+surface = "スプラッシュとえ"
+canonical = "スプラッシュボール"
+source = "aggressive"
+
+[[hold]]
+surface = "スプラッシュバード"
+canonical = "スプラッシュボール"
+source = "aggressive"
+
+[[hold]]
+surface = "ス先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ゼタ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ゼロ衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ソードポップラグ"
+canonical = "ソーダポップラグーン"
+source = "aggressive"
+
+[[hold]]
+surface = "タラジジャーニー"
+canonical = "たらふくジャーニー"
+source = "aggressive"
+
+[[hold]]
+surface = "チャライカンパネラ"
+canonical = "未来カンパネラ"
+source = "aggressive"
+
+[[hold]]
+surface = "デデんちゃん"
+canonical = "デカヌチャン"
+source = "aggressive"
+
+[[hold]]
+surface = "トラ先生"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ニわ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ネポラボストーリー"
+canonical = "ねぽらぼマート"
+source = "aggressive"
+
+[[hold]]
+surface = "ノる先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ノエ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ハーモニーはうん"
+canonical = "ハーモニーガーデン"
+source = "aggressive"
+
+[[hold]]
+surface = "ハ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "バキ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "バ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "パサパサ公園"
+canonical = "パサパサこうや"
+source = "aggressive"
+
+[[hold]]
+surface = "パサパサ声"
+canonical = "パサパサこうや"
+source = "aggressive"
+
+[[hold]]
+surface = "パサパサ怖い"
+canonical = "パサパサこうや"
+source = "aggressive"
+
+[[hold]]
+surface = "パリー先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "パーク衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ビは先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "フア衣装"
+canonical = "1st衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "フェイスワンテン"
+canonical = "フェイスマウンテン"
+source = "aggressive"
+
+[[hold]]
+surface = "フォチネットワーク"
+canonical = "フォーチュンネットワーク"
+source = "aggressive"
+
+[[hold]]
+surface = "フォーチネットワーク"
+canonical = "フォーチュンネットワーク"
+source = "aggressive"
+
+[[hold]]
+surface = "フロックスアージ"
+canonical = "holoXアジト"
+source = "aggressive"
+
+[[hold]]
+surface = "ブック先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "プロミスある"
+canonical = "プロミスタワー"
+source = "aggressive"
+
+[[hold]]
+surface = "プロミスいら"
+canonical = "プロミスタワー"
+source = "aggressive"
+
+[[hold]]
+surface = "プロミスゾーン"
+canonical = "プロミスタワー"
+source = "aggressive"
+
+[[hold]]
+surface = "プロミス誰"
+canonical = "プロミスタワー"
+source = "aggressive"
+
+[[hold]]
+surface = "ペコちゃんと"
+canonical = "エンチャント"
+source = "aggressive"
+
+[[hold]]
+surface = "ホケモセンター"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ホテルポルカ"
+canonical = "尾丸ポルカ"
+source = "aggressive"
+
+[[hold]]
+surface = "ボコ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ボン拓者"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモン4"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンいん"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンどんな"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンなん"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンのはず"
+canonical = "ポケモンの気配"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンのやつい"
+canonical = "ポケモンの気配"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンの得意"
+canonical = "ポケモンの気配"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンの浅い"
+canonical = "ポケモンの気配"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンの羽"
+canonical = "ポケモンの気配"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンの追い"
+canonical = "ポケモンの気配"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンまで入っ"
+canonical = "ポケモンの気配"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンみんな"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンコング"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモンセット"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモン全"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモン呼ん"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモン喧嘩"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモン姿"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモン歌"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモン死ん"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポケモン生徒"
+canonical = "ポケモンセンター"
+source = "aggressive"
+
+[[hold]]
+surface = "ポロメクエスト"
+canonical = "ホロメンクエスト"
+source = "aggressive"
+
+[[hold]]
+surface = "ポンラボマート"
+canonical = "ねぽらぼマート"
+source = "aggressive"
+
+[[hold]]
+surface = "ポールダンス"
+canonical = "petal dance"
+source = "aggressive"
+
+[[hold]]
+surface = "マーク上"
+canonical = "魔王城"
+source = "aggressive"
+
+[[hold]]
+surface = "マ衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ミ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "メガスヒア"
+canonical = "メガスフィア"
+source = "aggressive"
+
+[[hold]]
+surface = "メリーナ村"
+canonical = "メディーナ村"
+source = "aggressive"
+
+[[hold]]
+surface = "ライブする"
+canonical = "ライブステージ"
+source = "aggressive"
+
+[[hold]]
+surface = "ライブスキン"
+canonical = "ライブステージ"
+source = "aggressive"
+
+[[hold]]
+surface = "ライブ来て寝"
+canonical = "ライブステージ"
+source = "aggressive"
+
+[[hold]]
+surface = "ライブ衣装"
+canonical = "ブライト衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ライブ通時"
+canonical = "ライブステージ"
+source = "aggressive"
+
+[[hold]]
+surface = "ラストフローティア"
+canonical = "The Last Frontier"
+source = "aggressive"
+
+[[hold]]
+surface = "ラビ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "リアルメラン"
+canonical = "リアルメランコリー"
+source = "aggressive"
+
+[[hold]]
+surface = "リア先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "リエーティングワールド"
+canonical = "Creating world"
+source = "aggressive"
+
+[[hold]]
+surface = "リ崎りナ"
+canonical = "響咲リオナ"
+source = "aggressive"
+
+[[hold]]
+surface = "ロール先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ロ子先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "ワンチャンロ"
+canonical = "エンチャント"
+source = "aggressive"
+
+[[hold]]
+surface = "ワンチャン持っ"
+canonical = "エンチャント"
+source = "aggressive"
+
+[[hold]]
+surface = "上ペコラ"
+canonical = "兎田ぺこら"
+source = "aggressive"
+
+[[reject]]
+surface = "上上"
+canonical = "魔王城"
+source = "aggressive"
+
+[[hold]]
+surface = "世界はえっと"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "世界は雨"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "中でちゃんと"
+canonical = "ナカヌチャン"
+source = "aggressive"
+
+[[hold]]
+surface = "乾杯しよう"
+canonical = "2nd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "今ねポルカ"
+canonical = "尾丸ポルカ"
+source = "aggressive"
+
+[[hold]]
+surface = "今一生"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "今回はあと"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "今日安田店園"
+canonical = "旧安田庭園"
+source = "aggressive"
+
+[[hold]]
+surface = "会いたくってやっ"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "会った先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "会楽しん"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "会私"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "会議あと"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "何衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "俺は一生"
+canonical = "ドレス衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "個先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "先度以上"
+canonical = "2nd衣装"
+source = "aggressive"
+
+[[reject]]
+surface = "入場"
+canonical = "魔王城"
+source = "aggressive"
+
+[[reject]]
+surface = "入定"
+canonical = "魔王城"
+source = "aggressive"
+
+[[hold]]
+surface = "円ちょっと"
+canonical = "エンチャント"
+source = "aggressive"
+
+[[hold]]
+surface = "初手先制"
+canonical = "ちょこ先生"
+source = "aggressive"
+
+[[hold]]
+surface = "初手先生"
+canonical = "ちょこ先生"
+source = "aggressive"
+
+[[hold]]
+surface = "動先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "勝ちで一生"
+canonical = "歌劇衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "包み鉄道"
+canonical = "津詰徹生"
+source = "aggressive"
+
+[[hold]]
+surface = "医学者"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "半先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[reject]]
+surface = "半熟"
+canonical = "デンジュモク"
+source = "aggressive"
+
+[[hold]]
+surface = "危険指定"
+canonical = "ラクーンシティ"
+source = "aggressive"
+
+[[hold]]
+surface = "原先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[reject]]
+surface = "友情"
+canonical = "魔王城"
+source = "aggressive"
+
+[[hold]]
+surface = "取り何衣装"
+canonical = "オリジン衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "台風切"
+canonical = "太陽石"
+source = "aggressive"
+
+[[hold]]
+surface = "各名称"
+canonical = "歌劇衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "同場"
+canonical = "魔王城"
+source = "aggressive"
+
+[[hold]]
+surface = "吹き先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "周ここ"
+canonical = "桐生ココ"
+source = "aggressive"
+
+[[hold]]
+surface = "回であと"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "回はあん"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "回タにし"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "回復しる"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "回把握"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "回確か"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "回私がっ"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "回解消"
+canonical = "歌劇衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "回試し"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "坂股来る"
+canonical = "沙花叉クロヱ"
+source = "aggressive"
+
+[[hold]]
+surface = "声先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "大会まず"
+canonical = "タイカイデン"
+source = "aggressive"
+
+[[hold]]
+surface = "大空サークル"
+canonical = "大空スバル"
+source = "aggressive"
+
+[[reject]]
+surface = "大笑"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[reject]]
+surface = "大象"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "奥先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "子先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "宇宙センター"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "守っ先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[reject]]
+surface = "定石"
+canonical = "太陽石"
+source = "aggressive"
+
+[[hold]]
+surface = "小悪くマ衣装"
+canonical = "小悪魔衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "小悪魔な要"
+canonical = "小悪魔衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "小白衣装"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "届いたよう"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "届きは始め"
+canonical = "轟はじめ"
+source = "aggressive"
+
+[[hold]]
+surface = "届き始める"
+canonical = "轟はじめ"
+source = "aggressive"
+
+[[hold]]
+surface = "岩先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "川くマ衣装"
+canonical = "小悪魔衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "強い拓者"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "待ってポルカ"
+canonical = "尾丸ポルカ"
+source = "aggressive"
+
+[[hold]]
+surface = "待って先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "快速し"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "怒るポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "急場ここ"
+canonical = "桐生ココ"
+source = "aggressive"
+
+[[hold]]
+surface = "恐竜うぶ"
+canonical = "恐竜人"
+source = "aggressive"
+
+[[hold]]
+surface = "恐竜する"
+canonical = "恐竜人"
+source = "aggressive"
+
+[[hold]]
+surface = "恐竜神"
+canonical = "恐竜人"
+source = "aggressive"
+
+[[hold]]
+surface = "恐竜行け"
+canonical = "恐竜人"
+source = "aggressive"
+
+[[hold]]
+surface = "悪くマ衣装"
+canonical = "小悪魔衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "悪マ衣書"
+canonical = "小悪魔衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "悪衣装"
+canonical = "小悪魔衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "悪魔な衣装"
+canonical = "小悪魔衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "悪魔以上"
+canonical = "小悪魔衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "愛はある"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "手で王国"
+canonical = "ジール王国"
+source = "aggressive"
+
+[[hold]]
+surface = "打ってペコラ"
+canonical = "兎田ぺこら"
+source = "aggressive"
+
+[[hold]]
+surface = "押したボタン"
+canonical = "獅白ぼたん"
+source = "aggressive"
+
+[[reject]]
+surface = "押しボタン"
+canonical = "獅白ぼたん"
+source = "aggressive"
+
+[[hold]]
+surface = "救急入れ"
+canonical = "救急スプレー"
+source = "aggressive"
+
+[[hold]]
+surface = "旧安田公園"
+canonical = "旧安田庭園"
+source = "aggressive"
+
+[[hold]]
+surface = "旧安田店"
+canonical = "旧安田庭園"
+source = "aggressive"
+
+[[hold]]
+surface = "旧安田店員"
+canonical = "旧安田庭園"
+source = "aggressive"
+
+[[hold]]
+surface = "早先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "時のは果て"
+canonical = "時の最果て"
+source = "aggressive"
+
+[[hold]]
+surface = "時間は一生"
+canonical = "2nd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "暑いお祭り"
+canonical = "夏色まつり"
+source = "aggressive"
+
+[[hold]]
+surface = "暗闇チース"
+canonical = "くらやみチェイス"
+source = "aggressive"
+
+[[hold]]
+surface = "最初2"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "最初お"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "最初さ"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "最初し"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "最初っく"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "最初に売っ"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "最初ら"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "最初動"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "最初後"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "最初振っ"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "最初行っ"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "最初見"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "最場会"
+canonical = "サイバーライフ"
+source = "aggressive"
+
+[[hold]]
+surface = "月先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "未カンパネラ"
+canonical = "未来カンパネラ"
+source = "aggressive"
+
+[[hold]]
+surface = "未来カパイラ"
+canonical = "未来カンパネラ"
+source = "aggressive"
+
+[[hold]]
+surface = "未来カパネル"
+canonical = "未来カンパネラ"
+source = "aggressive"
+
+[[hold]]
+surface = "未来カンパラグ"
+canonical = "未来カンパネラ"
+source = "aggressive"
+
+[[hold]]
+surface = "未来パネラ"
+canonical = "未来カンパネラ"
+source = "aggressive"
+
+[[hold]]
+surface = "本七不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "本座七不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "来てこうここ"
+canonical = "桐生ココ"
+source = "aggressive"
+
+[[hold]]
+surface = "東京シード"
+canonical = "東京シティ"
+source = "aggressive"
+
+[[hold]]
+surface = "東京シ地"
+canonical = "東京シティ"
+source = "aggressive"
+
+[[hold]]
+surface = "東京部隊"
+canonical = "東京シティ"
+source = "aggressive"
+
+[[hold]]
+surface = "根島ふ鹿"
+canonical = "根島史周"
+source = "aggressive"
+
+[[hold]]
+surface = "橋のボタン"
+canonical = "獅白ぼたん"
+source = "aggressive"
+
+[[hold]]
+surface = "橋を始め"
+canonical = "吉見肇"
+source = "aggressive"
+
+[[hold]]
+surface = "機械は人"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "次郎国"
+canonical = "ジール王国"
+source = "aggressive"
+
+[[hold]]
+surface = "武先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "死者当たん"
+canonical = "獅白ぼたん"
+source = "aggressive"
+
+[[hold]]
+surface = "水水う"
+canonical = "水宮枢"
+source = "aggressive"
+
+[[hold]]
+surface = "沢崎やっこ"
+canonical = "逆崎約子"
+source = "aggressive"
+
+[[hold]]
+surface = "波きゆ太郎"
+canonical = "並垣祐太郎"
+source = "aggressive"
+
+[[hold]]
+surface = "波垣ゆ太郎"
+canonical = "並垣祐太郎"
+source = "aggressive"
+
+[[hold]]
+surface = "洗い屋敷"
+canonical = "足洗い屋敷"
+source = "aggressive"
+
+[[hold]]
+surface = "無限在庫"
+canonical = "ムゲンダイナ"
+source = "aggressive"
+
+[[hold]]
+surface = "熱いお祭り"
+canonical = "夏色まつり"
+source = "aggressive"
+
+[[hold]]
+surface = "狼うん"
+canonical = "大神ミオ"
+source = "aggressive"
+
+[[hold]]
+surface = "狼し"
+canonical = "大神ミオ"
+source = "aggressive"
+
+[[hold]]
+surface = "狼打ち"
+canonical = "大神ミオ"
+source = "aggressive"
+
+[[hold]]
+surface = "狼美"
+canonical = "大神ミオ"
+source = "aggressive"
+
+[[hold]]
+surface = "生作者"
+canonical = "開拓者"
+source = "aggressive"
+
+[[reject]]
+surface = "登場"
+canonical = "魔王城"
+source = "aggressive"
+
+[[hold]]
+surface = "白髪吹雪"
+canonical = "白上フブキ"
+source = "aggressive"
+
+[[reject]]
+surface = "監督者"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "禁堀公園"
+canonical = "錦糸堀公園"
+source = "aggressive"
+
+[[hold]]
+surface = "禁止堀り公園"
+canonical = "錦糸堀公園"
+source = "aggressive"
+
+[[hold]]
+surface = "私やっ"
+canonical = "開拓者"
+source = "aggressive"
+
+[[reject]]
+surface = "科学者"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "稲先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "空先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "立って一生"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "索どうしよう"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "絞り公園"
+canonical = "錦糸堀公園"
+source = "aggressive"
+
+[[hold]]
+surface = "置いてき彫り"
+canonical = "置いてけ堀"
+source = "aggressive"
+
+[[hold]]
+surface = "置いてケブル"
+canonical = "置いてけ堀"
+source = "aggressive"
+
+[[hold]]
+surface = "義見の実家"
+canonical = "吉見肇"
+source = "aggressive"
+
+[[hold]]
+surface = "落場なきC"
+canonical = "落葉なき椎"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの比自体"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "街一生"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "表竜寺"
+canonical = "恐竜人"
+source = "aggressive"
+
+[[hold]]
+surface = "観念なさい"
+canonical = "千年祭"
+source = "aggressive"
+
+[[reject]]
+surface = "解しよう"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[reject]]
+surface = "解体屋"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "解拓する"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "解拓組み"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "解読し"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "読み返りの記述"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "謎の汁"
+canonical = "なぞのゴーグル"
+source = "aggressive"
+
+[[hold]]
+surface = "買いたくさ"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "買いたくなる"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "赤いあの"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "赤いはねえ"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "赤いドア"
+canonical = "赤井はあと"
+source = "aggressive"
+
+[[hold]]
+surface = "起きえ商"
+canonical = "興家彰吾"
+source = "aggressive"
+
+[[hold]]
+surface = "足衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "送り病主義"
+canonical = "送り拍子木"
+source = "aggressive"
+
+[[hold]]
+surface = "運命のあきバー"
+canonical = "運命の在処"
+source = "aggressive"
+
+[[hold]]
+surface = "運命リカ"
+canonical = "運命の在処"
+source = "aggressive"
+
+[[hold]]
+surface = "過去のポケモン"
+canonical = "ぽこあポケモン"
+source = "aggressive"
+
+[[hold]]
+surface = "選み先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "釣り推奨"
+canonical = "4th衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "鉄の先"
+canonical = "テツノイサハ"
+source = "aggressive"
+
+[[hold]]
+surface = "鉄の椅子"
+canonical = "テツノカイナ"
+source = "aggressive"
+
+[[hold]]
+surface = "鉄の足場"
+canonical = "テツノカシラ"
+source = "aggressive"
+
+[[hold]]
+surface = "鉄の鉄"
+canonical = "テツノツツミ"
+source = "aggressive"
+
+[[hold]]
+surface = "鉄の鍋"
+canonical = "テツノコウベ"
+source = "aggressive"
+
+[[hold]]
+surface = "鑑定しよう"
+canonical = "2nd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "鑑定消"
+canonical = "2nd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "鑑定相"
+canonical = "2nd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "長座は前"
+canonical = "蝶澤麻由"
+source = "aggressive"
+
+[[hold]]
+surface = "開幕し"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓さ"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓しさん"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓していっ"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓でき"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓やる"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓ワーク"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓組合"
+canonical = "開拓者組合"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓解"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓面"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "階私"
+canonical = "開拓者"
+source = "aggressive"
+
+[[hold]]
+surface = "雪先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "霊のウイルス"
+canonical = "Tウイルス"
+source = "aggressive"
+
+[[hold]]
+surface = "霊症"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "青年さん"
+canonical = "千年祭"
+source = "aggressive"
+
+[[hold]]
+surface = "音の世界"
+canonical = "音乃瀬奏"
+source = "aggressive"
+
+[[hold]]
+surface = "音の背中"
+canonical = "音乃瀬奏"
+source = "aggressive"
+
+[[hold]]
+surface = "風先輩"
+canonical = "そら先輩"
+source = "aggressive"
+
+[[hold]]
+surface = "風水晶"
+canonical = "4th衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "高衣装"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "魔導症"
+canonical = "3rd衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "魔王衣装"
+canonical = "4th衣装"
+source = "aggressive"
+
+[[reject]]
+surface = "黄金色"
+canonical = "虎金妃笑虎"
+source = "aggressive"
+
+[[hold]]
+surface = "0規制"
+canonical = "0期生"
+source = "aggressive"
+
+[[hold]]
+surface = "0騎生"
+canonical = "0期生"
+source = "aggressive"
+
+[[hold]]
+surface = "フォロライブ"
+canonical = "ホロライブ"
+source = "aggressive"
+
+[[hold]]
+surface = "ポカジをさ"
+canonical = "ポカジャン"
+source = "aggressive"
+
+[[hold]]
+surface = "このライブ"
+canonical = "ホロライブ"
+source = "aggressive"
+
+[[hold]]
+surface = "ポカジャポカ"
+canonical = "ポカジャン"
+source = "aggressive"
+
+[[hold]]
+surface = "ポカジンさ"
+canonical = "ポカジャン"
+source = "aggressive"
+
+[[hold]]
+surface = "ポカジュア"
+canonical = "ポカジャン"
+source = "aggressive"
+
+[[hold]]
+surface = "ポカジをやり"
+canonical = "ポカジャン"
+source = "aggressive"
+
+[[hold]]
+surface = "招待所"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "一生一生"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "本女不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの比がどう"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "4月18"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "9月18"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ぐにゃぐにゃぐにゃ"
+canonical = "ぐにゃぐにゃねんど"
+source = "aggressive"
+
+[[hold]]
+surface = "この旧スプレー"
+canonical = "救急スプレー"
+source = "aggressive"
+
+[[hold]]
+surface = "しまうこの衣装"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "し王は一生"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "なんか七不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "アイトコントロールマイセルフ"
+canonical = "I can't control myself"
+source = "aggressive"
+
+[[hold]]
+surface = "アズラベスティイズ"
+canonical = "あずいろ BESTIE DAYS"
+source = "aggressive"
+
+[[hold]]
+surface = "アズラベスティデズ"
+canonical = "あずいろ BESTIE DAYS"
+source = "aggressive"
+
+[[hold]]
+surface = "アズロベスティデイジア"
+canonical = "あずいろ BESTIE DAYS"
+source = "aggressive"
+
+[[hold]]
+surface = "ソロライブ衣装"
+canonical = "カラーライズ衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "ドダグラウンド"
+canonical = "ドタバタグラウンド"
+source = "aggressive"
+
+[[hold]]
+surface = "ファーストのこの衣装"
+canonical = "1stBLaCK衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "フロンティアの方"
+canonical = "フロンティアローカス"
+source = "aggressive"
+
+[[hold]]
+surface = "ロトリーチバチマックス"
+canonical = "ロトリー・ちゃまちゃマックス"
+source = "aggressive"
+
+[[hold]]
+surface = "上げファイティング"
+canonical = "しばきあげファイティング"
+source = "aggressive"
+
+[[hold]]
+surface = "中ネットワーク"
+canonical = "フォーチュンネットワーク"
+source = "aggressive"
+
+[[hold]]
+surface = "今回7不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "他の7不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "他の七不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "合唱合唱"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "同時に7不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "彼女が七不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "本女ら不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "根性不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "業務解消"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "正月そう"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "正月イラスト"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "波垣きゆ太郎"
+canonical = "並垣祐太郎"
+source = "aggressive"
+
+[[hold]]
+surface = "無事に七不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "現場は七不思議"
+canonical = "本所七不思議"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇らせる術"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの必須"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの比1人"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの比がどこ"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの比という"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの比にもう"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの比はなさ"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの比を復活"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの比を自身"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの秘す"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの秘ってもし"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの秘もうーん"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの秘を巡っ"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの秘を得"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの秘を手"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇りの膝"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[hold]]
+surface = "蘇帰りの比術"
+canonical = "蘇りの秘術"
+source = "aggressive"
+
+[[reject]]
+surface = "調査対象"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "金縛り公園"
+canonical = "錦糸堀公園"
+source = "aggressive"
+
+[[hold]]
+surface = "開拓職名"
+canonical = "開拓者組合"
+source = "aggressive"
+
+[[hold]]
+surface = "障害も予想"
+canonical = "正月衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "みなミッドソング"
+canonical = "Midnight Song"
+source = "aggressive"
+
+[[hold]]
+surface = "よりメランコリ"
+canonical = "リアルメランコリー"
+source = "aggressive"
+
+[[hold]]
+surface = "小白くマ一緒"
+canonical = "小悪魔衣装"
+source = "aggressive"
+
+[[hold]]
+surface = "せイフェスティバル"
+canonical = "ホライゾンフェスティバル"
+source = "aggressive"
+
+[[hold]]
+surface = "オ曲とコントロールマイセルフ"
+canonical = "I can't control myself"
+source = "aggressive"
+
+[[hold]]
+surface = "働いてるフェスティバル"
+canonical = "ホライゾンフェスティバル"
+source = "aggressive"
+
+[[reject]]
+surface = "坂崎こ"
+canonical = "逆崎約子"
+
+[[alias]]
+surface = "犬神コロネ"
+canonical = "戌神ころね"
+
+[[alias]]
+surface = "あずキ"
+canonical = "AZKi"
+
+[[alias]]
+surface = "アずき"
+canonical = "AZKi"
+
+[[alias]]
+surface = "未来缶パネラ"
+canonical = "未来カンパネラ"
+
+[[hold]]
+surface = "あず切っ"
+canonical = "AZKi"
+
+[[hold]]
+surface = "あず貴"
+canonical = "AZKi"
+
+[[alias]]
+surface = "ござる3"
+canonical = "ござるさん"
+
+[[alias]]
+surface = "トッキーの空"
+canonical = "ときのそら"
+
+[[alias]]
+surface = "快拓者"
+canonical = "開拓者"
+
+[[alias]]
+surface = "未来艦パネラ"
+canonical = "未来カンパネラ"
+
+[[hold]]
+surface = "柚月チョコ"
+canonical = "癒月ちょこ"
+
+[[alias]]
+surface = "港アクア"
+canonical = "湊あくあ"
+
+[[alias]]
+surface = "秋ローゼンタール"
+canonical = "アキ・ローゼンタール"
+
+[[hold]]
+surface = "せいちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "いいちゃん"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "あずち"
+canonical = "AZKi"
+
+[[hold]]
+surface = "すちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "そちゃん"
+canonical = "そらちゃん"
+
+[[reject]]
+surface = "アズリ"
+canonical = "AZKi"
+
+[[hold]]
+surface = "ラプラスポークネス"
+canonical = "ラプラス・ダークネス"
+
+[[hold]]
+surface = "ついちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "ラストフロンティア"
+canonical = "The Last Frontier"
+
+[[hold]]
+surface = "あいちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "あずり"
+canonical = "AZKi"
+
+[[hold]]
+surface = "ふむちゃん"
+canonical = "フブちゃん"
+
+[[hold]]
+surface = "坂崎やっ"
+canonical = "逆崎約子"
+
+[[hold]]
+surface = "じいちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "アロケ"
+canonical = "AZロケ"
+
+[[hold]]
+surface = "ボコさん"
+canonical = "ロボ子さん"
+
+[[hold]]
+surface = "ロコさん"
+canonical = "ロボ子さん"
+
+[[hold]]
+surface = "味きち"
+canonical = "あずきち"
+
+[[hold]]
+surface = "あずう"
+canonical = "AZKi"
+
+[[hold]]
+surface = "あずキック"
+canonical = "あずきち"
+
+[[hold]]
+surface = "あのロケ"
+canonical = "AZロケ"
+
+[[hold]]
+surface = "こいちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "さらちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "そろちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "とらちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "ないちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "ぬいちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "はいちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "ふーちゃん"
+canonical = "フブちゃん"
+
+[[hold]]
+surface = "アズヌ"
+canonical = "AZKi"
+
+[[hold]]
+surface = "ザラスフロンティア"
+canonical = "The Last Frontier"
+
+[[hold]]
+surface = "スいちゃんだ"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "スっちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "スイチャー"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "スイッチちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "世の中ミュージック"
+canonical = "イノナカミュージック"
+
+[[hold]]
+surface = "白ボタン"
+canonical = "獅白ぼたん"
+
+[[hold]]
+surface = "財ちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "自かな県"
+canonical = "かなけん"
+
+[[hold]]
+surface = "Androidい"
+canonical = "アンドロイド"
+
+[[hold]]
+surface = "Androidさ"
+canonical = "アンドロイド"
+
+[[hold]]
+surface = "あざきち"
+canonical = "あずきち"
+
+[[hold]]
+surface = "あずお"
+canonical = "AZKi"
+
+[[hold]]
+surface = "あずがち"
+canonical = "あずきち"
+
+[[hold]]
+surface = "あずちち"
+canonical = "あずきち"
+
+[[hold]]
+surface = "あずぽ"
+canonical = "AZKi"
+
+[[hold]]
+surface = "あずらけ"
+canonical = "AZロケ"
+
+[[hold]]
+surface = "あずキス"
+canonical = "あずきち"
+
+[[hold]]
+surface = "あずミー"
+canonical = "AZKi"
+
+[[hold]]
+surface = "あばママ"
+canonical = "AZママ"
+
+[[hold]]
+surface = "あまま"
+canonical = "AZママ"
+
+[[hold]]
+surface = "ういちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "ういっちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "うずロケ"
+canonical = "AZロケ"
+
+[[hold]]
+surface = "えAndroid"
+canonical = "アンドロイド"
+
+[[hold]]
+surface = "えいちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "えず来"
+canonical = "AZKi"
+
+[[hold]]
+surface = "えでちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "がAndroid"
+canonical = "アンドロイド"
+
+[[reject]]
+surface = "きずき"
+canonical = "AZKi"
+
+[[hold]]
+surface = "ござるくん"
+canonical = "ござるさん"
+
+[[hold]]
+surface = "ござるさ"
+canonical = "ござるさん"
+
+[[hold]]
+surface = "ござるさち"
+canonical = "ござるさん"
+
+[[hold]]
+surface = "ござるさ言っ"
+canonical = "ござるさん"
+
+[[hold]]
+surface = "ござるなん"
+canonical = "ござるさん"
+
+[[hold]]
+surface = "ごザさん"
+canonical = "ござるさん"
+
+[[hold]]
+surface = "さ一生"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "すごいちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "すずちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "すぶちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "すんちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "ずろけ"
+canonical = "AZロケ"
+
+[[hold]]
+surface = "そうちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "そなちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "それちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "ちいちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "ていちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "といちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "ない拓者"
+canonical = "開拓者"
+
+[[hold]]
+surface = "はず気"
+canonical = "AZKi"
+
+[[hold]]
+surface = "ふぐちゃん"
+canonical = "フブちゃん"
+
+[[alias]]
+surface = "ふプちゃん"
+canonical = "フブちゃん"
+scope = "title"
+
+[[hold]]
+surface = "まづき"
+canonical = "AZKi"
+
+[[hold]]
+surface = "まらちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "もいちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "わいちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "アきち"
+canonical = "あずきち"
+
+[[hold]]
+surface = "アずあ"
+canonical = "AZKi"
+
+[[hold]]
+surface = "アずす"
+canonical = "AZKi"
+
+[[hold]]
+surface = "アずア"
+canonical = "AZKi"
+
+[[alias]]
+surface = "アイキントコントロールマイセルフ"
+canonical = "I can't control myself"
+
+[[hold]]
+surface = "アジ吉"
+canonical = "あずきち"
+
+[[alias]]
+surface = "アスロケ"
+canonical = "AZロケ"
+scope = "title"
+
+[[hold]]
+surface = "アズゲ"
+canonical = "AZKi"
+
+[[hold]]
+surface = "アズロき"
+canonical = "AZロケ"
+
+[[hold]]
+surface = "アズロけし"
+canonical = "AZロケ"
+
+[[alias]]
+surface = "アズロゲ"
+canonical = "AZロケ"
+scope = "title"
+
+[[hold]]
+surface = "アズロック"
+canonical = "AZロケ"
+
+[[hold]]
+surface = "アズロ消し"
+canonical = "AZロケ"
+
+[[hold]]
+surface = "アゼロケ"
+canonical = "AZロケ"
+
+[[hold]]
+surface = "エンチャン"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "エンドのポータル"
+canonical = "エンドポータル"
+
+[[hold]]
+surface = "カスいちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "ガズキ"
+canonical = "AZKi"
+
+[[hold]]
+surface = "グッズ来"
+canonical = "AZKi"
+
+[[hold]]
+surface = "コワエントロピー"
+canonical = "声音エントロピー"
+
+[[hold]]
+surface = "ゴルさん"
+canonical = "ござるさん"
+
+[[hold]]
+surface = "サマ衣装"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "サード一緒"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "ザラストフロンティ"
+canonical = "The Last Frontier"
+
+[[hold]]
+surface = "ショコ先生"
+canonical = "ちょこ先生"
+
+[[alias]]
+surface = "シルバレンタイン"
+canonical = "ジル・バレンタイン"
+
+[[hold]]
+surface = "スイちゃ"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "スパちゃん"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "スパチャン"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "スピーちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "スースーちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "セカンドの衣装"
+canonical = "2nd衣装"
+
+[[hold]]
+surface = "ソちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "ハーちゃま"
+canonical = "はあちゃま"
+
+[[hold]]
+surface = "フェス衣装"
+canonical = "4th衣装"
+
+[[hold]]
+surface = "プラスダークネス"
+canonical = "ラプラス・ダークネス"
+
+[[hold]]
+surface = "ホずき"
+canonical = "AZKi"
+
+[[hold]]
+surface = "マイの中ミュージック"
+canonical = "イノナカミュージック"
+
+[[hold]]
+surface = "マズキ"
+canonical = "AZKi"
+
+[[hold]]
+surface = "ミスいちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "ラプラスダークレス"
+canonical = "ラプラス・ダークネス"
+
+[[hold]]
+surface = "ロっこさん"
+canonical = "ロボ子さん"
+
+[[hold]]
+surface = "ロぶこさん"
+canonical = "ロボ子さん"
+
+[[hold]]
+surface = "ロボカさん"
+canonical = "ロボ子さん"
+
+[[hold]]
+surface = "ロボンさん"
+canonical = "ロボ子さん"
+
+[[hold]]
+surface = "ロボンコさん"
+canonical = "ロボ子さん"
+
+[[hold]]
+surface = "ロメン"
+canonical = "ホロメン"
+
+[[hold]]
+surface = "一場リカ"
+canonical = "一条莉々華"
+
+[[hold]]
+surface = "坂崎やっと"
+canonical = "逆崎約子"
+
+[[hold]]
+surface = "大空スまる"
+canonical = "大空スバル"
+
+[[hold]]
+surface = "大空スバるハ"
+canonical = "大空スバル"
+
+[[hold]]
+surface = "安いちゃん"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "最小"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "未来カンパイラ"
+canonical = "未来カンパネラ"
+
+[[hold]]
+surface = "未来カンパパネラ"
+canonical = "未来カンパネラ"
+
+[[hold]]
+surface = "未来缶パネル"
+canonical = "未来カンパネラ"
+
+[[reject]]
+surface = "東"
+canonical = "AZママ"
+
+[[hold]]
+surface = "東京シャンデランデブ"
+canonical = "トウキョウ・シャンディ・ランデヴ"
+
+[[hold]]
+surface = "毒推奨"
+canonical = "ドレス衣装"
+
+[[reject]]
+surface = "水着"
+canonical = "AZKi"
+
+[[hold]]
+surface = "猫またお買"
+canonical = "猫又おかゆ"
+
+[[hold]]
+surface = "猫又岡"
+canonical = "猫又おかゆ"
+
+[[hold]]
+surface = "猫又岡ゆで"
+canonical = "猫又おかゆ"
+
+[[hold]]
+surface = "自ゲさ"
+canonical = "GeoGuessr"
+
+[[hold]]
+surface = "自王ゲッサー"
+canonical = "GeoGuessr"
+
+[[hold]]
+surface = "足吉"
+canonical = "あずきち"
+
+[[hold]]
+surface = "過激一緒"
+canonical = "歌劇衣装"
+
+[[hold]]
+surface = "鈴き"
+canonical = "AZKi"
+
+[[hold]]
+surface = "開拓しカー"
+canonical = "開拓者"
+
+[[alias]]
+surface = "開拓師"
+canonical = "開拓者"
+scope = "title"
+
+[[hold]]
+surface = "開拓師い"
+canonical = "開拓者"
+
+[[hold]]
+surface = "預ずき"
+canonical = "AZKi"
+
+[[reject]]
+surface = "ボアズ"
+canonical = "ろぼあず"
+
+[[hold]]
+surface = "ホロメ店"
+canonical = "ホロメン"
+
+[[hold]]
+surface = "ホロメやっ"
+canonical = "ホロメン"
+
+[[hold]]
+surface = "ジウイルス"
+canonical = "Tウイルス"
+
+[[hold]]
+surface = "あちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "う先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "お衣装"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "こウイルス"
+canonical = "Tウイルス"
+
+[[hold]]
+surface = "す先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "ず先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "カ先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "コアロエントロピー"
+canonical = "声音エントロピー"
+
+[[hold]]
+surface = "コワイロエントロピー"
+canonical = "声音エントロピー"
+
+[[hold]]
+surface = "スル先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "ラプダスポークネス"
+canonical = "ラプラス・ダークネス"
+
+[[hold]]
+surface = "ワンチャンあっ"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "回タッチし"
+canonical = "開拓者"
+
+[[hold]]
+surface = "お猿さん"
+canonical = "ござるさん"
+
+[[hold]]
+surface = "ドズルさん"
+canonical = "ござるさん"
+
+[[hold]]
+surface = "994スプレー"
+canonical = "救急スプレー"
+
+[[hold]]
+surface = "F5推奨"
+canonical = "4th衣装"
+
+[[hold]]
+surface = "Gウイルス"
+canonical = "Tウイルス"
+
+[[hold]]
+surface = "P先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "あは先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "あガ先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "いた読者"
+canonical = "開拓者"
+
+[[hold]]
+surface = "え大将"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "え拓者"
+canonical = "開拓者"
+
+[[hold]]
+surface = "お丘お顔"
+canonical = "大神ミオ"
+
+[[hold]]
+surface = "かい色ハ"
+canonical = "風真いろは"
+
+[[hold]]
+surface = "きたウイルス"
+canonical = "Tウイルス"
+
+[[hold]]
+surface = "させる衣装"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "さよならし"
+canonical = "さよならヒーロー"
+
+[[hold]]
+surface = "さよならをお"
+canonical = "さよならヒーロー"
+
+[[hold]]
+surface = "した衣装"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "しないボタン"
+canonical = "獅白ぼたん"
+
+[[hold]]
+surface = "すちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "せ先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "そ心配"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "め先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "ゆア衣装"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "ゆフは私服衣装"
+canonical = "ゆるふわ私服衣装"
+
+[[hold]]
+surface = "わず先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "わちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "わ先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "アずロベスティイズ"
+canonical = "あずいろ BESTIE DAYS"
+
+[[hold]]
+surface = "アの晴れバレ"
+canonical = "雨のち晴れ晴れ"
+
+[[hold]]
+surface = "ア衣装"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "エンチャーボ"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "オペレーションし"
+canonical = "Operation Z"
+
+[[hold]]
+surface = "カじ先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "カオティクインナワールド"
+canonical = "Chaotic inner world"
+
+[[hold]]
+surface = "ガんちゃん"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "キり先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "コエロエントロピー"
+canonical = "声音エントロピー"
+
+[[hold]]
+surface = "コーラプラスポークネス"
+canonical = "ラプラス・ダークネス"
+
+[[hold]]
+surface = "シソウイルス"
+canonical = "Tウイルス"
+
+[[hold]]
+surface = "シルボタン"
+canonical = "獅白ぼたん"
+
+[[hold]]
+surface = "スモ先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "ハイテックシャ"
+canonical = "開拓者"
+
+[[hold]]
+surface = "バあ先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "ファーストショブ"
+canonical = "1st衣装"
+
+[[hold]]
+surface = "ブ先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "ポか先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "ポチウイルス"
+canonical = "Tウイルス"
+
+[[hold]]
+surface = "ポ先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "ムーヌ先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "ラクン君い"
+canonical = "ラクーンシティ"
+
+[[hold]]
+surface = "ラクン市民"
+canonical = "ラクーンシティ"
+
+[[hold]]
+surface = "ラストフランティア"
+canonical = "The Last Frontier"
+
+[[hold]]
+surface = "ラストフロンティ"
+canonical = "The Last Frontier"
+
+[[hold]]
+surface = "ラプラスフォークネス"
+canonical = "ラプラス・ダークネス"
+
+[[hold]]
+surface = "ラプラプスポークネス"
+canonical = "ラプラス・ダークネス"
+
+[[hold]]
+surface = "ロこ先生"
+canonical = "ちょこ先生"
+
+[[hold]]
+surface = "ロ先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "ワンチャンス"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "ワンチャン出"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "ワンチャン売っ"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "一一生"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "加こ衣装"
+canonical = "歌劇衣装"
+
+[[hold]]
+surface = "大網みら"
+canonical = "大神ミオ"
+
+[[hold]]
+surface = "最初あ"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "最初え"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "最初ご"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "最初め"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "最初や"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "未来カパルラ"
+canonical = "未来カンパネラ"
+
+[[hold]]
+surface = "未来カンパイダー"
+canonical = "未来カンパネラ"
+
+[[hold]]
+surface = "発見してい"
+canonical = "ラクーンシティ"
+
+[[hold]]
+surface = "白イ小"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "破損してい"
+canonical = "ラクーンシティ"
+
+[[hold]]
+surface = "美オ先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "補チ先輩"
+canonical = "そら先輩"
+
+[[hold]]
+surface = "開拓し尻尾"
+canonical = "開拓者"
+
+[[hold]]
+surface = "開拓のす"
+canonical = "開拓者"
+
+[[hold]]
+surface = "マネルさん"
+canonical = "ござるさん"
+
+[[hold]]
+surface = "あるベスティデイズ"
+canonical = "あずいろ BESTIE DAYS"
+
+[[hold]]
+surface = "救急パこ"
+canonical = "救急スプレー"
+
+[[hold]]
+surface = "旧安田店員キ"
+canonical = "旧安田庭園"
+
+[[hold]]
+surface = "禁止公園え"
+canonical = "錦糸堀公園"
+
+[[hold]]
+surface = "キとコントロールマイセルフ"
+canonical = "I can't control myself"
+
+[[reject]]
+surface = "ウーサペコラ"
+canonical = "兎田ぺこら"
+
+[[reject]]
+surface = "テミーアレルギー"
+canonical = "自己アレルギー"
+
+[[reject]]
+surface = "買いたくし"
+canonical = "開拓者"
+
+[[reject]]
+surface = "ゼロゲー"
+canonical = "ゼロゲッサー"
+
+[[alias]]
+surface = "紫シオン"
+canonical = "紫咲シオン"
+
+[[alias]]
+surface = "えちゃん"
+canonical = "えーちゃん"
+
+[[hold]]
+surface = "ホロー面"
+canonical = "ホロメン"
+
+[[alias]]
+surface = "午後8時のコラスソング"
+canonical = "午後8時のコーラスソング"
+
+[[alias]]
+surface = "猫またおかゆ"
+canonical = "猫又おかゆ"
+
+[[reject]]
+surface = "金とこ"
+canonical = "金床"
+
+[[hold]]
+surface = "開拓車"
+canonical = "開拓者"
+
+[[reject]]
+surface = "東"
+canonical = "AZKi"
+
+[[hold]]
+surface = "あずご"
+canonical = "AZKi"
+
+[[alias]]
+surface = "ちこ先生"
+canonical = "ちょこ先生"
+scope = "title"
+
+[[hold]]
+surface = "アズご"
+canonical = "AZKi"
+
+[[hold]]
+surface = "グラちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "開拓書"
+canonical = "開拓者"
+
+[[hold]]
+surface = "アズゴ"
+canonical = "AZKi"
+
+[[hold]]
+surface = "アズレ"
+canonical = "AZKi"
+
+[[alias]]
+surface = "チコ先生"
+canonical = "ちょこ先生"
+scope = "title"
+
+[[hold]]
+surface = "コワイエントロピー"
+canonical = "声音エントロピー"
+
+[[hold]]
+surface = "預けち"
+canonical = "あずきち"
+
+[[hold]]
+surface = "ああきち"
+canonical = "あずきち"
+
+[[hold]]
+surface = "あざるさん"
+canonical = "ござるさん"
+
+[[hold]]
+surface = "あずっく"
+canonical = "AZKi"
+
+[[hold]]
+surface = "あずゆき"
+canonical = "AZKi"
+
+[[hold]]
+surface = "あずゴ"
+canonical = "AZKi"
+
+[[hold]]
+surface = "あず子"
+canonical = "AZKi"
+
+[[hold]]
+surface = "あず預き"
+canonical = "AZKi"
+
+[[hold]]
+surface = "あつきち"
+canonical = "あずきち"
+
+[[hold]]
+surface = "あふ太郎"
+canonical = "afterglow"
+
+[[hold]]
+surface = "あラストフロンティア"
+canonical = "The Last Frontier"
+
+[[hold]]
+surface = "あーねカナタ"
+canonical = "天音かなた"
+
+[[hold]]
+surface = "いざるさん"
+canonical = "ござるさん"
+
+[[reject]]
+surface = "うずき"
+canonical = "AZKi"
+
+[[hold]]
+surface = "えあちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "えまちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "えよちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "おいちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "かいたくしあ"
+canonical = "開拓者"
+
+[[hold]]
+surface = "しずき"
+canonical = "AZKi"
+
+[[hold]]
+surface = "しぶちゃん"
+canonical = "フブちゃん"
+
+[[hold]]
+surface = "しょうがない使用"
+canonical = "正月衣装"
+
+[[reject]]
+surface = "すずき"
+canonical = "AZKi"
+
+[[hold]]
+surface = "すめちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "ずい拓者"
+canonical = "開拓者"
+
+[[hold]]
+surface = "そっちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "そならちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "そばちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "そんちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "たまるポルカ"
+canonical = "尾丸ポルカ"
+
+[[hold]]
+surface = "てらちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "ひ森ルーナ"
+canonical = "姫森ルーナ"
+
+[[hold]]
+surface = "ふまちゃん"
+canonical = "フブちゃん"
+
+[[hold]]
+surface = "まず吉"
+canonical = "あずきち"
+
+[[hold]]
+surface = "まず木"
+canonical = "AZKi"
+
+[[hold]]
+surface = "んちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "アイズ来"
+canonical = "AZKi"
+
+[[hold]]
+surface = "アズア"
+canonical = "AZKi"
+
+[[hold]]
+surface = "アズーバー"
+canonical = "AZKi"
+
+[[hold]]
+surface = "ア吉"
+canonical = "あずきち"
+
+[[hold]]
+surface = "エアズきち"
+canonical = "あずきち"
+
+[[hold]]
+surface = "カラちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "キアズキ"
+canonical = "AZKi"
+
+[[hold]]
+surface = "ゴだるさん"
+canonical = "ござるさん"
+
+[[hold]]
+surface = "サブ一生"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "ジョコ先生"
+canonical = "ちょこ先生"
+
+[[hold]]
+surface = "スイッチ何"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "ソロちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "チョコ先輩"
+canonical = "ちょこ先生"
+
+[[hold]]
+surface = "トロ面"
+canonical = "ホロメン"
+
+[[hold]]
+surface = "ドロボコさん"
+canonical = "ロボ子さん"
+
+[[hold]]
+surface = "ハーチーちゃま"
+canonical = "はあちゃま"
+
+[[hold]]
+surface = "フぐちゃん"
+canonical = "フブちゃん"
+
+[[hold]]
+surface = "マリ船長"
+canonical = "マリン船長"
+
+[[hold]]
+surface = "ララちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "ラーラちゃん"
+canonical = "そらちゃん"
+
+[[hold]]
+surface = "世界はあと"
+canonical = "赤井はあと"
+
+[[hold]]
+surface = "宝生マリオ"
+canonical = "宝鐘マリン"
+
+[[hold]]
+surface = "悪きち"
+canonical = "あずきち"
+
+[[hold]]
+surface = "改作者"
+canonical = "開拓者"
+
+[[hold]]
+surface = "正月2章"
+canonical = "正月衣装"
+
+[[hold]]
+surface = "正月な衣装"
+canonical = "正月衣装"
+
+[[hold]]
+surface = "正月一緒"
+canonical = "正月衣装"
+
+[[hold]]
+surface = "狼お"
+canonical = "大神ミオ"
+
+[[hold]]
+surface = "白衣こり"
+canonical = "博衣こより"
+
+[[hold]]
+surface = "赤いハト"
+canonical = "赤井はあと"
+
+[[hold]]
+surface = "違ちゃん"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "開拓した組合"
+canonical = "開拓者組合"
+
+[[hold]]
+surface = "青きち"
+canonical = "あずきち"
+
+[[hold]]
+surface = "リグロ"
+canonical = "ReGLOSS"
+
+[[hold]]
+surface = "えカオティックインナーワールド"
+canonical = "Chaotic inner world"
+
+[[hold]]
+surface = "贅沢し"
+canonical = "開拓者"
+
+[[hold]]
+surface = "お拓者"
+canonical = "開拓者"
+
+[[hold]]
+surface = "すーちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "そちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "エンカウント"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "オんちゃん"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "カラズ衣装"
+canonical = "カラーライズ衣装"
+
+[[hold]]
+surface = "カーラズ衣装"
+canonical = "カラーライズ衣装"
+
+[[hold]]
+surface = "ああ拓者"
+canonical = "開拓者"
+
+[[hold]]
+surface = "あ流行"
+canonical = "桐生ココ"
+
+[[hold]]
+surface = "あ開発"
+canonical = "赤井はあと"
+
+[[hold]]
+surface = "えあんちゃん"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "ええまちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "えカオティックインナワールド"
+canonical = "Chaotic inner world"
+
+[[hold]]
+surface = "えワンちゃん"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "え対象"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "え流行"
+canonical = "桐生ココ"
+
+[[hold]]
+surface = "え竜この"
+canonical = "桐生ココ"
+
+[[hold]]
+surface = "おちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "お大将"
+canonical = "4th衣装"
+
+[[hold]]
+surface = "からえ一生"
+canonical = "歌劇衣装"
+
+[[hold]]
+surface = "が衣装"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "こちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "させこ先生"
+canonical = "ちょこ先生"
+
+[[hold]]
+surface = "さよならう"
+canonical = "さよならヒーロー"
+
+[[hold]]
+surface = "ししないボタン"
+canonical = "獅白ぼたん"
+
+[[hold]]
+surface = "したボタン"
+canonical = "獅白ぼたん"
+
+[[hold]]
+surface = "しカオティックインナーワールド"
+canonical = "Chaotic inner world"
+
+[[hold]]
+surface = "そかちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "ちちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "ちはちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "ちオちゃんと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "で流行"
+canonical = "桐生ココ"
+
+[[hold]]
+surface = "なんこ先生"
+canonical = "ちょこ先生"
+
+[[hold]]
+surface = "ねこたおかい"
+canonical = "猫又おかゆ"
+
+[[hold]]
+surface = "ま鳥は船長"
+canonical = "マリン船長"
+
+[[hold]]
+surface = "もしこ先生"
+canonical = "ちょこ先生"
+
+[[hold]]
+surface = "エンチボン"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "エンチボン来"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "オペレーションZ"
+canonical = "Operation Z"
+
+[[hold]]
+surface = "ガンダペコラ"
+canonical = "兎田ぺこら"
+
+[[hold]]
+surface = "スチ衣装"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "チョコ戦とこ"
+canonical = "ちょこ先生"
+
+[[hold]]
+surface = "チョコ線とあ"
+canonical = "ちょこ先生"
+
+[[hold]]
+surface = "チームチャント"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "ブラウィーと一緒"
+canonical = "ブライト衣装"
+
+[[hold]]
+surface = "ポルポル勝っ"
+canonical = "尾丸ポルカ"
+
+[[hold]]
+surface = "ワンちゃんあ"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "ワンチャンえっと"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "ワンチャンなっ"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "ワンチャンやっ"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "ワンチャン下"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "ワンチャン言っ"
+canonical = "エンチャント"
+
+[[hold]]
+surface = "井中ミュージッ"
+canonical = "イノナカミュージック"
+
+[[hold]]
+surface = "回バックし"
+canonical = "開拓者"
+
+[[hold]]
+surface = "回楽し"
+canonical = "開拓者"
+
+[[hold]]
+surface = "寝またおかゆ"
+canonical = "猫又おかゆ"
+
+[[hold]]
+surface = "後ろビたん"
+canonical = "獅白ぼたん"
+
+[[hold]]
+surface = "書いたりし"
+canonical = "開拓者"
+
+[[hold]]
+surface = "最初こ"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "最初ま"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "水やスート"
+canonical = "水宮枢"
+
+[[hold]]
+surface = "狼がい"
+canonical = "大神ミオ"
+
+[[hold]]
+surface = "狼はし"
+canonical = "大神ミオ"
+
+[[hold]]
+surface = "猫たお会"
+canonical = "猫又おかゆ"
+
+[[hold]]
+surface = "白のイフレア"
+canonical = "不知火フレア"
+
+[[hold]]
+surface = "私や"
+canonical = "開拓者"
+
+[[hold]]
+surface = "解築し"
+canonical = "開拓者"
+
+[[hold]]
+surface = "計画しやっ"
+canonical = "開拓者"
+
+[[hold]]
+surface = "赤い花し"
+canonical = "赤井はあと"
+
+[[hold]]
+surface = "開拓しあい"
+canonical = "開拓者"
+
+[[hold]]
+surface = "開拓しそう"
+canonical = "開拓者"
+
+[[hold]]
+surface = "開拓もさ"
+canonical = "開拓者"
+
+[[hold]]
+surface = "えカオティックインTHEワールド"
+canonical = "Chaotic inner world"
+
+[[hold]]
+surface = "ちょ5月18"
+canonical = "正月衣装"
+
+[[hold]]
+surface = "カオティックイナーワールド"
+canonical = "Chaotic inner world"
+
+[[hold]]
+surface = "カオティックインTHEワールド"
+canonical = "Chaotic inner world"
+
+[[hold]]
+surface = "カオティックインダワールド"
+canonical = "Chaotic inner world"
+
+[[hold]]
+surface = "カオティックインダーワールド"
+canonical = "Chaotic inner world"
+
+[[hold]]
+surface = "カティックインナワールド"
+canonical = "Chaotic inner world"
+
+[[hold]]
+surface = "カティックインナーワールド"
+canonical = "Chaotic inner world"
+
+[[hold]]
+surface = "フロンティアガフロ"
+canonical = "フロンティアローカス"
+
+[[hold]]
+surface = "午後8時のコラス"
+canonical = "午後8時のコーラスソング"
+
+[[hold]]
+surface = "いたらカオティックインナーワールド"
+canonical = "Chaotic inner world"
+
+[[hold]]
+surface = "カオティックインナーワー"
+canonical = "Chaotic inner world"
+
+# スパちゃん: スパチャンのことが多いので、スバルの話題の近くでだけ（2026-10-31 ユーザー指摘）
+[[alias]]
+surface = "スパちゃん"
+canonical = "スバちゃん"
+scope = "near"
+competitors = []
+
+[[alias]]
+surface = "卑怯液"
+canonical = "卑怯駅"
+
+[[alias]]
+surface = "地上げさ"
+canonical = "地上ゲッサー"
+
+[[alias]]
+surface = "貸借橋"
+canonical = "帝釈峡"
+
+[[alias]]
+surface = "あズキ"
+canonical = "AZKi"
+
+[[alias]]
+surface = "お手決"
+canonical = "おてけつ"
+
+[[alias]]
+surface = "お鉄血"
+canonical = "おてけつ"
+
+[[alias]]
+surface = "ホロ金作サバイバル"
+canonical = "ホロ金策サバイバル"
+
+[[alias]]
+surface = "瀬トリスト"
+canonical = "セトリスト"
+
+[[alias]]
+surface = "あまねカナダ"
+canonical = "天音かなた"
+scope = "title"
+
+[[alias]]
+surface = "けさピン"
+canonical = "ゲッサーピン"
+scope = "title"
+
+[[alias]]
+surface = "エンチント"
+canonical = "エンチャント"
+
+[[alias]]
+surface = "ゴ猿さん"
+canonical = "ござるさん"
+scope = "title"
+
+[[alias]]
+surface = "ラムベカス"
+canonical = "ラムベガス"
+scope = "title"
+
+[[alias]]
+surface = "轟き始め"
+canonical = "轟はじめ"
+
+[[alias]]
+surface = "カナ犬"
+canonical = "かなけん"
+
+[[alias]]
+surface = "カナ県"
+canonical = "かなけん"
+
+[[alias]]
+surface = "星まち水星"
+canonical = "星街すいせい"
+
+[[alias]]
+surface = "犬基地"
+canonical = "いぬきち"
+
+[[alias]]
+surface = "猫ならばイける"
+canonical = "猫ならばいける"
+
+[[alias]]
+surface = "白衣こより"
+canonical = "博衣こより"
+
+[[alias]]
+surface = "絵ちゃん"
+canonical = "えーちゃん"
+
+[[alias]]
+surface = "貸借教"
+canonical = "帝釈峡"
+
+[[alias]]
+surface = "轟きはじめ"
+canonical = "轟はじめ"
+
+[[alias]]
+surface = "あ学園高校"
+canonical = "AZ学園高校"
+
+[[alias]]
+surface = "おケツ"
+canonical = "おてけつ"
+scope = "title"
+
+[[hold]]
+surface = "うんちゃんと"
+canonical = "エンチャント"
+
+[[alias]]
+surface = "サラミー"
+canonical = "サラミィ"
+
+[[alias]]
+surface = "お手ケ"
+canonical = "おてけつ"
+
+[[alias]]
+surface = "スイチャンス"
+canonical = "すいちゃん"
+
+[[hold]]
+surface = "ブちゃん"
+canonical = "フブちゃん"
+
+[[alias]]
+surface = "ざるさん"
+canonical = "ござるさん"
+
+[[hold]]
+surface = "ぶちゃん"
+canonical = "フブちゃん"
+
+[[alias]]
+surface = "ゲッサン"
+canonical = "ゲッサーピン"
+
+[[alias]]
+surface = "ゲピン"
+canonical = "ゲッサーピン"
+
+[[alias]]
+surface = "完璧で究極のゲッター"
+canonical = "完璧で究極のゲッサー"
+
+[[alias]]
+surface = "ゲーピン"
+canonical = "ゲッサーピン"
+
+[[alias]]
+surface = "あきこり"
+canonical = "あずきこり"
+scope = "title"
+
+[[alias]]
+surface = "きららビビ"
+canonical = "綺々羅々ヴィヴィ"
+
+[[alias]]
+surface = "くぶちゃん"
+canonical = "フブちゃん"
+scope = "title"
+
+[[alias]]
+surface = "ふうちゃん"
+canonical = "フブちゃん"
+scope = "title"
+
+[[alias]]
+surface = "ほいでいで"
+canonical = "ほいでほいで"
+
+[[alias]]
+surface = "ゲサピ"
+canonical = "ゲッサーピン"
+
+[[alias]]
+surface = "ソラチャンス"
+canonical = "そらちゃん"
+
+[[alias]]
+surface = "完璧で究極のゲ"
+canonical = "完璧で究極のゲッサー"
+
+[[alias]]
+surface = "海賊者"
+canonical = "開拓者"
+
+[[alias]]
+surface = "港区あっ"
+canonical = "湊あくあ"
+
+[[alias]]
+surface = "疑神あき"
+canonical = "疑心あずき"
+
+[[alias]]
+surface = "空チャンス"
+canonical = "そらちゃん"
+
+[[alias]]
+surface = "轟きはめ"
+canonical = "轟はじめ"
+
+[[alias]]
+surface = "開拓しろ"
+canonical = "開拓者"
+
+[[hold]]
+surface = "9ここ"
+canonical = "桐生ココ"
+
+[[alias]]
+surface = "あい色村"
+canonical = "あずいろ村"
+
+[[alias]]
+surface = "あずピー"
+canonical = "AZKi"
+
+[[alias]]
+surface = "あときこり"
+canonical = "あずきこり"
+
+[[alias]]
+surface = "あね彼方"
+canonical = "天音かなた"
+
+[[hold]]
+surface = "あのきち"
+canonical = "あずきち"
+
+[[alias]]
+surface = "あの色村"
+canonical = "あずいろ村"
+
+[[alias]]
+surface = "あぶちゃん"
+canonical = "フブちゃん"
+scope = "title"
+
+[[hold]]
+surface = "あまお"
+canonical = "あずまおー"
+
+[[alias]]
+surface = "うさペコラ"
+canonical = "兎田ぺこら"
+
+[[alias]]
+surface = "えいのやいの居酒屋"
+canonical = "やいのやいの居酒屋"
+
+[[alias]]
+surface = "えのちゃん"
+canonical = "えーちゃん"
+scope = "title"
+
+[[alias]]
+surface = "えんちゃん"
+canonical = "エンチャント"
+
+[[alias]]
+surface = "おらちゃん"
+canonical = "そらちゃん"
+scope = "title"
+
+[[alias]]
+surface = "かま色派"
+canonical = "風真いろは"
+
+[[alias]]
+surface = "くブちゃん"
+canonical = "フブちゃん"
+scope = "title"
+
+[[alias]]
+surface = "ござざるさん"
+canonical = "ござるさん"
+
+[[alias]]
+surface = "ござるさっ"
+canonical = "ござるさん"
+
+[[hold]]
+surface = "ごちゃん"
+canonical = "えーちゃん"
+
+[[alias]]
+surface = "さがもさもサ"
+canonical = "猛者がモサモサ"
+
+[[alias]]
+surface = "さらミ"
+canonical = "サラミィ"
+
+[[alias]]
+surface = "ししボタン"
+canonical = "獅白ぼたん"
+
+[[alias]]
+surface = "すぶちゃん"
+canonical = "フブちゃん"
+scope = "title"
+
+[[alias]]
+surface = "そらチャンス"
+canonical = "そらちゃん"
+
+[[alias]]
+surface = "はいこより"
+canonical = "博衣こより"
+
+[[alias]]
+surface = "はずきこり"
+canonical = "あずきこり"
+
+[[alias]]
+surface = "ふばちゃん"
+canonical = "フブちゃん"
+scope = "title"
+
+[[alias]]
+surface = "ほいでほい"
+canonical = "ほいでほいで"
+
+[[alias]]
+surface = "ほいでほいさ"
+canonical = "ほいでほいで"
+
+[[alias]]
+surface = "まず色村"
+canonical = "あずいろ村"
+
+[[alias]]
+surface = "やいのやの居酒屋"
+canonical = "やいのやいの居酒屋"
+
+[[alias]]
+surface = "アずう"
+canonical = "AZKi"
+
+[[alias]]
+surface = "アビ色村"
+canonical = "あずいろ村"
+
+[[alias]]
+surface = "アホロサバサマパーク"
+canonical = "ホロ鯖サマーパーク"
+
+[[alias]]
+surface = "エゴザルさん"
+canonical = "ござるさん"
+
+[[alias]]
+surface = "オオカミミオン"
+canonical = "大神ミオ"
+
+[[alias]]
+surface = "カラ研"
+canonical = "かなけん"
+
+[[alias]]
+surface = "ゲサン"
+canonical = "ゲッサーピン"
+
+[[alias]]
+surface = "ゲスピン"
+canonical = "ゲッサーピン"
+
+[[alias]]
+surface = "ゲッタピン"
+canonical = "ゲッサーピン"
+
+[[alias]]
+surface = "ゲッピン"
+canonical = "ゲッサーピン"
+
+[[alias]]
+surface = "コーラプラスポークネス"
+canonical = "ラプラス・ポークネス"
+
+[[alias]]
+surface = "サピン"
+canonical = "ゲッサーピン"
+
+[[alias]]
+surface = "サラミま"
+canonical = "サラミィ"
+
+[[alias]]
+surface = "サークみ子"
+canonical = "さくらみこ"
+
+[[alias]]
+surface = "サークライコ"
+canonical = "さくらみこ"
+
+[[alias]]
+surface = "スルガジン"
+canonical = "駿河湾"
+
+[[alias]]
+surface = "ズキち"
+canonical = "あずきち"
+
+[[alias]]
+surface = "ズキッチ"
+canonical = "あずきち"
+
+[[alias]]
+surface = "ダムベガス"
+canonical = "ラムベガス"
+
+[[alias]]
+surface = "ハマーハウス"
+canonical = "サマーハウス"
+
+[[alias]]
+surface = "フロ面"
+canonical = "ホロメン"
+
+[[alias]]
+surface = "ホルサバサマーパーク"
+canonical = "ホロ鯖サマーパーク"
+
+[[alias]]
+surface = "ホロサワサマーパーク"
+canonical = "ホロ鯖サマーパーク"
+
+[[alias]]
+surface = "ボザールさん"
+canonical = "ござるさん"
+
+[[alias]]
+surface = "ポざるさん"
+canonical = "ござるさん"
+
+[[alias]]
+surface = "マズ色村"
+canonical = "あずいろ村"
+
+[[alias]]
+surface = "ムベガス"
+canonical = "ラムベガス"
+
+[[alias]]
+surface = "ラズキ"
+canonical = "AZKi"
+
+[[alias]]
+surface = "ラムベガ"
+canonical = "ラムベガス"
+
+[[alias]]
+surface = "ランベガス"
+canonical = "ラムベガス"
+
+[[alias]]
+surface = "一長リリカ"
+canonical = "一条莉々華"
+
+[[alias]]
+surface = "地図はお姉さん"
+canonical = "地図のお姉さん"
+
+[[alias]]
+surface = "大空スバ"
+canonical = "大空スバル"
+
+[[alias]]
+surface = "完璧で究極なゲッサー"
+canonical = "完璧で究極のゲッサー"
+
+[[alias]]
+surface = "完璧で究極のゲス"
+canonical = "完璧で究極のゲッサー"
+
+[[alias]]
+surface = "完璧で究極のゲッタ"
+canonical = "完璧で究極のゲッサー"
+
+[[alias]]
+surface = "対謝今日"
+canonical = "帝釈峡"
+
+[[alias]]
+surface = "対謝空教"
+canonical = "帝釈峡"
+
+[[alias]]
+surface = "対食教"
+canonical = "帝釈峡"
+
+[[alias]]
+surface = "小金2個"
+canonical = "虎金妃笑虎"
+
+[[alias]]
+surface = "小金ニコ"
+canonical = "虎金妃笑虎"
+
+[[alias]]
+surface = "少年我れに帰れ"
+canonical = "少年よ我に帰れ"
+
+[[hold]]
+surface = "最初う"
+canonical = "3rd衣装"
+
+[[hold]]
+surface = "最初うー"
+canonical = "3rd衣装"
+
+[[alias]]
+surface = "正月え仕様"
+canonical = "正月衣装"
+
+[[alias]]
+surface = "正月の衣装"
+canonical = "正月衣装"
+
+[[alias]]
+surface = "水色村"
+canonical = "あずいろ村"
+
+[[alias]]
+surface = "激流ここ"
+canonical = "桐生ココ"
+
+[[alias]]
+surface = "瀬とゲスト"
+canonical = "セトリスト"
+
+[[alias]]
+surface = "瀬取りゲスト"
+canonical = "セトリスト"
+
+[[alias]]
+surface = "焼いのいの居酒屋"
+canonical = "やいのやいの居酒屋"
+
+[[hold]]
+surface = "犬1"
+canonical = "いぬきち"
+
+[[alias]]
+surface = "狼みだ"
+canonical = "大神ミオ"
+
+[[alias]]
+surface = "疑震暗記"
+canonical = "疑心あずき"
+
+[[hold]]
+surface = "秋ろ"
+canonical = "アキロゼ"
+
+[[alias]]
+surface = "究極も究極"
+canonical = "究極の9曲"
+
+[[alias]]
+surface = "空先生"
+canonical = "そら先輩"
+
+[[alias]]
+surface = "赤いああと"
+canonical = "赤井はあと"
+
+[[alias]]
+surface = "赤いはあり"
+canonical = "赤井はあと"
+
+[[alias]]
+surface = "赤いはある"
+canonical = "赤井はあと"
+
+[[alias]]
+surface = "追ってやつ"
+canonical = "おてけつ"
+
+[[alias]]
+surface = "青きロゼ"
+canonical = "アキロゼ"
+
+[[hold]]
+surface = "青図来"
+canonical = "AZKi"
+
+[[hold]]
+surface = "頭お"
+canonical = "あずまおー"
+
+[[alias]]
+surface = "狼みさん"
+canonical = "大神ミオ"
+
+[[alias]]
+surface = "義震あ預"
+canonical = "疑心あずき"
+
+[[alias]]
+surface = "あくずケーキ"
+canonical = "夢屑ケーキ"
+
+[[alias]]
+surface = "あずアず村"
+canonical = "あずいろ村"
+
+[[alias]]
+surface = "あのカナタ"
+canonical = "天音かなた"
+
+[[alias]]
+surface = "あ学県高校"
+canonical = "AZ学園高校"
+
+[[alias]]
+surface = "う学園高校"
+canonical = "AZ学園高校"
+
+[[alias]]
+surface = "えまポルカ"
+canonical = "尾丸ポルカ"
+
+[[alias]]
+surface = "はいあこより"
+canonical = "博衣こより"
+
+[[alias]]
+surface = "ま船長"
+canonical = "マリン船長"
+
+[[alias]]
+surface = "コアイエントロピー"
+canonical = "声音エントロピー"
+
+[[alias]]
+surface = "コイエントロピー"
+canonical = "声音エントロピー"
+
+[[alias]]
+surface = "サプラスタークネス"
+canonical = "ラプラス・ポークネス"
+
+[[alias]]
+surface = "ホろサバサマファーク"
+canonical = "ホロ鯖サマーパーク"
+
+[[alias]]
+surface = "ホロサバシャパーク"
+canonical = "ホロ鯖サマーパーク"
+
+[[alias]]
+surface = "ホロサバーサマーパークアン"
+canonical = "ホロ鯖サマーパーク"
+
+[[alias]]
+surface = "マあれ船長"
+canonical = "マリン船長"
+
+[[alias]]
+surface = "ラプラスフォークネス"
+canonical = "ラプラス・ポークネス"
+
+[[alias]]
+surface = "坂あクロエ"
+canonical = "沙花叉クロヱ"
+
+[[alias]]
+surface = "大狼み"
+canonical = "大神ミオ"
+
+[[alias]]
+surface = "疑震あ豆"
+canonical = "疑心あずき"
+
+[[alias]]
+surface = "疑震預き"
+canonical = "疑心あずき"
+
+[[alias]]
+surface = "あそうアキャンプ場"
+canonical = "あずいろキャンプ場"
+
+[[alias]]
+surface = "あのアキャンプ場"
+canonical = "あずいろキャンプ場"
+
+[[alias]]
+surface = "秋ろゼ"
+canonical = "アキロゼ"
+
+[[reject]]
+surface = "究極の究極"
+canonical = "究極の9曲"
+
+[[reject]]
+surface = "秘境液"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "秘教駅"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "あちゃん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "みちゃん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "アずズ"
+canonical = "AZKi"
+
+[[reject]]
+surface = "おちゃん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "ま井ちゃん"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "きちゃん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "しょうがないしょう"
+canonical = "正月衣装"
+
+[[reject]]
+surface = "その先輩"
+canonical = "そら先輩"
+
+[[reject]]
+surface = "アズみ"
+canonical = "AZKi"
+
+[[reject]]
+surface = "ラちゃん"
+canonical = "そらちゃん"
+
+[[reject]]
+surface = "回ちゃん"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "4枚目の地図"
+canonical = "3枚目の地図"
+
+[[reject]]
+surface = "あずズ"
+canonical = "AZKi"
+
+[[reject]]
+surface = "あら先輩"
+canonical = "そら先輩"
+
+[[reject]]
+surface = "ええやん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "えっとちゃんと"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "かぶちゃん"
+canonical = "フブちゃん"
+
+[[reject]]
+surface = "からちゃん"
+canonical = "そらちゃん"
+
+[[reject]]
+surface = "がぶちゃん"
+canonical = "フブちゃん"
+
+[[reject]]
+surface = "けいちゃん"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "こちゃん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "さっきの空"
+canonical = "ときのそら"
+
+[[reject]]
+surface = "じちゃん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "すぎちゃん"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "すむちゃん"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "する側"
+canonical = "駿河湾"
+
+[[reject]]
+surface = "そいちゃん"
+canonical = "そらちゃん"
+
+[[reject]]
+surface = "そっかちゃん"
+canonical = "そらちゃん"
+
+[[reject]]
+surface = "つらっちゃん"
+canonical = "そらちゃん"
+
+[[reject]]
+surface = "てずき"
+canonical = "AZKi"
+
+[[reject]]
+surface = "でぶちゃん"
+canonical = "フブちゃん"
+
+[[reject]]
+surface = "とぶちゃん"
+canonical = "フブちゃん"
+
+[[reject]]
+surface = "はちゃん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "はらちゃん"
+canonical = "そらちゃん"
+
+[[reject]]
+surface = "はーちゃん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "ふっちゃん"
+canonical = "フブちゃん"
+
+[[reject]]
+surface = "ふめちゃん"
+canonical = "フブちゃん"
+
+[[reject]]
+surface = "ぶっちゃん"
+canonical = "フブちゃん"
+
+[[reject]]
+surface = "ぼちゃん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "やっちゃん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "やぶちゃん"
+canonical = "フブちゃん"
+
+[[reject]]
+surface = "ゆぶちゃん"
+canonical = "フブちゃん"
+
+[[reject]]
+surface = "よっちゃん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "アず見"
+canonical = "AZKi"
+
+[[reject]]
+surface = "アズム"
+canonical = "AZKi"
+
+[[reject]]
+surface = "アラちゃん"
+canonical = "そらちゃん"
+
+[[reject]]
+surface = "オちゃん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "カラーちゃん"
+canonical = "そらちゃん"
+
+[[reject]]
+surface = "スイッチオン"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "スルちゃん"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "チーズ来"
+canonical = "AZKi"
+
+[[reject]]
+surface = "ビブちゃん"
+canonical = "フブちゃん"
+
+[[reject]]
+surface = "フちゃん"
+canonical = "フブちゃん"
+
+[[reject]]
+surface = "フルちゃん"
+canonical = "フブちゃん"
+
+[[reject]]
+surface = "ワンちゃんと"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "今日駅"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "地図来"
+canonical = "AZKi"
+
+[[reject]]
+surface = "怯液"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "水のお姉さん"
+canonical = "地図のお姉さん"
+
+[[reject]]
+surface = "おいでおいで"
+canonical = "ほいでほいで"
+
+[[reject]]
+surface = "よいしょう"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "いちゃんと"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "ほいほいポ"
+canonical = "ほいでほいで"
+
+[[reject]]
+surface = "ワンちゃんえ"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "ワンチャンあ"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "3D衣装"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "ああちゃんと"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "あえっと衣装"
+canonical = "1st衣装"
+
+[[reject]]
+surface = "あずイロハス"
+canonical = "あずいろの橋"
+
+[[reject]]
+surface = "あでちゃんと"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "あフローグロー"
+canonical = "afterglow"
+
+[[reject]]
+surface = "あ一生"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "あ書いてある"
+canonical = "赤井はあと"
+
+[[reject]]
+surface = "いたちゃんと"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "いでおいで"
+canonical = "ほいでほいで"
+
+[[reject]]
+surface = "えあちゃんこ"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "えみんなポータル"
+canonical = "エンドポータル"
+
+[[reject]]
+surface = "えわ先輩"
+canonical = "そら先輩"
+
+[[reject]]
+surface = "えポールダンス"
+canonical = "petal dance"
+
+[[reject]]
+surface = "えワンチャン"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "え今日え待っ"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "もうねカナタ"
+canonical = "天音かなた"
+
+[[reject]]
+surface = "ゃたのお姉さん"
+canonical = "地図のお姉さん"
+
+[[reject]]
+surface = "アずイロハス"
+canonical = "あずいろの橋"
+
+[[reject]]
+surface = "アンキノサウス"
+canonical = "あん肝ハウス"
+
+[[reject]]
+surface = "罵当のお姉さん"
+canonical = "地図のお姉さん"
+
+[[reject]]
+surface = "小豆"
+canonical = "AZKi"
+
+[[reject]]
+surface = "サラミ"
+canonical = "サラミィ"
+
+[[reject]]
+surface = "かけん"
+canonical = "かなけん"
+
+[[reject]]
+surface = "姉ちゃん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "東"
+canonical = "あずまおー"
+
+[[reject]]
+surface = "あきろ"
+canonical = "アキロゼ"
+
+[[reject]]
+surface = "がちゃん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "スイッチャー"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "兄ちゃん"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "飽きろ"
+canonical = "アキロゼ"
+
+[[alias]]
+surface = "ルートif"
+canonical = "Route If"
+
+[[alias]]
+surface = "貸借鏡"
+canonical = "帝釈峡"
+
+[[alias]]
+surface = "愛深く"
+canonical = "藍深く"
+
+[[alias]]
+surface = "買拓者"
+canonical = "開拓者"
+
+[[alias]]
+surface = "アズー学園高校"
+canonical = "AZ学園高校"
+
+[[alias]]
+surface = "アズ学園"
+canonical = "AZ学園"
+
+[[alias]]
+surface = "アズ学園高校"
+canonical = "AZ学園高校"
+
+[[alias]]
+surface = "最強最弱ガール"
+canonical = "最強×最弱ガール"
+
+[[alias]]
+surface = "開拓シャ"
+canonical = "開拓者"
+
+[[alias]]
+surface = "駿河ワン"
+canonical = "駿河湾"
+
+[[alias]]
+surface = "マップイザカップ"
+canonical = "map in the cup"
+
+[[alias]]
+surface = "怖エントロピー"
+canonical = "声音エントロピー"
+
+[[alias]]
+surface = "開拓肢"
+canonical = "開拓者"
+
+[[alias]]
+surface = "怖いエントロピー"
+canonical = "声音エントロピー"
+
+[[alias]]
+surface = "怖エントロピ"
+canonical = "声音エントロピー"
+
+[[alias]]
+surface = "あ学円"
+canonical = "AZ学園"
+
+[[alias]]
+surface = "いい拓者"
+canonical = "開拓者"
+
+[[alias]]
+surface = "ちょ先生"
+canonical = "ちょこ先生"
+
+[[alias]]
+surface = "はず色ハス"
+canonical = "あずいろはす"
+
+[[alias]]
+surface = "ま究極の究極"
+canonical = "究極の9曲"
+
+[[alias]]
+surface = "アズロハス"
+canonical = "あずいろはす"
+
+[[alias]]
+surface = "アップインザカップ"
+canonical = "map in the cup"
+
+[[alias]]
+surface = "アフターグローン"
+canonical = "afterglow"
+
+[[alias]]
+surface = "フェイクフェイクフェイ"
+canonical = "Fake.Fake.Fake"
+
+[[alias]]
+surface = "マーハウス"
+canonical = "サマーハウス"
+
+[[alias]]
+surface = "会読者"
+canonical = "開拓者"
+
+[[alias]]
+surface = "夜のリンク"
+canonical = "夜の輪郭"
+
+[[alias]]
+surface = "少年割れに帰れ"
+canonical = "少年よ我に帰れ"
+
+[[alias]]
+surface = "技ラストフロンティア"
+canonical = "The Last Frontier"
+
+[[alias]]
+surface = "最強最弱がある"
+canonical = "最強×最弱ガール"
+
+[[alias]]
+surface = "犬神コネ"
+canonical = "戌神ころね"
+
+[[alias]]
+surface = "究極な究極"
+canonical = "究極の9曲"
+
+[[alias]]
+surface = "紫ション"
+canonical = "紫咲シオン"
+
+[[alias]]
+surface = "紫塩"
+canonical = "紫咲シオン"
+
+[[alias]]
+surface = "義心あき"
+canonical = "疑心あずき"
+
+[[alias]]
+surface = "退職教"
+canonical = "帝釈峡"
+
+[[alias]]
+surface = "開拓しあ"
+canonical = "開拓者"
+
+[[alias]]
+surface = "開拓しお"
+canonical = "開拓者"
+
+[[alias]]
+surface = "開拓しで"
+canonical = "開拓者"
+
+[[alias]]
+surface = "開拓士"
+canonical = "開拓者"
+
+[[alias]]
+surface = "コエエントロピー"
+canonical = "声音エントロピー"
+
+[[alias]]
+surface = "コエエントロピ"
+canonical = "声音エントロピー"
+
+[[alias]]
+surface = "コエルエントロピ"
+canonical = "声音エントロピー"
+
+[[alias]]
+surface = "え解読者"
+canonical = "開拓者"
+
+[[alias]]
+surface = "コエントロピー"
+canonical = "声音エントロピー"
+
+[[alias]]
+surface = "あも拓者"
+canonical = "開拓者"
+
+[[alias]]
+surface = "やのやの居酒屋"
+canonical = "やいのやいの居酒屋"
+
+[[alias]]
+surface = "アッインザカップ"
+canonical = "map in the cup"
+
+[[alias]]
+surface = "ウィザウトユ"
+canonical = "without U"
+
+[[alias]]
+surface = "クリーティングワールド"
+canonical = "Creating world"
+
+[[alias]]
+surface = "コイラエントロピ"
+canonical = "声音エントロピー"
+
+[[alias]]
+surface = "コイラエントロピー"
+canonical = "声音エントロピー"
+
+[[alias]]
+surface = "コラエントロピー"
+canonical = "声音エントロピー"
+
+[[alias]]
+surface = "ハスイロハス"
+canonical = "あずいろはす"
+
+[[alias]]
+surface = "ワップイザカップ"
+canonical = "map in the cup"
+
+[[alias]]
+surface = "井中ミージック"
+canonical = "イノナカミュージック"
+
+[[alias]]
+surface = "紫うション"
+canonical = "紫咲シオン"
+
+[[alias]]
+surface = "ライブリークリエイティングワールド"
+canonical = "Re:Creating world"
+
+[[alias]]
+surface = "8時のコラソング"
+canonical = "午後8時のコーラスソング"
+
+[[alias]]
+surface = "やいのやの居酒"
+canonical = "やいのやいの居酒屋"
+
+[[alias]]
+surface = "カオティックナーワールド"
+canonical = "Chaotic inner world"
+
+[[alias]]
+surface = "罵頭のお姉さん"
+canonical = "罵倒のお姉さん"
+
+[[alias]]
+surface = "クリエイティングワール"
+canonical = "Creating world"
+
+[[alias]]
+surface = "コエルエントロピー"
+canonical = "声音エントロピー"
+
+[[reject]]
+surface = "井ちゃん"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "あ学縁"
+canonical = "AZ学園"
+
+[[reject]]
+surface = "そいちゃん"
+canonical = "すいちゃん"
+
+[[reject]]
+surface = "えやん"
+canonical = "えーちゃん"
+
+[[reject]]
+surface = "これ水晶"
+canonical = "ドレス衣装"
+
+[[reject]]
+surface = "さ水晶"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "するがワ"
+canonical = "駿河湾"
+
+[[reject]]
+surface = "する側屋"
+canonical = "駿河湾"
+
+[[reject]]
+surface = "どっ水晶"
+canonical = "ドレス衣装"
+
+[[reject]]
+surface = "スルがワヤ"
+canonical = "駿河湾"
+
+[[reject]]
+surface = "ローズ学園"
+canonical = "AZ学園"
+
+[[reject]]
+surface = "ンド衣装"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "ほいほいほ"
+canonical = "ほいでほいで"
+
+[[reject]]
+surface = "必要え"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "ああ水晶"
+canonical = "1st衣装"
+
+[[reject]]
+surface = "あ衣装"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "う一生"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "ほいほいえ"
+canonical = "ほいでほいで"
+
+[[reject]]
+surface = "ほいほいお"
+canonical = "ほいでほいで"
+
+[[reject]]
+surface = "きちゃん"
+canonical = "そらちゃん"
+
+[[reject]]
+surface = "99"
+canonical = "桐生ココ"
+
+[[reject]]
+surface = "D衣装"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "あ2人どう"
+canonical = "afterglow"
+
+[[reject]]
+surface = "あ2回あと"
+canonical = "赤井はあと"
+
+[[reject]]
+surface = "あそう商人"
+canonical = "行商人"
+
+[[reject]]
+surface = "あそ水晶"
+canonical = "4th衣装"
+
+[[reject]]
+surface = "あでもカナタ"
+canonical = "天音かなた"
+
+[[reject]]
+surface = "あのイロハえ"
+canonical = "あずいろはす"
+
+[[reject]]
+surface = "あもう学園"
+canonical = "AZ学園"
+
+[[reject]]
+surface = "ありうここ"
+canonical = "桐生ココ"
+
+[[reject]]
+surface = "あゲロ学園"
+canonical = "AZ学園"
+
+[[reject]]
+surface = "あタクシーやっ"
+canonical = "開拓者"
+
+[[reject]]
+surface = "あポピーはあと"
+canonical = "赤井はあと"
+
+[[reject]]
+surface = "あポールダンス"
+canonical = "petal dance"
+
+[[reject]]
+surface = "あヨネ先生"
+canonical = "ちょこ先生"
+
+[[reject]]
+surface = "あルート一生"
+canonical = "1st衣装"
+
+[[reject]]
+surface = "あ大正"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "あ明学園"
+canonical = "AZ学園"
+
+[[reject]]
+surface = "あ継承"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "あ鏡え見"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "あ開拓し"
+canonical = "開拓者"
+
+[[reject]]
+surface = "いた衣装"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "うと一生"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "う学園"
+canonical = "AZ学園"
+
+[[reject]]
+surface = "えふ太郎"
+canonical = "afterglow"
+
+[[reject]]
+surface = "えよ先生"
+canonical = "ちょこ先生"
+
+[[reject]]
+surface = "えタクシーやっ"
+canonical = "開拓者"
+
+[[reject]]
+surface = "え一生"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "え京都駅"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "え先輩"
+canonical = "そら先輩"
+
+[[reject]]
+surface = "え共演"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "え学園"
+canonical = "AZ学園"
+
+[[reject]]
+surface = "え学縁"
+canonical = "AZ学園"
+
+[[reject]]
+surface = "え衣装"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "おいしょう"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "おえす星まち"
+canonical = "おのれ星街"
+
+[[reject]]
+surface = "おおかゆお"
+canonical = "大神ミオ"
+
+[[reject]]
+surface = "おお上ぶれ"
+canonical = "大神ミオ"
+
+[[reject]]
+surface = "おお弓お"
+canonical = "大神ミオ"
+
+[[reject]]
+surface = "おポルポル"
+canonical = "尾丸ポルカ"
+
+[[reject]]
+surface = "お上にお"
+canonical = "大神ミオ"
+
+[[reject]]
+surface = "お京都駅"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "お解消"
+canonical = "4th衣装"
+
+[[reject]]
+surface = "かいたしえ"
+canonical = "開拓者"
+
+[[reject]]
+surface = "きたちゃんと"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "こ水晶"
+canonical = "4th衣装"
+
+[[reject]]
+surface = "こ衣装"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "さっきまいろハ"
+canonical = "風真いろは"
+
+[[reject]]
+surface = "さよいしょ"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "さよならR"
+canonical = "さよならヒーロー"
+
+[[reject]]
+surface = "さよならあ"
+canonical = "さよならヒーロー"
+
+[[reject]]
+surface = "さよならえ"
+canonical = "さよならヒーロー"
+
+[[reject]]
+surface = "さよならお"
+canonical = "さよならヒーロー"
+
+[[reject]]
+surface = "さよならお地"
+canonical = "さよならヒーロー"
+
+[[reject]]
+surface = "さよならでえ"
+canonical = "さよならヒーロー"
+
+[[reject]]
+surface = "さよならや"
+canonical = "さよならヒーロー"
+
+[[reject]]
+surface = "さよならをあ"
+canonical = "さよならヒーロー"
+
+[[reject]]
+surface = "さよならをえ"
+canonical = "さよならヒーロー"
+
+[[reject]]
+surface = "さよならグッパ"
+canonical = "さよならヒーロー"
+
+[[reject]]
+surface = "さ学園"
+canonical = "AZ学園"
+
+[[reject]]
+surface = "さ最初"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "したらボタン"
+canonical = "獅白ぼたん"
+
+[[reject]]
+surface = "したんぼたん"
+canonical = "獅白ぼたん"
+
+[[reject]]
+surface = "してちゃんと"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "しますポルカ"
+canonical = "尾丸ポルカ"
+
+[[reject]]
+surface = "す一生"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "て対象"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "でちゃんと"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "でまポルカ"
+canonical = "尾丸ポルカ"
+
+[[reject]]
+surface = "で今日行"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "とあ先輩"
+canonical = "そら先輩"
+
+[[reject]]
+surface = "ところミートF"
+canonical = "常闇トワ"
+
+[[reject]]
+surface = "どれよいしょあ"
+canonical = "ドレス衣装"
+
+[[reject]]
+surface = "ば一生"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "ば学園"
+canonical = "AZ学園"
+
+[[reject]]
+surface = "ほいほいや"
+canonical = "ほいでほいで"
+
+[[reject]]
+surface = "ほいほほい"
+canonical = "ほいでほいで"
+
+[[reject]]
+surface = "ほ択者"
+canonical = "開拓者"
+
+[[reject]]
+surface = "まポールダンス"
+canonical = "petal dance"
+
+[[reject]]
+surface = "ろのお姉さん"
+canonical = "地図のお姉さん"
+
+[[reject]]
+surface = "アキをま先輩"
+canonical = "アキロゼ先輩"
+
+[[reject]]
+surface = "ア色はて"
+canonical = "あずいろはす"
+
+[[reject]]
+surface = "エンチャナ"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "キのお姉さん"
+canonical = "地図のお姉さん"
+
+[[reject]]
+surface = "キの衣装"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "サンター衣装"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "ザマイロード"
+canonical = "風真いろは"
+
+[[reject]]
+surface = "セカンドゴショ取っ"
+canonical = "2nd衣装"
+
+[[reject]]
+surface = "セコラ先輩"
+canonical = "そら先輩"
+
+[[reject]]
+surface = "トマップイザカップ"
+canonical = "map in the cup"
+
+[[reject]]
+surface = "トマリ船長"
+canonical = "マリン船長"
+
+[[reject]]
+surface = "バ学園"
+canonical = "AZ学園"
+
+[[reject]]
+surface = "ホイールホイ"
+canonical = "ほいでほいで"
+
+[[reject]]
+surface = "ポケポケモン"
+canonical = "ぽこあポケモン"
+
+[[reject]]
+surface = "レアレルギー"
+canonical = "自己アレルギー"
+
+[[reject]]
+surface = "レデちゃんと"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "ワンチャン家"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "ワンチャン目"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "ワ衣装"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "京え見"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "今カナタ"
+canonical = "天音かなた"
+
+[[reject]]
+surface = "今チャント"
+canonical = "エンチャント"
+
+[[reject]]
+surface = "今日えほ"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "今日え待っ"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "今日てき"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "今日はき"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "今日はキ"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "切りますうここ"
+canonical = "桐生ココ"
+
+[[reject]]
+surface = "小金行きあ"
+canonical = "虎金妃笑虎"
+
+[[reject]]
+surface = "待ってカナタ"
+canonical = "天音かなた"
+
+[[reject]]
+surface = "曲え気"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "書いたタシ"
+canonical = "開拓者"
+
+[[reject]]
+surface = "最初O"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "最初い"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "最初す"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "最初はう"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "最初ア"
+canonical = "3rd衣装"
+
+[[reject]]
+surface = "東あお"
+canonical = "火威青"
+
+[[reject]]
+surface = "水色ロラ"
+canonical = "あずいろ村"
+
+[[reject]]
+surface = "消えたうここ"
+canonical = "桐生ココ"
+
+[[reject]]
+surface = "港区ま"
+canonical = "湊あくあ"
+
+[[reject]]
+surface = "狼あ"
+canonical = "大神ミオ"
+
+[[reject]]
+surface = "狼い"
+canonical = "大神ミオ"
+
+[[reject]]
+surface = "狼さ"
+canonical = "大神ミオ"
+
+[[reject]]
+surface = "狼ふ"
+canonical = "大神ミオ"
+
+[[reject]]
+surface = "紫23"
+canonical = "紫咲シオン"
+
+[[reject]]
+surface = "紫え何"
+canonical = "紫咲シオン"
+
+[[reject]]
+surface = "紫マ4"
+canonical = "紫咲シオン"
+
+[[reject]]
+surface = "良いで良いで"
+canonical = "ほいでほいで"
+
+[[reject]]
+surface = "説教えて"
+canonical = "卑怯駅"
+
+[[reject]]
+surface = "買いたくてあ"
+canonical = "開拓者"
+
+[[reject]]
+surface = "距離がうここ"
+canonical = "桐生ココ"
+
+[[reject]]
+surface = "開拓あ"
+canonical = "開拓者"
+
+[[reject]]
+surface = "開拓ああ"
+canonical = "開拓者"
+
+[[reject]]
+surface = "開拓う無"
+canonical = "開拓者"
+
+[[reject]]
+surface = "開拓え"
+canonical = "開拓者"
+
+[[reject]]
+surface = "開拓し今"
+canonical = "開拓者"
+
+[[reject]]
+surface = "開拓をし"
+canonical = "開拓者"
+
+[[reject]]
+surface = "開拓七"
+canonical = "開拓者"
+
+[[reject]]
+surface = "しているキャンプ場"
+canonical = "あずいろキャンプ場"
+
+[[reject]]
+surface = "オッケーア学園高校"
+canonical = "AZ学園高校"
+
+[[reject]]
+surface = "パプラズ学園高校"
+canonical = "AZ学園高校"
+
+[[reject]]
+surface = "開拓しやばい"
+canonical = "開拓者組合"
+
+[[reject]]
+surface = "あ完璧で究極"
+canonical = "完璧で究極のゲッサー"
+
+[[reject]]
+surface = "究極の11局"
+canonical = "究極の9曲"
+
+[[reject]]
+surface = "やいのやいのエリクサー"
+canonical = "やいのやいの居酒屋"
+
+[[hold]]
+surface = "あず1"
+canonical = "あずきち"
+
+[[hold]]
+surface = "まず学園"
+canonical = "AZ学園"
+
+[[hold]]
+surface = "回タクシー"
+canonical = "開拓者"
+
+[[hold]]
+surface = "開拓しみ"
+canonical = "開拓者"
+
+[[hold]]
+surface = "開拓しよ"
+canonical = "開拓者"
+
+[[hold]]
+surface = "ほいほいあ"
+canonical = "ほいでほいで"
+
+[[hold]]
+surface = "開拓一"
+canonical = "開拓者"
+
+[[hold]]
+surface = "改築し"
+canonical = "開拓者"
+
+[[hold]]
+surface = "開拓してい"
+canonical = "開拓者"
+
+[[hold]]
+surface = "かいたくみ"
+canonical = "開拓者"
+
+[[hold]]
+surface = "究極の究極をお"
+canonical = "究極の9曲"
+
+[[hold]]
+surface = "あるあはあと"
+canonical = "赤井はあと"
+
+[[hold]]
+surface = "さもサのモサモサ"
+canonical = "猛者がモサモサ"
+
+[[hold]]
+surface = "エントロピーは終わらないえ"
+canonical = "エンドロールは終わらない"
+
+
+[[alias]]
+surface = "カオティックインナーワールド"
+canonical = "Chaotic inner world"
+
+[[alias]]
+surface = "カオティックインナーワ"
+canonical = "Chaotic inner world"
+
+[[alias]]
+surface = "アフターグロー"
+canonical = "afterglow"
+
+[[alias]]
+surface = "アフターグロ"
+canonical = "afterglow"
+
+[[alias]]
+surface = "カオティックインナーワー"
+canonical = "Chaotic inner world"

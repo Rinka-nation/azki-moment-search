@@ -1,0 +1,72 @@
+# Forza Horizon 6 の固有名詞（出典: 公式・報道で紹介された地名（Push Square, AUTOMATON ほか））
+# このゲームの配信（タイトルに title_patterns のどれかがある）でだけ補正に使う。
+
+[game]
+id = "forza"
+name = "Forza Horizon 6"
+title_patterns = ["Forza Horizon", "Forza"]
+
+[[term]]
+canonical = "ホライゾン"
+reading = "ホライゾン"
+category = "game"
+
+[[term]]
+canonical = "ホライゾンフェスティバル"
+reading = "ホライゾンフェスティバル"
+category = "game"
+
+[[term]]
+canonical = "東京シティ"
+reading = "とうきょうしてぃ"
+category = "game"
+
+[[term]]
+canonical = "箱根ターンパイク"
+reading = "はこねたーんぱいく"
+category = "game"
+
+[[term]]
+canonical = "七曲り"
+reading = "ななまがり"
+category = "game"
+
+[[term]]
+canonical = "榛名"
+reading = "はるな"
+category = "game"
+
+[[term]]
+canonical = "富士山"
+reading = "ふじさん"
+category = "game"
+
+[[term]]
+canonical = "筑波サーキット"
+reading = "つくばさーきっと"
+category = "game"
+
+[[term]]
+canonical = "日光サーキット"
+reading = "にっこうさーきっと"
+category = "game"
+
+[[term]]
+canonical = "首都高"
+reading = "しゅとこう"
+category = "game"
+
+[[term]]
+canonical = "銀杏並木"
+reading = "いちょうなみき"
+category = "game"
+
+[[term]]
+canonical = "レジェンドアイランド"
+reading = "レジェンドアイランド"
+category = "game"
+
+[[term]]
+canonical = "ドリフト"
+reading = "ドリフト"
+category = "game"

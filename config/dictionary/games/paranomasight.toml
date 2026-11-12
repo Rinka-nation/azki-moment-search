@@ -1,0 +1,180 @@
+# パラノマサイト FILE23 本所七不思議 の固有名詞（出典: Wikipedia「パラノマサイト FILE23 本所七不思議」）
+# このゲームの配信（タイトルに title_patterns のどれかがある）でだけ補正に使う。
+
+[game]
+id = "paranomasight"
+name = "パラノマサイト FILE23 本所七不思議"
+title_patterns = ["パラノマサイト"]
+
+[[term]]
+canonical = "興家彰吾"
+reading = "おきいえしょうご"
+category = "game"
+
+[[term]]
+canonical = "興家"
+reading = "おきいえ"
+category = "game"
+
+[[term]]
+canonical = "彰吾"
+reading = "しょうご"
+category = "game"
+
+[[term]]
+canonical = "福永葉子"
+reading = "ふくながようこ"
+category = "game"
+
+[[term]]
+canonical = "志岐間春恵"
+reading = "しぎまはるえ"
+category = "game"
+
+[[term]]
+canonical = "志岐間"
+reading = "しぎま"
+category = "game"
+
+[[term]]
+canonical = "櫂利飛太"
+reading = "かいりひた"
+category = "game"
+
+[[term]]
+canonical = "津詰徹生"
+reading = "つつみてつお"
+category = "game"
+
+[[term]]
+canonical = "津詰"
+reading = "つつみ"
+category = "game"
+
+[[term]]
+canonical = "襟尾純"
+reading = "えりおじゅん"
+category = "game"
+
+[[term]]
+canonical = "襟尾"
+reading = "えりお"
+category = "game"
+
+[[term]]
+canonical = "逆崎約子"
+reading = "さかざきやっこ"
+category = "game"
+
+[[term]]
+canonical = "逆崎"
+reading = "さかざき"
+category = "game"
+
+[[term]]
+canonical = "黒鈴ミヲ"
+reading = "くろすずみを"
+category = "game"
+
+[[term]]
+canonical = "ミヲ"
+reading = "みを"
+category = "game"
+
+[[term]]
+canonical = "並垣祐太郎"
+reading = "なみがきゆうたろう"
+category = "game"
+
+[[term]]
+canonical = "吉見肇"
+reading = "よしみはじめ"
+category = "game"
+
+[[term]]
+canonical = "蝶澤麻由"
+reading = "ちょうざわまゆ"
+category = "game"
+
+[[term]]
+canonical = "白石美智代"
+reading = "しらいしみちよ"
+category = "game"
+
+[[term]]
+canonical = "根島史周"
+reading = "ねじまふみちか"
+category = "game"
+
+[[term]]
+canonical = "本所七不思議"
+reading = "ほんじょななふしぎ"
+category = "game"
+
+[[term]]
+canonical = "置いてけ堀"
+reading = "おいてけぼり"
+category = "game"
+
+[[term]]
+canonical = "送り拍子木"
+reading = "おくりひょうしぎ"
+category = "game"
+
+[[term]]
+canonical = "落葉なき椎"
+reading = "おちばなきしい"
+category = "game"
+
+[[term]]
+canonical = "馬鹿囃子"
+reading = "ばかばやし"
+category = "game"
+
+[[term]]
+canonical = "足洗い屋敷"
+reading = "あしあらいやしき"
+category = "game"
+
+[[term]]
+canonical = "消えずの行灯"
+reading = "きえずのあんどん"
+category = "game"
+
+[[term]]
+canonical = "呪詛珠"
+reading = "じゅそだま"
+category = "game"
+
+[[term]]
+canonical = "蘇りの秘術"
+reading = "よみがえりのひじゅつ"
+category = "game"
+
+[[term]]
+canonical = "オゴポゴ"
+reading = "オゴポゴ"
+category = "game"
+
+[[term]]
+canonical = "錦糸堀公園"
+reading = "きんしぼりこうえん"
+category = "game"
+
+[[term]]
+canonical = "旧安田庭園"
+reading = "きゅうやすだていえん"
+category = "game"
+
+# 「じゅしゅ」ではなく「かしりぬし」と読む（2026-11-07 霧島リンカさん）
+[[term]]
+canonical = "呪主"
+reading = "かしりぬし"
+category = "game"
+
+# ゲーム内の語「滓魂（さいこん）」。字幕では「再婚」になる（2026-11-09 霧島リンカさん）
+[[term]]
+canonical = "滓魂"
+reading = "さいこん"
+aliases = ["再婚"]
+category = "game"

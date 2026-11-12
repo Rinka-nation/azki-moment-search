@@ -1,0 +1,7 @@
+#!/bin/sh
+# コミットする内容に、公開してはいけないもの（トークン・個人のアドレス・PC のパス・データ）が無いかを確かめる。
+# 有効にする: git config core.hooksPath .githooks（clone し直したときも必要。README.md）
+py=.venv/Scripts/python.exe
+[ -x "$py" ] || py=.venv/bin/python
+[ -x "$py" ] || py=$(command -v python3 || command -v python)
+exec "$py" scripts/check_public.py --staged

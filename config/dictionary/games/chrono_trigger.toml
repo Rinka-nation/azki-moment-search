@@ -1,0 +1,222 @@
+# クロノ・トリガー の固有名詞（出典: 作品の登場人物・地名（一般に知られた名称））
+# このゲームの配信（タイトルに title_patterns のどれかがある）でだけ補正に使う。
+
+[game]
+id = "chrono_trigger"
+name = "クロノ・トリガー"
+title_patterns = ["クロノ・トリガー", "クロノトリガー", "CHRONO TRIGGER"]
+
+[[term]]
+canonical = "クロノ"
+reading = "クロノ"
+category = "game"
+
+[[term]]
+canonical = "マール"
+reading = "マール"
+category = "game"
+
+[[term]]
+canonical = "マールディア"
+reading = "マールディア"
+category = "game"
+
+[[term]]
+canonical = "ルッカ"
+reading = "ルッカ"
+category = "game"
+
+[[term]]
+canonical = "カエル"
+reading = "カエル"
+category = "game"
+
+[[term]]
+canonical = "ロボ"
+reading = "ロボ"
+category = "game"
+
+[[term]]
+canonical = "エイラ"
+reading = "エイラ"
+category = "game"
+
+[[term]]
+canonical = "魔王"
+reading = "まおう"
+category = "game"
+
+[[term]]
+canonical = "ラヴォス"
+reading = "らゔぉす"
+category = "game"
+
+[[term]]
+canonical = "ジール"
+reading = "ジール"
+category = "game"
+
+[[term]]
+canonical = "ジール王国"
+reading = "じーるおうこく"
+category = "game"
+
+[[term]]
+canonical = "サラ"
+reading = "サラ"
+category = "game"
+
+[[term]]
+canonical = "ガッシュ"
+reading = "ガッシュ"
+category = "game"
+
+[[term]]
+canonical = "ハッシュ"
+reading = "ハッシュ"
+category = "game"
+
+[[term]]
+canonical = "ボッシュ"
+reading = "ボッシュ"
+category = "game"
+
+[[term]]
+canonical = "ダルトン"
+reading = "ダルトン"
+category = "game"
+
+[[term]]
+canonical = "ビネガー"
+reading = "ビネガー"
+category = "game"
+
+[[term]]
+canonical = "マヨネー"
+reading = "マヨネー"
+category = "game"
+
+[[term]]
+canonical = "ソイソー"
+reading = "ソイソー"
+category = "game"
+
+[[term]]
+canonical = "グレン"
+reading = "グレン"
+category = "game"
+
+[[term]]
+canonical = "リーネ"
+reading = "リーネ"
+category = "game"
+
+[[term]]
+canonical = "ガルディア"
+reading = "ガルディア"
+category = "game"
+
+[[term]]
+canonical = "ガルディア城"
+reading = "がるでぃあじょう"
+category = "game"
+
+[[term]]
+canonical = "時の最果て"
+reading = "ときのさいはて"
+category = "game"
+
+[[term]]
+canonical = "黒の夢"
+reading = "くろのゆめ"
+category = "game"
+
+[[term]]
+canonical = "シルバード"
+reading = "シルバード"
+category = "game"
+
+[[term]]
+canonical = "エポック"
+reading = "エポック"
+category = "game"
+
+[[term]]
+canonical = "千年祭"
+reading = "せんねんさい"
+category = "game"
+
+[[term]]
+canonical = "トルース町"
+reading = "とるーすちょう"
+category = "game"
+
+[[term]]
+canonical = "パレポリ"
+reading = "パレポリ"
+category = "game"
+
+[[term]]
+canonical = "メディーナ村"
+reading = "めでぃーなむら"
+category = "game"
+
+[[term]]
+canonical = "魔王城"
+reading = "まおうじょう"
+category = "game"
+
+[[term]]
+canonical = "アザーラ"
+reading = "アザーラ"
+category = "game"
+
+[[term]]
+canonical = "恐竜人"
+reading = "きょうりゅうじん"
+category = "game"
+
+[[term]]
+canonical = "ゴンザレス"
+reading = "ゴンザレス"
+category = "game"
+
+[[term]]
+canonical = "グランドリオン"
+reading = "グランドリオン"
+category = "game"
+
+[[term]]
+canonical = "太陽石"
+reading = "たいようせき"
+category = "game"
+
+[[term]]
+canonical = "ヤクラ"
+reading = "ヤクラ"
+category = "game"
+
+# --- AZKi が付けた名前（2026-11-07 霧島リンカさん） ---
+# 主人公 クロノ → アズノ、魔王 → AZ魔王、シルバード → アズバード。
+# エイラは名前の上 2 文字で呼ぶので アズノ は「アズ」。字幕の「あずたち」は「アズたち」（あずきち ではない）
+[[term]]
+canonical = "アズノ"
+reading = "あずの"
+category = "game"
+
+[[term]]
+canonical = "AZ魔王"
+reading = "あずまおう"
+aliases = ["アズ魔王", "あず魔王", "アズマ王", "アスマ王", "あズマ王", "アズマお"]
+category = "game"
+
+[[term]]
+canonical = "アズバード"
+reading = "あずばーど"
+category = "game"
+
+[[term]]
+canonical = "アズたち"
+reading = "あずたち"
+aliases = ["あずたち"]
+category = "game"

@@ -1,0 +1,552 @@
+# AZKi 本人・ファン・ユニット・活動関連
+
+[[term]]
+canonical = "AZKi"
+reading = "あずき"
+# 「あ、豆き」「あず豆き」系は自動字幕の定番の崩れ（2026-10-25 霧島リンカさんの判断で補正する）
+aliases = ["あずき", "アズキ", "あ豆き", "あ、豆き", "あず豆き", "ず豆き"]
+category = "azki"
+fuzzy = true   # 読み 3 文字だが、本人名なので候補探索する（小豆 など）
+
+[[term]]
+canonical = "あずきち"
+reading = "あずきち"
+aliases = ["あ豆きち", "あ、豆きち", "あず豆きち", "ず豆きち", "あ、豆吉ち", "あ豆吉ち", "あ豆ち"]
+group = "AZKi"
+category = "nickname"
+
+[[term]]
+canonical = "開拓者"
+reading = "かいたくしゃ"
+category = "azki"
+
+[[term]]
+canonical = "SorAZ"
+reading = "そらあず"
+aliases = ["そらあず", "ソラアズ"]
+category = "unit"
+
+[[term]]
+canonical = "miComet"
+reading = "みこめっと"
+aliases = ["ミコメット"]
+category = "unit"
+
+[[term]]
+canonical = "RosaMiA"
+reading = "ろざみあ"
+aliases = ["ロザミア"]
+category = "unit"
+
+[[term]]
+canonical = "イノナカミュージック"
+reading = "いのなかみゅーじっく"
+category = "azki"
+
+[[term]]
+canonical = "あずいろ"
+reading = "あずいろ"
+aliases = ["アズイロ"]
+category = "unit"
+
+[[term]]
+canonical = "ろぼあず"
+reading = "ろぼあず"
+aliases = ["ロボアズ"]
+category = "unit"
+
+[[term]]
+canonical = "AZロケ"
+reading = "あずろけ"
+aliases = ["アズロケ"]
+category = "azki"   # AZKi の旅行動画企画
+
+[[term]]
+canonical = "ゼロゲッサー"
+reading = "ぜろげっさー"
+category = "azki"   # GeoGuessr 配信の挨拶「右手にマイク、左手に地図、あなたのハートをゼロゲッサー！」
+
+# 字幕は「を」を落として「ハートゼロゲッサー」になる。正しくは「ハートをゼロゲッサー」（2026-11-07 霧島リンカさん）
+[[term]]
+canonical = "ハートをゼロゲッサー"
+reading = "はーとをぜろげっさー"
+aliases = ["ハートゼロゲッサー", "ハート0ゲッサー"]
+category = "greeting"
+
+# --- あいさつ（出典: 非公式 wiki「AZKi あいさつ集」） ---
+# 「コンコンコンあずき」が あずき→AZKi の補正で「コンコンコンAZKi」にならないよう、挨拶自体を語にする
+[[term]]
+canonical = "こんあずき"
+reading = "こんあずき"
+aliases = ["コンあずき", "コンアズキ"]
+category = "greeting"
+
+[[term]]
+canonical = "おやあずき"
+reading = "おやあずき"
+aliases = ["オヤあずき"]
+category = "greeting"
+
+[[term]]
+canonical = "おつあずき"
+reading = "おつあずき"
+aliases = ["オツあずき", "お疲れあずき"]
+category = "greeting"
+
+# --- 関連用語・タグ ---
+[[term]]
+canonical = "あずきんち"
+reading = "あずきんち"
+category = "azki"   # 配信タグ #あずきんち
+
+[[term]]
+canonical = "開拓者組合"
+reading = "かいたくしゃくみあい"
+category = "azki"   # メンバーシップ名
+
+[[term]]
+canonical = "AZパパ"
+reading = "あずぱぱ"
+category = "azki"
+
+[[term]]
+canonical = "AZママ"
+reading = "あずまま"
+category = "azki"
+
+# --- 衣装（出典: 非公式 wiki「AZKi【衣装一覧】」） ---
+[[term]]
+canonical = "1st衣装"
+reading = "ふぁーすといしょう"
+category = "costume"
+
+[[term]]
+canonical = "2nd衣装"
+reading = "せかんどいしょう"
+category = "costume"
+
+[[term]]
+canonical = "3rd衣装"
+reading = "さーどいしょう"
+category = "costume"
+
+[[term]]
+canonical = "4th衣装"
+reading = "ふぉーすいしょう"
+category = "costume"
+
+[[term]]
+canonical = "1stBLaCK衣装"
+reading = "ふぁーすとぶらっくいしょう"
+category = "costume"
+
+[[term]]
+canonical = "統一アイドル衣装"
+reading = "とういつあいどるいしょう"
+category = "costume"
+
+[[term]]
+canonical = "オリジン衣装"
+reading = "おりじんいしょう"
+category = "costume"
+
+[[term]]
+canonical = "ブライト衣装"
+reading = "ぶらいといしょう"
+category = "costume"
+
+[[term]]
+canonical = "ドレス衣装"
+reading = "どれすいしょう"
+category = "costume"
+
+[[term]]
+canonical = "正月衣装"
+reading = "しょうがついしょう"
+category = "costume"
+
+[[term]]
+canonical = "カラーライズ衣装"
+reading = "からーらいずいしょう"
+category = "costume"
+
+[[term]]
+canonical = "ゆるふわ私服衣装"
+reading = "ゆるふわしふくいしょう"
+category = "costume"
+
+[[term]]
+canonical = "歌劇衣装"
+reading = "かげきいしょう"
+category = "costume"
+
+[[term]]
+canonical = "小悪魔衣装"
+reading = "こあくまいしょう"
+category = "costume"
+
+[[term]]
+canonical = "かなけん"
+reading = "かなけん"
+# 金券・カナけ・カラケン: かなけん配信 21 本の字幕調査で見つかった崩れ方（2026-10-30）
+aliases = ["カナケン", "かナけん", "かな県", "カナケ", "金券", "カナけ", "カラケン"]
+category = "unit"
+# AZKi・天音かなた・沙花叉クロヱのユニット（2026-10-29 ユーザー提供）
+
+# かけん（ナの欠落）は「かける」の口語（水かけんの?、迷惑かけんなよ）とぶつかる。
+# 字幕の 27 件をユーザーと確認して決めた（2026-10-30）。仕組みは rules.py
+[[term.rules]]
+surfaces = ["かけん", "カケン"]
+after = ["ライブ", "社員", "家族", "推し", "ロケ"]
+not_before = ["水", "声", "話し", "迷惑", "掛け", "いくら", "[にもを]", "[0-9０-９]"]
+not_after = ["の[?？]", "のか", "なよ", "な[。、]", "んで", "で[くき]", "だろ"]
+topic = ["かなけん", "かなた建設", "天音かなた", "沙花叉クロヱ"]
+
+# かなけ（ンの欠落）は挨拶（こんかなけん・おつかなけん）の形だけ。長引かなければ のような普通の言葉が多い
+[[term.rules]]
+surfaces = ["かなけ"]
+before = ["こん", "おつ"]
+not_after = ["ん"]
+otherwise = "keep"
+
+[[term]]
+canonical = "かなた建設"
+reading = "かなたけんせつ"
+# かなけん の元（マイクラの かなた建設）。字幕では 彼田建設
+aliases = ["彼田建設", "彼た建設"]
+category = "unit"
+
+# --- Minecraft の建造物・施設（出典: 非公式 wiki「AZKi【Minecraft】」「AZKi【語録】」、字幕）。誰と作ったかは related/ に書く ---
+
+[[term]]
+canonical = "AZ基地"
+reading = "あずきち"
+aliases = ["アズ基地"]
+category = "azki"   # 読みが あずきち と同じなので候補探索しない
+fuzzy = false
+
+[[term]]
+canonical = "シマエナガハウス"
+reading = "しまえながはうす"
+category = "azki"   # ときのそらと建設
+
+[[term]]
+canonical = "シマエナガ"
+reading = "しまえなが"
+aliases = ["しまえなが", "島え長"]
+category = "azki"
+
+[[term]]
+canonical = "あん肝ハウス"
+reading = "あんきもはうす"
+aliases = ["アンキモハウス"]
+category = "azki"
+
+[[term]]
+canonical = "マリ箱"
+reading = "まりばこ"
+aliases = ["マリバコ"]
+category = "azki"   # かなけんと宝鐘マリンで建築
+
+[[term]]
+canonical = "ラムベガス"
+reading = "らむべがす"
+aliases = ["ラブベガス"]
+category = "azki"
+
+[[term]]
+canonical = "あずいろキャンプ場"
+reading = "あずいろきゃんぷじょう"
+category = "azki"
+
+[[term]]
+canonical = "あずいろ村"
+reading = "あずいろむら"
+aliases = ["ア色村", "あ色村"]
+category = "azki"
+
+[[term]]
+canonical = "あずいろの橋"
+reading = "あずいろのはし"
+category = "azki"
+
+[[term]]
+canonical = "あずきこり"
+reading = "あずきこり"
+aliases = ["あ、豆きこり", "あ豆きこり", "豆きこり", "あずきっこり"]
+category = "azki"
+
+[[term]]
+canonical = "あずきこり斧"
+reading = "あずきこりおの"
+category = "azki"   # 風真いろはからのプレゼント
+
+[[term]]
+canonical = "あずいろっど"
+reading = "あずいろっど"
+category = "azki"
+
+[[term]]
+canonical = "完璧で究極のゲッサー"
+reading = "かんぺきできゅうきょくのげっさー"
+aliases = ["完璧で究極のゲサ", "完璧で究極のゲスト", "完璧で究極のゲスター"]
+category = "azki"   # 弓の名前
+
+[[term]]
+canonical = "ゲッサーピン"
+reading = "げっさーぴん"
+aliases = ["ゲサーピン", "ゲサピン"]
+category = "azki"
+
+[[term]]
+canonical = "ゼロ村"
+reading = "ぜろむら"
+category = "azki"
+
+[[term]]
+canonical = "金策"
+reading = "きんさく"
+aliases = ["金索"]
+category = "azki"   # 字幕はほぼ全部 金索（金策は 0 件）
+fuzzy = false
+
+[[term]]
+canonical = "ホロ金策サバイバル"
+reading = "ほろきんさくさばいばる"
+aliases = ["ホロ金索サバイバル"]
+category = "azki"
+
+[[term]]
+canonical = "ホロ鯖サマーパーク"
+reading = "ほろさばさまーぱーく"
+aliases = ["ホロサバサマーパーク"]
+category = "azki"
+
+[[term]]
+canonical = "サマーハウス"
+reading = "さまーはうす"
+aliases = ["サマハウス"]
+category = "azki"   # 響咲リオナと作った施設
+
+[[term]]
+canonical = "罵倒の館"
+reading = "ばとうのやかた"
+aliases = ["バトの館", "罵当の館"]
+category = "azki"   # サマーハウスのアトラクション
+
+[[term]]
+canonical = "ラプラス・ポークネス"
+reading = "らぷらすぽーくねす"
+aliases = ["ラプラスポークネス", "ラプダスポークネス", "ラブダスポークネス", "ラブタスポークネス", "ラプラプスポークネス", "ラプスポークネス"]
+category = "azki"   # サマーハウス前のモニュメントの豚
+
+# 豚になったホロメン（ホロ鯖サマーパーク。2026-11-07 霧島リンカさん）
+[[term]]
+canonical = "わためぶ"
+reading = "わためぶ"
+aliases = ["綿めブ", "綿め部"]
+category = "azki"   # 豚になった角巻わため
+
+[[term]]
+canonical = "千速ぶ"
+reading = "ちはやぶ"
+aliases = ["千ハブ"]
+category = "azki"   # 豚になった輪堂千速
+
+# --- 口癖・名言・持ちネタ（出典: 非公式 wiki「AZKi【語録】」「AZKi【関連語】」、字幕） ---
+
+[[term]]
+canonical = "ほいでほいで"
+reading = "ほいでほいで"
+category = "azki"
+
+[[term]]
+canonical = "猛者がモサモサ"
+reading = "もさがもさもさ"
+aliases = ["猛者がもさもさ", "もさがもさもさ", "モサがモサモサ"]
+category = "azki"
+
+[[term]]
+canonical = "究極の9曲"
+reading = "きゅうきょくのきゅうきょく"
+category = "azki"
+
+[[term]]
+canonical = "疑心あずき"
+reading = "ぎしんあずき"
+aliases = ["義震あずき", "疑震あずき", "義震あ豆き", "疑震あ豆き", "疑震あず豆き"]
+category = "azki"
+
+[[term]]
+canonical = "おてけつ"
+reading = "おてけつ"
+aliases = ["お手ケツ", "おてケツ"]
+category = "azki"
+
+[[term]]
+canonical = "いぬきち"
+reading = "いぬきち"
+aliases = ["犬きち", "犬吉ち"]
+category = "azki"
+
+[[term]]
+canonical = "いけいけGOGO"
+reading = "いけいけごーごー"
+aliases = ["いけいけゴーゴー", "イケイケゴーゴー"]
+category = "azki"
+fuzzy = false
+
+[[term]]
+canonical = "卑怯駅"
+reading = "ひきょうえき"
+aliases = ["秘怯駅", "飛教駅"]
+category = "azki"   # 秘境駅 は普通の言葉なので alias にしない
+
+[[term]]
+canonical = "おのれ星街"
+reading = "おのれほしまち"
+aliases = ["己れ星まち"]
+category = "azki"
+
+[[term]]
+canonical = "地上ゲッサー"
+reading = "じあげっさー"
+aliases = ["ジアゲッサー", "ジアゲッサ"]
+category = "azki"
+
+[[term]]
+canonical = "セトリスト"
+reading = "せとりすと"
+category = "azki"
+
+[[term]]
+canonical = "やいのやいの居酒屋"
+reading = "やいのやいのいざかや"
+category = "azki"
+
+[[term]]
+canonical = "おは床"
+reading = "おはゆか"
+category = "azki"
+
+[[term]]
+canonical = "ガリセット"
+reading = "がりせっと"
+category = "azki"
+
+[[term]]
+canonical = "サラミィ"
+reading = "さらみぃ"
+category = "azki"   # サラミー は普通の言葉なので alias にしない
+
+[[term]]
+canonical = "あずまおー"
+reading = "あずまおー"
+category = "azki"   # クロノ・トリガーの字幕の アズマ王 は別物なので alias にしない
+
+[[term]]
+canonical = "地図のお姉さん"
+reading = "ちずのおねえさん"
+category = "azki"
+
+[[term]]
+canonical = "ツラニ水"
+reading = "つらにすい"
+category = "azki"
+
+[[term]]
+canonical = "AZ学園高校"
+reading = "あずがくえんこうこう"
+category = "azki"
+
+[[term]]
+canonical = "2時半の女"
+reading = "にじはんのおんな"
+category = "azki"
+
+[[term]]
+canonical = "限界観測者"
+reading = "げんかいかんそくしゃ"
+category = "azki"
+
+[[term]]
+canonical = "帝釈峡"
+reading = "たいしゃくきょう"
+category = "azki"
+
+[[term]]
+canonical = "駿河湾"
+reading = "するがわん"
+aliases = ["スルガン", "スルーガワン"]
+category = "azki"
+
+[[term]]
+canonical = "倉敷ダム"
+reading = "くらしきだむ"
+category = "azki"
+
+# 色の名前。あずき → AZKi の補正で「AZKi色」にならないよう語にする（阪急の車体の色など）
+
+[[term]]
+canonical = "あずき色"
+reading = "あずきいろ"
+aliases = ["あ豆き色", "アズキ色"]
+category = "azki"
+
+[[term]]
+canonical = "ずのー"
+reading = "ずのー"
+category = "azki"   # 博衣こよりから奪った称号。頭脳 は普通の言葉なので「取る」の形だけ
+fuzzy = false
+
+[[term.rules]]
+surfaces = ["頭脳"]
+after = ["取る"]
+otherwise = "keep"
+
+# --- ユーザーの判断で足した語（2026-10-31） ---
+
+[[term]]
+canonical = "秘境駅"
+reading = "ひきょうえき"
+aliases = ["秘教駅", "今日駅", "怯液", "秘境液"]
+category = "azki"   # 卑怯駅 と同じ読みだが、話題としてはこちらが多い
+fuzzy = false
+
+[[term]]
+canonical = "AZ学園"
+reading = "あずがくえん"
+aliases = ["あ学園", "ア学園"]
+category = "azki"   # ホロライブ甲子園の高校。あ学 だけだと あ学縁（額縁）に当たるので入れない
+
+[[term]]
+canonical = "AZ学園名水"
+reading = "あずがくえんめいすい"
+aliases = ["あ学名水", "ア学名水"]
+category = "azki"
+
+[[term]]
+canonical = "あずいろはす"
+reading = "あずいろはす"
+aliases = ["あずイロハス", "アずイロハス"]
+category = "azki"   # AZKi・風真いろは・ラプラス。名乗ったのはまだ 1 配信
+
+[[term]]
+canonical = "歌のお姉さん"
+reading = "うたのおねえさん"
+aliases = ["ゃたのお姉さん"]
+category = "azki"
+fuzzy = false
+
+[[term]]
+canonical = "罵倒のお姉さん"
+reading = "ばとうのおねえさん"
+aliases = ["罵当のお姉さん"]
+category = "azki"
+fuzzy = false
+
+# --- 配信で話題に出た人・言葉（2026-11-07 霧島リンカさん） ---
+[[term]]
+canonical = "キングカズ"
+reading = "きんぐかず"
+category = "other"   # サッカー選手 三浦知良

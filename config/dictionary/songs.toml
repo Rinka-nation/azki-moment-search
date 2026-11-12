@@ -1,0 +1,355 @@
+# AZKi の楽曲・アルバム・ライブ名（出典: Wikipedia「AZKi」ディスコグラフィ、2026-10 時点）
+# 英語の曲名は字幕でカタカナになりやすいので、reading を付けておくと英語表記のままでも検索で一致する。
+# 普通の言葉と同じ曲名（光、いのち、mirror、ERROR、equal、Lazy、Pages など）は入れていない。
+# fuzzy = false: 読みが日常語と近く、あいまい一致の候補が誤検出だらけになるもの。
+# 読みに自信が無いものは「要確認」と書いてある。
+
+# --- シングル ---
+[[term]]
+canonical = "Creating world"
+reading = "くりえいてぃんぐわーるど"
+category = "song"
+
+[[term]]
+canonical = "リアルメランコリー"
+reading = "りあるめらんこりー"
+category = "song"
+
+[[term]]
+canonical = "フェリシア"
+reading = "ふぇりしあ"
+category = "song"
+
+[[term]]
+canonical = "I can't control myself"
+reading = "あいきゃんとこんとろーるまいせるふ"
+category = "song"
+
+[[term]]
+canonical = "ひかりのまち"
+reading = "ひかりのまち"
+category = "song"
+fuzzy = false
+
+[[term]]
+canonical = "Starry Regrets"
+reading = "すたーりーりぐれっつ"
+category = "song"
+
+[[term]]
+canonical = "Fake.Fake.Fake"
+reading = "ふぇいくふぇいくふぇいく"
+category = "song"
+
+[[term]]
+canonical = "シットデイズ"
+reading = "しっとでいず"
+category = "song"
+
+[[term]]
+canonical = "さよならヒーロー"
+reading = "さよならひーろー"
+category = "song"
+
+[[term]]
+canonical = "from A to Z"
+reading = "ふろむえーとぅーぜっと"
+category = "song"
+
+[[term]]
+canonical = "黒鉄の守り人"
+reading = "くろがねのもりびと"
+category = "song"
+
+[[term]]
+canonical = "Eternity Bright"
+reading = "えたにてぃぶらいと"
+category = "song"
+
+[[term]]
+canonical = "猫ならばいける"
+reading = "ねこならばいける"
+category = "song"
+
+# 字幕では「オメガ猫」「おめが猫」になる（2026-11-09 霧島リンカさん）
+# 「おメガ猫」「メガ猫」「めが猫」「メガネコ」も、字幕の 48 件を読んで全部 ω猫 だった（2026-11-10 霧島リンカさんの指摘で追加）
+[[term]]
+canonical = "ω猫"
+reading = "おめがねこ"
+aliases = ["オメガ猫", "おめが猫", "オメガネコ", "おメガ猫", "メガ猫", "めが猫", "メガネコ"]
+category = "song"
+
+[[term]]
+canonical = "Intersection"
+reading = "いんたーせくしょん"
+category = "song"
+fuzzy = false
+
+[[term]]
+canonical = "Take me to Heaven"
+reading = "ていくみーとぅーへぶん"
+category = "song"
+
+[[term]]
+canonical = "最強×最弱ガール"
+reading = "さいきょうさいじゃくがーる"
+category = "song"
+
+[[term]]
+canonical = "ナナワリエネミー"
+reading = "ななわりえねみー"
+category = "song"
+
+[[term]]
+canonical = "画面の中の君が好き"
+reading = "がめんのなかのきみがすき"
+category = "song"
+
+[[term]]
+canonical = "オーバーライト"
+reading = "おーばーらいと"
+category = "song"
+fuzzy = false
+
+[[term]]
+canonical = "afterglow"
+reading = "あふたーぐろう"
+category = "song"
+
+[[term]]
+canonical = "petrichor"
+reading = "ぺとりこーる"
+category = "song"
+
+[[term]]
+canonical = "canopus"
+reading = "かのーぷす"
+category = "song"
+
+[[term]]
+canonical = "銀河と海路"
+reading = "ぎんがとかいろ"
+category = "song"
+
+[[term]]
+canonical = "エンドロールは終わらない"
+reading = "えんどろーるはおわらない"
+category = "song"
+
+[[term]]
+canonical = "トウキョウ・シャンディ・ランデヴ"
+reading = "とうきょうしゃんでぃらんでぶ"
+category = "song"
+
+[[term]]
+canonical = "Sincerely"
+reading = "しんしありー"
+category = "song"
+fuzzy = false
+
+[[term]]
+canonical = "海の幽霊"
+reading = "うみのゆうれい"
+category = "song"
+
+[[term]]
+canonical = "map in the cup"
+reading = "まっぷいんざかっぷ"
+category = "song"
+
+[[term]]
+canonical = "少年よ我に帰れ"
+reading = "しょうねんよわれにかえれ"
+category = "song"
+
+[[term]]
+canonical = "カゲロウノ調"
+reading = "かげろうのしらべ"   # 要確認
+category = "song"
+
+[[term]]
+canonical = "夢屑ケーキ"
+reading = "ゆめくずけーき"
+category = "song"
+
+[[term]]
+canonical = "未来カンパネラ"
+reading = "みらいかんぱねら"
+category = "song"
+
+# --- EP / アルバム / 収録曲 ---
+[[term]]
+canonical = "3枚目の地図"
+reading = "さんまいめのちず"
+category = "song"
+
+[[term]]
+canonical = "藍深く"
+reading = "あいふかく"   # 要確認
+category = "song"
+
+[[term]]
+canonical = "FreeGeo"
+reading = "ふりーじお"
+category = "song"
+
+[[term]]
+canonical = "白明"
+reading = "はくめい"
+category = "song"
+fuzzy = false
+
+[[term]]
+canonical = "雨のち晴れ晴れ"
+reading = "あめのちはればれ"
+category = "song"
+
+[[term]]
+canonical = "オキドキ"
+reading = "おきどき"
+category = "song"
+fuzzy = false
+
+[[term]]
+canonical = "The Last Frontier"
+reading = "ざらすとふろんてぃあ"
+category = "song"
+
+[[term]]
+canonical = "フロンティアローカス"
+reading = "ふろんてぃあろーかす"
+category = "song"
+
+[[term]]
+canonical = "without U"
+reading = "うぃずあうとゆー"
+category = "song"
+
+[[term]]
+canonical = "コトノハ"
+reading = "ことのは"
+category = "song"
+fuzzy = false
+
+[[term]]
+canonical = "嘘嘘嘘嘘"
+reading = "うそうそうそうそ"
+category = "song"
+fuzzy = false
+
+[[term]]
+canonical = "自己アレルギー"
+reading = "じこあれるぎー"
+category = "song"
+
+[[term]]
+canonical = "虹を駆け抜けて"
+reading = "にじをかけぬけて"
+category = "song"
+
+[[term]]
+canonical = "世界は巡り、やがて君のものになる"
+reading = "せかいはめぐりやがてきみのものになる"
+category = "song"
+
+[[term]]
+canonical = "Midnight Song"
+reading = "みっどないとそんぐ"
+category = "song"
+
+[[term]]
+canonical = "Re:Creating world"
+reading = "りくりえいてぃんぐわーるど"
+category = "song"
+
+[[term]]
+canonical = "運命の在処"
+reading = "うんめいのありか"
+category = "song"
+
+[[term]]
+canonical = "petal dance"
+reading = "ぺたるだんす"
+category = "song"
+
+[[term]]
+canonical = "ローテート・リピーテッド"
+reading = "ろーてーとりぴーてっど"
+category = "song"
+
+[[term]]
+canonical = "発光体ソーラーサイクル"
+reading = "はっこうたいそーらーさいくる"
+category = "song"
+
+[[term]]
+canonical = "Route If"
+reading = "るーといふ"
+category = "song"
+
+[[term]]
+canonical = "まいすとらてじー!"
+reading = "まいすとらてじー"
+category = "song"
+
+[[term]]
+canonical = "Operation Z"
+reading = "おぺれーしょんぜっと"
+category = "song"
+
+[[term]]
+canonical = "Chaotic inner world"
+reading = "けいおてぃっくいんなーわーるど"
+category = "song"
+
+[[term]]
+canonical = "明けない夜があったなら"
+reading = "あけないよるがあったなら"
+category = "song"
+
+[[term]]
+canonical = "エトランゼ"
+reading = "えとらんぜ"
+category = "song"
+fuzzy = false
+
+[[term]]
+canonical = "午後8時のコーラスソング"
+reading = "ごごはちじのこーらすそんぐ"
+category = "song"
+
+[[term]]
+canonical = "夜の輪郭"
+reading = "よるのりんかく"
+category = "song"
+
+[[term]]
+canonical = "声音エントロピー"
+reading = "こわねえんとろぴー"   # 要確認（ライブ名）
+category = "song"
+
+# --- SorAZ / 参加曲 ---
+[[term]]
+canonical = "紅藍クロニクル"
+reading = "くれないくろにくる"
+category = "song"
+
+[[term]]
+canonical = "Scale the walls"
+reading = "すけーるざうぉーるず"
+category = "song"
+
+[[term]]
+canonical = "Futurity Step"
+reading = "ふゅーちゅりてぃすてっぷ"
+category = "song"
+
+[[term]]
+canonical = "あずいろ BESTIE DAYS"
+reading = "あずいろべすてぃーでいず"
+category = "song"
+
+[[term]]
+canonical = "ホロメン音頭"
+reading = "ほろめんおんど"
+category = "song"

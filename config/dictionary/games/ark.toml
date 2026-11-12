@@ -1,0 +1,14 @@
+# ARK の固有名詞
+# このゲームの配信（タイトルに title_patterns のどれかがある）でだけ補正に使う。
+
+[game]
+id = "ark"
+name = "ARK"
+title_patterns = ["ARK"]
+
+[[term]]
+canonical = "アンキロサウルス"
+reading = "あんきろさうるす"
+aliases = ["アンキノサウス"]
+category = "game"
+fuzzy = false

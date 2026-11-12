@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+data/
+output/
+config/config.toml
+web/node_modules/
+web/dist/
+deploy/
+# 公開リポジトリに入れないもの（scripts/check_public.py でも止める。2026-11-12）
+.env*
+*.env
+.vercel/
+*.db
+*.sqlite
+*.sqlite3
+*.json3

@@ -1,0 +1,122 @@
+# Detroit: Become Human の固有名詞（出典: 作品の登場人物・用語（一般に知られた名称））
+# このゲームの配信（タイトルに title_patterns のどれかがある）でだけ補正に使う。
+
+[game]
+id = "detroit"
+name = "Detroit: Become Human"
+title_patterns = ["Detroit", "デトロイト"]
+
+[[term]]
+canonical = "コナー"
+reading = "コナー"
+category = "game"
+
+[[term]]
+canonical = "カーラ"
+reading = "カーラ"
+category = "game"
+
+[[term]]
+canonical = "マーカス"
+reading = "マーカス"
+category = "game"
+
+[[term]]
+canonical = "ハンク"
+reading = "ハンク"
+category = "game"
+
+[[term]]
+canonical = "アリス"
+reading = "アリス"
+category = "game"
+
+[[term]]
+canonical = "ルーサー"
+reading = "ルーサー"
+category = "game"
+
+[[term]]
+canonical = "ノース"
+reading = "ノース"
+category = "game"
+
+[[term]]
+canonical = "ジョシュ"
+reading = "ジョシュ"
+category = "game"
+
+[[term]]
+canonical = "サイモン"
+reading = "サイモン"
+category = "game"
+
+[[term]]
+canonical = "ジェリコ"
+reading = "ジェリコ"
+category = "game"
+
+[[term]]
+canonical = "サイバーライフ"
+reading = "サイバーライフ"
+category = "game"
+
+[[term]]
+canonical = "アンドロイド"
+reading = "アンドロイド"
+category = "game"
+
+[[term]]
+canonical = "変異体"
+reading = "へんいたい"
+category = "game"
+
+[[term]]
+canonical = "カムスキー"
+reading = "カムスキー"
+category = "game"
+
+[[term]]
+canonical = "トッド"
+reading = "トッド"
+category = "game"
+
+[[term]]
+canonical = "カール"
+reading = "カール"
+category = "game"
+
+[[term]]
+canonical = "クロエ"
+reading = "クロエ"
+category = "game"
+
+[[term]]
+canonical = "アマンダ"
+reading = "アマンダ"
+category = "game"
+
+[[term]]
+canonical = "ギャビン"
+reading = "ギャビン"
+category = "game"
+
+[[term]]
+canonical = "ファウラー"
+reading = "ファウラー"
+category = "game"
+
+[[term]]
+canonical = "ラルフ"
+reading = "ラルフ"
+category = "game"
+
+[[term]]
+canonical = "ズラトコ"
+reading = "ズラトコ"
+category = "game"
+
+[[term]]
+canonical = "RA9"
+reading = "あーるえーないん"
+category = "game"

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- β版は URL を知っている人だけに見せる。検索エンジンに載せない（vercel.json の X-Robots-Tag、robots.txt も） -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="AZKi の配信の発言を検索して、その瞬間から再生できる非公式ファンツール" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>AZKi Moment Search</title>
+    <!-- 保存された配色を描画前に当てる（CSP で inline の script を許さないので別ファイル） -->
+    <script src="/theme.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

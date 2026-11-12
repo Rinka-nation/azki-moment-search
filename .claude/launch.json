@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "azkims",
+      "runtimeExecutable": ".venv/Scripts/azkims.exe",
+      "runtimeArgs": ["serve"],
+      "port": 8765
+    }
+  ]
+}

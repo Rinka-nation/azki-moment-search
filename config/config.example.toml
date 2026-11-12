@@ -1,0 +1,73 @@
+# config/config.toml にコピーして使う（無ければこのファイルが使われる）
+
+[channel]
+# 配信アーカイブ一覧（/streams タブ）
+url = "https://www.youtube.com/@AZKi/streams"
+
+[paths]
+data_dir = "data"        # SQLite と字幕キャッシュ
+output_dir = "output"    # レビュー用レポート
+dictionary_dir = "config/dictionary"
+
+[fetch]
+caption_lang = "ja"
+# YouTube への負荷と BAN 回避のため、1 配信ごとに待つ秒数（+ 0〜sleep_jitter 秒のランダム）
+# 6 秒間隔では約 110 件連続で HTTP 429 になった（2026-10-24）
+sleep_seconds = 20.0
+sleep_jitter = 15.0
+# 1 回の fetch で処理する最大配信数（429 を避けるため、間隔を空けて数回に分ける）
+max_videos_per_run = 50
+# 配信日からこの日数が過ぎた配信だけを取り込む（字幕とタイムスタンプの完成版がそろってから。
+# タイムスタンプは 2 日後までに完成版が置かれる。2026-11-06 霧島リンカさん）。新しすぎる配信は次回に回す
+min_age_days = 3
+
+[filter]
+# タイトルにこれらが含まれる配信は「切り抜き禁止」として除外（no_clip。2026-11-11 霧島リンカさん。確かめるのはタイトルだけ）
+no_clip_title_patterns = [
+    "切り抜き禁止",
+    "切抜き禁止",
+    "切り抜き不可",
+    "切り抜きNG",
+]
+# タイトルにこれらが含まれる配信は「歌枠」として除外（大文字小文字は無視）
+singing_title_patterns = [
+    "歌枠",
+    "Singing Stream",
+    "karaoke",
+    "カラオケ",
+    "うたわく",
+    "歌リレー",
+    # ライブ本番（3D ライブ・周年/生誕ライブ・リアルライブのチラ見せ枠）も歌が中心なので除外（2026-11-09 霧島リンカさん）
+    "3D LIVE",
+    "チラ見せ枠",
+    "Anniversary Live",
+    "Birthday Live",
+]
+# 個別に除外 / 強制的に含める動画ID
+exclude_video_ids = [
+    # ライブ本番で、上の決まり文句に当たらないもの（2026-11-09 霧島リンカさん）
+    "GQdxdrg678s",  # 2019-04-14 cluster サクラサクフェスティバル 8日目
+    "7NGIDvFOhDE",  # 2019-11-15 1周年記念ライブ NEXT TO U
+    "VOsE0_cRzpc",  # 2020-08-29 3D idol LIVE（AZKi生放送 16）
+    "tokXQtsWVm8",  # 2020-10-24 アコースティックライブ（AZKi生放送 #17）
+    "hlZi0IJnreg",  # 2020-11-15 活動2周年記念ライブ TO THE NEXT WORLD
+    "oD1MAwlhUJk",  # 2021-02-23 新衣装お披露目LIVE
+    # 切り抜き禁止の配信。発言を検索に出すのも切り抜きに近いので入れない（2026-11-11 霧島リンカさん）
+    "rg-VJzt8ogI",  # 2025-12-03 【雑談】かなたん卒業のこととか ※切り抜き禁止※
+]
+include_video_ids = []
+
+[segment]
+# 1 発言の最大文字数（句読点が無くても切る）
+max_chars = 60
+# この時間以上の無音（字幕の切れ目）で発言を区切る
+gap_ms = 2000
+
+[timestamps]
+# タイムスタンプコメントの投稿者（チャンネルID。表示名が変わっても追える）
+author_ids = ["UCU_4yjzpuV49YvemJGy7kxA"]   # 霧島リンカ
+# この日以降の配信だけコメントを取りに行く（YYYY-MM-DD。空なら全配信）
+# 霧島リンカのタイムスタンプはモンハンワイルズ（2025-03-17）以降。これより前の他の人のものは検索に出さない
+since = "2025-02-01"
+# 上位何件の親コメントまで探すか（タイムスタンプは上位に来ることが多い）
+max_parents = 60

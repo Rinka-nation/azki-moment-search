@@ -1,0 +1,5238 @@
+# ぽこ あ ポケモン の固有名詞（出典: PokeAPI pokemon_species_names（全ポケモン）、Game8「ぽこあポケモン攻略」）
+# このゲームの配信（タイトルに title_patterns のどれかがある）でだけ補正に使う。
+
+[game]
+id = "pokopia"
+name = "ぽこ あ ポケモン"
+title_patterns = ["ぽこ あ ポケモン", "ぽこあポケモン", "ぽこポケ", "Pokopia"]
+
+[[term]]
+canonical = "パサパサこうや"
+reading = "パサパサこうや"
+aliases = ["パサパサ荒野"]
+category = "game"
+
+[[term]]
+canonical = "ゴツゴツやま"
+reading = "ゴツゴツやま"
+category = "game"
+
+[[term]]
+canonical = "ドンヨリうみべ"
+reading = "ドンヨリうみべ"
+category = "game"
+
+[[term]]
+canonical = "キラキラうきしま"
+reading = "キラキラうきしま"
+category = "game"
+
+[[term]]
+canonical = "ブクブクうみぞこ"
+reading = "ブクブクうみぞこ"
+category = "game"
+
+[[term]]
+canonical = "ゆめしま"
+reading = "ゆめしま"
+category = "game"
+
+[[term]]
+canonical = "ポケモンセンター"
+reading = "ポケモンセンター"
+category = "game"
+
+[[term]]
+canonical = "デカヌギア"
+reading = "デカヌギア"
+category = "game"
+
+[[term]]
+canonical = "なぞのゴーグル"
+reading = "なぞのゴーグル"
+category = "game"
+
+[[term]]
+canonical = "ニンゲンのきろく"
+reading = "ニンゲンのきろく"
+category = "game"
+
+[[term]]
+canonical = "いにしえのもの"
+reading = "いにしえのもの"
+category = "game"
+
+[[term]]
+canonical = "すみごこち"
+reading = "すみごこち"
+category = "game"
+
+[[term]]
+canonical = "ダウジング"
+reading = "ダウジング"
+category = "game"
+
+[[term]]
+canonical = "トレーナーランク"
+reading = "トレーナーランク"
+category = "game"
+
+[[term]]
+canonical = "環境レベル"
+reading = "かんきょうれべる"
+category = "game"
+
+[[term]]
+canonical = "レアポケメタル"
+reading = "レアポケメタル"
+category = "game"
+
+[[term]]
+canonical = "ぐにゃぐにゃねんど"
+reading = "ぐにゃぐにゃねんど"
+category = "game"
+
+[[term]]
+canonical = "ヒメリのみ"
+reading = "ヒメリのみ"
+category = "game"
+
+[[term]]
+canonical = "つたひも"
+reading = "つたひも"
+category = "game"
+
+[[term]]
+canonical = "ポケモンの気配"
+reading = "ぽけもんのけはい"
+category = "game"
+
+[[term]]
+canonical = "生息地"
+reading = "せいそくち"
+category = "game"
+
+[[term]]
+canonical = "フシギダネ"
+reading = "フシギダネ"
+category = "game"
+
+[[term]]
+canonical = "フシギソウ"
+reading = "フシギソウ"
+category = "game"
+
+[[term]]
+canonical = "フシギバナ"
+reading = "フシギバナ"
+category = "game"
+
+[[term]]
+canonical = "ヒトカゲ"
+reading = "ヒトカゲ"
+category = "game"
+
+[[term]]
+canonical = "リザード"
+reading = "リザード"
+category = "game"
+
+[[term]]
+canonical = "リザードン"
+reading = "リザードン"
+category = "game"
+
+[[term]]
+canonical = "ゼニガメ"
+reading = "ゼニガメ"
+category = "game"
+
+[[term]]
+canonical = "カメール"
+reading = "カメール"
+category = "game"
+
+[[term]]
+canonical = "カメックス"
+reading = "カメックス"
+category = "game"
+
+[[term]]
+canonical = "キャタピー"
+reading = "キャタピー"
+category = "game"
+
+[[term]]
+canonical = "トランセル"
+reading = "トランセル"
+category = "game"
+
+[[term]]
+canonical = "バタフリー"
+reading = "バタフリー"
+category = "game"
+
+[[term]]
+canonical = "ビードル"
+reading = "ビードル"
+category = "game"
+
+[[term]]
+canonical = "コクーン"
+reading = "コクーン"
+category = "game"
+
+[[term]]
+canonical = "スピアー"
+reading = "スピアー"
+category = "game"
+
+[[term]]
+canonical = "ポッポ"
+reading = "ポッポ"
+category = "game"
+
+[[term]]
+canonical = "ピジョン"
+reading = "ピジョン"
+category = "game"
+
+[[term]]
+canonical = "ピジョット"
+reading = "ピジョット"
+category = "game"
+
+[[term]]
+canonical = "コラッタ"
+reading = "コラッタ"
+category = "game"
+
+[[term]]
+canonical = "ラッタ"
+reading = "ラッタ"
+category = "game"
+
+[[term]]
+canonical = "オニスズメ"
+reading = "オニスズメ"
+category = "game"
+
+[[term]]
+canonical = "オニドリル"
+reading = "オニドリル"
+category = "game"
+
+[[term]]
+canonical = "アーボ"
+reading = "アーボ"
+category = "game"
+
+[[term]]
+canonical = "アーボック"
+reading = "アーボック"
+category = "game"
+
+[[term]]
+canonical = "ピカチュウ"
+reading = "ピカチュウ"
+category = "game"
+
+[[term]]
+canonical = "ライチュウ"
+reading = "ライチュウ"
+category = "game"
+
+[[term]]
+canonical = "サンド"
+reading = "サンド"
+category = "game"
+
+[[term]]
+canonical = "サンドパン"
+reading = "サンドパン"
+category = "game"
+
+[[term]]
+canonical = "ニドラン♀"
+reading = "ニドラン"
+category = "game"
+
+[[term]]
+canonical = "ニドリーナ"
+reading = "ニドリーナ"
+category = "game"
+
+[[term]]
+canonical = "ニドクイン"
+reading = "ニドクイン"
+category = "game"
+
+[[term]]
+canonical = "ニドラン♂"
+reading = "ニドラン"
+category = "game"
+
+[[term]]
+canonical = "ニドリーノ"
+reading = "ニドリーノ"
+category = "game"
+
+[[term]]
+canonical = "ニドキング"
+reading = "ニドキング"
+category = "game"
+
+[[term]]
+canonical = "ピッピ"
+reading = "ピッピ"
+category = "game"
+
+[[term]]
+canonical = "ピクシー"
+reading = "ピクシー"
+category = "game"
+
+[[term]]
+canonical = "ロコン"
+reading = "ロコン"
+category = "game"
+
+[[term]]
+canonical = "キュウコン"
+reading = "キュウコン"
+category = "game"
+
+[[term]]
+canonical = "プリン"
+reading = "プリン"
+category = "game"
+
+[[term]]
+canonical = "プクリン"
+reading = "プクリン"
+category = "game"
+
+[[term]]
+canonical = "ズバット"
+reading = "ズバット"
+category = "game"
+
+[[term]]
+canonical = "ゴルバット"
+reading = "ゴルバット"
+category = "game"
+
+[[term]]
+canonical = "ナゾノクサ"
+reading = "ナゾノクサ"
+category = "game"
+
+[[term]]
+canonical = "クサイハナ"
+reading = "クサイハナ"
+category = "game"
+
+[[term]]
+canonical = "ラフレシア"
+reading = "ラフレシア"
+category = "game"
+
+[[term]]
+canonical = "パラス"
+reading = "パラス"
+category = "game"
+
+[[term]]
+canonical = "パラセクト"
+reading = "パラセクト"
+category = "game"
+
+[[term]]
+canonical = "コンパン"
+reading = "コンパン"
+category = "game"
+
+[[term]]
+canonical = "モルフォン"
+reading = "モルフォン"
+category = "game"
+
+[[term]]
+canonical = "ディグダ"
+reading = "ディグダ"
+category = "game"
+
+[[term]]
+canonical = "ダグトリオ"
+reading = "ダグトリオ"
+category = "game"
+
+[[term]]
+canonical = "ニャース"
+reading = "ニャース"
+category = "game"
+
+[[term]]
+canonical = "ペルシアン"
+reading = "ペルシアン"
+category = "game"
+
+[[term]]
+canonical = "コダック"
+reading = "コダック"
+category = "game"
+
+[[term]]
+canonical = "ゴルダック"
+reading = "ゴルダック"
+category = "game"
+
+[[term]]
+canonical = "マンキー"
+reading = "マンキー"
+category = "game"
+
+[[term]]
+canonical = "オコリザル"
+reading = "オコリザル"
+category = "game"
+
+[[term]]
+canonical = "ガーディ"
+reading = "ガーディ"
+category = "game"
+
+[[term]]
+canonical = "ウインディ"
+reading = "ウインディ"
+category = "game"
+
+[[term]]
+canonical = "ニョロモ"
+reading = "ニョロモ"
+category = "game"
+
+[[term]]
+canonical = "ニョロゾ"
+reading = "ニョロゾ"
+category = "game"
+
+[[term]]
+canonical = "ニョロボン"
+reading = "ニョロボン"
+category = "game"
+
+[[term]]
+canonical = "ケーシィ"
+reading = "ケーシィ"
+category = "game"
+
+[[term]]
+canonical = "ユンゲラー"
+reading = "ユンゲラー"
+category = "game"
+
+[[term]]
+canonical = "フーディン"
+reading = "フーディン"
+category = "game"
+
+[[term]]
+canonical = "ワンリキー"
+reading = "ワンリキー"
+category = "game"
+
+[[term]]
+canonical = "ゴーリキー"
+reading = "ゴーリキー"
+category = "game"
+
+[[term]]
+canonical = "カイリキー"
+reading = "カイリキー"
+category = "game"
+
+[[term]]
+canonical = "マダツボミ"
+reading = "マダツボミ"
+category = "game"
+
+[[term]]
+canonical = "ウツドン"
+reading = "ウツドン"
+category = "game"
+
+[[term]]
+canonical = "ウツボット"
+reading = "ウツボット"
+category = "game"
+
+[[term]]
+canonical = "メノクラゲ"
+reading = "メノクラゲ"
+category = "game"
+
+[[term]]
+canonical = "ドククラゲ"
+reading = "ドククラゲ"
+category = "game"
+
+[[term]]
+canonical = "イシツブテ"
+reading = "イシツブテ"
+category = "game"
+
+[[term]]
+canonical = "ゴローン"
+reading = "ゴローン"
+category = "game"
+
+[[term]]
+canonical = "ゴローニャ"
+reading = "ゴローニャ"
+category = "game"
+
+[[term]]
+canonical = "ポニータ"
+reading = "ポニータ"
+category = "game"
+
+[[term]]
+canonical = "ギャロップ"
+reading = "ギャロップ"
+category = "game"
+
+[[term]]
+canonical = "ヤドン"
+reading = "ヤドン"
+category = "game"
+
+[[term]]
+canonical = "ヤドラン"
+reading = "ヤドラン"
+category = "game"
+
+[[term]]
+canonical = "コイル"
+reading = "コイル"
+category = "game"
+
+[[term]]
+canonical = "レアコイル"
+reading = "レアコイル"
+category = "game"
+
+[[term]]
+canonical = "カモネギ"
+reading = "カモネギ"
+category = "game"
+
+[[term]]
+canonical = "ドードー"
+reading = "ドードー"
+category = "game"
+
+[[term]]
+canonical = "ドードリオ"
+reading = "ドードリオ"
+category = "game"
+
+[[term]]
+canonical = "パウワウ"
+reading = "パウワウ"
+category = "game"
+
+[[term]]
+canonical = "ジュゴン"
+reading = "ジュゴン"
+category = "game"
+
+[[term]]
+canonical = "ベトベター"
+reading = "ベトベター"
+category = "game"
+
+[[term]]
+canonical = "ベトベトン"
+reading = "ベトベトン"
+category = "game"
+
+[[term]]
+canonical = "シェルダー"
+reading = "シェルダー"
+category = "game"
+
+[[term]]
+canonical = "パルシェン"
+reading = "パルシェン"
+category = "game"
+
+[[term]]
+canonical = "ゴース"
+reading = "ゴース"
+category = "game"
+
+[[term]]
+canonical = "ゴースト"
+reading = "ゴースト"
+category = "game"
+
+[[term]]
+canonical = "ゲンガー"
+reading = "ゲンガー"
+category = "game"
+
+[[term]]
+canonical = "イワーク"
+reading = "イワーク"
+category = "game"
+
+[[term]]
+canonical = "スリープ"
+reading = "スリープ"
+category = "game"
+
+[[term]]
+canonical = "スリーパー"
+reading = "スリーパー"
+category = "game"
+
+[[term]]
+canonical = "クラブ"
+reading = "クラブ"
+category = "game"
+
+[[term]]
+canonical = "キングラー"
+reading = "キングラー"
+category = "game"
+
+[[term]]
+canonical = "ビリリダマ"
+reading = "ビリリダマ"
+category = "game"
+
+[[term]]
+canonical = "マルマイン"
+reading = "マルマイン"
+category = "game"
+
+[[term]]
+canonical = "タマタマ"
+reading = "タマタマ"
+category = "game"
+
+[[term]]
+canonical = "ナッシー"
+reading = "ナッシー"
+category = "game"
+
+[[term]]
+canonical = "カラカラ"
+reading = "カラカラ"
+category = "game"
+
+[[term]]
+canonical = "ガラガラ"
+reading = "ガラガラ"
+category = "game"
+
+[[term]]
+canonical = "サワムラー"
+reading = "サワムラー"
+category = "game"
+
+[[term]]
+canonical = "エビワラー"
+reading = "エビワラー"
+category = "game"
+
+[[term]]
+canonical = "ベロリンガ"
+reading = "ベロリンガ"
+category = "game"
+
+[[term]]
+canonical = "ドガース"
+reading = "ドガース"
+category = "game"
+
+[[term]]
+canonical = "マタドガス"
+reading = "マタドガス"
+category = "game"
+
+[[term]]
+canonical = "サイホーン"
+reading = "サイホーン"
+category = "game"
+
+[[term]]
+canonical = "サイドン"
+reading = "サイドン"
+category = "game"
+
+[[term]]
+canonical = "ラッキー"
+reading = "ラッキー"
+category = "game"
+
+[[term]]
+canonical = "モンジャラ"
+reading = "モンジャラ"
+category = "game"
+
+[[term]]
+canonical = "ガルーラ"
+reading = "ガルーラ"
+category = "game"
+
+[[term]]
+canonical = "タッツー"
+reading = "タッツー"
+category = "game"
+
+[[term]]
+canonical = "シードラ"
+reading = "シードラ"
+category = "game"
+
+[[term]]
+canonical = "トサキント"
+reading = "トサキント"
+category = "game"
+
+[[term]]
+canonical = "アズマオウ"
+reading = "アズマオウ"
+category = "game"
+
+[[term]]
+canonical = "ヒトデマン"
+reading = "ヒトデマン"
+category = "game"
+
+[[term]]
+canonical = "スターミー"
+reading = "スターミー"
+category = "game"
+
+[[term]]
+canonical = "バリヤード"
+reading = "バリヤード"
+category = "game"
+
+[[term]]
+canonical = "ストライク"
+reading = "ストライク"
+category = "game"
+
+[[term]]
+canonical = "ルージュラ"
+reading = "ルージュラ"
+category = "game"
+
+[[term]]
+canonical = "エレブー"
+reading = "エレブー"
+category = "game"
+
+[[term]]
+canonical = "ブーバー"
+reading = "ブーバー"
+category = "game"
+
+[[term]]
+canonical = "カイロス"
+reading = "カイロス"
+category = "game"
+
+[[term]]
+canonical = "ケンタロス"
+reading = "ケンタロス"
+category = "game"
+
+[[term]]
+canonical = "コイキング"
+reading = "コイキング"
+category = "game"
+
+[[term]]
+canonical = "ギャラドス"
+reading = "ギャラドス"
+category = "game"
+
+[[term]]
+canonical = "ラプラス"
+reading = "ラプラス"
+category = "game"
+
+[[term]]
+canonical = "メタモン"
+reading = "メタモン"
+category = "game"
+
+[[term]]
+canonical = "イーブイ"
+reading = "イーブイ"
+category = "game"
+
+[[term]]
+canonical = "シャワーズ"
+reading = "シャワーズ"
+category = "game"
+
+[[term]]
+canonical = "サンダース"
+reading = "サンダース"
+category = "game"
+
+[[term]]
+canonical = "ブースター"
+reading = "ブースター"
+category = "game"
+
+[[term]]
+canonical = "ポリゴン"
+reading = "ポリゴン"
+category = "game"
+
+[[term]]
+canonical = "オムナイト"
+reading = "オムナイト"
+category = "game"
+
+[[term]]
+canonical = "オムスター"
+reading = "オムスター"
+category = "game"
+
+[[term]]
+canonical = "カブト"
+reading = "カブト"
+category = "game"
+
+[[term]]
+canonical = "カブトプス"
+reading = "カブトプス"
+category = "game"
+
+[[term]]
+canonical = "プテラ"
+reading = "プテラ"
+category = "game"
+
+[[term]]
+canonical = "カビゴン"
+reading = "カビゴン"
+category = "game"
+
+[[term]]
+canonical = "フリーザー"
+reading = "フリーザー"
+category = "game"
+
+[[term]]
+canonical = "サンダー"
+reading = "サンダー"
+category = "game"
+
+[[term]]
+canonical = "ファイヤー"
+reading = "ファイヤー"
+category = "game"
+
+[[term]]
+canonical = "ミニリュウ"
+reading = "ミニリュウ"
+category = "game"
+
+[[term]]
+canonical = "ハクリュー"
+reading = "ハクリュー"
+category = "game"
+
+[[term]]
+canonical = "カイリュー"
+reading = "カイリュー"
+category = "game"
+
+[[term]]
+canonical = "ミュウツー"
+reading = "ミュウツー"
+category = "game"
+
+[[term]]
+canonical = "ミュウ"
+reading = "ミュウ"
+category = "game"
+
+[[term]]
+canonical = "チコリータ"
+reading = "チコリータ"
+category = "game"
+
+[[term]]
+canonical = "ベイリーフ"
+reading = "ベイリーフ"
+category = "game"
+
+[[term]]
+canonical = "メガニウム"
+reading = "メガニウム"
+category = "game"
+
+[[term]]
+canonical = "ヒノアラシ"
+reading = "ヒノアラシ"
+category = "game"
+
+[[term]]
+canonical = "マグマラシ"
+reading = "マグマラシ"
+category = "game"
+
+[[term]]
+canonical = "バクフーン"
+reading = "バクフーン"
+category = "game"
+
+[[term]]
+canonical = "ワニノコ"
+reading = "ワニノコ"
+category = "game"
+
+[[term]]
+canonical = "アリゲイツ"
+reading = "アリゲイツ"
+category = "game"
+
+[[term]]
+canonical = "オーダイル"
+reading = "オーダイル"
+category = "game"
+
+[[term]]
+canonical = "オタチ"
+reading = "オタチ"
+category = "game"
+
+[[term]]
+canonical = "オオタチ"
+reading = "オオタチ"
+category = "game"
+
+[[term]]
+canonical = "ホーホー"
+reading = "ホーホー"
+category = "game"
+
+[[term]]
+canonical = "ヨルノズク"
+reading = "ヨルノズク"
+category = "game"
+
+[[term]]
+canonical = "レディバ"
+reading = "レディバ"
+category = "game"
+
+[[term]]
+canonical = "レディアン"
+reading = "レディアン"
+category = "game"
+
+[[term]]
+canonical = "イトマル"
+reading = "イトマル"
+category = "game"
+
+[[term]]
+canonical = "アリアドス"
+reading = "アリアドス"
+category = "game"
+
+[[term]]
+canonical = "クロバット"
+reading = "クロバット"
+category = "game"
+
+[[term]]
+canonical = "チョンチー"
+reading = "チョンチー"
+category = "game"
+
+[[term]]
+canonical = "ランターン"
+reading = "ランターン"
+category = "game"
+
+[[term]]
+canonical = "ピチュー"
+reading = "ピチュー"
+category = "game"
+
+[[term]]
+canonical = "ピィ"
+reading = "ピィ"
+category = "game"
+
+[[term]]
+canonical = "ププリン"
+reading = "ププリン"
+category = "game"
+
+[[term]]
+canonical = "トゲピー"
+reading = "トゲピー"
+category = "game"
+
+[[term]]
+canonical = "トゲチック"
+reading = "トゲチック"
+category = "game"
+
+[[term]]
+canonical = "ネイティ"
+reading = "ネイティ"
+category = "game"
+
+[[term]]
+canonical = "ネイティオ"
+reading = "ネイティオ"
+category = "game"
+
+[[term]]
+canonical = "メリープ"
+reading = "メリープ"
+category = "game"
+
+[[term]]
+canonical = "モココ"
+reading = "モココ"
+category = "game"
+
+[[term]]
+canonical = "デンリュウ"
+reading = "デンリュウ"
+category = "game"
+
+[[term]]
+canonical = "キレイハナ"
+reading = "キレイハナ"
+category = "game"
+
+[[term]]
+canonical = "マリル"
+reading = "マリル"
+category = "game"
+
+[[term]]
+canonical = "マリルリ"
+reading = "マリルリ"
+category = "game"
+
+[[term]]
+canonical = "ウソッキー"
+reading = "ウソッキー"
+category = "game"
+
+[[term]]
+canonical = "ニョロトノ"
+reading = "ニョロトノ"
+category = "game"
+
+[[term]]
+canonical = "ハネッコ"
+reading = "ハネッコ"
+category = "game"
+
+[[term]]
+canonical = "ポポッコ"
+reading = "ポポッコ"
+category = "game"
+
+[[term]]
+canonical = "ワタッコ"
+reading = "ワタッコ"
+category = "game"
+
+[[term]]
+canonical = "エイパム"
+reading = "エイパム"
+category = "game"
+
+[[term]]
+canonical = "ヒマナッツ"
+reading = "ヒマナッツ"
+category = "game"
+
+[[term]]
+canonical = "キマワリ"
+reading = "キマワリ"
+category = "game"
+
+[[term]]
+canonical = "ヤンヤンマ"
+reading = "ヤンヤンマ"
+category = "game"
+
+[[term]]
+canonical = "ウパー"
+reading = "ウパー"
+category = "game"
+
+[[term]]
+canonical = "ヌオー"
+reading = "ヌオー"
+category = "game"
+
+[[term]]
+canonical = "エーフィ"
+reading = "エーフィ"
+category = "game"
+
+[[term]]
+canonical = "ブラッキー"
+reading = "ブラッキー"
+category = "game"
+
+[[term]]
+canonical = "ヤミカラス"
+reading = "ヤミカラス"
+category = "game"
+
+[[term]]
+canonical = "ヤドキング"
+reading = "ヤドキング"
+category = "game"
+
+[[term]]
+canonical = "ムウマ"
+reading = "ムウマ"
+category = "game"
+
+[[term]]
+canonical = "アンノーン"
+reading = "アンノーン"
+category = "game"
+
+[[term]]
+canonical = "ソーナンス"
+reading = "ソーナンス"
+category = "game"
+
+[[term]]
+canonical = "キリンリキ"
+reading = "キリンリキ"
+category = "game"
+
+[[term]]
+canonical = "クヌギダマ"
+reading = "クヌギダマ"
+category = "game"
+
+[[term]]
+canonical = "フォレトス"
+reading = "フォレトス"
+category = "game"
+
+[[term]]
+canonical = "ノコッチ"
+reading = "ノコッチ"
+category = "game"
+
+[[term]]
+canonical = "グライガー"
+reading = "グライガー"
+category = "game"
+
+[[term]]
+canonical = "ハガネール"
+reading = "ハガネール"
+category = "game"
+
+[[term]]
+canonical = "ブルー"
+reading = "ブルー"
+category = "game"
+
+[[term]]
+canonical = "グランブル"
+reading = "グランブル"
+category = "game"
+
+[[term]]
+canonical = "ハリーセン"
+reading = "ハリーセン"
+category = "game"
+
+[[term]]
+canonical = "ハッサム"
+reading = "ハッサム"
+category = "game"
+
+[[term]]
+canonical = "ツボツボ"
+reading = "ツボツボ"
+category = "game"
+
+[[term]]
+canonical = "ヘラクロス"
+reading = "ヘラクロス"
+category = "game"
+
+[[term]]
+canonical = "ニューラ"
+reading = "ニューラ"
+category = "game"
+
+[[term]]
+canonical = "ヒメグマ"
+reading = "ヒメグマ"
+category = "game"
+
+[[term]]
+canonical = "リングマ"
+reading = "リングマ"
+category = "game"
+
+[[term]]
+canonical = "マグマッグ"
+reading = "マグマッグ"
+category = "game"
+
+[[term]]
+canonical = "マグカルゴ"
+reading = "マグカルゴ"
+category = "game"
+
+[[term]]
+canonical = "ウリムー"
+reading = "ウリムー"
+category = "game"
+
+[[term]]
+canonical = "イノムー"
+reading = "イノムー"
+category = "game"
+
+[[term]]
+canonical = "サニーゴ"
+reading = "サニーゴ"
+category = "game"
+
+[[term]]
+canonical = "テッポウオ"
+reading = "テッポウオ"
+category = "game"
+
+[[term]]
+canonical = "オクタン"
+reading = "オクタン"
+category = "game"
+
+[[term]]
+canonical = "デリバード"
+reading = "デリバード"
+category = "game"
+
+[[term]]
+canonical = "マンタイン"
+reading = "マンタイン"
+category = "game"
+
+[[term]]
+canonical = "エアームド"
+reading = "エアームド"
+category = "game"
+
+[[term]]
+canonical = "デルビル"
+reading = "デルビル"
+category = "game"
+
+[[term]]
+canonical = "ヘルガー"
+reading = "ヘルガー"
+category = "game"
+
+[[term]]
+canonical = "キングドラ"
+reading = "キングドラ"
+category = "game"
+
+[[term]]
+canonical = "ゴマゾウ"
+reading = "ゴマゾウ"
+category = "game"
+
+[[term]]
+canonical = "ドンファン"
+reading = "ドンファン"
+category = "game"
+
+[[term]]
+canonical = "ポリゴン２"
+reading = "ポリゴン"
+category = "game"
+
+[[term]]
+canonical = "オドシシ"
+reading = "オドシシ"
+category = "game"
+
+[[term]]
+canonical = "ドーブル"
+reading = "ドーブル"
+category = "game"
+
+[[term]]
+canonical = "バルキー"
+reading = "バルキー"
+category = "game"
+
+[[term]]
+canonical = "カポエラー"
+reading = "カポエラー"
+category = "game"
+
+[[term]]
+canonical = "ムチュール"
+reading = "ムチュール"
+category = "game"
+
+[[term]]
+canonical = "エレキッド"
+reading = "エレキッド"
+category = "game"
+
+[[term]]
+canonical = "ブビィ"
+reading = "ブビィ"
+category = "game"
+
+[[term]]
+canonical = "ミルタンク"
+reading = "ミルタンク"
+category = "game"
+
+[[term]]
+canonical = "ハピナス"
+reading = "ハピナス"
+category = "game"
+
+[[term]]
+canonical = "ライコウ"
+reading = "ライコウ"
+category = "game"
+
+[[term]]
+canonical = "エンテイ"
+reading = "エンテイ"
+category = "game"
+
+[[term]]
+canonical = "スイクン"
+reading = "スイクン"
+category = "game"
+
+[[term]]
+canonical = "ヨーギラス"
+reading = "ヨーギラス"
+category = "game"
+
+[[term]]
+canonical = "サナギラス"
+reading = "サナギラス"
+category = "game"
+
+[[term]]
+canonical = "バンギラス"
+reading = "バンギラス"
+category = "game"
+
+[[term]]
+canonical = "ルギア"
+reading = "ルギア"
+category = "game"
+
+[[term]]
+canonical = "ホウオウ"
+reading = "ホウオウ"
+category = "game"
+
+[[term]]
+canonical = "セレビィ"
+reading = "セレビィ"
+category = "game"
+
+[[term]]
+canonical = "キモリ"
+reading = "キモリ"
+category = "game"
+
+[[term]]
+canonical = "ジュプトル"
+reading = "ジュプトル"
+category = "game"
+
+[[term]]
+canonical = "ジュカイン"
+reading = "ジュカイン"
+category = "game"
+
+[[term]]
+canonical = "アチャモ"
+reading = "アチャモ"
+category = "game"
+
+[[term]]
+canonical = "ワカシャモ"
+reading = "ワカシャモ"
+category = "game"
+
+[[term]]
+canonical = "バシャーモ"
+reading = "バシャーモ"
+category = "game"
+
+[[term]]
+canonical = "ミズゴロウ"
+reading = "ミズゴロウ"
+category = "game"
+
+[[term]]
+canonical = "ヌマクロー"
+reading = "ヌマクロー"
+category = "game"
+
+[[term]]
+canonical = "ラグラージ"
+reading = "ラグラージ"
+category = "game"
+
+[[term]]
+canonical = "ポチエナ"
+reading = "ポチエナ"
+category = "game"
+
+[[term]]
+canonical = "グラエナ"
+reading = "グラエナ"
+category = "game"
+
+[[term]]
+canonical = "ジグザグマ"
+reading = "ジグザグマ"
+category = "game"
+
+[[term]]
+canonical = "マッスグマ"
+reading = "マッスグマ"
+category = "game"
+
+[[term]]
+canonical = "ケムッソ"
+reading = "ケムッソ"
+category = "game"
+
+[[term]]
+canonical = "カラサリス"
+reading = "カラサリス"
+category = "game"
+
+[[term]]
+canonical = "アゲハント"
+reading = "アゲハント"
+category = "game"
+
+[[term]]
+canonical = "マユルド"
+reading = "マユルド"
+category = "game"
+
+[[term]]
+canonical = "ドクケイル"
+reading = "ドクケイル"
+category = "game"
+
+[[term]]
+canonical = "ハスボー"
+reading = "ハスボー"
+category = "game"
+
+[[term]]
+canonical = "ハスブレロ"
+reading = "ハスブレロ"
+category = "game"
+
+[[term]]
+canonical = "ルンパッパ"
+reading = "ルンパッパ"
+category = "game"
+
+[[term]]
+canonical = "タネボー"
+reading = "タネボー"
+category = "game"
+
+[[term]]
+canonical = "コノハナ"
+reading = "コノハナ"
+category = "game"
+
+[[term]]
+canonical = "ダーテング"
+reading = "ダーテング"
+category = "game"
+
+[[term]]
+canonical = "スバメ"
+reading = "スバメ"
+category = "game"
+
+[[term]]
+canonical = "オオスバメ"
+reading = "オオスバメ"
+category = "game"
+
+[[term]]
+canonical = "キャモメ"
+reading = "キャモメ"
+category = "game"
+
+[[term]]
+canonical = "ペリッパー"
+reading = "ペリッパー"
+category = "game"
+
+[[term]]
+canonical = "ラルトス"
+reading = "ラルトス"
+category = "game"
+
+[[term]]
+canonical = "キルリア"
+reading = "キルリア"
+category = "game"
+
+[[term]]
+canonical = "サーナイト"
+reading = "サーナイト"
+category = "game"
+
+[[term]]
+canonical = "アメタマ"
+reading = "アメタマ"
+category = "game"
+
+[[term]]
+canonical = "アメモース"
+reading = "アメモース"
+category = "game"
+
+[[term]]
+canonical = "キノココ"
+reading = "キノココ"
+category = "game"
+
+[[term]]
+canonical = "キノガッサ"
+reading = "キノガッサ"
+category = "game"
+
+[[term]]
+canonical = "ナマケロ"
+reading = "ナマケロ"
+category = "game"
+
+[[term]]
+canonical = "ヤルキモノ"
+reading = "ヤルキモノ"
+category = "game"
+
+[[term]]
+canonical = "ケッキング"
+reading = "ケッキング"
+category = "game"
+
+[[term]]
+canonical = "ツチニン"
+reading = "ツチニン"
+category = "game"
+
+[[term]]
+canonical = "テッカニン"
+reading = "テッカニン"
+category = "game"
+
+[[term]]
+canonical = "ヌケニン"
+reading = "ヌケニン"
+category = "game"
+
+[[term]]
+canonical = "ゴニョニョ"
+reading = "ゴニョニョ"
+category = "game"
+
+[[term]]
+canonical = "ドゴーム"
+reading = "ドゴーム"
+category = "game"
+
+[[term]]
+canonical = "バクオング"
+reading = "バクオング"
+category = "game"
+
+[[term]]
+canonical = "マクノシタ"
+reading = "マクノシタ"
+category = "game"
+
+[[term]]
+canonical = "ハリテヤマ"
+reading = "ハリテヤマ"
+category = "game"
+
+[[term]]
+canonical = "ルリリ"
+reading = "ルリリ"
+category = "game"
+
+[[term]]
+canonical = "ノズパス"
+reading = "ノズパス"
+category = "game"
+
+[[term]]
+canonical = "エネコ"
+reading = "エネコ"
+category = "game"
+
+[[term]]
+canonical = "エネコロロ"
+reading = "エネコロロ"
+category = "game"
+
+[[term]]
+canonical = "ヤミラミ"
+reading = "ヤミラミ"
+category = "game"
+
+[[term]]
+canonical = "クチート"
+reading = "クチート"
+category = "game"
+
+[[term]]
+canonical = "ココドラ"
+reading = "ココドラ"
+category = "game"
+
+[[term]]
+canonical = "コドラ"
+reading = "コドラ"
+category = "game"
+
+[[term]]
+canonical = "ボスゴドラ"
+reading = "ボスゴドラ"
+category = "game"
+
+[[term]]
+canonical = "アサナン"
+reading = "アサナン"
+category = "game"
+
+[[term]]
+canonical = "チャーレム"
+reading = "チャーレム"
+category = "game"
+
+[[term]]
+canonical = "ラクライ"
+reading = "ラクライ"
+category = "game"
+
+[[term]]
+canonical = "ライボルト"
+reading = "ライボルト"
+category = "game"
+
+[[term]]
+canonical = "プラスル"
+reading = "プラスル"
+category = "game"
+
+[[term]]
+canonical = "マイナン"
+reading = "マイナン"
+category = "game"
+
+[[term]]
+canonical = "バルビート"
+reading = "バルビート"
+category = "game"
+
+[[term]]
+canonical = "イルミーゼ"
+reading = "イルミーゼ"
+category = "game"
+
+[[term]]
+canonical = "ロゼリア"
+reading = "ロゼリア"
+category = "game"
+
+[[term]]
+canonical = "ゴクリン"
+reading = "ゴクリン"
+category = "game"
+
+[[term]]
+canonical = "マルノーム"
+reading = "マルノーム"
+category = "game"
+
+[[term]]
+canonical = "キバニア"
+reading = "キバニア"
+category = "game"
+
+[[term]]
+canonical = "サメハダー"
+reading = "サメハダー"
+category = "game"
+
+[[term]]
+canonical = "ホエルコ"
+reading = "ホエルコ"
+category = "game"
+
+[[term]]
+canonical = "ホエルオー"
+reading = "ホエルオー"
+category = "game"
+
+[[term]]
+canonical = "ドンメル"
+reading = "ドンメル"
+category = "game"
+
+[[term]]
+canonical = "バクーダ"
+reading = "バクーダ"
+category = "game"
+
+[[term]]
+canonical = "コータス"
+reading = "コータス"
+category = "game"
+
+[[term]]
+canonical = "バネブー"
+reading = "バネブー"
+category = "game"
+
+[[term]]
+canonical = "ブーピッグ"
+reading = "ブーピッグ"
+category = "game"
+
+[[term]]
+canonical = "パッチール"
+reading = "パッチール"
+category = "game"
+
+[[term]]
+canonical = "ナックラー"
+reading = "ナックラー"
+category = "game"
+
+[[term]]
+canonical = "ビブラーバ"
+reading = "ビブラーバ"
+category = "game"
+
+[[term]]
+canonical = "フライゴン"
+reading = "フライゴン"
+category = "game"
+
+[[term]]
+canonical = "サボネア"
+reading = "サボネア"
+category = "game"
+
+[[term]]
+canonical = "ノクタス"
+reading = "ノクタス"
+category = "game"
+
+[[term]]
+canonical = "チルット"
+reading = "チルット"
+category = "game"
+
+[[term]]
+canonical = "チルタリス"
+reading = "チルタリス"
+category = "game"
+
+[[term]]
+canonical = "ザングース"
+reading = "ザングース"
+category = "game"
+
+[[term]]
+canonical = "ハブネーク"
+reading = "ハブネーク"
+category = "game"
+
+[[term]]
+canonical = "ルナトーン"
+reading = "ルナトーン"
+category = "game"
+
+[[term]]
+canonical = "ソルロック"
+reading = "ソルロック"
+category = "game"
+
+[[term]]
+canonical = "ドジョッチ"
+reading = "ドジョッチ"
+category = "game"
+
+[[term]]
+canonical = "ナマズン"
+reading = "ナマズン"
+category = "game"
+
+[[term]]
+canonical = "ヘイガニ"
+reading = "ヘイガニ"
+category = "game"
+
+[[term]]
+canonical = "シザリガー"
+reading = "シザリガー"
+category = "game"
+
+[[term]]
+canonical = "ヤジロン"
+reading = "ヤジロン"
+category = "game"
+
+[[term]]
+canonical = "ネンドール"
+reading = "ネンドール"
+category = "game"
+
+[[term]]
+canonical = "リリーラ"
+reading = "リリーラ"
+category = "game"
+
+[[term]]
+canonical = "ユレイドル"
+reading = "ユレイドル"
+category = "game"
+
+[[term]]
+canonical = "アノプス"
+reading = "アノプス"
+category = "game"
+
+[[term]]
+canonical = "アーマルド"
+reading = "アーマルド"
+category = "game"
+
+[[term]]
+canonical = "ヒンバス"
+reading = "ヒンバス"
+category = "game"
+
+[[term]]
+canonical = "ミロカロス"
+reading = "ミロカロス"
+category = "game"
+
+[[term]]
+canonical = "ポワルン"
+reading = "ポワルン"
+category = "game"
+
+[[term]]
+canonical = "カクレオン"
+reading = "カクレオン"
+category = "game"
+
+[[term]]
+canonical = "カゲボウズ"
+reading = "カゲボウズ"
+category = "game"
+
+[[term]]
+canonical = "ジュペッタ"
+reading = "ジュペッタ"
+category = "game"
+
+[[term]]
+canonical = "ヨマワル"
+reading = "ヨマワル"
+category = "game"
+
+[[term]]
+canonical = "サマヨール"
+reading = "サマヨール"
+category = "game"
+
+[[term]]
+canonical = "トロピウス"
+reading = "トロピウス"
+category = "game"
+
+[[term]]
+canonical = "チリーン"
+reading = "チリーン"
+category = "game"
+
+[[term]]
+canonical = "アブソル"
+reading = "アブソル"
+category = "game"
+
+[[term]]
+canonical = "ソーナノ"
+reading = "ソーナノ"
+category = "game"
+
+[[term]]
+canonical = "ユキワラシ"
+reading = "ユキワラシ"
+category = "game"
+
+[[term]]
+canonical = "オニゴーリ"
+reading = "オニゴーリ"
+category = "game"
+
+[[term]]
+canonical = "タマザラシ"
+reading = "タマザラシ"
+category = "game"
+
+[[term]]
+canonical = "トドグラー"
+reading = "トドグラー"
+category = "game"
+
+[[term]]
+canonical = "トドゼルガ"
+reading = "トドゼルガ"
+category = "game"
+
+[[term]]
+canonical = "パールル"
+reading = "パールル"
+category = "game"
+
+[[term]]
+canonical = "ハンテール"
+reading = "ハンテール"
+category = "game"
+
+[[term]]
+canonical = "サクラビス"
+reading = "サクラビス"
+category = "game"
+
+[[term]]
+canonical = "ジーランス"
+reading = "ジーランス"
+category = "game"
+
+[[term]]
+canonical = "ラブカス"
+reading = "ラブカス"
+category = "game"
+
+[[term]]
+canonical = "タツベイ"
+reading = "タツベイ"
+category = "game"
+
+[[term]]
+canonical = "コモルー"
+reading = "コモルー"
+category = "game"
+
+[[term]]
+canonical = "ボーマンダ"
+reading = "ボーマンダ"
+category = "game"
+
+[[term]]
+canonical = "ダンバル"
+reading = "ダンバル"
+category = "game"
+
+[[term]]
+canonical = "メタング"
+reading = "メタング"
+category = "game"
+
+[[term]]
+canonical = "メタグロス"
+reading = "メタグロス"
+category = "game"
+
+[[term]]
+canonical = "レジロック"
+reading = "レジロック"
+category = "game"
+
+[[term]]
+canonical = "レジアイス"
+reading = "レジアイス"
+category = "game"
+
+[[term]]
+canonical = "レジスチル"
+reading = "レジスチル"
+category = "game"
+
+[[term]]
+canonical = "ラティアス"
+reading = "ラティアス"
+category = "game"
+
+[[term]]
+canonical = "ラティオス"
+reading = "ラティオス"
+category = "game"
+
+[[term]]
+canonical = "カイオーガ"
+reading = "カイオーガ"
+category = "game"
+
+[[term]]
+canonical = "グラードン"
+reading = "グラードン"
+category = "game"
+
+[[term]]
+canonical = "レックウザ"
+reading = "レックウザ"
+category = "game"
+
+[[term]]
+canonical = "ジラーチ"
+reading = "ジラーチ"
+category = "game"
+
+[[term]]
+canonical = "デオキシス"
+reading = "デオキシス"
+category = "game"
+
+[[term]]
+canonical = "ナエトル"
+reading = "ナエトル"
+category = "game"
+
+[[term]]
+canonical = "ハヤシガメ"
+reading = "ハヤシガメ"
+category = "game"
+
+[[term]]
+canonical = "ドダイトス"
+reading = "ドダイトス"
+category = "game"
+
+[[term]]
+canonical = "ヒコザル"
+reading = "ヒコザル"
+category = "game"
+
+[[term]]
+canonical = "モウカザル"
+reading = "モウカザル"
+category = "game"
+
+[[term]]
+canonical = "ゴウカザル"
+reading = "ゴウカザル"
+category = "game"
+
+[[term]]
+canonical = "ポッチャマ"
+reading = "ポッチャマ"
+category = "game"
+
+[[term]]
+canonical = "ポッタイシ"
+reading = "ポッタイシ"
+category = "game"
+
+[[term]]
+canonical = "エンペルト"
+reading = "エンペルト"
+category = "game"
+
+[[term]]
+canonical = "ムックル"
+reading = "ムックル"
+category = "game"
+
+[[term]]
+canonical = "ムクバード"
+reading = "ムクバード"
+category = "game"
+
+[[term]]
+canonical = "ムクホーク"
+reading = "ムクホーク"
+category = "game"
+
+[[term]]
+canonical = "ビッパ"
+reading = "ビッパ"
+category = "game"
+
+[[term]]
+canonical = "ビーダル"
+reading = "ビーダル"
+category = "game"
+
+[[term]]
+canonical = "コロボーシ"
+reading = "コロボーシ"
+category = "game"
+
+[[term]]
+canonical = "コロトック"
+reading = "コロトック"
+category = "game"
+
+[[term]]
+canonical = "コリンク"
+reading = "コリンク"
+category = "game"
+
+[[term]]
+canonical = "ルクシオ"
+reading = "ルクシオ"
+category = "game"
+
+[[term]]
+canonical = "レントラー"
+reading = "レントラー"
+category = "game"
+
+[[term]]
+canonical = "スボミー"
+reading = "スボミー"
+category = "game"
+
+[[term]]
+canonical = "ロズレイド"
+reading = "ロズレイド"
+category = "game"
+
+[[term]]
+canonical = "ズガイドス"
+reading = "ズガイドス"
+category = "game"
+
+[[term]]
+canonical = "ラムパルド"
+reading = "ラムパルド"
+category = "game"
+
+[[term]]
+canonical = "タテトプス"
+reading = "タテトプス"
+category = "game"
+
+[[term]]
+canonical = "トリデプス"
+reading = "トリデプス"
+category = "game"
+
+[[term]]
+canonical = "ミノムッチ"
+reading = "ミノムッチ"
+category = "game"
+
+[[term]]
+canonical = "ミノマダム"
+reading = "ミノマダム"
+category = "game"
+
+[[term]]
+canonical = "ガーメイル"
+reading = "ガーメイル"
+category = "game"
+
+[[term]]
+canonical = "ミツハニー"
+reading = "ミツハニー"
+category = "game"
+
+[[term]]
+canonical = "ビークイン"
+reading = "ビークイン"
+category = "game"
+
+[[term]]
+canonical = "パチリス"
+reading = "パチリス"
+category = "game"
+
+[[term]]
+canonical = "ブイゼル"
+reading = "ブイゼル"
+category = "game"
+
+[[term]]
+canonical = "フローゼル"
+reading = "フローゼル"
+category = "game"
+
+[[term]]
+canonical = "チェリンボ"
+reading = "チェリンボ"
+category = "game"
+
+[[term]]
+canonical = "チェリム"
+reading = "チェリム"
+category = "game"
+
+[[term]]
+canonical = "カラナクシ"
+reading = "カラナクシ"
+category = "game"
+
+[[term]]
+canonical = "トリトドン"
+reading = "トリトドン"
+category = "game"
+
+[[term]]
+canonical = "エテボース"
+reading = "エテボース"
+category = "game"
+
+[[term]]
+canonical = "フワンテ"
+reading = "フワンテ"
+category = "game"
+
+[[term]]
+canonical = "フワライド"
+reading = "フワライド"
+category = "game"
+
+[[term]]
+canonical = "ミミロル"
+reading = "ミミロル"
+category = "game"
+
+[[term]]
+canonical = "ミミロップ"
+reading = "ミミロップ"
+category = "game"
+
+[[term]]
+canonical = "ムウマージ"
+reading = "ムウマージ"
+category = "game"
+
+[[term]]
+canonical = "ドンカラス"
+reading = "ドンカラス"
+category = "game"
+
+[[term]]
+canonical = "ニャルマー"
+reading = "ニャルマー"
+category = "game"
+
+[[term]]
+canonical = "ブニャット"
+reading = "ブニャット"
+category = "game"
+
+[[term]]
+canonical = "リーシャン"
+reading = "リーシャン"
+category = "game"
+
+[[term]]
+canonical = "スカンプー"
+reading = "スカンプー"
+category = "game"
+
+[[term]]
+canonical = "スカタンク"
+reading = "スカタンク"
+category = "game"
+
+[[term]]
+canonical = "ドーミラー"
+reading = "ドーミラー"
+category = "game"
+
+[[term]]
+canonical = "ドータクン"
+reading = "ドータクン"
+category = "game"
+
+[[term]]
+canonical = "ウソハチ"
+reading = "ウソハチ"
+category = "game"
+
+[[term]]
+canonical = "マネネ"
+reading = "マネネ"
+category = "game"
+
+[[term]]
+canonical = "ピンプク"
+reading = "ピンプク"
+category = "game"
+
+[[term]]
+canonical = "ペラップ"
+reading = "ペラップ"
+category = "game"
+
+[[term]]
+canonical = "ミカルゲ"
+reading = "ミカルゲ"
+category = "game"
+
+[[term]]
+canonical = "フカマル"
+reading = "フカマル"
+category = "game"
+
+[[term]]
+canonical = "ガバイト"
+reading = "ガバイト"
+category = "game"
+
+[[term]]
+canonical = "ガブリアス"
+reading = "ガブリアス"
+category = "game"
+
+[[term]]
+canonical = "ゴンベ"
+reading = "ゴンベ"
+category = "game"
+
+[[term]]
+canonical = "リオル"
+reading = "リオル"
+category = "game"
+
+[[term]]
+canonical = "ルカリオ"
+reading = "ルカリオ"
+category = "game"
+
+[[term]]
+canonical = "ヒポポタス"
+reading = "ヒポポタス"
+category = "game"
+
+[[term]]
+canonical = "カバルドン"
+reading = "カバルドン"
+category = "game"
+
+[[term]]
+canonical = "スコルピ"
+reading = "スコルピ"
+category = "game"
+
+[[term]]
+canonical = "ドラピオン"
+reading = "ドラピオン"
+category = "game"
+
+[[term]]
+canonical = "グレッグル"
+reading = "グレッグル"
+category = "game"
+
+[[term]]
+canonical = "ドクロッグ"
+reading = "ドクロッグ"
+category = "game"
+
+[[term]]
+canonical = "マスキッパ"
+reading = "マスキッパ"
+category = "game"
+
+[[term]]
+canonical = "ケイコウオ"
+reading = "ケイコウオ"
+category = "game"
+
+[[term]]
+canonical = "ネオラント"
+reading = "ネオラント"
+category = "game"
+
+[[term]]
+canonical = "タマンタ"
+reading = "タマンタ"
+category = "game"
+
+[[term]]
+canonical = "ユキカブリ"
+reading = "ユキカブリ"
+category = "game"
+
+[[term]]
+canonical = "ユキノオー"
+reading = "ユキノオー"
+category = "game"
+
+[[term]]
+canonical = "マニューラ"
+reading = "マニューラ"
+category = "game"
+
+[[term]]
+canonical = "ジバコイル"
+reading = "ジバコイル"
+category = "game"
+
+[[term]]
+canonical = "ベロベルト"
+reading = "ベロベルト"
+category = "game"
+
+[[term]]
+canonical = "ドサイドン"
+reading = "ドサイドン"
+category = "game"
+
+[[term]]
+canonical = "モジャンボ"
+reading = "モジャンボ"
+category = "game"
+
+[[term]]
+canonical = "エレキブル"
+reading = "エレキブル"
+category = "game"
+
+[[term]]
+canonical = "ブーバーン"
+reading = "ブーバーン"
+category = "game"
+
+[[term]]
+canonical = "トゲキッス"
+reading = "トゲキッス"
+category = "game"
+
+[[term]]
+canonical = "メガヤンマ"
+reading = "メガヤンマ"
+category = "game"
+
+[[term]]
+canonical = "リーフィア"
+reading = "リーフィア"
+category = "game"
+
+[[term]]
+canonical = "グレイシア"
+reading = "グレイシア"
+category = "game"
+
+[[term]]
+canonical = "グライオン"
+reading = "グライオン"
+category = "game"
+
+[[term]]
+canonical = "マンムー"
+reading = "マンムー"
+category = "game"
+
+[[term]]
+canonical = "ポリゴンＺ"
+reading = "ポリゴン"
+category = "game"
+
+[[term]]
+canonical = "エルレイド"
+reading = "エルレイド"
+category = "game"
+
+[[term]]
+canonical = "ダイノーズ"
+reading = "ダイノーズ"
+category = "game"
+
+[[term]]
+canonical = "ヨノワール"
+reading = "ヨノワール"
+category = "game"
+
+[[term]]
+canonical = "ユキメノコ"
+reading = "ユキメノコ"
+category = "game"
+
+[[term]]
+canonical = "ロトム"
+reading = "ロトム"
+category = "game"
+
+[[term]]
+canonical = "ユクシー"
+reading = "ユクシー"
+category = "game"
+
+[[term]]
+canonical = "エムリット"
+reading = "エムリット"
+category = "game"
+
+[[term]]
+canonical = "アグノム"
+reading = "アグノム"
+category = "game"
+
+[[term]]
+canonical = "ディアルガ"
+reading = "ディアルガ"
+category = "game"
+
+[[term]]
+canonical = "パルキア"
+reading = "パルキア"
+category = "game"
+
+[[term]]
+canonical = "ヒードラン"
+reading = "ヒードラン"
+category = "game"
+
+[[term]]
+canonical = "レジギガス"
+reading = "レジギガス"
+category = "game"
+
+[[term]]
+canonical = "ギラティナ"
+reading = "ギラティナ"
+category = "game"
+
+[[term]]
+canonical = "クレセリア"
+reading = "クレセリア"
+category = "game"
+
+[[term]]
+canonical = "フィオネ"
+reading = "フィオネ"
+category = "game"
+
+[[term]]
+canonical = "マナフィ"
+reading = "マナフィ"
+category = "game"
+
+[[term]]
+canonical = "ダークライ"
+reading = "ダークライ"
+category = "game"
+
+[[term]]
+canonical = "シェイミ"
+reading = "シェイミ"
+category = "game"
+
+[[term]]
+canonical = "アルセウス"
+reading = "アルセウス"
+category = "game"
+
+[[term]]
+canonical = "ビクティニ"
+reading = "ビクティニ"
+category = "game"
+
+[[term]]
+canonical = "ツタージャ"
+reading = "ツタージャ"
+category = "game"
+
+[[term]]
+canonical = "ジャノビー"
+reading = "ジャノビー"
+category = "game"
+
+[[term]]
+canonical = "ジャローダ"
+reading = "ジャローダ"
+category = "game"
+
+[[term]]
+canonical = "ポカブ"
+reading = "ポカブ"
+category = "game"
+
+[[term]]
+canonical = "チャオブー"
+reading = "チャオブー"
+category = "game"
+
+[[term]]
+canonical = "エンブオー"
+reading = "エンブオー"
+category = "game"
+
+[[term]]
+canonical = "ミジュマル"
+reading = "ミジュマル"
+category = "game"
+
+[[term]]
+canonical = "フタチマル"
+reading = "フタチマル"
+category = "game"
+
+[[term]]
+canonical = "ダイケンキ"
+reading = "ダイケンキ"
+category = "game"
+
+[[term]]
+canonical = "ミネズミ"
+reading = "ミネズミ"
+category = "game"
+
+[[term]]
+canonical = "ミルホッグ"
+reading = "ミルホッグ"
+category = "game"
+
+[[term]]
+canonical = "ヨーテリー"
+reading = "ヨーテリー"
+category = "game"
+
+[[term]]
+canonical = "ハーデリア"
+reading = "ハーデリア"
+category = "game"
+
+[[term]]
+canonical = "ムーランド"
+reading = "ムーランド"
+category = "game"
+
+[[term]]
+canonical = "チョロネコ"
+reading = "チョロネコ"
+category = "game"
+
+[[term]]
+canonical = "レパルダス"
+reading = "レパルダス"
+category = "game"
+
+[[term]]
+canonical = "ヤナップ"
+reading = "ヤナップ"
+category = "game"
+
+[[term]]
+canonical = "ヤナッキー"
+reading = "ヤナッキー"
+category = "game"
+
+[[term]]
+canonical = "バオップ"
+reading = "バオップ"
+category = "game"
+
+[[term]]
+canonical = "バオッキー"
+reading = "バオッキー"
+category = "game"
+
+[[term]]
+canonical = "ヒヤップ"
+reading = "ヒヤップ"
+category = "game"
+
+[[term]]
+canonical = "ヒヤッキー"
+reading = "ヒヤッキー"
+category = "game"
+
+[[term]]
+canonical = "ムンナ"
+reading = "ムンナ"
+category = "game"
+
+[[term]]
+canonical = "ムシャーナ"
+reading = "ムシャーナ"
+category = "game"
+
+[[term]]
+canonical = "マメパト"
+reading = "マメパト"
+category = "game"
+
+[[term]]
+canonical = "ハトーボー"
+reading = "ハトーボー"
+category = "game"
+
+[[term]]
+canonical = "ケンホロウ"
+reading = "ケンホロウ"
+category = "game"
+
+[[term]]
+canonical = "シママ"
+reading = "シママ"
+category = "game"
+
+[[term]]
+canonical = "ゼブライカ"
+reading = "ゼブライカ"
+category = "game"
+
+[[term]]
+canonical = "ダンゴロ"
+reading = "ダンゴロ"
+category = "game"
+
+[[term]]
+canonical = "ガントル"
+reading = "ガントル"
+category = "game"
+
+[[term]]
+canonical = "ギガイアス"
+reading = "ギガイアス"
+category = "game"
+
+[[term]]
+canonical = "コロモリ"
+reading = "コロモリ"
+category = "game"
+
+[[term]]
+canonical = "ココロモリ"
+reading = "ココロモリ"
+category = "game"
+
+[[term]]
+canonical = "モグリュー"
+reading = "モグリュー"
+category = "game"
+
+[[term]]
+canonical = "ドリュウズ"
+reading = "ドリュウズ"
+category = "game"
+
+[[term]]
+canonical = "タブンネ"
+reading = "タブンネ"
+category = "game"
+
+[[term]]
+canonical = "ドッコラー"
+reading = "ドッコラー"
+category = "game"
+
+[[term]]
+canonical = "ドテッコツ"
+reading = "ドテッコツ"
+category = "game"
+
+[[term]]
+canonical = "ローブシン"
+reading = "ローブシン"
+category = "game"
+
+[[term]]
+canonical = "オタマロ"
+reading = "オタマロ"
+category = "game"
+
+[[term]]
+canonical = "ガマガル"
+reading = "ガマガル"
+category = "game"
+
+[[term]]
+canonical = "ガマゲロゲ"
+reading = "ガマゲロゲ"
+category = "game"
+
+[[term]]
+canonical = "ナゲキ"
+reading = "ナゲキ"
+category = "game"
+
+[[term]]
+canonical = "ダゲキ"
+reading = "ダゲキ"
+category = "game"
+
+[[term]]
+canonical = "クルミル"
+reading = "クルミル"
+category = "game"
+
+[[term]]
+canonical = "クルマユ"
+reading = "クルマユ"
+category = "game"
+
+[[term]]
+canonical = "ハハコモリ"
+reading = "ハハコモリ"
+category = "game"
+
+[[term]]
+canonical = "フシデ"
+reading = "フシデ"
+category = "game"
+
+[[term]]
+canonical = "ホイーガ"
+reading = "ホイーガ"
+category = "game"
+
+[[term]]
+canonical = "ペンドラー"
+reading = "ペンドラー"
+category = "game"
+
+[[term]]
+canonical = "モンメン"
+reading = "モンメン"
+category = "game"
+
+[[term]]
+canonical = "エルフーン"
+reading = "エルフーン"
+category = "game"
+
+[[term]]
+canonical = "チュリネ"
+reading = "チュリネ"
+category = "game"
+
+[[term]]
+canonical = "ドレディア"
+reading = "ドレディア"
+category = "game"
+
+[[term]]
+canonical = "バスラオ"
+reading = "バスラオ"
+category = "game"
+
+[[term]]
+canonical = "メグロコ"
+reading = "メグロコ"
+category = "game"
+
+[[term]]
+canonical = "ワルビル"
+reading = "ワルビル"
+category = "game"
+
+[[term]]
+canonical = "ワルビアル"
+reading = "ワルビアル"
+category = "game"
+
+[[term]]
+canonical = "ダルマッカ"
+reading = "ダルマッカ"
+category = "game"
+
+[[term]]
+canonical = "ヒヒダルマ"
+reading = "ヒヒダルマ"
+category = "game"
+
+[[term]]
+canonical = "マラカッチ"
+reading = "マラカッチ"
+category = "game"
+
+[[term]]
+canonical = "イシズマイ"
+reading = "イシズマイ"
+category = "game"
+
+[[term]]
+canonical = "イワパレス"
+reading = "イワパレス"
+category = "game"
+
+[[term]]
+canonical = "ズルッグ"
+reading = "ズルッグ"
+category = "game"
+
+[[term]]
+canonical = "ズルズキン"
+reading = "ズルズキン"
+category = "game"
+
+[[term]]
+canonical = "シンボラー"
+reading = "シンボラー"
+category = "game"
+
+[[term]]
+canonical = "デスマス"
+reading = "デスマス"
+category = "game"
+
+[[term]]
+canonical = "デスカーン"
+reading = "デスカーン"
+category = "game"
+
+[[term]]
+canonical = "プロトーガ"
+reading = "プロトーガ"
+category = "game"
+
+[[term]]
+canonical = "アバゴーラ"
+reading = "アバゴーラ"
+category = "game"
+
+[[term]]
+canonical = "アーケン"
+reading = "アーケン"
+category = "game"
+
+[[term]]
+canonical = "アーケオス"
+reading = "アーケオス"
+category = "game"
+
+[[term]]
+canonical = "ヤブクロン"
+reading = "ヤブクロン"
+category = "game"
+
+[[term]]
+canonical = "ダストダス"
+reading = "ダストダス"
+category = "game"
+
+[[term]]
+canonical = "ゾロア"
+reading = "ゾロア"
+category = "game"
+
+[[term]]
+canonical = "ゾロアーク"
+reading = "ゾロアーク"
+category = "game"
+
+[[term]]
+canonical = "チラーミィ"
+reading = "チラーミィ"
+category = "game"
+
+[[term]]
+canonical = "チラチーノ"
+reading = "チラチーノ"
+category = "game"
+
+[[term]]
+canonical = "ゴチム"
+reading = "ゴチム"
+category = "game"
+
+[[term]]
+canonical = "ゴチミル"
+reading = "ゴチミル"
+category = "game"
+
+[[term]]
+canonical = "ゴチルゼル"
+reading = "ゴチルゼル"
+category = "game"
+
+[[term]]
+canonical = "ユニラン"
+reading = "ユニラン"
+category = "game"
+
+[[term]]
+canonical = "ダブラン"
+reading = "ダブラン"
+category = "game"
+
+[[term]]
+canonical = "ランクルス"
+reading = "ランクルス"
+category = "game"
+
+[[term]]
+canonical = "コアルヒー"
+reading = "コアルヒー"
+category = "game"
+
+[[term]]
+canonical = "スワンナ"
+reading = "スワンナ"
+category = "game"
+
+[[term]]
+canonical = "バニプッチ"
+reading = "バニプッチ"
+category = "game"
+
+[[term]]
+canonical = "バニリッチ"
+reading = "バニリッチ"
+category = "game"
+
+[[term]]
+canonical = "バイバニラ"
+reading = "バイバニラ"
+category = "game"
+
+[[term]]
+canonical = "シキジカ"
+reading = "シキジカ"
+category = "game"
+
+[[term]]
+canonical = "メブキジカ"
+reading = "メブキジカ"
+category = "game"
+
+[[term]]
+canonical = "エモンガ"
+reading = "エモンガ"
+category = "game"
+
+[[term]]
+canonical = "カブルモ"
+reading = "カブルモ"
+category = "game"
+
+[[term]]
+canonical = "シュバルゴ"
+reading = "シュバルゴ"
+category = "game"
+
+[[term]]
+canonical = "タマゲタケ"
+reading = "タマゲタケ"
+category = "game"
+
+[[term]]
+canonical = "モロバレル"
+reading = "モロバレル"
+category = "game"
+
+[[term]]
+canonical = "プルリル"
+reading = "プルリル"
+category = "game"
+
+[[term]]
+canonical = "ブルンゲル"
+reading = "ブルンゲル"
+category = "game"
+
+[[term]]
+canonical = "ママンボウ"
+reading = "ママンボウ"
+category = "game"
+
+[[term]]
+canonical = "バチュル"
+reading = "バチュル"
+category = "game"
+
+[[term]]
+canonical = "デンチュラ"
+reading = "デンチュラ"
+category = "game"
+
+[[term]]
+canonical = "テッシード"
+reading = "テッシード"
+category = "game"
+
+[[term]]
+canonical = "ナットレイ"
+reading = "ナットレイ"
+category = "game"
+
+[[term]]
+canonical = "ギアル"
+reading = "ギアル"
+category = "game"
+
+[[term]]
+canonical = "ギギアル"
+reading = "ギギアル"
+category = "game"
+
+[[term]]
+canonical = "ギギギアル"
+reading = "ギギギアル"
+category = "game"
+
+[[term]]
+canonical = "シビシラス"
+reading = "シビシラス"
+category = "game"
+
+[[term]]
+canonical = "シビビール"
+reading = "シビビール"
+category = "game"
+
+[[term]]
+canonical = "シビルドン"
+reading = "シビルドン"
+category = "game"
+
+[[term]]
+canonical = "リグレー"
+reading = "リグレー"
+category = "game"
+
+[[term]]
+canonical = "オーベム"
+reading = "オーベム"
+category = "game"
+
+[[term]]
+canonical = "ヒトモシ"
+reading = "ヒトモシ"
+category = "game"
+
+[[term]]
+canonical = "ランプラー"
+reading = "ランプラー"
+category = "game"
+
+[[term]]
+canonical = "シャンデラ"
+reading = "シャンデラ"
+category = "game"
+
+[[term]]
+canonical = "キバゴ"
+reading = "キバゴ"
+category = "game"
+
+[[term]]
+canonical = "オノンド"
+reading = "オノンド"
+category = "game"
+
+[[term]]
+canonical = "オノノクス"
+reading = "オノノクス"
+category = "game"
+
+[[term]]
+canonical = "クマシュン"
+reading = "クマシュン"
+category = "game"
+
+[[term]]
+canonical = "ツンベアー"
+reading = "ツンベアー"
+category = "game"
+
+[[term]]
+canonical = "フリージオ"
+reading = "フリージオ"
+category = "game"
+
+[[term]]
+canonical = "チョボマキ"
+reading = "チョボマキ"
+category = "game"
+
+[[term]]
+canonical = "アギルダー"
+reading = "アギルダー"
+category = "game"
+
+[[term]]
+canonical = "マッギョ"
+reading = "マッギョ"
+category = "game"
+
+[[term]]
+canonical = "コジョフー"
+reading = "コジョフー"
+category = "game"
+
+[[term]]
+canonical = "コジョンド"
+reading = "コジョンド"
+category = "game"
+
+[[term]]
+canonical = "クリムガン"
+reading = "クリムガン"
+category = "game"
+
+[[term]]
+canonical = "ゴビット"
+reading = "ゴビット"
+category = "game"
+
+[[term]]
+canonical = "ゴルーグ"
+reading = "ゴルーグ"
+category = "game"
+
+[[term]]
+canonical = "コマタナ"
+reading = "コマタナ"
+category = "game"
+
+[[term]]
+canonical = "キリキザン"
+reading = "キリキザン"
+category = "game"
+
+[[term]]
+canonical = "バッフロン"
+reading = "バッフロン"
+category = "game"
+
+[[term]]
+canonical = "ワシボン"
+reading = "ワシボン"
+category = "game"
+
+[[term]]
+canonical = "ウォーグル"
+reading = "ウォーグル"
+category = "game"
+
+[[term]]
+canonical = "バルチャイ"
+reading = "バルチャイ"
+category = "game"
+
+[[term]]
+canonical = "バルジーナ"
+reading = "バルジーナ"
+category = "game"
+
+[[term]]
+canonical = "クイタラン"
+reading = "クイタラン"
+category = "game"
+
+[[term]]
+canonical = "アイアント"
+reading = "アイアント"
+category = "game"
+
+[[term]]
+canonical = "モノズ"
+reading = "モノズ"
+category = "game"
+
+[[term]]
+canonical = "ジヘッド"
+reading = "ジヘッド"
+category = "game"
+
+[[term]]
+canonical = "サザンドラ"
+reading = "サザンドラ"
+category = "game"
+
+[[term]]
+canonical = "メラルバ"
+reading = "メラルバ"
+category = "game"
+
+[[term]]
+canonical = "ウルガモス"
+reading = "ウルガモス"
+category = "game"
+
+[[term]]
+canonical = "コバルオン"
+reading = "コバルオン"
+category = "game"
+
+[[term]]
+canonical = "テラキオン"
+reading = "テラキオン"
+category = "game"
+
+[[term]]
+canonical = "ビリジオン"
+reading = "ビリジオン"
+category = "game"
+
+[[term]]
+canonical = "トルネロス"
+reading = "トルネロス"
+category = "game"
+
+[[term]]
+canonical = "ボルトロス"
+reading = "ボルトロス"
+category = "game"
+
+[[term]]
+canonical = "レシラム"
+reading = "レシラム"
+category = "game"
+
+[[term]]
+canonical = "ゼクロム"
+reading = "ゼクロム"
+category = "game"
+
+[[term]]
+canonical = "ランドロス"
+reading = "ランドロス"
+category = "game"
+
+[[term]]
+canonical = "キュレム"
+reading = "キュレム"
+category = "game"
+
+[[term]]
+canonical = "ケルディオ"
+reading = "ケルディオ"
+category = "game"
+
+[[term]]
+canonical = "メロエッタ"
+reading = "メロエッタ"
+category = "game"
+
+[[term]]
+canonical = "ゲノセクト"
+reading = "ゲノセクト"
+category = "game"
+
+[[term]]
+canonical = "ハリマロン"
+reading = "ハリマロン"
+category = "game"
+
+[[term]]
+canonical = "ハリボーグ"
+reading = "ハリボーグ"
+category = "game"
+
+[[term]]
+canonical = "ブリガロン"
+reading = "ブリガロン"
+category = "game"
+
+[[term]]
+canonical = "フォッコ"
+reading = "フォッコ"
+category = "game"
+
+[[term]]
+canonical = "テールナー"
+reading = "テールナー"
+category = "game"
+
+[[term]]
+canonical = "マフォクシー"
+reading = "マフォクシー"
+category = "game"
+
+[[term]]
+canonical = "ケロマツ"
+reading = "ケロマツ"
+category = "game"
+
+[[term]]
+canonical = "ゲコガシラ"
+reading = "ゲコガシラ"
+category = "game"
+
+[[term]]
+canonical = "ゲッコウガ"
+reading = "ゲッコウガ"
+category = "game"
+
+[[term]]
+canonical = "ホルビー"
+reading = "ホルビー"
+category = "game"
+
+[[term]]
+canonical = "ホルード"
+reading = "ホルード"
+category = "game"
+
+[[term]]
+canonical = "ヤヤコマ"
+reading = "ヤヤコマ"
+category = "game"
+
+[[term]]
+canonical = "ヒノヤコマ"
+reading = "ヒノヤコマ"
+category = "game"
+
+[[term]]
+canonical = "ファイアロー"
+reading = "ファイアロー"
+category = "game"
+
+[[term]]
+canonical = "コフキムシ"
+reading = "コフキムシ"
+category = "game"
+
+[[term]]
+canonical = "コフーライ"
+reading = "コフーライ"
+category = "game"
+
+[[term]]
+canonical = "ビビヨン"
+reading = "ビビヨン"
+category = "game"
+
+[[term]]
+canonical = "シシコ"
+reading = "シシコ"
+category = "game"
+
+[[term]]
+canonical = "カエンジシ"
+reading = "カエンジシ"
+category = "game"
+
+[[term]]
+canonical = "フラベベ"
+reading = "フラベベ"
+category = "game"
+
+[[term]]
+canonical = "フラエッテ"
+reading = "フラエッテ"
+category = "game"
+
+[[term]]
+canonical = "フラージェス"
+reading = "フラージェス"
+category = "game"
+
+[[term]]
+canonical = "メェークル"
+reading = "メェークル"
+category = "game"
+
+[[term]]
+canonical = "ゴーゴート"
+reading = "ゴーゴート"
+category = "game"
+
+[[term]]
+canonical = "ヤンチャム"
+reading = "ヤンチャム"
+category = "game"
+
+[[term]]
+canonical = "ゴロンダ"
+reading = "ゴロンダ"
+category = "game"
+
+[[term]]
+canonical = "トリミアン"
+reading = "トリミアン"
+category = "game"
+
+[[term]]
+canonical = "ニャスパー"
+reading = "ニャスパー"
+category = "game"
+
+[[term]]
+canonical = "ニャオニクス"
+reading = "ニャオニクス"
+category = "game"
+
+[[term]]
+canonical = "ヒトツキ"
+reading = "ヒトツキ"
+category = "game"
+
+[[term]]
+canonical = "ニダンギル"
+reading = "ニダンギル"
+category = "game"
+
+[[term]]
+canonical = "ギルガルド"
+reading = "ギルガルド"
+category = "game"
+
+[[term]]
+canonical = "シュシュプ"
+reading = "シュシュプ"
+category = "game"
+
+[[term]]
+canonical = "フレフワン"
+reading = "フレフワン"
+category = "game"
+
+[[term]]
+canonical = "ペロッパフ"
+reading = "ペロッパフ"
+category = "game"
+
+[[term]]
+canonical = "ペロリーム"
+reading = "ペロリーム"
+category = "game"
+
+[[term]]
+canonical = "マーイーカ"
+reading = "マーイーカ"
+category = "game"
+
+[[term]]
+canonical = "カラマネロ"
+reading = "カラマネロ"
+category = "game"
+
+[[term]]
+canonical = "カメテテ"
+reading = "カメテテ"
+category = "game"
+
+[[term]]
+canonical = "ガメノデス"
+reading = "ガメノデス"
+category = "game"
+
+[[term]]
+canonical = "クズモー"
+reading = "クズモー"
+category = "game"
+
+[[term]]
+canonical = "ドラミドロ"
+reading = "ドラミドロ"
+category = "game"
+
+[[term]]
+canonical = "ウデッポウ"
+reading = "ウデッポウ"
+category = "game"
+
+[[term]]
+canonical = "ブロスター"
+reading = "ブロスター"
+category = "game"
+
+[[term]]
+canonical = "エリキテル"
+reading = "エリキテル"
+category = "game"
+
+[[term]]
+canonical = "エレザード"
+reading = "エレザード"
+category = "game"
+
+[[term]]
+canonical = "チゴラス"
+reading = "チゴラス"
+category = "game"
+
+[[term]]
+canonical = "ガチゴラス"
+reading = "ガチゴラス"
+category = "game"
+
+[[term]]
+canonical = "アマルス"
+reading = "アマルス"
+category = "game"
+
+[[term]]
+canonical = "アマルルガ"
+reading = "アマルルガ"
+category = "game"
+
+[[term]]
+canonical = "ニンフィア"
+reading = "ニンフィア"
+category = "game"
+
+[[term]]
+canonical = "ルチャブル"
+reading = "ルチャブル"
+category = "game"
+
+[[term]]
+canonical = "デデンネ"
+reading = "デデンネ"
+category = "game"
+
+[[term]]
+canonical = "メレシー"
+reading = "メレシー"
+category = "game"
+
+[[term]]
+canonical = "ヌメラ"
+reading = "ヌメラ"
+category = "game"
+
+[[term]]
+canonical = "ヌメイル"
+reading = "ヌメイル"
+category = "game"
+
+[[term]]
+canonical = "ヌメルゴン"
+reading = "ヌメルゴン"
+category = "game"
+
+[[term]]
+canonical = "クレッフィ"
+reading = "クレッフィ"
+category = "game"
+
+[[term]]
+canonical = "ボクレー"
+reading = "ボクレー"
+category = "game"
+
+[[term]]
+canonical = "オーロット"
+reading = "オーロット"
+category = "game"
+
+[[term]]
+canonical = "バケッチャ"
+reading = "バケッチャ"
+category = "game"
+
+[[term]]
+canonical = "パンプジン"
+reading = "パンプジン"
+category = "game"
+
+[[term]]
+canonical = "カチコール"
+reading = "カチコール"
+category = "game"
+
+[[term]]
+canonical = "クレベース"
+reading = "クレベース"
+category = "game"
+
+[[term]]
+canonical = "オンバット"
+reading = "オンバット"
+category = "game"
+
+[[term]]
+canonical = "オンバーン"
+reading = "オンバーン"
+category = "game"
+
+[[term]]
+canonical = "ゼルネアス"
+reading = "ゼルネアス"
+category = "game"
+
+[[term]]
+canonical = "イベルタル"
+reading = "イベルタル"
+category = "game"
+
+[[term]]
+canonical = "ジガルデ"
+reading = "ジガルデ"
+category = "game"
+
+[[term]]
+canonical = "ディアンシー"
+reading = "ディアンシー"
+category = "game"
+
+[[term]]
+canonical = "フーパ"
+reading = "フーパ"
+category = "game"
+
+[[term]]
+canonical = "ボルケニオン"
+reading = "ボルケニオン"
+category = "game"
+
+[[term]]
+canonical = "モクロー"
+reading = "モクロー"
+category = "game"
+
+[[term]]
+canonical = "フクスロー"
+reading = "フクスロー"
+category = "game"
+
+[[term]]
+canonical = "ジュナイパー"
+reading = "ジュナイパー"
+category = "game"
+
+[[term]]
+canonical = "ニャビー"
+reading = "ニャビー"
+category = "game"
+
+[[term]]
+canonical = "ニャヒート"
+reading = "ニャヒート"
+category = "game"
+
+[[term]]
+canonical = "ガオガエン"
+reading = "ガオガエン"
+category = "game"
+
+[[term]]
+canonical = "アシマリ"
+reading = "アシマリ"
+category = "game"
+
+[[term]]
+canonical = "オシャマリ"
+reading = "オシャマリ"
+category = "game"
+
+[[term]]
+canonical = "アシレーヌ"
+reading = "アシレーヌ"
+category = "game"
+
+[[term]]
+canonical = "ツツケラ"
+reading = "ツツケラ"
+category = "game"
+
+[[term]]
+canonical = "ケララッパ"
+reading = "ケララッパ"
+category = "game"
+
+[[term]]
+canonical = "ドデカバシ"
+reading = "ドデカバシ"
+category = "game"
+
+[[term]]
+canonical = "ヤングース"
+reading = "ヤングース"
+category = "game"
+
+[[term]]
+canonical = "デカグース"
+reading = "デカグース"
+category = "game"
+
+[[term]]
+canonical = "アゴジムシ"
+reading = "アゴジムシ"
+category = "game"
+
+[[term]]
+canonical = "デンヂムシ"
+reading = "デンヂムシ"
+category = "game"
+
+[[term]]
+canonical = "クワガノン"
+reading = "クワガノン"
+category = "game"
+
+[[term]]
+canonical = "マケンカニ"
+reading = "マケンカニ"
+category = "game"
+
+[[term]]
+canonical = "ケケンカニ"
+reading = "ケケンカニ"
+category = "game"
+
+[[term]]
+canonical = "オドリドリ"
+reading = "オドリドリ"
+category = "game"
+
+[[term]]
+canonical = "アブリー"
+reading = "アブリー"
+category = "game"
+
+[[term]]
+canonical = "アブリボン"
+reading = "アブリボン"
+category = "game"
+
+[[term]]
+canonical = "イワンコ"
+reading = "イワンコ"
+category = "game"
+
+[[term]]
+canonical = "ルガルガン"
+reading = "ルガルガン"
+category = "game"
+
+[[term]]
+canonical = "ヨワシ"
+reading = "ヨワシ"
+category = "game"
+
+[[term]]
+canonical = "ヒドイデ"
+reading = "ヒドイデ"
+category = "game"
+
+[[term]]
+canonical = "ドヒドイデ"
+reading = "ドヒドイデ"
+category = "game"
+
+[[term]]
+canonical = "ドロバンコ"
+reading = "ドロバンコ"
+category = "game"
+
+[[term]]
+canonical = "バンバドロ"
+reading = "バンバドロ"
+category = "game"
+
+[[term]]
+canonical = "シズクモ"
+reading = "シズクモ"
+category = "game"
+
+[[term]]
+canonical = "オニシズクモ"
+reading = "オニシズクモ"
+category = "game"
+
+[[term]]
+canonical = "カリキリ"
+reading = "カリキリ"
+category = "game"
+
+[[term]]
+canonical = "ラランテス"
+reading = "ラランテス"
+category = "game"
+
+[[term]]
+canonical = "ネマシュ"
+reading = "ネマシュ"
+category = "game"
+
+[[term]]
+canonical = "マシェード"
+reading = "マシェード"
+category = "game"
+
+[[term]]
+canonical = "ヤトウモリ"
+reading = "ヤトウモリ"
+category = "game"
+
+[[term]]
+canonical = "エンニュート"
+reading = "エンニュート"
+category = "game"
+
+[[term]]
+canonical = "ヌイコグマ"
+reading = "ヌイコグマ"
+category = "game"
+
+[[term]]
+canonical = "キテルグマ"
+reading = "キテルグマ"
+category = "game"
+
+[[term]]
+canonical = "アマカジ"
+reading = "アマカジ"
+category = "game"
+
+[[term]]
+canonical = "アママイコ"
+reading = "アママイコ"
+category = "game"
+
+[[term]]
+canonical = "アマージョ"
+reading = "アマージョ"
+category = "game"
+
+[[term]]
+canonical = "キュワワー"
+reading = "キュワワー"
+category = "game"
+
+[[term]]
+canonical = "ヤレユータン"
+reading = "ヤレユータン"
+category = "game"
+
+[[term]]
+canonical = "ナゲツケサル"
+reading = "ナゲツケサル"
+category = "game"
+
+[[term]]
+canonical = "コソクムシ"
+reading = "コソクムシ"
+category = "game"
+
+[[term]]
+canonical = "グソクムシャ"
+reading = "グソクムシャ"
+category = "game"
+
+[[term]]
+canonical = "スナバァ"
+reading = "スナバァ"
+category = "game"
+
+[[term]]
+canonical = "シロデスナ"
+reading = "シロデスナ"
+category = "game"
+
+[[term]]
+canonical = "ナマコブシ"
+reading = "ナマコブシ"
+category = "game"
+
+[[term]]
+canonical = "タイプ：ヌル"
+reading = "タイプヌル"
+category = "game"
+
+[[term]]
+canonical = "シルヴァディ"
+reading = "シルヴァディ"
+category = "game"
+
+[[term]]
+canonical = "メテノ"
+reading = "メテノ"
+category = "game"
+
+[[term]]
+canonical = "ネッコアラ"
+reading = "ネッコアラ"
+category = "game"
+
+[[term]]
+canonical = "バクガメス"
+reading = "バクガメス"
+category = "game"
+
+[[term]]
+canonical = "トゲデマル"
+reading = "トゲデマル"
+category = "game"
+
+[[term]]
+canonical = "ミミッキュ"
+reading = "ミミッキュ"
+category = "game"
+
+[[term]]
+canonical = "ハギギシリ"
+reading = "ハギギシリ"
+category = "game"
+
+[[term]]
+canonical = "ジジーロン"
+reading = "ジジーロン"
+category = "game"
+
+[[term]]
+canonical = "ダダリン"
+reading = "ダダリン"
+category = "game"
+
+[[term]]
+canonical = "ジャラコ"
+reading = "ジャラコ"
+category = "game"
+
+[[term]]
+canonical = "ジャランゴ"
+reading = "ジャランゴ"
+category = "game"
+
+[[term]]
+canonical = "ジャラランガ"
+reading = "ジャラランガ"
+category = "game"
+
+[[term]]
+canonical = "カプ・コケコ"
+reading = "カプコケコ"
+category = "game"
+
+[[term]]
+canonical = "カプ・テテフ"
+reading = "カプテテフ"
+category = "game"
+
+[[term]]
+canonical = "カプ・ブルル"
+reading = "カプブルル"
+category = "game"
+
+[[term]]
+canonical = "カプ・レヒレ"
+reading = "カプレヒレ"
+category = "game"
+
+[[term]]
+canonical = "コスモッグ"
+reading = "コスモッグ"
+category = "game"
+
+[[term]]
+canonical = "コスモウム"
+reading = "コスモウム"
+category = "game"
+
+[[term]]
+canonical = "ソルガレオ"
+reading = "ソルガレオ"
+category = "game"
+
+[[term]]
+canonical = "ルナアーラ"
+reading = "ルナアーラ"
+category = "game"
+
+[[term]]
+canonical = "ウツロイド"
+reading = "ウツロイド"
+category = "game"
+
+[[term]]
+canonical = "マッシブーン"
+reading = "マッシブーン"
+category = "game"
+
+[[term]]
+canonical = "フェローチェ"
+reading = "フェローチェ"
+category = "game"
+
+[[term]]
+canonical = "デンジュモク"
+reading = "デンジュモク"
+category = "game"
+
+[[term]]
+canonical = "テッカグヤ"
+reading = "テッカグヤ"
+category = "game"
+
+[[term]]
+canonical = "カミツルギ"
+reading = "カミツルギ"
+category = "game"
+
+[[term]]
+canonical = "アクジキング"
+reading = "アクジキング"
+category = "game"
+
+[[term]]
+canonical = "ネクロズマ"
+reading = "ネクロズマ"
+category = "game"
+
+[[term]]
+canonical = "マギアナ"
+reading = "マギアナ"
+category = "game"
+
+[[term]]
+canonical = "マーシャドー"
+reading = "マーシャドー"
+category = "game"
+
+[[term]]
+canonical = "ベベノム"
+reading = "ベベノム"
+category = "game"
+
+[[term]]
+canonical = "アーゴヨン"
+reading = "アーゴヨン"
+category = "game"
+
+[[term]]
+canonical = "ツンデツンデ"
+reading = "ツンデツンデ"
+category = "game"
+
+[[term]]
+canonical = "ズガドーン"
+reading = "ズガドーン"
+category = "game"
+
+[[term]]
+canonical = "ゼラオラ"
+reading = "ゼラオラ"
+category = "game"
+
+[[term]]
+canonical = "メルタン"
+reading = "メルタン"
+category = "game"
+
+[[term]]
+canonical = "メルメタル"
+reading = "メルメタル"
+category = "game"
+
+[[term]]
+canonical = "サルノリ"
+reading = "サルノリ"
+category = "game"
+
+[[term]]
+canonical = "バチンキー"
+reading = "バチンキー"
+category = "game"
+
+[[term]]
+canonical = "ゴリランダー"
+reading = "ゴリランダー"
+category = "game"
+
+[[term]]
+canonical = "ヒバニー"
+reading = "ヒバニー"
+category = "game"
+
+[[term]]
+canonical = "ラビフット"
+reading = "ラビフット"
+category = "game"
+
+[[term]]
+canonical = "エースバーン"
+reading = "エースバーン"
+category = "game"
+
+[[term]]
+canonical = "メッソン"
+reading = "メッソン"
+category = "game"
+
+[[term]]
+canonical = "ジメレオン"
+reading = "ジメレオン"
+category = "game"
+
+[[term]]
+canonical = "インテレオン"
+reading = "インテレオン"
+category = "game"
+
+[[term]]
+canonical = "ホシガリス"
+reading = "ホシガリス"
+category = "game"
+
+[[term]]
+canonical = "ヨクバリス"
+reading = "ヨクバリス"
+category = "game"
+
+[[term]]
+canonical = "ココガラ"
+reading = "ココガラ"
+category = "game"
+
+[[term]]
+canonical = "アオガラス"
+reading = "アオガラス"
+category = "game"
+
+[[term]]
+canonical = "アーマーガア"
+reading = "アーマーガア"
+category = "game"
+
+[[term]]
+canonical = "サッチムシ"
+reading = "サッチムシ"
+category = "game"
+
+[[term]]
+canonical = "レドームシ"
+reading = "レドームシ"
+category = "game"
+
+[[term]]
+canonical = "イオルブ"
+reading = "イオルブ"
+category = "game"
+
+[[term]]
+canonical = "クスネ"
+reading = "クスネ"
+category = "game"
+
+[[term]]
+canonical = "フォクスライ"
+reading = "フォクスライ"
+category = "game"
+
+[[term]]
+canonical = "ヒメンカ"
+reading = "ヒメンカ"
+category = "game"
+
+[[term]]
+canonical = "ワタシラガ"
+reading = "ワタシラガ"
+category = "game"
+
+[[term]]
+canonical = "ウールー"
+reading = "ウールー"
+category = "game"
+
+[[term]]
+canonical = "バイウールー"
+reading = "バイウールー"
+category = "game"
+
+[[term]]
+canonical = "カムカメ"
+reading = "カムカメ"
+category = "game"
+
+[[term]]
+canonical = "カジリガメ"
+reading = "カジリガメ"
+category = "game"
+
+[[term]]
+canonical = "ワンパチ"
+reading = "ワンパチ"
+category = "game"
+
+[[term]]
+canonical = "パルスワン"
+reading = "パルスワン"
+category = "game"
+
+[[term]]
+canonical = "タンドン"
+reading = "タンドン"
+category = "game"
+
+[[term]]
+canonical = "トロッゴン"
+reading = "トロッゴン"
+category = "game"
+
+[[term]]
+canonical = "セキタンザン"
+reading = "セキタンザン"
+category = "game"
+
+[[term]]
+canonical = "カジッチュ"
+reading = "カジッチュ"
+category = "game"
+
+[[term]]
+canonical = "アップリュー"
+reading = "アップリュー"
+category = "game"
+
+[[term]]
+canonical = "タルップル"
+reading = "タルップル"
+category = "game"
+
+[[term]]
+canonical = "スナヘビ"
+reading = "スナヘビ"
+category = "game"
+
+[[term]]
+canonical = "サダイジャ"
+reading = "サダイジャ"
+category = "game"
+
+[[term]]
+canonical = "ウッウ"
+reading = "ウッウ"
+category = "game"
+
+[[term]]
+canonical = "サシカマス"
+reading = "サシカマス"
+category = "game"
+
+[[term]]
+canonical = "カマスジョー"
+reading = "カマスジョー"
+category = "game"
+
+[[term]]
+canonical = "エレズン"
+reading = "エレズン"
+category = "game"
+
+[[term]]
+canonical = "ストリンダー"
+reading = "ストリンダー"
+category = "game"
+
+[[term]]
+canonical = "ヤクデ"
+reading = "ヤクデ"
+category = "game"
+
+[[term]]
+canonical = "マルヤクデ"
+reading = "マルヤクデ"
+category = "game"
+
+[[term]]
+canonical = "タタッコ"
+reading = "タタッコ"
+category = "game"
+
+[[term]]
+canonical = "オトスパス"
+reading = "オトスパス"
+category = "game"
+
+[[term]]
+canonical = "ヤバチャ"
+reading = "ヤバチャ"
+category = "game"
+
+[[term]]
+canonical = "ポットデス"
+reading = "ポットデス"
+category = "game"
+
+[[term]]
+canonical = "ミブリム"
+reading = "ミブリム"
+category = "game"
+
+[[term]]
+canonical = "テブリム"
+reading = "テブリム"
+category = "game"
+
+[[term]]
+canonical = "ブリムオン"
+reading = "ブリムオン"
+category = "game"
+
+[[term]]
+canonical = "ベロバー"
+reading = "ベロバー"
+category = "game"
+
+[[term]]
+canonical = "ギモー"
+reading = "ギモー"
+category = "game"
+
+[[term]]
+canonical = "オーロンゲ"
+reading = "オーロンゲ"
+category = "game"
+
+[[term]]
+canonical = "タチフサグマ"
+reading = "タチフサグマ"
+category = "game"
+
+[[term]]
+canonical = "ニャイキング"
+reading = "ニャイキング"
+category = "game"
+
+[[term]]
+canonical = "サニゴーン"
+reading = "サニゴーン"
+category = "game"
+
+[[term]]
+canonical = "ネギガナイト"
+reading = "ネギガナイト"
+category = "game"
+
+[[term]]
+canonical = "バリコオル"
+reading = "バリコオル"
+category = "game"
+
+[[term]]
+canonical = "デスバーン"
+reading = "デスバーン"
+category = "game"
+
+[[term]]
+canonical = "マホミル"
+reading = "マホミル"
+category = "game"
+
+[[term]]
+canonical = "マホイップ"
+reading = "マホイップ"
+category = "game"
+
+[[term]]
+canonical = "タイレーツ"
+reading = "タイレーツ"
+category = "game"
+
+[[term]]
+canonical = "バチンウニ"
+reading = "バチンウニ"
+category = "game"
+
+[[term]]
+canonical = "ユキハミ"
+reading = "ユキハミ"
+category = "game"
+
+[[term]]
+canonical = "モスノウ"
+reading = "モスノウ"
+category = "game"
+
+[[term]]
+canonical = "イシヘンジン"
+reading = "イシヘンジン"
+category = "game"
+
+[[term]]
+canonical = "コオリッポ"
+reading = "コオリッポ"
+category = "game"
+
+[[term]]
+canonical = "イエッサン"
+reading = "イエッサン"
+category = "game"
+
+[[term]]
+canonical = "モルペコ"
+reading = "モルペコ"
+category = "game"
+
+[[term]]
+canonical = "ゾウドウ"
+reading = "ゾウドウ"
+category = "game"
+
+[[term]]
+canonical = "ダイオウドウ"
+reading = "ダイオウドウ"
+category = "game"
+
+[[term]]
+canonical = "パッチラゴン"
+reading = "パッチラゴン"
+category = "game"
+
+[[term]]
+canonical = "パッチルドン"
+reading = "パッチルドン"
+category = "game"
+
+[[term]]
+canonical = "ウオノラゴン"
+reading = "ウオノラゴン"
+category = "game"
+
+[[term]]
+canonical = "ウオチルドン"
+reading = "ウオチルドン"
+category = "game"
+
+[[term]]
+canonical = "ジュラルドン"
+reading = "ジュラルドン"
+category = "game"
+
+[[term]]
+canonical = "ドラメシヤ"
+reading = "ドラメシヤ"
+category = "game"
+
+[[term]]
+canonical = "ドロンチ"
+reading = "ドロンチ"
+category = "game"
+
+[[term]]
+canonical = "ドラパルト"
+reading = "ドラパルト"
+category = "game"
+
+[[term]]
+canonical = "ザシアン"
+reading = "ザシアン"
+category = "game"
+
+[[term]]
+canonical = "ザマゼンタ"
+reading = "ザマゼンタ"
+category = "game"
+
+[[term]]
+canonical = "ムゲンダイナ"
+reading = "ムゲンダイナ"
+category = "game"
+
+[[term]]
+canonical = "ダクマ"
+reading = "ダクマ"
+category = "game"
+
+[[term]]
+canonical = "ウーラオス"
+reading = "ウーラオス"
+category = "game"
+
+[[term]]
+canonical = "ザルード"
+reading = "ザルード"
+category = "game"
+
+[[term]]
+canonical = "レジエレキ"
+reading = "レジエレキ"
+category = "game"
+
+[[term]]
+canonical = "レジドラゴ"
+reading = "レジドラゴ"
+category = "game"
+
+[[term]]
+canonical = "ブリザポス"
+reading = "ブリザポス"
+category = "game"
+
+[[term]]
+canonical = "レイスポス"
+reading = "レイスポス"
+category = "game"
+
+[[term]]
+canonical = "バドレックス"
+reading = "バドレックス"
+category = "game"
+
+[[term]]
+canonical = "アヤシシ"
+reading = "アヤシシ"
+category = "game"
+
+[[term]]
+canonical = "バサギリ"
+reading = "バサギリ"
+category = "game"
+
+[[term]]
+canonical = "ガチグマ"
+reading = "ガチグマ"
+category = "game"
+
+[[term]]
+canonical = "イダイトウ"
+reading = "イダイトウ"
+category = "game"
+
+[[term]]
+canonical = "オオニューラ"
+reading = "オオニューラ"
+category = "game"
+
+[[term]]
+canonical = "ハリーマン"
+reading = "ハリーマン"
+category = "game"
+
+[[term]]
+canonical = "ラブトロス"
+reading = "ラブトロス"
+category = "game"
+
+[[term]]
+canonical = "ニャオハ"
+reading = "ニャオハ"
+category = "game"
+
+[[term]]
+canonical = "ニャローテ"
+reading = "ニャローテ"
+category = "game"
+
+[[term]]
+canonical = "マスカーニャ"
+reading = "マスカーニャ"
+category = "game"
+
+[[term]]
+canonical = "ホゲータ"
+reading = "ホゲータ"
+category = "game"
+
+[[term]]
+canonical = "アチゲータ"
+reading = "アチゲータ"
+category = "game"
+
+[[term]]
+canonical = "ラウドボーン"
+reading = "ラウドボーン"
+category = "game"
+
+[[term]]
+canonical = "クワッス"
+reading = "クワッス"
+category = "game"
+
+[[term]]
+canonical = "ウェルカモ"
+reading = "ウェルカモ"
+category = "game"
+
+[[term]]
+canonical = "ウェーニバル"
+reading = "ウェーニバル"
+category = "game"
+
+[[term]]
+canonical = "グルトン"
+reading = "グルトン"
+category = "game"
+
+[[term]]
+canonical = "パフュートン"
+reading = "パフュートン"
+category = "game"
+
+[[term]]
+canonical = "タマンチュラ"
+reading = "タマンチュラ"
+category = "game"
+
+[[term]]
+canonical = "ワナイダー"
+reading = "ワナイダー"
+category = "game"
+
+[[term]]
+canonical = "マメバッタ"
+reading = "マメバッタ"
+category = "game"
+
+[[term]]
+canonical = "エクスレッグ"
+reading = "エクスレッグ"
+category = "game"
+
+[[term]]
+canonical = "パモ"
+reading = "パモ"
+category = "game"
+
+[[term]]
+canonical = "パモット"
+reading = "パモット"
+category = "game"
+
+[[term]]
+canonical = "パーモット"
+reading = "パーモット"
+category = "game"
+
+[[term]]
+canonical = "ワッカネズミ"
+reading = "ワッカネズミ"
+category = "game"
+
+[[term]]
+canonical = "イッカネズミ"
+reading = "イッカネズミ"
+category = "game"
+
+[[term]]
+canonical = "パピモッチ"
+reading = "パピモッチ"
+category = "game"
+
+[[term]]
+canonical = "バウッツェル"
+reading = "バウッツェル"
+category = "game"
+
+[[term]]
+canonical = "ミニーブ"
+reading = "ミニーブ"
+category = "game"
+
+[[term]]
+canonical = "オリーニョ"
+reading = "オリーニョ"
+category = "game"
+
+[[term]]
+canonical = "オリーヴァ"
+reading = "オリーヴァ"
+category = "game"
+
+[[term]]
+canonical = "イキリンコ"
+reading = "イキリンコ"
+category = "game"
+
+[[term]]
+canonical = "コジオ"
+reading = "コジオ"
+category = "game"
+
+[[term]]
+canonical = "ジオヅム"
+reading = "ジオヅム"
+category = "game"
+
+[[term]]
+canonical = "キョジオーン"
+reading = "キョジオーン"
+category = "game"
+
+[[term]]
+canonical = "カルボウ"
+reading = "カルボウ"
+category = "game"
+
+[[term]]
+canonical = "グレンアルマ"
+reading = "グレンアルマ"
+category = "game"
+
+[[term]]
+canonical = "ソウブレイズ"
+reading = "ソウブレイズ"
+category = "game"
+
+[[term]]
+canonical = "ズピカ"
+reading = "ズピカ"
+category = "game"
+
+[[term]]
+canonical = "ハラバリー"
+reading = "ハラバリー"
+category = "game"
+
+[[term]]
+canonical = "カイデン"
+reading = "カイデン"
+category = "game"
+
+[[term]]
+canonical = "タイカイデン"
+reading = "タイカイデン"
+category = "game"
+
+[[term]]
+canonical = "オラチフ"
+reading = "オラチフ"
+category = "game"
+
+[[term]]
+canonical = "マフィティフ"
+reading = "マフィティフ"
+category = "game"
+
+[[term]]
+canonical = "シルシュルー"
+reading = "シルシュルー"
+category = "game"
+
+[[term]]
+canonical = "タギングル"
+reading = "タギングル"
+category = "game"
+
+[[term]]
+canonical = "アノクサ"
+reading = "アノクサ"
+category = "game"
+
+[[term]]
+canonical = "アノホラグサ"
+reading = "アノホラグサ"
+category = "game"
+
+[[term]]
+canonical = "ノノクラゲ"
+reading = "ノノクラゲ"
+category = "game"
+
+[[term]]
+canonical = "リククラゲ"
+reading = "リククラゲ"
+category = "game"
+
+[[term]]
+canonical = "ガケガニ"
+reading = "ガケガニ"
+category = "game"
+
+[[term]]
+canonical = "カプサイジ"
+reading = "カプサイジ"
+category = "game"
+
+[[term]]
+canonical = "スコヴィラン"
+reading = "スコヴィラン"
+category = "game"
+
+[[term]]
+canonical = "シガロコ"
+reading = "シガロコ"
+category = "game"
+
+[[term]]
+canonical = "ベラカス"
+reading = "ベラカス"
+category = "game"
+
+[[term]]
+canonical = "ヒラヒナ"
+reading = "ヒラヒナ"
+category = "game"
+
+[[term]]
+canonical = "クエスパトラ"
+reading = "クエスパトラ"
+category = "game"
+
+[[term]]
+canonical = "カヌチャン"
+reading = "カヌチャン"
+category = "game"
+
+[[term]]
+canonical = "ナカヌチャン"
+reading = "ナカヌチャン"
+category = "game"
+
+[[term]]
+canonical = "デカヌチャン"
+reading = "デカヌチャン"
+category = "game"
+
+[[term]]
+canonical = "ウミディグダ"
+reading = "ウミディグダ"
+category = "game"
+
+[[term]]
+canonical = "ウミトリオ"
+reading = "ウミトリオ"
+category = "game"
+
+[[term]]
+canonical = "オトシドリ"
+reading = "オトシドリ"
+category = "game"
+
+[[term]]
+canonical = "ナミイルカ"
+reading = "ナミイルカ"
+category = "game"
+
+[[term]]
+canonical = "イルカマン"
+reading = "イルカマン"
+category = "game"
+
+[[term]]
+canonical = "ブロロン"
+reading = "ブロロン"
+category = "game"
+
+[[term]]
+canonical = "ブロロローム"
+reading = "ブロロローム"
+category = "game"
+
+[[term]]
+canonical = "モトトカゲ"
+reading = "モトトカゲ"
+category = "game"
+
+[[term]]
+canonical = "ミミズズ"
+reading = "ミミズズ"
+category = "game"
+
+[[term]]
+canonical = "キラーメ"
+reading = "キラーメ"
+category = "game"
+
+[[term]]
+canonical = "キラフロル"
+reading = "キラフロル"
+category = "game"
+
+[[term]]
+canonical = "ボチ"
+reading = "ボチ"
+category = "game"
+
+[[term]]
+canonical = "ハカドッグ"
+reading = "ハカドッグ"
+category = "game"
+
+[[term]]
+canonical = "カラミンゴ"
+reading = "カラミンゴ"
+category = "game"
+
+[[term]]
+canonical = "アルクジラ"
+reading = "アルクジラ"
+category = "game"
+
+[[term]]
+canonical = "ハルクジラ"
+reading = "ハルクジラ"
+category = "game"
+
+[[term]]
+canonical = "ミガルーサ"
+reading = "ミガルーサ"
+category = "game"
+
+[[term]]
+canonical = "ヘイラッシャ"
+reading = "ヘイラッシャ"
+category = "game"
+
+[[term]]
+canonical = "シャリタツ"
+reading = "シャリタツ"
+category = "game"
+
+[[term]]
+canonical = "コノヨザル"
+reading = "コノヨザル"
+category = "game"
+
+[[term]]
+canonical = "ドオー"
+reading = "ドオー"
+category = "game"
+
+[[term]]
+canonical = "リキキリン"
+reading = "リキキリン"
+category = "game"
+
+[[term]]
+canonical = "ノココッチ"
+reading = "ノココッチ"
+category = "game"
+
+[[term]]
+canonical = "ドドゲザン"
+reading = "ドドゲザン"
+category = "game"
+
+[[term]]
+canonical = "イダイナキバ"
+reading = "イダイナキバ"
+category = "game"
+
+[[term]]
+canonical = "サケブシッポ"
+reading = "サケブシッポ"
+category = "game"
+
+[[term]]
+canonical = "アラブルタケ"
+reading = "アラブルタケ"
+category = "game"
+
+[[term]]
+canonical = "ハバタクカミ"
+reading = "ハバタクカミ"
+category = "game"
+
+[[term]]
+canonical = "チヲハウハネ"
+reading = "チヲハウハネ"
+category = "game"
+
+[[term]]
+canonical = "スナノケガワ"
+reading = "スナノケガワ"
+category = "game"
+
+[[term]]
+canonical = "テツノワダチ"
+reading = "テツノワダチ"
+category = "game"
+
+[[term]]
+canonical = "テツノツツミ"
+reading = "テツノツツミ"
+category = "game"
+
+[[term]]
+canonical = "テツノカイナ"
+reading = "テツノカイナ"
+category = "game"
+
+[[term]]
+canonical = "テツノコウベ"
+reading = "テツノコウベ"
+category = "game"
+
+[[term]]
+canonical = "テツノドクガ"
+reading = "テツノドクガ"
+category = "game"
+
+[[term]]
+canonical = "テツノイバラ"
+reading = "テツノイバラ"
+category = "game"
+
+[[term]]
+canonical = "セビエ"
+reading = "セビエ"
+category = "game"
+
+[[term]]
+canonical = "セゴール"
+reading = "セゴール"
+category = "game"
+
+[[term]]
+canonical = "セグレイブ"
+reading = "セグレイブ"
+category = "game"
+
+[[term]]
+canonical = "コレクレー"
+reading = "コレクレー"
+category = "game"
+
+[[term]]
+canonical = "サーフゴー"
+reading = "サーフゴー"
+category = "game"
+
+[[term]]
+canonical = "チオンジェン"
+reading = "チオンジェン"
+category = "game"
+
+[[term]]
+canonical = "パオジアン"
+reading = "パオジアン"
+category = "game"
+
+[[term]]
+canonical = "ディンルー"
+reading = "ディンルー"
+category = "game"
+
+[[term]]
+canonical = "イーユイ"
+reading = "イーユイ"
+category = "game"
+
+[[term]]
+canonical = "トドロクツキ"
+reading = "トドロクツキ"
+category = "game"
+
+[[term]]
+canonical = "テツノブジン"
+reading = "テツノブジン"
+category = "game"
+
+[[term]]
+canonical = "コライドン"
+reading = "コライドン"
+category = "game"
+
+[[term]]
+canonical = "ミライドン"
+reading = "ミライドン"
+category = "game"
+
+[[term]]
+canonical = "ウネルミナモ"
+reading = "ウネルミナモ"
+category = "game"
+
+[[term]]
+canonical = "テツノイサハ"
+reading = "テツノイサハ"
+category = "game"
+
+[[term]]
+canonical = "カミッチュ"
+reading = "カミッチュ"
+category = "game"
+
+[[term]]
+canonical = "チャデス"
+reading = "チャデス"
+category = "game"
+
+[[term]]
+canonical = "ヤバソチャ"
+reading = "ヤバソチャ"
+category = "game"
+
+[[term]]
+canonical = "イイネイヌ"
+reading = "イイネイヌ"
+category = "game"
+
+[[term]]
+canonical = "マシマシラ"
+reading = "マシマシラ"
+category = "game"
+
+[[term]]
+canonical = "キチキギス"
+reading = "キチキギス"
+category = "game"
+
+[[term]]
+canonical = "オーガポン"
+reading = "オーガポン"
+category = "game"
+
+[[term]]
+canonical = "ブリジュラス"
+reading = "ブリジュラス"
+category = "game"
+
+[[term]]
+canonical = "カミツオロチ"
+reading = "カミツオロチ"
+category = "game"
+
+[[term]]
+canonical = "ウガツホムラ"
+reading = "ウガツホムラ"
+category = "game"
+
+[[term]]
+canonical = "タケルライコ"
+reading = "タケルライコ"
+category = "game"
+
+[[term]]
+canonical = "テツノイワオ"
+reading = "テツノイワオ"
+category = "game"
+
+[[term]]
+canonical = "テツノカシラ"
+reading = "テツノカシラ"
+category = "game"
+
+[[term]]
+canonical = "テラパゴス"
+reading = "テラパゴス"
+category = "game"
+
+[[term]]
+canonical = "モモワロウ"
+reading = "モモワロウ"
+category = "game"

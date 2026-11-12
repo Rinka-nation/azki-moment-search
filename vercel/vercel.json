@@ -1,0 +1,35 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "builds": [
+    {
+      "src": "api/index.py",
+      "use": "@vercel/python",
+      "config": {
+        "includeFiles": ["azkims/**", "dictionary/**", "data/**"],
+        "maxDuration": 15
+      }
+    },
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "favicon.svg", "use": "@vercel/static" },
+    { "src": "theme.js", "use": "@vercel/static" },
+    { "src": "robots.txt", "use": "@vercel/static" },
+    { "src": "assets/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "X-Robots-Tag": "noindex, nofollow",
+        "X-Frame-Options": "DENY",
+        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-src https://www.youtube-nocookie.com; frame-ancestors 'none'; base-uri 'none'; form-action 'self'; object-src 'none'"
+      },
+      "continue": true
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/index.py?route=$1"
+    }
+  ]
+}

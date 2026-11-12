@@ -1,0 +1,212 @@
+# ホロライブ ドリームス（ホロドリ） の固有名詞（出典: Game8「ホロドリ攻略 施設一覧」）
+# このゲームの配信（タイトルに title_patterns のどれかがある）でだけ補正に使う。
+
+[game]
+id = "holodreams"
+name = "ホロライブ ドリームス（ホロドリ）"
+title_patterns = ["ホロドリ", "ホロライブ ドリームス", "ホロライブドリームス", "hololive Dreams"]
+
+[[term]]
+canonical = "メガスフィア"
+reading = "メガスフィア"
+category = "game"
+
+[[term]]
+canonical = "メガスフィアコイン"
+reading = "メガスフィアコイン"
+category = "game"
+
+[[term]]
+canonical = "メガスフィアゲート"
+reading = "メガスフィアゲート"
+category = "game"
+
+[[term]]
+canonical = "ハーモニーガーデン"
+reading = "ハーモニーガーデン"
+category = "game"
+
+[[term]]
+canonical = "カジノエリア"
+reading = "カジノエリア"
+category = "game"
+
+[[term]]
+canonical = "メガコースター"
+reading = "メガコースター"
+category = "game"
+
+[[term]]
+canonical = "メガサーキット"
+reading = "メガサーキット"
+category = "game"
+
+[[term]]
+canonical = "カプセルコング"
+reading = "カプセルコング"
+category = "game"
+
+[[term]]
+canonical = "ろぼろぼクレーン"
+reading = "ろぼろぼクレーン"
+category = "game"
+
+[[term]]
+canonical = "おにぎりパニック"
+reading = "おにぎりパニック"
+category = "game"
+
+[[term]]
+canonical = "ダンス・ダンス・フェニックス"
+reading = "だんすだんすふぇにっくす"
+category = "game"
+
+[[term]]
+canonical = "しばきあげファイティング"
+reading = "しばきあげファイティング"
+category = "game"
+
+[[term]]
+canonical = "メガプリ"
+reading = "メガプリ"
+category = "game"
+
+[[term]]
+canonical = "カードオブグリード"
+reading = "カードオブグリード"
+category = "game"
+
+[[term]]
+canonical = "レイヴンBAR"
+reading = "れいゔんばー"
+category = "game"
+
+[[term]]
+canonical = "ロトリー・ちゃまちゃマックス"
+reading = "ろとりーちゃまちゃまっくす"
+category = "game"
+
+[[term]]
+canonical = "メガスロット"
+reading = "メガスロット"
+category = "game"
+
+[[term]]
+canonical = "ムーンエース"
+reading = "ムーンエース"
+category = "game"
+
+[[term]]
+canonical = "ぺこらんぶるダービー"
+reading = "ぺこらんぶるダービー"
+category = "game"
+
+[[term]]
+canonical = "ねぽらぼマート"
+reading = "ねぽらぼマート"
+category = "game"
+
+[[term]]
+canonical = "トコホロロ"
+reading = "トコホロロ"
+category = "game"
+
+[[term]]
+canonical = "ライブステージ"
+reading = "ライブステージ"
+category = "game"
+
+[[term]]
+canonical = "ドタバタグラウンド"
+reading = "ドタバタグラウンド"
+category = "game"
+
+[[term]]
+canonical = "ホッピン・ロープ"
+reading = "ほっぴんろーぷ"
+category = "game"
+
+[[term]]
+canonical = "フォーチュンネットワーク"
+reading = "フォーチュンネットワーク"
+category = "game"
+
+[[term]]
+canonical = "たらふくジャーニー"
+reading = "たらふくジャーニー"
+category = "game"
+
+[[term]]
+canonical = "そろえてクッキング"
+reading = "そろえてクッキング"
+category = "game"
+
+[[term]]
+canonical = "くらやみチェイス"
+reading = "くらやみチェイス"
+category = "game"
+
+[[term]]
+canonical = "holoXアジト"
+reading = "ほろっくすあじと"
+category = "game"
+
+[[term]]
+canonical = "ちょべりば"
+reading = "ちょべりば"
+category = "game"
+
+[[term]]
+canonical = "フェイスマウンテン"
+reading = "フェイスマウンテン"
+category = "game"
+
+[[term]]
+canonical = "ホロホーム"
+reading = "ホロホーム"
+category = "game"
+
+[[term]]
+canonical = "HOLOシネマズ"
+reading = "ほろしねまず"
+category = "game"
+
+[[term]]
+canonical = "ゲーマーズステーション"
+reading = "ゲーマーズステーション"
+category = "game"
+
+[[term]]
+canonical = "キセキの輪"
+reading = "きせきのわ"
+category = "game"
+
+[[term]]
+canonical = "プロミスタワー"
+reading = "プロミスタワー"
+category = "game"
+
+[[term]]
+canonical = "ホロゴールド"
+reading = "ホロゴールド"
+category = "game"
+
+[[term]]
+canonical = "ホロワーク"
+reading = "ホロワーク"
+category = "game"
+
+[[term]]
+canonical = "スプラッシュボール"
+reading = "スプラッシュボール"
+category = "game"
+
+[[term]]
+canonical = "ソーダポップラグーン"
+reading = "ソーダポップラグーン"
+category = "game"
+
+[[term]]
+canonical = "ホロメンクエスト"
+reading = "ホロメンクエスト"
+category = "game"

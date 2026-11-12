@@ -1,0 +1,272 @@
+<script setup lang="ts">
+import { computed, ref } from 'vue'
+
+import type { Hit } from '@/api'
+import { useFavorites } from '@/composables/useFavorites'
+import { hasRawToShow, pieces } from '@/highlight'
+
+import ContextPanel from './ContextPanel.vue'
+import YouTubePlayer from './YouTubePlayer.vue'
+
+// tier の番号は search.py と同じ
+const TIER_AI = 2
+const TIER_CANDIDATE = 4 // これ以上は もしかして 系
+const TIER_RELATED = 6 // 関連語タブの一致（確からしい）。もしかして に出る関連語は 7
+const FIX_TITLES = { confirmed: '辞書で補正', candidate: '補正候補', ai: 'AI修正' } as const
+
+const props = defineProps<{ hit: Hit; words: string[]; playing: boolean }>()
+const emit = defineEmits<{ play: [sec: number | null] }>()
+
+const { isFavorite, toggle } = useFavorites()
+const showContext = ref(false)
+const showRaw = ref(false)
+const relatedWords = computed(() => props.hit.related_words ?? [])
+const start = ref(props.hit.sec)
+
+const parts = computed(() =>
+  pieces(props.hit.segments ?? [{ text: props.hit.text }], [...props.words, ...relatedWords.value]),
+)
+// 字幕原文はルビにせず、下線とボタンで見せる（hasRawToShow）
+const hasRaw = computed(() => hasRawToShow(parts.value))
+// 一致したのが AI修正 の文でなくても、表示が AI修正 を含むなら印を出す
+const hasAi = computed(() => props.hit.tier !== TIER_AI && parts.value.some((p) => p.kind === 'ai'))
+// 確からしさでラベルの色を分ける: 一致系 / もしかして系 / 人が書いたタイムスタンプ
+const badgeClass = computed(() => {
+  if (props.hit.kind === 'timestamp') return 'ts'
+  // AI修正 で一致したものも、AI修正 を含む表示の印（hasAi）と同じ見た目にそろえる（2026-11-10）
+  if (props.hit.tier === TIER_AI && relatedWords.value.length === 0) return 'ai'
+  return props.hit.tier >= TIER_CANDIDATE && props.hit.tier !== TIER_RELATED ? 'maybe' : 'match'
+})
+const badgeText = computed(() => {
+  if (relatedWords.value.length > 0) return `関連語: ${relatedWords.value.join('、')}`
+  return props.hit.kind === 'timestamp' ? 'タイムスタンプ' : props.hit.label
+})
+
+function play(sec: number) {
+  start.value = sec
+  emit('play', sec)
+}
+</script>
+
+<template>
+  <article class="card" :class="{ playing }">
+    <header class="meta">
+      <span class="badge" :class="badgeClass">{{ badgeText }}</span>
+      <span v-if="hasAi" class="badge ai" title="この発言は LLM が字幕を直した文で表示しています">AI修正</span>
+      <time>{{ hit.upload_date ?? '日付不明' }}</time>
+      <span class="ts-time">{{ hit.timestamp }}</span>
+      <button
+        type="button"
+        class="fav"
+        :aria-pressed="isFavorite(hit)"
+        :title="isFavorite(hit) ? 'お気に入りから外す' : 'お気に入りに追加'"
+        @click="toggle(hit)"
+      >
+        {{ isFavorite(hit) ? '★' : '☆' }}
+      </button>
+    </header>
+
+    <p class="text">
+      <template v-for="(p, i) in parts" :key="i">
+        <span
+          v-if="p.ruby !== undefined"
+          class="fix"
+          :class="p.kind"
+          :title="`字幕では「${p.ruby || '（なし）'}」（${FIX_TITLES[p.kind ?? 'confirmed']}）`"
+          ><mark v-if="p.mark">{{ p.text }}</mark><template v-else>{{ p.text }}</template></span
+        >
+        <mark v-else-if="p.mark">{{ p.text }}</mark>
+        <template v-else>{{ p.text }}</template>
+      </template>
+    </p>
+
+    <!-- 補正候補の「A → B（読み距離 n）」の行は、ごちゃごちゃするので出さない（2026-11-10 霧島リンカさん。破線の下線で分かる） -->
+    <p v-if="hasRaw" class="note">
+      <button type="button" class="link" @click="showRaw = !showRaw">
+        {{ showRaw ? '字幕原文を隠す' : '字幕原文を見る' }}
+      </button>
+      <span v-if="showRaw" class="raw">{{ hit.text_raw }}</span>
+    </p>
+
+    <p class="title" :title="hit.title">{{ hit.title }}</p>
+
+    <div class="actions">
+      <button
+        type="button"
+        class="play"
+        :title="playing ? 'プレーヤーを閉じる' : 'この場面から再生'"
+        @click="playing ? emit('play', null) : play(hit.sec)"
+      >
+        {{ playing ? '■ 閉じる' : '▶ 再生' }}
+      </button>
+      <button type="button" class="ghost" :aria-expanded="showContext" @click="showContext = !showContext">
+        前後の発言
+      </button>
+      <a class="ghost" :href="hit.url" target="_blank" rel="noopener" title="YouTube で開く">YouTube ↗</a>
+    </div>
+
+    <YouTubePlayer v-if="playing" :video-id="hit.video_id" :start="start" />
+    <ContextPanel v-if="showContext" :video-id="hit.video_id" :ms="hit.ms" @seek="play" />
+  </article>
+</template>
+
+<style scoped>
+.card {
+  display: grid;
+  gap: 8px;
+  padding: 14px clamp(12px, 3.5vw, 16px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.card.playing {
+  border-color: var(--accent);
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.badge {
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.badge.match {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.badge.maybe {
+  border: 1px solid var(--maybe);
+  background: var(--maybe-soft);
+  color: var(--maybe);
+}
+
+.badge.ts {
+  background: var(--ts-soft);
+  color: var(--ts);
+}
+
+.badge.ai {
+  border: 1px solid var(--ai);
+  background: var(--ai-soft);
+  color: var(--ai);
+}
+
+.ts-time {
+  color: var(--accent-strong);
+  font-weight: 700;
+}
+
+.fav {
+  margin-left: auto;
+  padding: 0 4px;
+  border: none;
+  background: none;
+  color: var(--accent);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.text {
+  margin: 0;
+  font-size: 16px;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  text-wrap: wrap;
+}
+
+/* 補正箇所の下線: 辞書の確定補正は実線、補正候補は破線、AI修正 は点線 */
+.fix {
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--accent);
+}
+
+.fix.candidate {
+  text-decoration-style: dashed;
+  text-decoration-color: var(--maybe);
+}
+
+.fix.ai {
+  text-decoration-style: dotted;
+  text-decoration-color: var(--ai);
+}
+
+.note {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.raw {
+  margin-left: 8px;
+}
+
+.title {
+  margin: 0;
+  overflow: hidden;
+  font-size: 12px;
+  color: var(--text-muted);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.play,
+.ghost {
+  padding: 6px 12px;
+  white-space: nowrap;
+  border-radius: 999px;
+  font-size: 13px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.play {
+  border: none;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-weight: 700;
+}
+
+.play:hover {
+  background: var(--accent-strong);
+}
+
+.ghost {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.ghost:hover {
+  border-color: var(--accent);
+}
+
+.link {
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--accent-strong);
+  font-size: 12px;
+  cursor: pointer;
+}
+</style>

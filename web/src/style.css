@@ -1,0 +1,122 @@
+/* AZKi のイメージカラー（公式サイトの背景色 #d11c76 / #f4348b）を基調にする。
+   標準は明るい配色。data-theme="dark" でダーク（ヘッダーのボタンで切り替え、ブラウザに保存） */
+:root {
+  --pink-700: #a3125b;
+  --pink-600: #d11c76;
+  --pink-500: #f4348b;
+  --pink-100: #fde4ef;
+  --pink-50: #fff5f9;
+
+  --bg: #fff9fc;
+  --surface: #ffffff;
+  --surface-2: #fff0f6;
+  --text: #2b1b24;
+  --text-muted: #86707b;
+  --border: #f6dbe7;
+  --accent: var(--pink-600);
+  --accent-strong: var(--pink-700);
+  --accent-soft: var(--pink-100);
+  --on-accent: #ffffff;
+  --mark-bg: #ffd6e8;
+  --mark-text: #6d0b3c;
+  --maybe: #9a6a00;
+  --maybe-soft: #fff4d6;
+  --ts: #5a3fa6;
+  --ts-soft: #ece6fb;
+  --ai: #1d6f64;
+  --ai-soft: #e2f4f1;
+  --focus: #f4348b;
+  --shadow: 0 1px 2px rgb(120 20 70 / 6%), 0 4px 16px rgb(120 20 70 / 6%);
+  --bar-from: rgb(255 240 247 / 92%);
+  --bar-to: rgb(255 249 252 / 92%);
+
+  --radius: 14px;
+  --radius-sm: 8px;
+  --font: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic UI', 'Meiryo', system-ui, sans-serif;
+
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --bg: #1a1015;
+  --surface: #24161d;
+  --surface-2: #2f1c26;
+  --text: #f6e9ef;
+  --text-muted: #c4a8b6;
+  --border: #4a2b3a;
+  --accent: #f4348b;
+  --accent-strong: #ff6aa9;
+  --accent-soft: #4a1d33;
+  --mark-bg: #6d1b45;
+  --mark-text: #ffe3f0;
+  --maybe: #f2c45a;
+  --maybe-soft: #3d3010;
+  --ts: #b9a3ff;
+  --ts-soft: #2e2547;
+  --ai: #7fd6c8;
+  --ai-soft: #16332f;
+  --shadow: none;
+  --bar-from: rgb(47 28 38 / 92%);
+  --bar-to: rgb(26 16 21 / 92%);
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent-strong);
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+mark {
+  background: var(--mark-bg);
+  color: var(--mark-text);
+  border-radius: 3px;
+  padding: 0 1px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* 日本語の文を文節の切れ目で折り返し、行末に 1〜2 文字だけ残るのを避ける（対応していないブラウザは通常の折り返し）。
+   字幕の本文（.text）は長い語をどこでも折り返すので対象にしない */
+p,
+li,
+dd,
+h1,
+h2,
+h3,
+small {
+  word-break: auto-phrase;
+  text-wrap: pretty;
+}
