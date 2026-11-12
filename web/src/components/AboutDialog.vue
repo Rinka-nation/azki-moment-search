@@ -40,6 +40,8 @@ defineExpose({ open: () => dialog.value?.showModal() })
 
       <h3>結果の見方</h3>
       <dl class="legend">
+        <dt>ラベル（原文・補正・読み など）</dt>
+        <dd>どう一致したかを示します。結果のラベルを押すと、意味が出ます。</dd>
         <dt><span class="u solid">下線（実線）</span></dt>
         <dd>辞書で直した箇所。元の字幕は「字幕原文を見る」で全体を見られます（ひらがな・カタカナの違いだけの補正では出しません）。</dd>
         <dt><span class="u dotted">下線（点線）</span></dt>

@@ -41,6 +41,27 @@ const badgeText = computed(() => {
   if (relatedWords.value.length > 0) return `関連語: ${relatedWords.value.join('、')}`
   return props.hit.kind === 'timestamp' ? 'タイムスタンプ' : props.hit.label
 })
+// ラベルの意味。モーダルを開かないと分からなかった（2026-11-12、外部の試用での指摘）。
+// スマホにはホバーが無いので、title に加えて押すと下に出す
+const BADGE_HELP: Record<string, string> = {
+  原文: '検索語が元の字幕にそのまま出てくる発言です',
+  補正: '辞書で直した字幕で一致した発言です（下線が直した箇所）',
+  AI修正: 'AI が直した字幕で一致した発言です。AI の修正にも誤りがあります',
+  読み: '表記は違うが、語の読みが検索語と同じ発言です',
+  候補: '読みが近いだけの補正候補で一致した発言です。誤検出を含みます',
+  '読み(部分)': '語の途中で読みが一致した発言です。誤検出を含みます',
+  スパチャ読み: 'スーパーチャットの名前を読み上げている部分にだけ一致した発言です',
+  タイムスタンプ: '作者（霧島リンカ）が投稿したタイムスタンプコメントです',
+  関連語: 'ホロメンの呼び名・持ちネタ・曲名など、検索した人に関係する言葉を含む発言です',
+}
+const AI_HELP = 'この発言は、AI が字幕を直した文で表示しています。AI の修正にも誤りがあります'
+const badgeHelp = computed(() =>
+  relatedWords.value.length > 0 ? BADGE_HELP['関連語']! : (BADGE_HELP[badgeText.value] ?? ''),
+)
+const help = ref<'badge' | 'ai' | null>(null)
+function toggleHelp(which: 'badge' | 'ai') {
+  help.value = help.value === which ? null : which
+}
 
 function play(sec: number) {
   start.value = sec
@@ -51,8 +72,27 @@ function play(sec: number) {
 <template>
   <article class="card" :class="{ playing }">
     <header class="meta">
-      <span class="badge" :class="badgeClass">{{ badgeText }}</span>
-      <span v-if="hasAi" class="badge ai" title="この発言は LLM が字幕を直した文で表示しています">AI修正</span>
+      <button
+        type="button"
+        class="badge"
+        :class="badgeClass"
+        :title="badgeHelp"
+        :aria-expanded="help === 'badge'"
+        :disabled="!badgeHelp"
+        @click="toggleHelp('badge')"
+      >
+        {{ badgeText }}
+      </button>
+      <button
+        v-if="hasAi"
+        type="button"
+        class="badge ai"
+        :title="AI_HELP"
+        :aria-expanded="help === 'ai'"
+        @click="toggleHelp('ai')"
+      >
+        AI修正
+      </button>
       <time>{{ hit.upload_date ?? '日付不明' }}</time>
       <span class="ts-time">{{ hit.timestamp }}</span>
       <button
@@ -65,6 +105,7 @@ function play(sec: number) {
         {{ isFavorite(hit) ? '★' : '☆' }}
       </button>
     </header>
+    <p v-if="help" class="note help">{{ help === 'ai' ? AI_HELP : badgeHelp }}</p>
 
     <p class="text">
       <template v-for="(p, i) in parts" :key="i">
@@ -136,9 +177,23 @@ function play(sec: number) {
 
 .badge {
   padding: 1px 8px;
+  border: none;
   border-radius: 999px;
+  font: inherit;
   font-size: 12px;
   font-weight: 700;
+  line-height: inherit;
+  cursor: help;
+}
+
+.badge:disabled {
+  cursor: default;
+}
+
+.help {
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft);
 }
 
 .badge.match {
