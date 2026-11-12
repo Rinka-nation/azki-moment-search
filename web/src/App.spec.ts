@@ -123,3 +123,31 @@ describe('back and forward', () => {
     w.unmount()
   })
 })
+
+// 最初の画面: 見出しと収録データの数字を出し、タブは出さない。PC 用の使い方は常に DOM にある（表示は CSS で PC だけ）（2026-11-12）
+describe('first screen', () => {
+  it('shows the hero with the scale and no tabs before searching', async () => {
+    const { w } = await open('/')
+    expect(w.find('h1.catch').exists()).toBe(true)
+    expect(w.find('.scale').text()).toContain('本の配信')
+    expect(w.find('.tabs').exists()).toBe(false)
+    expect(w.find('aside.side').text()).toContain('このサイトでの探し方')
+    w.unmount()
+  })
+})
+
+// ホロメンの一覧は、サイトを開いた時点で 1 回だけ読む。最初の画面に関連語の多い順で並べる（2026-11-12）
+describe('members', () => {
+  it('loads members when the page opens and shows the top ones', async () => {
+    const api = await import('./api')
+    const m = (nickname: string, count: number) => ({ name: nickname, mark: '', nickname, count })
+    vi.mocked(api.membersApi).mockResolvedValueOnce({ members: [m('少ない', 1), m('多い', 99)] })
+    const before = vi.mocked(api.membersApi).mock.calls.length
+    const { w } = await open('/')
+    expect(vi.mocked(api.membersApi).mock.calls.length).toBe(before + 1)
+    const chips = w.findAll('.chips li button').map((b) => b.text())
+    expect(chips.slice(0, 2)).toEqual(['多い', '少ない'])
+    expect(chips.at(-1)).toContain('すべてのホロメン（2 人）')
+    w.unmount()
+  })
+})

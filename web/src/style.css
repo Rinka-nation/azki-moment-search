@@ -30,6 +30,13 @@
   --bar-from: rgb(255 240 247 / 92%);
   --bar-to: rgb(255 249 252 / 92%);
 
+  --page-width: 1180px;
+  /* 最初の画面の見出しの帯（2026-11-12） */
+  --hero-from: #ffe9f3;
+  --hero-to: #fff9fc;
+  --hero-glow: rgb(244 52 139 / 22%);
+  --hero-glow-2: rgb(255 196 222 / 55%);
+  --hero-ring: rgb(244 52 139 / 10%);
   --radius: 14px;
   --radius-sm: 8px;
   --font: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic UI', 'Meiryo', system-ui, sans-serif;
@@ -58,6 +65,11 @@
   --shadow: none;
   --bar-from: rgb(47 28 38 / 92%);
   --bar-to: rgb(26 16 21 / 92%);
+  --hero-from: #34162a;
+  --hero-to: #1f1219;
+  --hero-glow: rgb(244 52 139 / 26%);
+  --hero-glow-2: rgb(120 30 80 / 45%);
+  --hero-ring: rgb(244 52 139 / 14%);
   color-scheme: dark;
 }
 

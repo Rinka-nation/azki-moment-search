@@ -15,7 +15,10 @@ import AboutDialog from '@/components/AboutDialog.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import ResultCard from '@/components/ResultCard.vue'
 import SearchForm from '@/components/SearchForm.vue'
+import SidePanel from '@/components/SidePanel.vue'
+import MemberChips from '@/components/MemberChips.vue'
 import { useFavorites } from '@/composables/useFavorites'
+import { loadMembers } from '@/composables/useMembers'
 import { useSearchState } from '@/composables/useSearchState'
 import { useTheme } from '@/composables/useTheme'
 
@@ -34,6 +37,7 @@ const error = ref('')
 const playingId = ref<string | null>(null)
 const stats = ref<Stats | null>(null)
 const about = ref<InstanceType<typeof AboutDialog> | null>(null)
+const form = ref<InstanceType<typeof SearchForm> | null>(null)
 const examples = ['かいたくしゃ', 'じおげっさー', 'ござるさん', 'おにぎり']
 
 // 説明は 1 行に収まる長さにする。詳しい見方は「このサイトについて」
@@ -59,6 +63,7 @@ const otherTabs = computed(() =>
 )
 const words = computed(() => response.value?.terms.map((t) => t.surface) ?? [])
 const filtered = computed(() => Boolean(params.title || params.from || params.to))
+const compact = computed(() => Boolean(response.value) || loading.value || view.value === 'fav')
 const shown = computed(() => (view.value === 'fav' ? favorites.value : hits.value))
 const hasMore = computed(() => view.value !== 'fav' && Boolean(response.value?.has_more))
 const readings = computed(() =>
@@ -210,6 +215,7 @@ function onPopState() {
 
 onMounted(async () => {
   window.addEventListener('popstate', onPopState)
+  void loadMembers() // 「ホロメンから探す」を押してから待たないよう、先に読んでおく（2026-11-12）
   if (params.q) runSearch()
   try {
     stats.value = await statsApi()
@@ -261,18 +267,34 @@ onBeforeUnmount(() => window.removeEventListener('popstate', onPopState))
   </header>
 
   <div class="page">
-    <section class="hero" :class="{ compact: Boolean(response) || view === 'fav' }">
-      <p v-if="!response && view !== 'fav'" class="catch">覚えている言葉で、<wbr />あの瞬間を探す。</p>
-      <SearchForm
-        v-model="params"
-        :counts="response?.counts ?? null"
-        @search="submit"
-        @member="onMember"
-        @tab="selectTab"
-      />
+    <!-- 最初の画面は見出し・説明・収録データの数字を大きく出し、検索した後は検索欄だけにする（2026-11-12 霧島リンカさん。殺風景さの改善） -->
+    <section class="hero" :class="{ compact }">
+      <div v-if="!compact" class="hero-text">
+        <h1 class="catch">覚えている言葉で、<span class="nowrap">あの瞬間を探す。</span></h1>
+        <p class="lead">AZKi さんの配信の字幕から発言を探して、<wbr />その場面から再生できる非公式のファンツールです。</p>
+        <p v-if="stats" class="scale">
+          {{ stats.streams.toLocaleString() }} 本の配信、{{ stats.utterances.toLocaleString() }} 件の発言から探せます
+          <span class="built">（{{ stats.built_at?.slice(0, 10).replaceAll('-', '/') }} 時点）</span>
+        </p>
+      </div>
+      <div class="search-card">
+        <SearchForm
+          ref="form"
+          v-model="params"
+          :counts="response?.counts ?? null"
+          @search="submit"
+          @member="onMember"
+          @tab="selectTab"
+        />
+      </div>
+      <MemberChips v-if="!compact" @pick="onMember" @more="form?.openMembers()" />
     </section>
 
-    <nav v-if="view !== 'fav'" class="tabs" aria-label="検索結果の種類">
+    <!-- PC では結果の右に使い方を並べる。スマホでは 1 列（使い方は「このサイトについて」） -->
+    <div class="layout">
+    <div class="main-col">
+    <!-- 検索する前は出さない（タブが 1 つだけ浮いて見えるため。2026-11-12） -->
+    <nav v-if="view !== 'fav' && (response || loading)" class="tabs" aria-label="検索結果の種類">
       <button
         v-for="t in shownTabs"
         :key="t.id"
@@ -350,6 +372,9 @@ onBeforeUnmount(() => window.removeEventListener('popstate', onPopState))
         </button>
       </div>
     </section>
+    </div>
+    <SidePanel class="side-col" @about="about?.open()" />
+    </div>
 
     <AppFooter @about="about?.open()" />
   </div>
@@ -371,7 +396,7 @@ onBeforeUnmount(() => window.removeEventListener('popstate', onPopState))
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 860px;
+  max-width: var(--page-width);
   height: 52px;
   margin: 0 auto;
   padding: 0 16px;
@@ -457,25 +482,121 @@ onBeforeUnmount(() => window.removeEventListener('popstate', onPopState))
   }
 }
 
+/* PC は幅を広げて結果と使い方を 2 列にする。スマホ・タブレットは 1 列（2026-11-12） */
 .page {
-  max-width: 860px;
+  max-width: var(--page-width);
   margin: 0 auto;
   padding: 0 16px;
 }
 
 .hero {
-  padding: 40px 0 8px;
+  position: relative;
+  margin: 20px 0 8px;
+  padding: 36px clamp(16px, 4vw, 40px) 28px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) + 8px);
+  background:
+    radial-gradient(circle at 92% 8%, var(--hero-glow) 0, transparent 42%),
+    radial-gradient(circle at 4% 100%, var(--hero-glow-2) 0, transparent 38%),
+    linear-gradient(135deg, var(--hero-from), var(--hero-to));
+}
+
+/* 飾りの輪（画像は使わない） */
+.hero::after {
+  position: absolute;
+  top: -70px;
+  right: -50px;
+  width: 260px;
+  height: 260px;
+  border: 26px solid var(--hero-ring);
+  border-radius: 50%;
+  content: '';
+  pointer-events: none;
 }
 
 .hero.compact {
-  padding-top: 20px;
+  margin-top: 16px;
+  padding: 16px clamp(12px, 3vw, 24px);
+}
+
+.hero.compact::after {
+  display: none;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  max-width: 780px;
+  margin-bottom: 22px;
 }
 
 .catch {
-  margin: 0 0 18px;
-  font-size: clamp(20px, 4.6vw, 28px);
+  margin: 0;
+  font-size: clamp(24px, 5vw, 40px);
+  font-weight: 800;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+}
+
+.nowrap {
+  display: inline-block;
+}
+
+.lead {
+  margin: 10px 0 0;
+  color: var(--text-muted);
+  font-size: clamp(13px, 1.6vw, 15px);
+}
+
+.search-card {
+  position: relative;
+  z-index: 1;
+}
+
+.hero:not(.compact) .search-card {
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.scale {
+  margin: 12px 0 0;
+  color: var(--accent-strong);
+  font-size: 14px;
   font-weight: 700;
-  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.built {
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.layout {
+  display: block;
+}
+
+.side-col {
+  display: none;
+}
+
+@media (width >= 1024px) {
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 28px;
+    align-items: start;
+  }
+
+  .side-col {
+    /* 使い方は画面より高いので、追従（sticky）させない。下まで読めなくなるため */
+    display: grid;
+    margin-top: 18px;
+  }
 }
 
 .tabs {
@@ -629,7 +750,10 @@ onBeforeUnmount(() => window.removeEventListener('popstate', onPopState))
 }
 
 .welcome {
-  padding: 20px 0 8px;
+  margin-top: 18px;
+  padding: 22px 16px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
   color: var(--text-muted);
   font-size: 13px;
   text-align: center;

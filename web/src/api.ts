@@ -147,3 +147,19 @@ export interface Member {
 export function membersApi(): Promise<{ members: Member[] }> {
   return getJson('/api/members', {})
 }
+
+/** 手元の serve（127.0.0.1）だけにある、字幕を手で直す機能（2026-11-12）。公開側には API が無い */
+export function adminApi(): Promise<{ admin: boolean }> {
+  return getJson('/api/admin', {})
+}
+
+export async function saveFixApi(id: string, text: string, note = ''): Promise<{ text: string; at: string }> {
+  const res = await fetch('/api/admin/fix', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id, text, note }),
+  })
+  const body = await res.json().catch(() => ({ error: `HTTP ${res.status}` }))
+  if (!res.ok) throw new ApiError(body.error ?? `HTTP ${res.status}`)
+  return body
+}

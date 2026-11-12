@@ -8,6 +8,10 @@ azkims serve は 127.0.0.1 でだけ待ち受ける。公開側は同じハン�
     GET /api/stats                             データの概要
     GET /api/members                           ホロメンの推しマークと検索に使う呼び名
     それ以外                                   web/dist の静的ファイル（ビルド済みの画面）
+
+手元の serve だけ（公開側には無い。2026-11-12 霧島リンカさん。manualfix）:
+    GET  /api/admin                            {"admin": true}。画面はこれで「✎ 直す」を出す
+    POST /api/admin/fix  {"id": "u123", "text": "...", "note": ""}   字幕を手で直す
 """
 
 from __future__ import annotations
@@ -25,7 +29,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
-from azkims import db
+from azkims import db, manualfix
 from azkims.config import PROJECT_ROOT, Config
 from azkims.dictionary import load_dictionary
 from azkims.reading import ReadingConverter
@@ -340,6 +344,48 @@ def _ts_hit(h) -> dict:
     }
 
 
+MAX_FIX_CHARS = 300
+MAX_POST_BYTES = 10_000
+
+
+class ManualEditor:
+    """字幕を手で直す（manualfix）。手元の serve だけが作る。公開側（Vercel）の handler には渡さない。"""
+
+    def __init__(self, cfg: Config, service: SearchService):
+        self.cfg = cfg
+        self.service = service
+        self._lock = threading.Lock()
+
+    def save(self, body: dict) -> dict:
+        ref = str(body.get("id") or "")
+        text = str(body.get("text") or "").strip()
+        note = str(body.get("note") or "").strip()[:200]
+        if not ref.startswith("u") or not ref[1:].isdigit():
+            raise ApiError("直せるのは字幕の発言だけです", HTTPStatus.BAD_REQUEST)
+        if not text or len(text) > MAX_FIX_CHARS:
+            raise ApiError(
+                f"直した文は 1〜{MAX_FIX_CHARS} 文字にしてください", HTTPStatus.BAD_REQUEST
+            )
+        uid = int(ref[1:])
+        with self._lock, closing(sqlite3.connect(self.cfg.db_path)) as conn:
+            row = conn.execute(
+                "SELECT video_id, start_ms, text_raw FROM utterances WHERE id = ?", (uid,)
+            ).fetchone()
+            if row is None:
+                raise ApiError("発言が見つかりません", HTTPStatus.NOT_FOUND)
+            fix = manualfix.append(
+                manualfix.path_for(self.cfg.data_dir),
+                manualfix.ManualFix(
+                    video_id=row[0], start_ms=row[1], raw=row[2], text=text, note=note
+                ),
+            )
+            with self.service._lock:
+                tokens = self.service.converter.tokens(text)
+            db.replace_utterance_text(conn, uid, text, "".join(t.reading for t in tokens))
+            conn.commit()
+        return {"ok": True, "text": text, "at": fix.at}
+
+
 # 公開側（Vercel）で成功した応答に付ける。Vercel の CDN のキャッシュはデプロイの URL ごとに分かれ、
 # publish は毎回新しいデプロイを作るので、DB を入れ替えた後に古い結果は返らない（公式の Cache keys の説明。
 # 2026-11-11 に確認）。データはデプロイ中は変わらないので 1 日にした。s-maxage と stale-while-revalidate は
@@ -352,8 +398,11 @@ def make_handler(
     dist_dir: Path = DIST_DIR,
     cache: str = "no-store",
     hosts: frozenset[str] | None = None,
+    editor: ManualEditor | None = None,
 ):
-    """hosts: 受け付ける Host ヘッダー。ローカルの serve だけが渡す（公開側は Vercel が振り分ける）。"""
+    """hosts: 受け付ける Host ヘッダー。ローカルの serve だけが渡す（公開側は Vercel が振り分ける）。
+    editor: 字幕を手で直す機能。ローカルの serve だけが渡す。無ければ /api/admin は 404、POST は受けない。"""
+    origins = frozenset(f"http://{h}" for h in hosts) if hosts else frozenset()
 
     class Handler(BaseHTTPRequestHandler):
         server_version = "azkims"
@@ -406,6 +455,8 @@ def make_handler(
                 "/api/stats": lambda _p: service.stats(),
                 "/api/members": lambda _p: service.members(),
             }
+            if editor is not None:
+                routes["/api/admin"] = lambda _p: {"admin": True}
             if path in routes:
                 try:
                     self._json(HTTPStatus.OK, routes[path](params))
@@ -430,13 +481,47 @@ def make_handler(
                 return
             self._static(path)
 
+        def do_POST(self):
+            # 書き込みは手元の serve の編集だけ。ほかのサイトから送らせない（CSRF）ため、
+            # Host と Origin がこの serve であること、JSON で送られていること（ほかのサイトからは事前確認で止まる）を求める。
+            # 本文は先に読み切る（読まずに返すと、接続が切れて画面にエラーの理由が届かない）
+            try:
+                length = int(self.headers.get("Content-Length") or 0)
+            except ValueError:
+                length = 0
+            if length > MAX_POST_BYTES:
+                self.close_connection = True
+                self._json(HTTPStatus.REQUEST_ENTITY_TOO_LARGE, {"error": "too large"})
+                return
+            raw = self.rfile.read(length) if length > 0 else b""
+            if editor is None or urlparse(self.path).path != "/api/admin/fix":
+                self._json(HTTPStatus.NOT_FOUND, {"error": "not found"})
+                return
+            if (
+                self.headers.get("Host", "").lower() not in (hosts or ())
+                or self.headers.get("Origin", "").lower() not in origins
+                or not self.headers.get("Content-Type", "").startswith("application/json")
+            ):
+                self._json(HTTPStatus.FORBIDDEN, {"error": "forbidden"})
+                return
+            try:
+                body = json.loads(raw or b"{}")
+                self._json(HTTPStatus.OK, editor.save(body if isinstance(body, dict) else {}))
+            except ApiError as e:
+                self._json(e.status, {"error": str(e)})
+            except (ValueError, json.JSONDecodeError):
+                self._json(HTTPStatus.BAD_REQUEST, {"error": "JSON を送ってください"})
+
     return Handler
 
 
 def serve(cfg: Config, port: int, log) -> None:
     service = SearchService(cfg)
     hosts = frozenset({f"127.0.0.1:{port}", f"localhost:{port}"})
-    httpd = ThreadingHTTPServer(("127.0.0.1", port), make_handler(service, hosts=hosts))
+    editor = ManualEditor(cfg, service)
+    httpd = ThreadingHTTPServer(
+        ("127.0.0.1", port), make_handler(service, hosts=hosts, editor=editor)
+    )
     log(f"http://127.0.0.1:{port}/ で待ち受けています（Ctrl+C で終了）")
     try:
         httpd.serve_forever()

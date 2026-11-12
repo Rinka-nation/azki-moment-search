@@ -74,6 +74,8 @@ CLI は 一致・もしかして・タイムスタンプ を出します。
 
 ## Web UI（この PC のブラウザで使う）
 
+手元の serve で開くと、字幕の結果に「✎ 直す」が出て、字幕を手で直せます（`data/manual_fixes.jsonl` に保存。公開しているサイトには出ません。DESIGN.md 5.12）。
+
 ```bash
 # 初回 / 画面を変えたとき: 画面をビルド
 cd web && npm install --legacy-peer-deps && npm run build && cd ..

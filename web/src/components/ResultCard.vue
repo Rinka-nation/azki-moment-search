@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 
-import type { Hit } from '@/api'
+import { type Hit, saveFixApi } from '@/api'
+import { useAdmin } from '@/composables/useAdmin'
 import { useFavorites } from '@/composables/useFavorites'
 import { hasRawToShow, pieces } from '@/highlight'
 
@@ -63,6 +64,36 @@ function toggleHelp(which: 'badge' | 'ai') {
   help.value = help.value === which ? null : which
 }
 
+// 字幕を手で直す（手元の serve で開いたときだけ。manualfix、2026-11-12）。保存すると手元の DB にすぐ反映し、
+// 本番には次の build・publish で出る。印は付けない（霧島リンカさんの判断）
+const { admin } = useAdmin()
+const editing = ref(false)
+const draft = ref('')
+const note = ref('')
+const saving = ref(false)
+const editError = ref('')
+const edited = ref<string | null>(null)
+
+function startEdit() {
+  draft.value = edited.value ?? parts.value.map((p) => p.text).join('')
+  note.value = ''
+  editError.value = ''
+  editing.value = true
+}
+
+async function saveEdit() {
+  saving.value = true
+  editError.value = ''
+  try {
+    edited.value = (await saveFixApi(props.hit.id, draft.value, note.value)).text
+    editing.value = false
+  } catch (e) {
+    editError.value = e instanceof Error ? e.message : String(e)
+  } finally {
+    saving.value = false
+  }
+}
+
 function play(sec: number) {
   start.value = sec
   emit('play', sec)
@@ -107,7 +138,8 @@ function play(sec: number) {
     </header>
     <p v-if="help" class="note help">{{ help === 'ai' ? AI_HELP : badgeHelp }}</p>
 
-    <p class="text">
+    <p v-if="edited !== null" class="text">{{ edited }}</p>
+    <p v-else class="text">
       <template v-for="(p, i) in parts" :key="i">
         <span
           v-if="p.ruby !== undefined"
@@ -144,7 +176,20 @@ function play(sec: number) {
         前後の発言
       </button>
       <a class="ghost" :href="hit.url" target="_blank" rel="noopener" title="YouTube で開く">YouTube ↗</a>
+      <button v-if="admin && hit.kind === 'caption'" type="button" class="ghost" @click="startEdit">✎ 直す</button>
     </div>
+
+    <form v-if="editing" class="edit" @submit.prevent="saveEdit">
+      <p class="note">字幕の原文: {{ hit.text_raw }}</p>
+      <textarea v-model="draft" rows="3" maxlength="300" aria-label="直した文" />
+      <input v-model="note" type="text" maxlength="200" placeholder="メモ（なぜ直したか。任意）" aria-label="メモ" />
+      <p v-if="editError" class="note error">{{ editError }}</p>
+      <div class="edit-actions">
+        <button type="submit" class="play" :disabled="saving || !draft.trim()">{{ saving ? '保存中…' : '保存' }}</button>
+        <button type="button" class="ghost" @click="editing = false">やめる</button>
+        <span class="note">手元にすぐ反映。本番には次の publish で出ます</span>
+      </div>
+    </form>
 
     <YouTubePlayer v-if="playing" :video-id="hit.video_id" :start="start" />
     <ContextPanel v-if="showContext" :video-id="hit.video_id" :ms="hit.ms" @seek="play" />
@@ -314,6 +359,35 @@ function play(sec: number) {
 
 .ghost:hover {
   border-color: var(--accent);
+}
+
+.edit {
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+  border: 1px dashed var(--accent);
+  border-radius: var(--radius-sm);
+}
+
+.edit textarea,
+.edit input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  resize: vertical;
+}
+
+.edit-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.error {
+  color: var(--accent-strong);
 }
 
 .link {

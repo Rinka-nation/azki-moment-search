@@ -15,7 +15,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from datetime import date, timedelta
 
-from azkims import db, rules, youtube
+from azkims import db, manualfix, rules, youtube
 from azkims.captions import parse_captions
 from azkims.config import PROJECT_ROOT, Config
 from azkims.dictionary import Dictionary, Term, load_dictionary
@@ -378,6 +378,8 @@ def build(conn: sqlite3.Connection, cfg: Config, log: Log) -> None:
     ai_fixes, ai_stats = load_fixes(
         cfg.data_dir / "llm", official_names(dictionary.terms), member_names(dictionary.terms)
     )
+    manual = manualfix.load(manualfix.path_for(cfg.data_dir))
+    manual_stats = manualfix.ApplyStats()
     # 発言の番号を検索の「新しい順」と同じ並びにする（番号順に取れば一致を全部読まずに済む。search.UTTERANCE_ORDER）
     streams = conn.execute(
         "SELECT video_id, title FROM streams WHERE caption_status = 'ok' AND excluded_reason IS NULL "
@@ -416,8 +418,17 @@ def build(conn: sqlite3.Connection, cfg: Config, log: Log) -> None:
                     raw, row["title"], dictionary, converter, matcher, oshi_ctx, near, topical
                 )
                 text_ai, reading, words = None, a.reading, a.words
+                text, corrections, text_fuzzy, fuzzy = a.text, a.corrections, a.text_fuzzy, a.fuzzy
+                # 人が手で直した文があれば、それを本文にする（AI修正・補正候補は当てない。manualfix）
+                hand = manualfix.lookup(manual, vid, utt.start_ms, raw, manual_stats)
+                if hand is not None:
+                    ctx = dictionary.title_context(row["title"]) | oshi_ctx
+                    tokens = converter.tokens(hand, context=ctx, near=near)
+                    text, corrections, text_fuzzy, fuzzy = hand, [], None, []
+                    reading = "".join(t.reading for t in tokens)
+                    words = list(dict.fromkeys(word_readings(tokens)))
                 fixes = ai_fixes.get((vid, utt.start_ms))
-                if fixes and text_kept is None:
+                if fixes and text_kept is None and hand is None:
                     text_ai = apply_fixes(a.text, fixes)
                 if text_ai is not None:
                     # 直した文の読みも索引に入れ、読みでも探せるようにする
@@ -432,19 +443,19 @@ def build(conn: sqlite3.Connection, cfg: Config, log: Log) -> None:
                     utt.start_ms,
                     utt.end_ms,
                     raw,
-                    a.text,
+                    text,
                     reading,
-                    a.corrections,
-                    text_fuzzy=a.text_fuzzy,
-                    fuzzy=a.fuzzy,
+                    corrections,
+                    text_fuzzy=text_fuzzy,
+                    fuzzy=fuzzy,
                     words=words,
                     text_kept=text_kept,
                     reading_kept=reading_kept,
                     text_ai=text_ai,
                 )
                 total_utt += 1
-                total_fix += len(a.corrections)
-                total_cand += len(a.fuzzy)
+                total_fix += len(corrections)
+                total_cand += len(fuzzy)
                 total_readout += text_kept is not None
         total_ts = _build_timestamps(conn, cfg, dictionary, converter)
         related = load_related(cfg.dictionary_dir, dictionary)
@@ -469,6 +480,11 @@ def build(conn: sqlite3.Connection, cfg: Config, log: Log) -> None:
         f"{total_ts} timestamp entries, "
         f"{rel_utt} + {rel_ts} related hits"
     )
+    if manual or manual_stats.raw_changed:
+        log(f"手で直した字幕: {len(manual)} 件のうち {manual_stats.used} 件を適用")
+        for vid, ms in manual_stats.raw_changed:
+            # 止めずに知らせる（週 1 回の公開を止めない）。画面の「✎ 直す」で直し直す
+            log(f"  原文が保存したときと違うので当てませんでした: {vid} {ms // 1000}s")
     if ai_stats.rows:
         dropped = ", ".join(f"{k} {v}" for k, v in ai_stats.dropped.items()) or "なし"
         log(

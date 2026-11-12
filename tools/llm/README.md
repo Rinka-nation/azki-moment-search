@@ -12,3 +12,4 @@ AI修正（DESIGN.md 5.11）を作るスクリプトと、モデルに渡す指�
 - `prop/`: 横展開（同じ配信の同じ誤りを探して判定させる。出力は `data/llm/prop/out`）
 - `check.py`: 出力の検査。`pilot_ts/`、`verify_pilot/`、`run_pilot_ts.py` は試験の記録
 - 定期実行ではモデルを呼ばない。build は `data/llm` の出力を読むだけ
+- `manual_examples.py`: 人が手で直した字幕（`data/manual_fixes.jsonl`、DESIGN.md 5.12）を、次に AI修正 を作るときの例として出す。人が AI修正 を直し直した数も出す（モデルは呼ばない。出力は `output/manual_examples.md`）

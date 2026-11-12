@@ -264,6 +264,40 @@ def insert_utterance(
     return uid
 
 
+def replace_utterance_text(conn: sqlite3.Connection, uid: int, text: str, reading: str) -> None:
+    """手で直した文で 1 発言を書き換える（手元の serve の「✎ 直す」がすぐ反映するため。manualfix）。
+    AI修正・補正候補・補正の記録は外す。次の build では data/manual_fixes.jsonl から同じ結果を作り直す。
+
+    utterances_fts は utterances を中身にする外部コンテンツの索引なので、古い値で 'delete' してから入れ直す。
+    reading_words_fts（語単位の読み、中身を持たない索引）は古い値が残っていないので消せない。
+    新しい読みは utterances_fts の reading で引けるので、語単位の索引は次の build まで古いまま（2 文字の読み検索だけ）。"""
+    old = conn.execute(
+        "SELECT text_raw, text, text_fuzzy, text_orig, text_ai, reading FROM utterances WHERE id = ?",
+        (uid,),
+    ).fetchone()
+    if old is None:
+        raise KeyError(uid)
+    raw = old[0]
+    conn.execute(
+        "INSERT INTO utterances_fts (utterances_fts, rowid, text, text_fuzzy, text_orig, text_ai, reading) "
+        "VALUES ('delete', ?, ?, ?, ?, ?, ?)",
+        (uid, *old[1:]),
+    )
+    text_orig = raw if raw != text else None
+    conn.execute(
+        "UPDATE utterances SET text = ?, text_fuzzy = NULL, text_orig = ?, text_ai = NULL, "
+        "fuzzy_distance = NULL, reading = ? WHERE id = ?",
+        (text, text_orig, reading, uid),
+    )
+    conn.execute(
+        "INSERT INTO utterances_fts (rowid, text, text_fuzzy, text_orig, text_ai, reading) "
+        "VALUES (?, ?, NULL, ?, NULL, ?)",
+        (uid, text, text_orig, reading),
+    )
+    conn.execute("DELETE FROM corrections WHERE utterance_id = ?", (uid,))
+    conn.execute("DELETE FROM fuzzy_matches WHERE utterance_id = ?", (uid,))
+
+
 def insert_ts_entry(
     conn: sqlite3.Connection,
     video_id: str,

@@ -53,6 +53,9 @@ function pick(m: Member) {
   emit('member', m)
 }
 
+// 最初の画面の「すべてのホロメン」から開く
+defineExpose({ openMembers: () => (open.value = 'members') })
+
 // 親の params は reactive の const なので、丸ごと差し替えず中身を書き換える（差し替えは親に届かない）
 function clearQuery() {
   params.value.q = ''

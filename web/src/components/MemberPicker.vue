@@ -1,30 +1,12 @@
-<script lang="ts">
-import type { Member } from '@/api'
-
-// 開くたびに読み直さないよう、ページの中で 1 回だけ取る（コンポーネントの外に置く）
-let cache: Member[] | null = null
-</script>
-
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import type { Member } from '@/api'
+import { useMembers } from '@/composables/useMembers'
 
-import { membersApi } from '@/api'
-
-// 推しマークの一覧。押すと、その人を AZKi がいちばんよく呼ぶ呼び名で検索し、関連語タブを開く
+// 推しマークの一覧。押すと、その人を AZKi がいちばんよく呼ぶ呼び名で検索し、関連語タブを開く。
+// 一覧はサイトを開いたときに読み始めている（useMembers）
 const emit = defineEmits<{ pick: [member: Member] }>()
 
-const members = ref<Member[] | null>(cache)
-const error = ref('')
-
-onMounted(async () => {
-  if (cache) return
-  try {
-    cache = (await membersApi()).members
-    members.value = cache
-  } catch (e) {
-    error.value = e instanceof Error ? e.message : String(e)
-  }
-})
+const { members, error } = useMembers()
 
 // 推しマークが無い人は名前の頭の 2 文字
 function face(m: Member) {
