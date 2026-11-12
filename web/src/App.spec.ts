@@ -138,16 +138,20 @@ describe('first screen', () => {
 
 // ホロメンの一覧は、サイトを開いた時点で 1 回だけ読む。最初の画面に関連語の多い順で並べる（2026-11-12）
 describe('members', () => {
-  it('loads members when the page opens and shows the top ones', async () => {
+  it('loads members when the page opens and shows 8 of them at random', async () => {
     const api = await import('./api')
     const m = (nickname: string, count: number) => ({ name: nickname, mark: '', nickname, count })
-    vi.mocked(api.membersApi).mockResolvedValueOnce({ members: [m('少ない', 1), m('多い', 99)] })
+    const all = Array.from({ length: 12 }, (_, i) => m(`m${i}`, i))
+    vi.mocked(api.membersApi).mockResolvedValueOnce({ members: all })
     const before = vi.mocked(api.membersApi).mock.calls.length
     const { w } = await open('/')
     expect(vi.mocked(api.membersApi).mock.calls.length).toBe(before + 1)
     const chips = w.findAll('.chips li button').map((b) => b.text())
-    expect(chips.slice(0, 2)).toEqual(['多い', '少ない'])
-    expect(chips.at(-1)).toContain('すべてのホロメン（2 人）')
+    const shown = chips.slice(0, -1)
+    expect(shown).toHaveLength(8)
+    expect(new Set(shown).size).toBe(8)
+    expect(shown.every((s) => all.some((x) => x.nickname === s))).toBe(true)
+    expect(chips.at(-1)).toContain('すべてのホロメン（12 人）')
     w.unmount()
   })
 })

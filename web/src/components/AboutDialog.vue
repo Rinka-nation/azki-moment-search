@@ -58,6 +58,12 @@ defineExpose({ open: () => dialog.value?.showModal() })
         <dd>タイムスタンプ・もしかして・スパチャ読みはここで選べます。件数があるときは、タブの下にも出ます。</dd>
       </dl>
 
+      <h3>ソースコード</h3>
+      <p>
+        このサイトのコードは GitHub で公開しています（字幕などのデータは含みません）:
+        <a href="https://github.com/Rinka-nation/azki-moment-search" target="_blank" rel="noopener noreferrer">Rinka-nation/azki-moment-search</a>
+      </p>
+
       <h3>削除のご依頼・ご意見</h3>
       <p>
         作者の X の DM へお送りください:

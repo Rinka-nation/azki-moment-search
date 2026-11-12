@@ -4,13 +4,26 @@ import { computed } from 'vue'
 import type { Member } from '@/api'
 import { useMembers } from '@/composables/useMembers'
 
-// 最初の画面に、話題に出ることの多いホロメンを並べる。このサイトにしかない探し方を前に出すため
+// 最初の画面に、ホロメンを 8 人並べる。このサイトにしかない探し方を前に出すため
 // （2026-11-12 霧島リンカさん。数字のタイルは参考サイトと同じ項目だったのでやめた）
+// 選び方はランダム（2026-11-12 霧島リンカさん）。ページを開くたびに選び直し、開いている間は変えない
 const SHOWN = 8
 const emit = defineEmits<{ pick: [member: Member]; more: [] }>()
 
 const { members } = useMembers()
-const top = computed(() => [...(members.value ?? [])].sort((a, b) => b.count - a.count).slice(0, SHOWN))
+const top = computed(() => pick(members.value ?? [], SHOWN))
+
+let picked: { from: Member[]; result: Member[] } | null = null
+function pick(list: Member[], n: number): Member[] {
+  if (picked?.from === list) return picked.result
+  const a = [...list]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  picked = { from: list, result: a.slice(0, n) }
+  return picked.result
+}
 </script>
 
 <template>

@@ -11,6 +11,8 @@ const emit = defineEmits<{ about: [] }>()
     <p class="links">
       <button type="button" class="link" @click="emit('about')">このサイトについて</button>
       <span aria-hidden="true">・</span>
+      <a href="https://github.com/Rinka-nation/azki-moment-search" target="_blank" rel="noopener noreferrer">ソースコード（GitHub）</a>
+      <span aria-hidden="true">・</span>
       <span>削除依頼・ご意見: <a href="https://x.com/rinca_rain" target="_blank" rel="noopener noreferrer">X @rinca_rain</a></span>
     </p>
   </footer>
