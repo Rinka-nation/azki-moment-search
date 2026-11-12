@@ -62,6 +62,14 @@ class FakeVercel:
     def set_alias(self, deployment, alias):
         self.events.append(("alias", deployment))
 
+    deployments: tuple[str, ...] = ()
+
+    def list_deployments(self):
+        return list(self.deployments)
+
+    def remove(self, host):
+        self.events.append(("remove", host))
+
 
 @pytest.fixture()
 def cfg(tmp_path, monkeypatch):
@@ -226,6 +234,45 @@ def test_production_follows_after_the_checks(cfg):
     assert ("delete", "azkims-prod") in events
     state = publish.load_state(cfg)
     assert state["production"] == state["name"] == "azkims-20261101-0840"
+
+
+def test_old_deployments_are_removed_after_production_switches(cfg):
+    _write_state(
+        cfg,
+        name="azkims-main",
+        production="azkims-main",
+        production_deployment="https://prev-prod.vercel.app",
+        streams=1,
+        fingerprint="old",
+    )
+    events = []
+    vercel = FakeVercel(events)
+    vercel.deployments = [
+        "prod.vercel.app",
+        "new.vercel.app",
+        "prev-prod.vercel.app",
+        "old1.vercel.app",
+        "old2.vercel.app",
+    ]
+    assert _publish(cfg, events, vercel) is True
+    removed = [e[1] for e in events if e[0] == "remove"]
+    assert removed == [
+        "old1.vercel.app",
+        "old2.vercel.app",
+    ]  # 今の本番・プレビュー・1 つ前の本番は残す
+    names = [e[0] for e in events]
+    assert names.index("promote") < names.index("remove")
+
+
+def test_remove_refuses_anything_but_a_deployment_url():
+    cli = publish.VercelCli()
+    for bad in [
+        "azki-moment-search",
+        "azki-moment-search.vercel.app",
+        "other-abc123-team.vercel.app",
+    ]:
+        with pytest.raises(PublishError):
+            cli.remove(bad)
 
 
 def test_failed_production_keeps_its_database(cfg):

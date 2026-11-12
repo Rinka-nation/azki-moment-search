@@ -33,6 +33,10 @@ from azkims.turso import TursoError
 PREVIEW_ALIAS = "azki-moment-search-preview.vercel.app"
 # β版（URL を知っている人だけ。2026-11-10 霧島リンカさんの決定）。確認に通ったら毎回ここも切り替える
 PRODUCTION_URL = "https://azki-moment-search.vercel.app"
+VERCEL_PROJECT = "azki-moment-search"
+# 消してよいのはこのプロジェクトの個々のデプロイの URL だけ。`vercel remove <プロジェクト名>` は全部を消すので、
+# 形の違うものは渡さない
+DEPLOYMENT_HOST = re.compile(rf"^{VERCEL_PROJECT}-[a-z0-9]+-[a-z0-9-]+\.vercel\.app$")
 API_HOST = "api.turso.tech"
 # 手元と Turso で件数を比べる語（3 文字以上、2 文字、読み、タイムスタンプ）
 VERIFY_QUERIES = (
@@ -191,6 +195,27 @@ class VercelCli:
 
     def set_alias(self, deployment: str, alias: str) -> None:
         self._run(["alias", "set", deployment, alias])
+
+    def list_deployments(self) -> list[str]:
+        """このプロジェクトのデプロイの URL（https:// なし）。新しい順。"""
+        hosts: list[str] = []
+        page: int | None = None
+        for _ in range(100):
+            args = ["ls", VERCEL_PROJECT, "--format", "json"]
+            if page:
+                args += ["--next", str(page)]
+            data = json.loads(self._run(args).stdout)
+            hosts += [d["url"] for d in data.get("deployments", [])]
+            page = (data.get("pagination") or {}).get("next")
+            if not page:
+                break
+        return hosts
+
+    def remove(self, host: str) -> None:
+        if not DEPLOYMENT_HOST.match(host):
+            raise PublishError(f"デプロイの URL ではないので消しません: {host}")
+        # --safe: エイリアス（本番・プレビューの固定 URL）が付いているものは消さない
+        self._run(["remove", host, "--safe", "--yes"])
 
 
 def _input_files(cfg: Config, root: Path = PROJECT_ROOT) -> list[Path]:
@@ -444,7 +469,32 @@ def publish(
     log(f"本番を切り替えました: {PRODUCTION_URL}（配信 {streams} 本）")
     for db_name in sorted(old):
         _delete_quietly(platform, db_name, log)
+    prune_deployments(vercel, {deployment, production, state.get("production_deployment")}, log)
     return True
+
+
+def prune_deployments(vercel: VercelCli, keep: set[str | None], log) -> int:
+    """残すもの以外のデプロイを消す（2026-11-13 霧島リンカさん）。
+
+    Vercel の Hobby はデプロイの保存が 10GB まで。1 個 約 84MB（検索の関数。大半は Sudachi の辞書）で、
+    publish のたびに 2 個増えるので、消さないと数か月で上限に届き、デプロイを止められることがある。
+    残すのは 今のプレビュー・今の本番・1 つ前の本番（戻す用）。失敗しても公開は止めない。
+    """
+    hosts = {k.removeprefix("https://") for k in keep if k}
+    try:
+        old = [h for h in vercel.list_deployments() if h not in hosts]
+    except PublishError as e:
+        log(f"古いデプロイの一覧を取れませんでした（公開は済んでいます）: {e}")
+        return 0
+    removed = 0
+    for host in old:
+        try:
+            vercel.remove(host)
+            removed += 1
+        except PublishError as e:
+            log(f"{host} を消せませんでした: {e}")
+    log(f"古いデプロイを {removed} 個消しました（残したもの {len(hosts)} 個）")
+    return removed
 
 
 def _save_state(cfg: Config, state: dict) -> None:
