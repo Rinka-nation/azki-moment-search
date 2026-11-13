@@ -405,7 +405,9 @@ def test_member_list_picks_the_most_used_name(tmp_path):
         "INSERT INTO streams (video_id, title, upload_date, caption_status) "
         "VALUES ('v1', '雑談', '2026-10-14', 'ok')"
     )
-    for i, text in enumerate(["かなたん来た", "かなたんと話した", "天音かなたの話", "ぺこちゃん"]):
+    for i, text in enumerate(
+        ["かなたん来た", "かなたんと話した", "天音かなたの話", "ぺこちゃん", "かなけんの拠点"]
+    ):  # かなけん はユニット
         db.insert_utterance(conn, "v1", i * 1000, i * 1000 + 500, text, text, "", [], None, [], [])
     service = SearchService(cfg)
     related.build_index(conn, service.related)
@@ -416,9 +418,18 @@ def test_member_list_picks_the_most_used_name(tmp_path):
     conn.close()
 
     got = service.members()["members"]
-    assert [m["name"] for m in got] == ["兎田ぺこら", "天音かなた"]  # 推しマークの表の順
+    assert [m["name"] for m in got][:2] == ["兎田ぺこら", "天音かなた"]  # 推しマークの表の順
     assert got[1] == {"name": "天音かなた", "mark": "💫", "nickname": "かなたん", "count": 3}
     assert got[0]["nickname"] == "ぺこちゃん"
+    by_name = {m["name"]: m for m in got}
+    assert "かなけん" not in by_name  # ユニットは載せない（2026-11-13）
+    # 字幕に出ない人も載せ、呼び名があればそれで探す（2026-11-13）
+    assert by_name["熱千めら"] == {
+        "name": "熱千めら",
+        "mark": "",
+        "nickname": "めらちゃん",
+        "count": 0,
+    }
     # その呼び名で検索すると関連語タブが出る
     assert service.search({"q": "かなたん", "tab": "related"})["related"]["tag"] == "天音かなた"
 

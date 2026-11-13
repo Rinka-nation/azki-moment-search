@@ -646,3 +646,15 @@ def test_related_data_loads_with_nicknames():
     assert rel.tag_of("すいちゃん").name == "星街すいせい"
     assert rel.tag_of("AZKi") is None
     assert "Star Flower" not in rel.tags
+
+
+def test_unit_name_is_written_as_the_search_normalizes_it():
+    # 正式は アソビ★まわり隊！ だが、検索の語は半角の ! に正規化されるので辞書も半角にする（2026-11-13）
+    dictionary = load_dictionary(PROJECT_ROOT / "config" / "dictionary")
+    rel = related.load_related(PROJECT_ROOT / "config" / "dictionary", dictionary)
+    scanner = related.Scanner(rel)
+    unit = "アソビ★まわり隊!"
+    assert normalize_text("アソビ★まわり隊！") == unit
+    assert dictionary.apply_aliases("遊び回り隊がね。")[0] == "アソビ★まわり隊!がね。"
+    assert (unit, unit) in scanner.find("新ユニット アソビ★まわり隊!")
+    assert rel.tags[unit].members == ("百灯キョーコ", "熱千めら", "鈴鳴つづり", "宙科そぴあ")

@@ -1274,6 +1274,34 @@ strong = [
 weak = [
 ]
 
+[[member]]
+name = "百灯キョーコ"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "熱千めら"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "鈴鳴つづり"
+strong = [
+]
+weak = [
+]
+
+[[member]]
+name = "宙科そぴあ"
+strong = [
+]
+weak = [
+]
+
 [[unit]]
 name = "かなけん"
 members = ["AZKi", "天音かなた", "沙花叉クロヱ"]
@@ -1575,4 +1603,12 @@ weak = [
   "magic summer",
   "PUNISHER",
   "the light",
+]
+
+[[unit]]
+name = "アソビ★まわり隊!"
+members = ["百灯キョーコ", "熱千めら", "鈴鳴つづり", "宙科そぴあ"]
+strong = [
+]
+weak = [
 ]

@@ -212,7 +212,9 @@ def member_list(conn: sqlite3.Connection, related: Related, marks: dict[str, str
     """画面の「ホロメンから探す」の一覧。推しマークの表の順（期生順）、無い人はその後ろ。
 
     nickname は名前・呼び名のうち AZKi の字幕にいちばん多く出るもの（related_hits の件数）。
-    これで検索すると関連語タブが出る。字幕に 1 回も出ない人は載せない（2026-11-10 霧島リンカさん）。
+    これで検索すると関連語タブが出る。ユニットは載せない（ホロメン単体だけ）。
+    字幕に 1 回も出ない人も載せ、nickname は呼び名があればその最初のもの（2026-11-13 霧島リンカさん。
+    2026-11-10 の「字幕に出ない人は載せない」を変えた。デビューしたばかりの人を探せるように）。
     """
     order = {name: i for i, name in enumerate(dict.fromkeys(marks.values()))}
     mark_of: dict[str, str] = {}
@@ -229,9 +231,10 @@ def member_list(conn: sqlite3.Connection, related: Related, marks: dict[str, str
                 (tag.name, *tag.names),
             ).fetchall()
         )
-        if not counts:
-            continue
-        nickname = max(tag.names, key=lambda n: (counts.get(n, 0), -tag.names.index(n)))
+        if counts:
+            nickname = max(tag.names, key=lambda n: (counts.get(n, 0), -tag.names.index(n)))
+        else:
+            nickname = tag.names[1] if len(tag.names) > 1 else tag.names[0]
         out.append(
             {
                 "name": tag.name,

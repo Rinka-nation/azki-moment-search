@@ -422,6 +422,8 @@ def build(conn: sqlite3.Connection, cfg: Config, log: Log) -> None:
                 # 人が手で直した文があれば、それを本文にする（AI修正・補正候補は当てない。manualfix）
                 hand = manualfix.lookup(manual, vid, utt.start_ms, raw, manual_stats)
                 if hand is not None:
+                    # 検索の語と同じく全角・半角を揃える（じおげぶ！ の ！ も ! で一致させる。2026-11-13）
+                    hand = normalize_text(hand)
                     ctx = dictionary.title_context(row["title"]) | oshi_ctx
                     tokens = converter.tokens(hand, context=ctx, near=near)
                     text, corrections, text_fuzzy, fuzzy = hand, [], None, []

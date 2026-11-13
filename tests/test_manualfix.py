@@ -37,13 +37,18 @@ def test_latest_line_wins_and_null_removes(tmp_path):
 
 
 def test_lookup_skips_when_raw_changed():
-    """UT-121: 原文が保存したときと違えば当てずに数える"""
-    fixes = {("v1", 1000): ManualFix("v1", 1000, "文教", "分岐")}
+    """UT-121: 原文が保存したときと違えば当てずに数える。同じ時刻の別の発言に当たれば知らせない"""
+    fixes = {
+        ("v1", 1000): ManualFix("v1", 1000, "文教", "分岐"),
+        ("v1", 2000): ManualFix("v1", 2000, "古い字幕", "直した文"),
+    }
     stats = manualfix.ApplyStats()
     assert manualfix.lookup(fixes, "v1", 1000, "文教", stats) == "分岐"
+    # 同じ開始時刻の別の発言（長さ 0 の発言）は当てないが、1000 は当たっているので知らせない（2026-11-13）
     assert manualfix.lookup(fixes, "v1", 1000, "別の字幕", stats) is None
     assert manualfix.lookup(fixes, "v1", 5000, "文教", stats) is None
-    assert stats.used == 1 and stats.raw_changed == [("v1", 1000)]
+    assert manualfix.lookup(fixes, "v1", 2000, "新しい字幕", stats) is None
+    assert stats.used == 1 and stats.raw_changed == [("v1", 2000)]
 
 
 def _caption(cfg, video_id, events):
@@ -54,7 +59,7 @@ def _caption(cfg, video_id, events):
 
 
 def test_build_uses_hand_fix_before_ai_and_dictionary(tmp_path):
-    """UT-122: build は手で直した文を本文にし、AI修正 は当てない。読みでも引ける"""
+    """UT-122: build は手で直した文を（全角・半角を揃えて）本文にし、AI修正 は当てない。読みでも引ける"""
     cfg = _cfg(tmp_path)
     conn = db.connect(cfg.db_path)
     conn.execute(
@@ -72,12 +77,12 @@ def test_build_uses_hand_fix_before_ai_and_dictionary(tmp_path):
     )
     raw = "どんな文教を迎えても"
     manualfix.append(
-        manualfix.path_for(cfg.data_dir), ManualFix("v1", 1000, raw, "どんな分岐を迎えても")
+        manualfix.path_for(cfg.data_dir), ManualFix("v1", 1000, raw, "どんな分岐を迎えても！")
     )
     logs: list[str] = []
     build(conn, cfg, logs.append)
     rows = dict(conn.execute("SELECT start_ms, text FROM utterances").fetchall())
-    assert rows[1000] == "どんな分岐を迎えても"
+    assert rows[1000] == "どんな分岐を迎えても!"  # 検索の語と同じく全角を半角に揃える（2026-11-13）
     assert rows[9000] == "開拓者のみんなありがとう"
     ai = conn.execute("SELECT text_ai, text_raw FROM utterances WHERE start_ms = 1000").fetchone()
     assert ai[0] is None and ai[1] == raw

@@ -38,7 +38,17 @@ class ManualFix:
 @dataclass
 class ApplyStats:
     used: int = 0
-    raw_changed: list[Key] = field(default_factory=list)
+    used_keys: set[Key] = field(default_factory=set)
+    mismatched: set[Key] = field(default_factory=set)
+
+    @property
+    def raw_changed(self) -> list[Key]:
+        """原文が保存したときと違って当てられなかった直し。
+
+        字幕には同じ開始時刻の発言が複数あることがある（長さ 0 の発言。2026-11-13 の DB で 37,173 組）。
+        そのうち 1 つに当たれば、ほかの発言の原文が違っても知らせない。
+        """
+        return sorted(self.mismatched - self.used_keys)
 
 
 def path_for(data_dir: Path) -> Path:
@@ -92,7 +102,8 @@ def lookup(
     if fix is None:
         return None
     if fix.raw != raw:
-        stats.raw_changed.append((video_id, start_ms))
+        stats.mismatched.add((video_id, start_ms))
         return None
     stats.used += 1
+    stats.used_keys.add((video_id, start_ms))
     return fix.text

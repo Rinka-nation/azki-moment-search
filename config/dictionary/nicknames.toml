@@ -401,6 +401,13 @@ category = "nickname"
 fuzzy = false
 
 [[term]]
+canonical = "りりーか"
+reading = "りりーか"
+group = "一条莉々華"
+category = "nickname"
+fuzzy = false   # 一条莉々華の愛称。字幕では リリーカ（2026-11-13 霧島リンカさん）
+
+[[term]]
 canonical = "らでんちゃん"
 reading = "らでんちゃん"
 group = "儒烏風亭らでん"
@@ -838,3 +845,41 @@ group = "Kobo Kanaeru"
 category = "nickname"
 fuzzy = false
 kana_fix = false
+
+# アソビ★まわり隊！ の 4 人。AZKi は 下の名前 + ちゃん で呼ぶ。百灯キョーコだけは キョーコさん が多い（2026-11-13 霧島リンカさん）
+# キョーコさん は辞書にあるので、スパチャ読み（〜さん の連続）の名前としても扱わない
+
+[[term]]
+canonical = "キョーコさん"
+reading = "きょーこさん"
+group = "百灯キョーコ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "キョーコちゃん"
+reading = "きょーこちゃん"
+group = "百灯キョーコ"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "めらちゃん"
+reading = "めらちゃん"
+group = "熱千めら"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "つづりちゃん"
+reading = "つづりちゃん"
+group = "鈴鳴つづり"
+category = "nickname"
+fuzzy = false
+
+[[term]]
+canonical = "そぴあちゃん"
+reading = "そぴあちゃん"
+group = "宙科そぴあ"
+category = "nickname"
+fuzzy = false

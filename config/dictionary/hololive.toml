@@ -299,6 +299,36 @@ canonical = "綺々羅々ヴィヴィ"
 reading = "ききららびび"
 category = "hololive"
 
+# --- アソビ★まわり隊！（2026-09-24・25 デビュー。名前と読みは公式ニュース 2026-09-18 で確認。2026-11-13 霧島リンカさん） ---
+[[term]]
+canonical = "百灯キョーコ"
+reading = "ひゃくとうきょーこ"
+category = "hololive"
+
+[[term]]
+canonical = "熱千めら"
+reading = "あちちめら"
+category = "hololive"
+
+[[term]]
+canonical = "鈴鳴つづり"
+reading = "すずなつづり"
+category = "hololive"
+
+[[term]]
+canonical = "宙科そぴあ"
+reading = "そらしなそぴあ"
+category = "hololive"
+
+[[term]]
+# 正式は全角の ！。検索の語は半角に正規化されるので、本文に入る表記も半角にする（2026-11-13）
+canonical = "アソビ★まわり隊!"
+reading = "あそびまわりたい"
+# 字幕では 遊び回り隊。遊び回りたい（読みが同じ）は普通の言葉でもあるので alias にせず、読みの一致に任せる
+aliases = ["遊び回り隊"]
+category = "unit"
+fuzzy = false
+
 # --- 関連用語 ---
 [[term]]
 canonical = "ホロライブ"
