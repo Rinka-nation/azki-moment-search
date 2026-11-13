@@ -128,7 +128,7 @@ describe('back and forward', () => {
 describe('first screen', () => {
   it('shows the hero with the scale and no tabs before searching', async () => {
     const { w } = await open('/')
-    expect(w.find('h1.catch').exists()).toBe(true)
+    expect(w.find('.lead').text()).toContain('非公式のファンツール')
     expect(w.find('.scale').text()).toContain('本の配信')
     expect(w.find('.tabs').exists()).toBe(false)
     expect(w.find('aside.side').text()).toContain('このサイトでの探し方')

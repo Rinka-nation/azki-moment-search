@@ -28,7 +28,7 @@ function pick(list: Member[], n: number): Member[] {
 
 <template>
   <div v-if="top.length" class="chips">
-    <p class="label">ホロメンの名前から、呼び名や持ちネタまで探す</p>
+    <p class="label">ホロメンの名前から、呼び名や用語まで探す</p>
     <ul>
       <li v-for="m in top" :key="m.name">
         <button type="button" :title="`${m.name}（${m.nickname} で検索）`" @click="emit('pick', m)">

@@ -43,7 +43,7 @@ const examples = ['かいたくしゃ', 'じおげっさー', 'ござるさん',
 // 説明は 1 行に収まる長さにする。詳しい見方は「このサイトについて」
 const tabs: { id: Tab; label: string; note: string }[] = [
   { id: 'match', label: '一致', note: '下線は直した箇所。元の字幕は「字幕原文を見る」で見られます' },
-  { id: 'related', label: '関連語', note: '呼び名・持ちネタ・曲名など、その人に関係する言葉です' },
+  { id: 'related', label: '関連語', note: '呼び名・用語・曲名など、その人に関係する言葉です' },
   { id: 'ts', label: 'タイムスタンプ', note: '作者が投稿したタイムスタンプコメントです' },
   { id: 'maybe', label: 'もしかして', note: '読みが近いだけのものも含みます' },
   { id: 'readout', label: 'スパチャ読み', note: '名前の読み上げの部分にだけ一致した発言です' },
@@ -270,7 +270,6 @@ onBeforeUnmount(() => window.removeEventListener('popstate', onPopState))
     <!-- 最初の画面は見出し・説明・収録データの数字を大きく出し、検索した後は検索欄だけにする（2026-11-12 霧島リンカさん。殺風景さの改善） -->
     <section class="hero" :class="{ compact }">
       <div v-if="!compact" class="hero-text">
-        <h1 class="catch">覚えている言葉で、<span class="nowrap">あの瞬間を探す。</span></h1>
         <p class="lead">AZKi さんの配信の字幕から発言を探して、<wbr />その場面から再生できる非公式のファンツールです。</p>
         <p v-if="stats" class="scale">
           {{ stats.streams.toLocaleString() }} 本の配信、{{ stats.utterances.toLocaleString() }} 件の発言から探せます
@@ -531,22 +530,9 @@ onBeforeUnmount(() => window.removeEventListener('popstate', onPopState))
   margin-bottom: 22px;
 }
 
-.catch {
-  margin: 0;
-  font-size: clamp(24px, 5vw, 40px);
-  font-weight: 800;
-  line-height: 1.3;
-  letter-spacing: 0.01em;
-}
-
-.nowrap {
-  display: inline-block;
-}
-
 .lead {
-  margin: 10px 0 0;
-  color: var(--text-muted);
-  font-size: clamp(13px, 1.6vw, 15px);
+  margin: 0;
+  font-size: clamp(14px, 1.8vw, 17px);
 }
 
 .search-card {

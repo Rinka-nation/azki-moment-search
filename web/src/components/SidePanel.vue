@@ -21,7 +21,7 @@ const emit = defineEmits<{ about: [] }>()
           <span class="tag match">関連語</span>
           <div>
             <b>ホロメンの名前から、話題まで</b>
-            <p>名前で探すと、AZKi さんがよく使う呼び名や持ちネタの発言も、関連語のタブに出ます。</p>
+            <p>名前で探すと、AZKi さんがよく使う呼び名や用語などの発言も、関連語のタブに出ます。</p>
           </div>
         </li>
         <li>
