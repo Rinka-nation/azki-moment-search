@@ -124,6 +124,38 @@ describe('back and forward', () => {
   })
 })
 
+// 検索を押さずに書き換えた語のままタブを切り替えたら、件数を数え直す。さらに読み込むは表示中の条件で取る（2026-11-14）
+describe('unsubmitted edits', () => {
+  it('recounts when the query was edited before switching tabs', async () => {
+    next = response({ match: 5, ts: 3 })
+    const { w } = await open('/?q=a')
+    const { searchApi } = await import('./api')
+    await w.find('#q').setValue('b')
+    next = response({ match: 7, ts: 9 })
+    await w.find('.others button').trigger('click') // ほかの結果: タイムスタンプ 3
+    await flushPromises()
+    const [asked, opts] = vi.mocked(searchApi).mock.calls.at(-1)!
+    expect(asked.q).toBe('b')
+    expect(opts?.counts).toBe(true)
+    expect(w.find('.tabs').text()).toContain('タイムスタンプ 9')
+    w.unmount()
+  })
+
+  it('loads more with the shown query, not the edited one', async () => {
+    next = { ...response({ match: 40 }), cursor: '20', has_more: true }
+    const { w } = await open('/?q=a')
+    const { searchApi } = await import('./api')
+    await w.find('#q').setValue('c')
+    next = response({ match: 40 })
+    await w.find('.more button').trigger('click')
+    await flushPromises()
+    const [asked, opts] = vi.mocked(searchApi).mock.calls.at(-1)!
+    expect(asked.q).toBe('a')
+    expect(opts).toMatchObject({ cursor: '20', counts: false })
+    w.unmount()
+  })
+})
+
 // 最初の画面: 見出しと収録データの数字を出し、タブは出さない。PC 用の使い方は常に DOM にある（表示は CSS で PC だけ）（2026-11-12）
 describe('first screen', () => {
   it('shows the hero with the scale and no tabs before searching', async () => {

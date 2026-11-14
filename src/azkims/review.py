@@ -175,18 +175,17 @@ class FuzzyMatcher:
             for bg in _bigrams(term.folded):
                 self._bigram_index[bg].append(idx)
         self._max_len = max((len(t.folded) for t in self.terms), default=0)
+        # 候補にするのに要る、読みの 2 文字の重なりの数。語ごとに決まるので先に数えておく（ISS-21）
+        self._need = [max(1, len(_bigrams(t.folded)) // 2) for t in self.terms]
+        # 辞書での順。重なった候補が同点のときに使う（find）
+        self._rank = {t.canonical: i for i, t in enumerate(self.terms)}
 
     def _candidate_terms(self, reading: str) -> list[Term]:
         counts: Counter[int] = Counter()
         for bg in _bigrams(reading):
             for idx in self._bigram_index.get(bg, ()):
                 counts[idx] += 1
-        out = []
-        for idx, n in counts.items():
-            need = max(1, len(_bigrams(self.terms[idx].folded)) // 2)
-            if n >= need:
-                out.append(self.terms[idx])
-        return out
+        return [self.terms[idx] for idx, n in counts.items() if n >= self._need[idx]]
 
     def find(self, text: str, tokens: list[Token]) -> list[FuzzyHit]:
         found: list[FuzzyHit] = []
@@ -225,8 +224,18 @@ class FuzzyMatcher:
                         # 語の一部が偶然似ているだけなので候補にもしない（2026-10-28）
                         continue
                     found.append(FuzzyHit(surface, term, d, first.start, tok.end))
-        # 重なりは「距離が小さい → 長い」ものを優先して 1 つに絞る
-        found.sort(key=lambda h: (h.distance / len(h.term.folded), -(h.end - h.start)))
+        # 重なりは「距離が小さい → 長い」ものを優先して 1 つに絞る。同点なら前にあるもの、同じ位置なら辞書に
+        # 先に書いてある語。以前は同点の順が _candidate_terms の順（読みの 2 文字の組を集合で回した順）で決まり、
+        # Python のハッシュの種で実行のたびに変わった（あず1 → あずきち / あずいろ。2026-11-14、ISS-24）
+        rank = self._rank
+        found.sort(
+            key=lambda h: (
+                h.distance / len(h.term.folded),
+                -(h.end - h.start),
+                h.start,
+                rank.get(h.term.canonical, len(rank)),
+            )
+        )
         chosen: list[FuzzyHit] = []
         for h in found:
             if all(h.end <= c.start or h.start >= c.end for c in chosen):

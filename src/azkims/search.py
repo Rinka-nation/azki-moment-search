@@ -28,6 +28,10 @@ from azkims.textnorm import normalize_text
 
 MIN_TERM_CHARS = 2
 MAX_TERMS = 5
+# 検索語全体（正規化した後）の長さの上限。字幕の 1 発言は長くても 94 文字、タイムスタンプの行で 100 文字を超えるのは
+# 49,353 行のうち 3 行（2026-11-14、588 配信）。長い語は全文検索の照合が重く、手元でも 1,500 文字で 1 回 1.6 秒、
+# 3,000 文字で 7 秒かかった（普通の検索は 0.1〜0.3 秒）。誰でも API を呼べるので断る（ISS-18）
+MAX_QUERY_CHARS = 100
 TRIGRAM = 3
 # 字幕の開始時刻は発話よりわずかに遅れがちなので、少し前から再生する
 PLAYBACK_LEAD_SEC = 2
@@ -250,8 +254,13 @@ def parse_query(
 ) -> list[SearchTerm]:
     """exact=True: 完全一致。入力全体を 1 語として（空白も含めて）表記だけで探す。読みは使わない。
     人が書いたタイムスタンプは書いたとおりの表記で探せるので、主にそのための指定。"""
+    normalized = normalize_text(query)
+    if len(normalized) > MAX_QUERY_CHARS:
+        raise QueryError(
+            f"検索語は {MAX_QUERY_CHARS} 文字までにしてください（今は {len(normalized)} 文字）"
+        )
     if exact:
-        phrase = normalize_text(query)
+        phrase = normalized
         # 完全一致は読みを使わないので、2 文字だと索引で引けず全件を読む（Turso で「配信」が 1 回 145 万行・
         # 約 15 秒。通常の検索は 1.5 万行）。誰でも画面から実行できるので受け付けない（ISS-05、2026-11-11）
         if len(phrase) < TRIGRAM:
@@ -259,7 +268,7 @@ def parse_query(
                 f"完全一致は {TRIGRAM} 文字以上にしてください（2 文字は完全一致を外すと探せます）"
             )
         return [SearchTerm(phrase, "")]
-    words = _split_words(normalize_text(query), converter)
+    words = _split_words(normalized, converter)
     if not words:
         raise QueryError("検索語を入力してください")
     if len(words) > MAX_TERMS:

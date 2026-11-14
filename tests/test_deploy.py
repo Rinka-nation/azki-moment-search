@@ -39,6 +39,13 @@ def test_security_headers_cover_api_and_static():
     assert any(r.get("src") == "/api/(.*)" for r in routes[1:])
 
 
+def test_function_runs_next_to_the_database():
+    # UT-128: 検索の関数は Turso の DB（aws-ap-northeast-1、東京）と同じ東京（hnd1）で動かす。
+    # 指定しないと Vercel の既定のワシントン（iad1）になり、SQL 1 本ごとに太平洋を往復していた（2026-11-14）
+    config = json.loads((VERCEL / "vercel.json").read_text(encoding="utf-8"))
+    assert config["regions"] == ["hnd1"]
+
+
 def test_page_has_no_inline_script_and_static_files_are_built():
     # UT-115: CSP は inline の script を許さないので、index.html に中身のある <script> を置かない。
     # public/ のファイルは vercel.json の builds に無いと配信されない

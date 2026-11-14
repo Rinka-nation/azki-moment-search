@@ -65,6 +65,18 @@ def test_fuzzy_finds_reading_match(dictionary, converter):
     assert hits[0].surface == "ほしまち水星"
 
 
+def test_fuzzy_ties_do_not_depend_on_candidate_order(dictionary, converter, monkeypatch):
+    # UT-130（ISS-24）: 重なった同点の候補（あず1 → あずきち / あずいろ。読みの距離 1、長さも同じ）は、辞書に先に書いた
+    # 語を選ぶ。以前は候補の順（読みの 2 文字の組を集合で回した順）で決まり、Python のハッシュの種で実行のたびに変わった
+    text = "こあず1回チーム待って。"
+    tokens = converter.tokens(text)
+    matcher = FuzzyMatcher(dictionary)
+    first = [h.term.canonical for h in matcher.find(text, tokens)]
+    order = matcher._candidate_terms
+    monkeypatch.setattr(matcher, "_candidate_terms", lambda reading: order(reading)[::-1])
+    assert [h.term.canonical for h in matcher.find(text, tokens)] == first == ["あずきち"]
+
+
 def test_levenshtein():
     assert levenshtein("ロザミア", "ロザミヤ") == 1
     assert levenshtein("", "abc") == 3
@@ -590,6 +602,18 @@ def test_related_weak_word_needs_topical_stream(tmp_path):
         ("天音かなた", "中空の庭", 1),
         ("かなけん", "天使", 0),
     }
+
+
+def test_related_rows_go_in_sorted_order(tmp_path):
+    # UT-131（ISS-24）: 1 つの発言・タイムスタンプで見つけた語は（タグ, 語）の順に入れる。見つけた語は集合なので、
+    # そのまま入れると行の順が Python のハッシュの種で実行のたびに変わった（中身は同じ）
+    conn = _related_conn(
+        tmp_path, ["天使のかなたんと中空の庭"], ts=[(1, "天使のかなたんと中空の庭")]
+    )
+    related.build_index(conn, _related())
+    for table in ("related_hits", "related_ts_hits"):
+        rows = [tuple(r) for r in conn.execute(f"SELECT tag, word FROM {table} ORDER BY rowid")]
+        assert len(rows) == 4 and rows == sorted(rows)
 
 
 def test_related_topic_from_title_ts_captions_and_unit_member(tmp_path):

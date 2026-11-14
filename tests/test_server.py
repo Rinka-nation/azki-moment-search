@@ -500,6 +500,25 @@ def test_queries_without_an_index_are_refused(service):
     assert service.search({"q": "開拓者", "exact": "1"})["counts"]["match"] >= 1
 
 
+def test_long_queries_are_refused(service):
+    # NT-016（ISS-18）: 検索語と配信タイトルは 100 文字まで。長い語は全文検索の照合が重いので 400 で断る
+    from azkims.search import MAX_QUERY_CHARS
+    from azkims.server import MAX_TITLE_CHARS
+
+    too_long = "あ" * (MAX_QUERY_CHARS + 1)
+    for params in (
+        {"q": too_long},
+        {"q": too_long, "exact": "1"},
+        {"q": "開拓者", "title": "あ" * (MAX_TITLE_CHARS + 1)},
+    ):
+        with pytest.raises(ApiError):
+            service.search(params)
+    # ちょうど上限なら受け付ける（数えるのは正規化した後。全角の空白は 1 つの半角になる）
+    assert service.search({"q": "あ" * MAX_QUERY_CHARS})["counts"]["match"] == 0
+    assert service.search({"q": "開拓者" + "　" * 200})["counts"]["match"] >= 1
+    assert service.search({"q": "開拓者", "title": "あ" * MAX_TITLE_CHARS})["hits"] == []
+
+
 def test_turso_connection_stops_within_the_function_limit(monkeypatch):
     # ISS-08: SQL を何本送っても、合計の待ち時間が関数の上限（15 秒）より前に TursoError にする
     from azkims.turso import TursoConnection, TursoError

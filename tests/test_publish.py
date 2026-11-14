@@ -264,6 +264,22 @@ def test_many_deployments_ask_for_cleanup():
     assert "片付けてください" in logs[0]
 
 
+def test_vercel_cli_version_is_pinned(monkeypatch):
+    # UT-129（ISS-20）: publish が使う Vercel CLI は版を固定する。`npx vercel` だけだと毎回 npm の最新版を取ってくる
+    import re
+
+    seen = []
+
+    class Done:
+        returncode, stdout, stderr = 0, "", ""
+
+    monkeypatch.setattr(publish.shutil, "which", lambda name: "npx")
+    monkeypatch.setattr(publish.subprocess, "run", lambda cmd, **kw: seen.append(cmd) or Done())
+    publish.VercelCli().promote("https://x.vercel.app")
+    assert seen[0][:3] == ["npx", "--yes", publish.VERCEL_CLI]
+    assert re.fullmatch(r"vercel@\d+\.\d+\.\d+", publish.VERCEL_CLI)
+
+
 def test_failed_production_keeps_its_database(cfg):
     _write_state(cfg, name="azkims-main", production="azkims-main", streams=1, fingerprint="old")
     events = []

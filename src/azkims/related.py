@@ -171,9 +171,11 @@ def build_index(
     for vid, title in conn.execute("SELECT video_id, title FROM streams"):
         topical |= {(tag, vid) for tag, w in scanner.find(title) if (tag, w) in is_name}
 
+    # 見つけた語は集合なので、並べてから入れる。集合の順は Python のハッシュの種で実行のたびに変わり、
+    # 表に入る行の順が build ごとに違っていた（中身は同じ。2026-11-14、ISS-24）
     ts_rows = []
     for entry_id, vid, text in conn.execute("SELECT id, video_id, text FROM ts_entries"):
-        for tag, word in scanner.find(text):
+        for tag, word in sorted(scanner.find(text)):
             ts_rows.append((tag, word, entry_id, vid))
             if (tag, word) in is_name:
                 topical.add((tag, vid))
@@ -188,7 +190,7 @@ def build_index(
         "CASE WHEN text_kept IS NULL THEN text_raw ELSE '' END FROM utterances"
     ):
         found = scanner.find(text) | scanner.find(raw)
-        utt_rows += [(tag, word, uid, vid) for tag, word in found]
+        utt_rows += [(tag, word, uid, vid) for tag, word in sorted(found)]
         for tag in {tag for tag, word in found if (tag, word) in is_name}:
             mentions[tag, vid] += 1
     topical |= {k for k, n in mentions.items() if n >= TOPIC_MIN}

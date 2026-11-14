@@ -49,6 +49,7 @@ from __future__ import annotations
 import tomllib
 import unicodedata
 from dataclasses import dataclass, field
+from functools import cached_property
 from pathlib import Path
 
 from azkims.rules import Rule, parse_rule
@@ -104,7 +105,9 @@ class Term:
         """この語が指す人・もの（愛称なら group、そうでなければ自分自身）。"""
         return self.group or self.canonical
 
-    @property
+    # 読みは作った後に変えないので、1 回だけ計算する。補正候補探しが 1 発言で何百回も読むので、毎回計算すると
+    # build の時間の 2 割ほどになっていた（配信 3 本で 139 万回。2026-11-14、ISS-21）
+    @cached_property
     def folded(self) -> str:
         return fold_reading(self.reading)
 
@@ -142,6 +145,8 @@ class Dictionary:
         # 保留: 候補（text_fuzzy / もしかして）としては残すが、レビュー一覧には出さない
         self.held = held or set()
         self.by_canonical: dict[str, Term] = {}
+        # 配信タイトル -> title_context の結果。build は 1 配信の発言の数だけ同じタイトルで呼ぶ（ISS-21）
+        self._title_contexts: dict[str, Context] = {}
         # 表記キー -> (語, scope, 紛らわしい相手)
         self._surface: dict[str, tuple[Term, str, tuple[str, ...]]] = {}
         self.rules: list[Rule] = [r for t in terms for r in t.rules]
@@ -184,7 +189,11 @@ class Dictionary:
         """配信タイトルに canonical か（全体有効な）alias が出てくる語の集合。
 
         ほぼ全タイトルに付く「【ホロライブ / AZKi】」の語は話題の手がかりにならないので除く。
+        辞書の語は作った後に変えないので、タイトルごとに覚えておく。
         """
+        cached = self._title_contexts.get(title)
+        if cached is not None:
+            return cached
         low = _key(title)
         words = {
             t.canonical
@@ -198,7 +207,9 @@ class Dictionary:
             for gid, patterns in self.games.items()
             if any(_key(p) in low for p in patterns)
         }
-        return frozenset(words | games)
+        context = frozenset(words | games)
+        self._title_contexts[title] = context
+        return context
 
     def game_active(self, term: Term, context: Context, include_games: bool = False) -> bool:
         return not term.game or include_games or game_key(term.game) in context

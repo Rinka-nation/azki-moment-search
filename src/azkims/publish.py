@@ -30,6 +30,10 @@ from azkims.search import INCLUDED_ONLY
 from azkims.server import SearchService
 from azkims.turso import TursoError
 
+# 使う Vercel CLI の版。`npx vercel` だけだと、実行のたびに npm の最新版を取ってくる（2026-11-13 は 65.15.0、
+# 11-14 は 65.16.0 で動いた）。週 1 回の publish は確認なしで本番まで切り替え、手元の Vercel のログインで動くので、
+# 試していない版を使わない。上げるときは手で試してから、ここを直す（2026-11-14、ISS-20）
+VERCEL_CLI = "vercel@65.16.0"
 PREVIEW_ALIAS = "azki-moment-search-preview.vercel.app"
 # β版（URL を知っている人だけ。2026-11-10 霧島リンカさんの決定）。確認に通ったら毎回ここも切り替える
 PRODUCTION_URL = "https://azki-moment-search.vercel.app"
@@ -145,7 +149,7 @@ class VercelCli:
 
     def _run(self, args: list[str], stdin: str | None = None) -> subprocess.CompletedProcess:
         done = subprocess.run(
-            [self._npx, "vercel", *args],
+            [self._npx, "--yes", VERCEL_CLI, *args],
             check=False,
             cwd=self._cwd,
             input=stdin,

@@ -99,11 +99,11 @@ cd web && npm install --legacy-peer-deps && npm run build && cd ..
 # publish は build しない。辞書や画面を直したら先に build（と npm run build）をする（しないと publish が止まる）
 .venv/Scripts/azkims publish
 
-# 初回だけ: ログイン（ブラウザで認証）
-cd deploy && npx vercel login
+# 初回だけ: ログイン（ブラウザで認証）。Vercel CLI は publish と同じ版を使う（src/azkims/publish.py の VERCEL_CLI）
+cd deploy && npx vercel@65.16.0 login
 
 # 手でプレビューを出す場合（Deployment Protection により本人だけが見られる）。本番は publish だけが切り替える
-npx vercel deploy
+npx vercel@65.16.0 deploy
 ```
 
 ## 固有名詞の補正

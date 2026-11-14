@@ -5,6 +5,7 @@ import {
   type Hit,
   type Member,
   searchApi,
+  type SearchParams,
   type SearchResponse,
   type Stats,
   statsApi,
@@ -75,37 +76,48 @@ const readings = computed(() =>
 
 let requestSeq = 0
 
+// 表示中の結果を取ったときの条件。検索欄と条件の入力は params をそのまま書き換えるので、検索を押す前の書きかけと分ける。
+// 書きかけのままタブを切り替えると、結果は新しい語なのに件数が前の検索のままになっていた（2026-11-14）
+let shownFor: SearchParams | null = null
+// 件数を変える条件。タブ・関連語・並び順は件数を変えない
+const COUNTED = ['q', 'title', 'from', 'to', 'exact'] as const
+const sameCounts = (a: SearchParams, b: SearchParams) => COUNTED.every((k) => a[k] === b[k])
+
 // 戻る・進むで前の結果を API を呼ばずにすぐ出すため、最近の結果を条件ごとに覚えておく（画面の中だけ。再読み込みで消える）。
 // 以前は戻った直後に、直前の検索の結果が残って見えていた（2026-11-11 霧島リンカさん。案 A）
 const CACHE_SIZE = 20
 const cache = new Map<string, { response: SearchResponse; hits: Hit[] }>()
-const cacheKey = () => JSON.stringify({ ...params })
+const cacheKey = (p: SearchParams) => JSON.stringify({ ...p })
 function remember() {
-  if (!response.value) return
-  const key = cacheKey()
+  if (!response.value || !shownFor) return
+  const key = cacheKey(shownFor)
   cache.delete(key)
   cache.set(key, { response: response.value, hits: hits.value })
   while (cache.size > CACHE_SIZE) cache.delete(cache.keys().next().value!)
 }
 
-// fresh: 検索語や条件が変わった検索。タブ・関連語の切り替えは件数が変わらないので数え直さない
+// fresh: 検索語や条件が変わった検索。タブ・関連語の切り替えは件数が変わらないので数え直さない。
+// ただし表示中の結果と件数の条件が違えば（書きかけの語のままタブを押したとき）、数え直す
 async function runSearch(fresh = true) {
   error.value = ''
   playingId.value = null
   if (!params.q.trim()) {
     response.value = null
     hits.value = []
+    shownFor = null
     return
   }
   const seq = ++requestSeq
-  const prev = fresh ? null : response.value
+  const asked = { ...params }
+  const prev = fresh || !shownFor || !sameCounts(asked, shownFor) ? null : response.value
   loading.value = true
   try {
-    const page = await searchApi({ ...params }, { limit: PAGE, counts: !prev })
+    const page = await searchApi(asked, { limit: PAGE, counts: !prev })
     if (seq !== requestSeq) return // 古い検索の結果は捨てる
     const res = prev ? withCounts(page, prev) : (page as SearchResponse)
     response.value = res
     hits.value = res.hits
+    shownFor = asked
     remember()
     if (prev) return
     // タグにならない語に検索し直したときは、関連語タブから 一致 に戻す
@@ -127,19 +139,21 @@ async function runSearch(fresh = true) {
     if (seq !== requestSeq) return
     response.value = null
     hits.value = []
+    shownFor = null
     error.value = e instanceof Error ? e.message : String(e)
   } finally {
     if (seq === requestSeq) loading.value = false
   }
 }
 
+// 続きは表示中の結果と同じ条件で取る（検索欄の書きかけの語で次のページを取ると、別の検索の結果が混ざる）
 async function loadMore() {
   const prev = response.value
-  if (!prev?.cursor) return
+  if (!prev?.cursor || !shownFor) return
   loadingMore.value = true
   const seq = requestSeq
   try {
-    const page = await searchApi({ ...params }, { cursor: prev.cursor, limit: PAGE, counts: false })
+    const page = await searchApi({ ...shownFor }, { cursor: prev.cursor, limit: PAGE, counts: false })
     if (seq !== requestSeq || response.value !== prev) return // 待つ間に別の検索・戻るがあった
     response.value = withCounts(page, prev)
     hits.value = [...hits.value, ...page.hits]
@@ -199,12 +213,13 @@ function onPopState() {
   view.value = params.tab
   playingId.value = null
   error.value = ''
-  const saved = cache.get(cacheKey())
+  const saved = cache.get(cacheKey(params))
   if (saved) {
     requestSeq++ // 走っている検索の結果で上書きしない
     loading.value = false
     response.value = saved.response
     hits.value = saved.hits
+    shownFor = { ...params }
     return
   }
   // 覚えていない検索は、前の結果を消してから取り直す（古い結果が一瞬見えないように）

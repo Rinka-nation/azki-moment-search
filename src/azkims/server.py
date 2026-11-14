@@ -56,6 +56,9 @@ from azkims.turso import TursoConnection, TursoError
 
 DIST_DIR = PROJECT_ROOT / "web" / "dist"
 MAX_LIMIT = 50
+# 配信タイトルの絞り込みの長さの上限。タイトルは長くても 89 文字（2026-11-14、838 配信）。検索語と同じく、
+# 長い値で重い照合をさせないため（ISS-18。検索語の上限は search.MAX_QUERY_CHARS）
+MAX_TITLE_CHARS = 100
 CONTEXT_BEFORE_MS = 30_000
 CONTEXT_AFTER_MS = 30_000
 TABS = ("match", "related", "maybe", "readout", "ts")
@@ -134,8 +137,11 @@ class SearchService:
         cursor = params.get("cursor") or ""
         limit = _int(params.get("limit"), 20, 1, MAX_LIMIT)
         with_counts = params.get("counts") != "0"
+        title = params.get("title") or None
+        if title and len(title) > MAX_TITLE_CHARS:
+            raise ApiError(f"配信タイトルは {MAX_TITLE_CHARS} 文字までにしてください")
         filters = {
-            "title": params.get("title") or None,
+            "title": title,
             "date_from": _date(params.get("from")),
             "date_to": _date(params.get("to")),
         }

@@ -83,6 +83,7 @@ function reset() {
         enterkeyhint="search"
         placeholder="覚えている言葉で検索"
         autocomplete="off"
+        maxlength="100"
       />
       <button v-if="params.q" type="button" class="clear" aria-label="検索語を消す" @click="clearQuery">×</button>
       <button class="primary" type="submit">検索</button>
@@ -133,7 +134,8 @@ function reset() {
       </label>
       <label class="field">
         <span>配信タイトル</span>
-        <input v-model="params.title" type="text" placeholder="例: GeoGuessr" />
+        <!-- 検索語・配信タイトルは API が 100 文字まで受け付ける（search.MAX_QUERY_CHARS、server.MAX_TITLE_CHARS） -->
+        <input v-model="params.title" type="text" placeholder="例: GeoGuessr" maxlength="100" />
       </label>
       <div class="dates">
         <label class="field">
